@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-13T17:44:29
+updated: 2026-08-13T18:13:59
 role: "cmo"
 ---
 
@@ -28,6 +28,8 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-13 asked: how come we increase the client sales -> Areas live 60, Niches live 4, Search grid 5220. Page one is the wrong place to look: Businesses ranking for a competitiv
+- 2026-08-13 asked: what's the rate of the leads coming in -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
 - 2026-08-13 asked: focus on business without a website -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
 - 2026-08-13 asked: Keep search sourcing weighted toward no-website leads specifically (status NO_SITE), not j -> opened 11 more areas: Cooma NSW, Parkes NSW, Cowra NSW, Mudgee NSW, Inverell NSW, Swan Hill VIC, Colac VIC, Echuca VIC,
 - 2026-08-13 asked: In one line: how many leads do we have and how many are waiting on a call? -> Areas live 49, Niches live 4, Search grid 4263. Page one is the wrong place to look: Businesses ranking for a competitiv
@@ -36,6 +38,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-13 answered you: Areas live 60, Niches live 4, Search grid 5220. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a websit
+- 2026-08-13 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-13 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-13 answered you: opened 11 more areas: Cooma NSW, Parkes NSW, Cowra NSW, Mudgee NSW, Inverell NSW, Swan Hill VIC, Colac VIC, Echuca VIC, Benalla VIC, Emerald QLD, Roma QLD. They
 - 2026-08-13 answered you: Areas live 49, Niches live 4, Search grid 4263. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a websit
@@ -45,4 +49,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-13T17:44:29. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-13T18:13:59. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

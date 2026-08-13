@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-13T17:44:29
+updated: 2026-08-13T18:13:59
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **2657** | known |
-| With email | **78** | 3% |
-| With phone | **557** | 21% |
+| Leads | **2772** | known |
+| With email | **89** | 3% |
+| With phone | **592** | 21% |
 | With rating | **0** | 0% |
 | Unconfirmed | **45** | never mailed |
 
@@ -29,10 +29,22 @@ Where it stands right now.
 - **Only 3% of leads have an email.** Expected. Google never returns emails and a business with no site has no contact page. Those leads are the call list, not a failure.
 - **45 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
 
+## Carrying for Byron
+
+- 2026-08-13 Byron wants to know the rate leads are coming in. Start tracking daily new-lead counts (total and by source/niche) so this can be answered with a real number instead of reading timestamps off a snapshot. *(working)*
+
 ## Learned
 
 - 2026-08-12 recheck_days: default -> 45. you asked: Recheck healthy sites every 45 days
 
+## Decided
+
+- 2026-08-13 asked: Byron wants to know the rate leads are coming in. Start tracking daily new-lead counts (to -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
+
+## Recently did
+
+- 2026-08-13 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
+
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-13T17:44:29. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-13T18:13:59. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
