@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-13T23:59:29
+updated: 2026-08-14T00:33:07
 role: "cco"
 ---
 
@@ -19,7 +19,7 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Suppressed | **16** | will never be mailed |
-| Sent today | **13** | cap off |
+| Sent today | **0** | cap off |
 | Checks passing | **7/8** | see below |
 
 ## Needs a decision
@@ -38,7 +38,7 @@ Where it stands right now.
 
 ## Recently did
 
-- 2026-08-13 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
+- 2026-08-14 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-13 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-13 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-13 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
@@ -53,4 +53,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-13T23:59:29. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-14T00:33:07. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
