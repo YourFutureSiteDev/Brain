@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-13T15:44:02
+updated: 2026-08-13T16:49:00
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **15** | all time |
 | Replies | **0** | 0.0% |
 | To call | **50** | queued now |
-| Leads known | **1528** | researched |
+| Leads known | **1766** | researched |
 
 ## Needs a decision
 
@@ -31,6 +31,8 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-13 asked: Jesus Christ sounds loud -> Fair, sorry. "4" isn't a slug I can trace, so I couldn't pull it. If you're looking at a numbered list somewhere, just g
+- 2026-08-13 asked: 4 -> I can't place what "4" refers to. If you're picking a lead by number from something you're looking at on your end, that
 - 2026-08-13 asked: open the original -> I don't have an open command, no tool here opens a file or a page. And I'm not sure what you mean by "the original", the
 - 2026-08-13 asked: what's the CMI doing right now -> Assuming you mean CMO, not CMI. Here's the live read: 60 areas live out of 403 listed, 4 niches running (trades, food, b
 - 2026-08-13 asked: is there anything I need to improve -> Two things, both on you, not on data or the machine. First: 148 calls are stacked up waiting and none have been made ye
@@ -41,8 +43,6 @@ Where it stands right now.
 - 2026-08-13 asked: focus on business without a website -> 11 of the 14 queued calls are already no-website businesses (Corner Pantry, Damien Seton Mechanical, Mackintosh Mechanic
 - 2026-08-13 Byron wants sourcing and call priority focused on businesses with no website at all, over other broken-site statuses.
 - 2026-08-13 asked: focus on business without a website -> handed to CMO
-- 2026-08-13 asked: In one line: how many leads do we have and how many are waiting on a call? -> handed to CMO
-- 2026-08-12 asked: Who are you and what seat do you hold? One sentence. -> I am Trillion, the CEO of Your Future Site.
 
 ## Noticed
 
@@ -53,6 +53,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-13 answered you: Fair, sorry. "4" isn't a slug I can trace, so I couldn't pull it. If you're looking at a numbered list somewhere, just give me the name off it, like Damien Seto
+- 2026-08-13 answered you: I can't place what "4" refers to. If you're picking a lead by number from something you're looking at on your end, that list isn't the same as what I see here,
 - 2026-08-13 answered you: I don't have an open command, no tool here opens a file or a page. And I'm not sure what you mean by "the original", the original what? A lead's current site, o
 - 2026-08-13 answered you: Assuming you mean CMO, not CMI. Here's the live read: 60 areas live out of 403 listed, 4 niches running (trades, food, beauty, pro), and the bot is running 5220
 - 2026-08-13 answered you: Two things, both on you, not on data or the machine. First: 148 calls are stacked up waiting and none have been made yet (Called 0 in CRO's numbers). That is t
@@ -63,9 +65,7 @@ Where it stands right now.
 - 2026-08-13 answered you: Here's where I stand. Won $0, 0 paid. In play $8,000 across 15 live leads. Emailed 15 all time, replies 0. To call: 133, queued now. Leads known: 1067. Nothing
 - 2026-08-13 answered you: 11 of the 14 queued calls are already no-website businesses (Corner Pantry, Damien Seton Mechanical, Mackintosh Mechanical, Tamworth Chainsaw & Mower, Doggie Gr
 - 2026-08-13 handed a job to CRO: Keep the call queue ordered with no-website (rank 3, no_site bucket) leads first. They're the top-priority calls and currently fill 11 of th
-- 2026-08-13 handed a job to CMO: Keep search sourcing weighted toward no-website leads specifically (status NO_SITE), not just quieter suburbs generally. That's the highest-
-- 2026-08-13 answered you: handed to CMO
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-13T15:44:02. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-13T16:49:00. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
