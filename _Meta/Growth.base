@@ -1,0 +1,65 @@
+views:
+  - type: table
+    name: Inbox to clear
+    filters:
+      and:
+        - file.inFolder("00 Inbox")
+    order:
+      - file.name
+      - file.ctime
+    sort:
+      - property: file.ctime
+        direction: ASC
+  - type: table
+    name: Orphans
+    filters:
+      and:
+        - file.backlinks.isEmpty()
+        - '!file.inFolder("_Templates")'
+        - '!file.inFolder("01 Daily")'
+    order:
+      - file.name
+      - file.folder
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: ASC
+  - type: table
+    name: Seeds
+    filters:
+      and:
+        - note.maturity == "seed"
+    order:
+      - file.name
+      - file.backlinks
+  - type: table
+    name: Blocked work
+    filters:
+      and:
+        - note.status == "blocked"
+    order:
+      - file.name
+      - area
+  - type: table
+    name: Oldest untouched
+    filters:
+      and:
+        - '!file.inFolder("_Templates")'
+    order:
+      - file.name
+      - file.folder
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: ASC
+    limit: 20
+  - type: table
+    name: Recently touched
+    order:
+      - file.name
+      - file.folder
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 20

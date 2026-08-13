@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brain map</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --space-0:#050510; --violet:#A78BFA; --cyan:#22D3EE; --magenta:#E879F9;
+    --text:#E0E0FF; --muted:#A2A6CC; --faint:#6E7398;
+    --mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
+    --display:'Orbitron',sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;overflow:hidden;background:var(--space-0)}
+  body{font-family:var(--mono);color:var(--text)}
+  #stage{position:fixed;inset:0}
+  canvas{display:block;width:100%;height:100%;cursor:grab}
+  canvas.dragging{cursor:grabbing}
+
+  .hud{position:fixed;pointer-events:none;user-select:none}
+  #title{top:26px;left:30px}
+  #title h1{
+    margin:0;font-family:var(--display);font-weight:900;font-size:30px;
+    letter-spacing:.16em;text-transform:uppercase;
+    background:linear-gradient(96deg,var(--cyan),var(--violet) 48%,var(--magenta));
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+    filter:drop-shadow(0 0 22px rgba(167,139,250,.5));
+  }
+  #title p{margin:6px 0 0;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--faint)}
+
+  #legend{bottom:26px;left:30px;display:flex;flex-direction:column;gap:6px}
+  .lg{display:flex;align-items:center;gap:9px;font-size:10.5px;letter-spacing:.07em;color:var(--muted)}
+  .dot{width:8px;height:8px;border-radius:50%;flex:none}
+
+  #hint{bottom:26px;right:30px;text-align:right;font-size:10.5px;letter-spacing:.07em;color:var(--faint);line-height:1.9}
+  #hint b{color:var(--muted);font-weight:400}
+
+  #tip{
+    position:fixed;pointer-events:none;opacity:0;transform:translate(-50%,-100%);
+    padding:9px 13px;border-radius:9px;white-space:nowrap;
+    background:rgba(10,10,24,.9);border:1px solid rgba(167,139,250,.45);
+    box-shadow:0 0 26px rgba(167,139,250,.3);backdrop-filter:blur(6px);
+    transition:opacity .14s ease;z-index:5;
+  }
+  #tip .t{font-family:var(--display);font-size:12px;letter-spacing:.05em;text-transform:uppercase}
+  #tip .s{font-size:10px;letter-spacing:.08em;color:var(--faint);margin-top:4px}
+  @media (max-width:720px){ #legend{display:none} #title h1{font-size:20px} }
+</style></head>
+<body>
+<div id="stage"><canvas id="c"></canvas></div>
+
+<div class="hud" id="title">
+  <h1>Brain</h1>
+  <p>63 notes · 153 links · 11 orphans</p>
+</div>
+<div class="hud" id="legend"></div>
+<div class="hud" id="hint">
+  <div><b>drag</b> pan &nbsp; <b>scroll</b> zoom</div>
+  <div><b>hover</b> trace links &nbsp; <b>click</b> open in Obsidian</div>
+</div>
+<div id="tip"><div class="t"></div><div class="s"></div></div>
+
+<script>
+const DATA = {"nodes": [{"id": "Inbox", "path": "00 Inbox/Inbox", "folder": "00 Inbox", "color": "#FB923C", "deg": 4}, {"id": "2026-08-12", "path": "01 Daily/2026-08-12", "folder": "01 Daily", "color": "#60A5FA", "deg": 6}, {"id": "Always test IPv4 and IPv6 separately", "path": "02 Notes/Always test IPv4 and IPv6 separately", "folder": "02 Notes", "color": "#FBBF24", "deg": 2}, {"id": "An always-on job needs a stop button in the app, not the terminal", "path": "02 Notes/An always-on job needs a stop button in the app, not the terminal", "folder": "02 Notes", "color": "#FBBF24", "deg": 3}, {"id": "Atomic notes make the graph useful", "path": "02 Notes/Atomic notes make the graph useful", "folder": "02 Notes", "color": "#FBBF24", "deg": 3}, {"id": "Automate the boring half, keep the human half", "path": "02 Notes/Automate the boring half, keep the human half", "folder": "02 Notes", "color": "#FBBF24", "deg": 4}, {"id": "Capture and organise are different jobs", "path": "02 Notes/Capture and organise are different jobs", "folder": "02 Notes", "color": "#FBBF24", "deg": 4}, {"id": "Chrome headless has a minimum viewport width", "path": "02 Notes/Chrome headless has a minimum viewport width", "folder": "02 Notes", "color": "#FBBF24", "deg": 3}, {"id": "Contrast fails hide inside brand colours", "path": "02 Notes/Contrast fails hide inside brand colours", "folder": "02 Notes", "color": "#FBBF24", "deg": 4}, {"id": "Desktop files carry provenance that blocks writes", "path": "02 Notes/Desktop files carry provenance that blocks writes", "folder": "02 Notes", "color": "#FBBF24", "deg": 3}, {"id": "Doing the work is not the bottleneck, being found is", "path": "02 Notes/Doing the work is not the bottleneck, being found is", "folder": "02 Notes", "color": "#FBBF24", "deg": 6}, {"id": "Growth here means search and owned channels, not social", "path": "02 Notes/Growth here means search and owned channels, not social", "folder": "02 Notes", "color": "#FBBF24", "deg": 3}, {"id": "LaunchAgents cannot run from the Desktop", "path": "02 Notes/LaunchAgents cannot run from the Desktop", "folder": "02 Notes", "color": "#FBBF24", "deg": 4}, {"id": "Page one Maps results are the wrong prospects", "path": "02 Notes/Page one Maps results are the wrong prospects", "folder": "02 Notes", "color": "#FBBF24", "deg": 5}, {"id": "Tebex Custom HTML strips JavaScript", "path": "02 Notes/Tebex Custom HTML strips JavaScript", "folder": "02 Notes", "color": "#FBBF24", "deg": 4}, {"id": "The Swift toolchain on this Mac cannot build", "path": "02 Notes/The Swift toolchain on this Mac cannot build", "folder": "02 Notes", "color": "#FBBF24", "deg": 2}, {"id": "Your Future Site speaks as a team, never as Byron", "path": "02 Notes/Your Future Site speaks as a team, never as Byron", "folder": "02 Notes", "color": "#FBBF24", "deg": 5}, {"id": "NESA Business Studies Stage 6 Syllabus", "path": "03 Sources/NESA Business Studies Stage 6 Syllabus", "folder": "03 Sources", "color": "#34D399", "deg": 3}, {"id": "AI At Work", "path": "04 Projects/AI At Work", "folder": "04 Projects", "color": "#22D3EE", "deg": 6}, {"id": "Fine Line Schedule Watcher", "path": "04 Projects/Fine Line Schedule Watcher", "folder": "04 Projects", "color": "#22D3EE", "deg": 2}, {"id": "Hybrid RP Storefront", "path": "04 Projects/Hybrid RP Storefront", "folder": "04 Projects", "color": "#22D3EE", "deg": 8}, {"id": "Local Outreach Bot", "path": "04 Projects/Local Outreach Bot", "folder": "04 Projects", "color": "#22D3EE", "deg": 13}, {"id": "Money Road To 1K", "path": "04 Projects/Money Road To 1K", "folder": "04 Projects", "color": "#22D3EE", "deg": 6}, {"id": "Niche Demo Sites", "path": "04 Projects/Niche Demo Sites", "folder": "04 Projects", "color": "#22D3EE", "deg": 9}, {"id": "Year 11 Study Deck", "path": "04 Projects/Year 11 Study Deck", "folder": "04 Projects", "color": "#22D3EE", "deg": 10}, {"id": "Your Future Site", "path": "04 Projects/Your Future Site", "folder": "04 Projects", "color": "#22D3EE", "deg": 9}, {"id": "Business", "path": "05 Areas/Business", "folder": "05 Areas", "color": "#A78BFA", "deg": 10}, {"id": "Money", "path": "05 Areas/Money", "folder": "05 Areas", "color": "#A78BFA", "deg": 6}, {"id": "School", "path": "05 Areas/School", "folder": "05 Areas", "color": "#A78BFA", "deg": 10}, {"id": "Business Studies", "path": "05 Areas/School/Business Studies", "folder": "05 Areas", "color": "#A78BFA", "deg": 4}, {"id": "Design and Technology", "path": "05 Areas/School/Design and Technology", "folder": "05 Areas", "color": "#A78BFA", "deg": 3}, {"id": "Economics", "path": "05 Areas/School/Economics", "folder": "05 Areas", "color": "#A78BFA", "deg": 3}, {"id": "English Advanced", "path": "05 Areas/School/English Advanced", "folder": "05 Areas", "color": "#A78BFA", "deg": 3}, {"id": "Health and Movement Science", "path": "05 Areas/School/Health and Movement Science", "folder": "05 Areas", "color": "#A78BFA", "deg": 3}, {"id": "Mathematics Standard", "path": "05 Areas/School/Mathematics Standard", "folder": "05 Areas", "color": "#A78BFA", "deg": 3}, {"id": "Systems and Tools", "path": "05 Areas/Systems and Tools", "folder": "05 Areas", "color": "#A78BFA", "deg": 11}, {"id": "Writing", "path": "05 Areas/Writing", "folder": "05 Areas", "color": "#A78BFA", "deg": 5}, {"id": "Credentials and where they live", "path": "06 Resources/Credentials and where they live", "folder": "06 Resources", "color": "#94A3B8", "deg": 2}, {"id": "Design References", "path": "06 Resources/Design References", "folder": "06 Resources", "color": "#94A3B8", "deg": 3}, {"id": "People", "path": "07 People/People", "folder": "07 People", "color": "#FB7185", "deg": 0}, {"id": "Archive", "path": "08 Archive/Archive", "folder": "08 Archive", "color": "#64748B", "deg": 0}, {"id": "AI and Automation MOC", "path": "09 Maps/AI and Automation MOC", "folder": "09 Maps", "color": "#E879F9", "deg": 11}, {"id": "Business MOC", "path": "09 Maps/Business MOC", "folder": "09 Maps", "color": "#E879F9", "deg": 18}, {"id": "Money MOC", "path": "09 Maps/Money MOC", "folder": "09 Maps", "color": "#E879F9", "deg": 9}, {"id": "School MOC", "path": "09 Maps/School MOC", "folder": "09 Maps", "color": "#E879F9", "deg": 11}, {"id": "Web Development MOC", "path": "09 Maps/Web Development MOC", "folder": "09 Maps", "color": "#E879F9", "deg": 10}, {"id": "Home", "path": "Home", "folder": "root", "color": "#FFFFFF", "deg": 17}, {"id": "Welcome", "path": "Welcome", "folder": "root", "color": "#FFFFFF", "deg": 0}, {"id": "How this brain grows", "path": "_Meta/How this brain grows", "folder": "_Meta", "color": "#C4B5FD", "deg": 6}, {"id": "How this brain works", "path": "_Meta/How this brain works", "folder": "_Meta", "color": "#C4B5FD", "deg": 10}, {"id": "Naming conventions", "path": "_Meta/Naming conventions", "folder": "_Meta", "color": "#C4B5FD", "deg": 3}, {"id": "Tag index", "path": "_Meta/Tag index", "folder": "_Meta", "color": "#C4B5FD", "deg": 3}, {"id": "Vault Stats", "path": "_Meta/Vault Stats", "folder": "_Meta", "color": "#C4B5FD", "deg": 2}, {"id": "Area", "path": "_Templates/Area", "folder": "_Templates", "color": "#475569", "deg": 0}, {"id": "Daily Note", "path": "_Templates/Daily Note", "folder": "_Templates", "color": "#475569", "deg": 0}, {"id": "Idea", "path": "_Templates/Idea", "folder": "_Templates", "color": "#475569", "deg": 0}, {"id": "Meeting", "path": "_Templates/Meeting", "folder": "_Templates", "color": "#475569", "deg": 0}, {"id": "Monthly Review", "path": "_Templates/Monthly Review", "folder": "_Templates", "color": "#475569", "deg": 3}, {"id": "Permanent Note", "path": "_Templates/Permanent Note", "folder": "_Templates", "color": "#475569", "deg": 0}, {"id": "Person", "path": "_Templates/Person", "folder": "_Templates", "color": "#475569", "deg": 0}, {"id": "Project", "path": "_Templates/Project", "folder": "_Templates", "color": "#475569", "deg": 0}, {"id": "Source", "path": "_Templates/Source", "folder": "_Templates", "color": "#475569", "deg": 0}, {"id": "Weekly Review", "path": "_Templates/Weekly Review", "folder": "_Templates", "color": "#475569", "deg": 6}], "edges": [[0, 6], [0, 62], [1, 49], [1, 25], [1, 21], [1, 23], [1, 20], [1, 24], [2, 35], [3, 21], [3, 5], [4, 49], [4, 13], [4, 6], [5, 21], [6, 49], [6, 62], [7, 23], [7, 45], [8, 23], [8, 38], [9, 12], [9, 35], [10, 21], [10, 20], [10, 13], [10, 11], [11, 22], [12, 21], [12, 35], [13, 21], [14, 20], [14, 45], [15, 24], [15, 35], [16, 25], [16, 21], [16, 36], [17, 29], [17, 28], [18, 26], [18, 42], [18, 41], [19, 35], [19, 41], [20, 26], [20, 42], [20, 45], [20, 27], [21, 26], [21, 25], [21, 23], [21, 41], [22, 27], [22, 43], [22, 36], [23, 26], [23, 25], [23, 45], [24, 28], [24, 44], [25, 26], [25, 42], [25, 27], [26, 22], [26, 16], [26, 62], [26, 42], [27, 18], [27, 43], [28, 32], [28, 34], [28, 29], [28, 31], [28, 30], [28, 33], [28, 44], [29, 24], [29, 44], [30, 24], [30, 44], [31, 24], [31, 44], [32, 24], [32, 44], [33, 24], [33, 44], [34, 24], [34, 44], [35, 7], [35, 14], [35, 37], [35, 41], [35, 45], [36, 21], [36, 18], [37, 13], [38, 23], [38, 45], [41, 5], [41, 3], [41, 12], [41, 9], [41, 2], [41, 42], [42, 21], [42, 23], [42, 16], [42, 14], [42, 22], [42, 13], [42, 10], [42, 5], [42, 43], [42, 45], [43, 25], [43, 20], [43, 18], [43, 10], [43, 11], [44, 17], [44, 42], [45, 25], [45, 8], [46, 0], [46, 49], [46, 42], [46, 44], [46, 45], [46, 41], [46, 43], [46, 26], [46, 28], [46, 27], [46, 35], [46, 36], [46, 62], [46, 57], [46, 48], [46, 51], [46, 50], [48, 49], [48, 42], [48, 52], [48, 57], [48, 62], [49, 0], [49, 8], [49, 51], [49, 62], [50, 49], [50, 51], [57, 52]], "vault": "Claude", "legend": [{"folder": "00 Inbox", "color": "#FB923C"}, {"folder": "01 Daily", "color": "#60A5FA"}, {"folder": "02 Notes", "color": "#FBBF24"}, {"folder": "03 Sources", "color": "#34D399"}, {"folder": "04 Projects", "color": "#22D3EE"}, {"folder": "05 Areas", "color": "#A78BFA"}, {"folder": "06 Resources", "color": "#94A3B8"}, {"folder": "07 People", "color": "#FB7185"}, {"folder": "08 Archive", "color": "#64748B"}, {"folder": "09 Maps", "color": "#E879F9"}, {"folder": "_Meta", "color": "#C4B5FD"}, {"folder": "_Templates", "color": "#475569"}, {"folder": "root", "color": "#FFFFFF"}]};
+const cv = document.getElementById('c'), ctx = cv.getContext('2d', {alpha:false});
+const tip = document.getElementById('tip');
+let W=0, H=0, DPR=Math.min(window.devicePixelRatio||1, 2);
+
+/* ---------- legend ---------- */
+document.getElementById('legend').innerHTML = DATA.legend.filter(l=>l.folder!=='root')
+  .map(l=>`<div class="lg"><span class="dot" style="background:${l.color};box-shadow:0 0 8px ${l.color}"></span>${l.folder}</div>`).join('');
+
+/* ---------- model ---------- */
+const N = DATA.nodes, E = DATA.edges;
+const adj = N.map(()=>[]);
+E.forEach(([s,t])=>{ adj[s].push(t); adj[t].push(s); });
+N.forEach((n,i)=>{
+  const a = Math.random()*Math.PI*2, r = 60 + Math.random()*260;
+  n.x = Math.cos(a)*r; n.y = Math.sin(a)*r; n.vx = 0; n.vy = 0;
+  n.r = 2.6 + Math.sqrt(n.deg)*1.9;            // radius by connectedness
+  n.m = 1 + n.deg*0.16;                         // heavier hubs settle centrally
+  n.orphan = n.deg === 0;                       // drifts to the rim as a far star
+  if (n.orphan) n.r = 1.9;
+});
+
+/* ---------- halo sprites: pre-rendered so the bloom is cheap ---------- */
+const SPRITE = {}, SPR = 128;
+function sprite(color){
+  if (SPRITE[color]) return SPRITE[color];
+  const s = document.createElement('canvas'); s.width = s.height = SPR;
+  const g = s.getContext('2d');
+  const grd = g.createRadialGradient(SPR/2,SPR/2,0,SPR/2,SPR/2,SPR/2);
+  grd.addColorStop(0,   color);
+  grd.addColorStop(0.14, color + 'CC');
+  grd.addColorStop(0.38, color + '3A');
+  grd.addColorStop(1,   color + '00');
+  g.fillStyle = grd; g.fillRect(0,0,SPR,SPR);
+  SPRITE[color] = s; return s;
+}
+N.forEach(n=>sprite(n.color));
+
+/* ---------- force simulation ---------- */
+let alpha = 1;
+function step(){
+  const REP = 5600, SPRING = 0.027, REST = 88, CENTER = 0.0024;
+  for (let i=0;i<N.length;i++){
+    const a = N[i];
+    for (let j=i+1;j<N.length;j++){
+      const b = N[j];
+      let dx = b.x-a.x, dy = b.y-a.y;
+      let d2 = dx*dx + dy*dy;
+      if (d2 < 1e-4){ dx = Math.random()-0.5; dy = Math.random()-0.5; d2 = 1e-4; }
+      const d = Math.sqrt(d2);
+      const f = Math.min(REP/d2, 40) / d;
+      const fx = dx*f, fy = dy*f;
+      a.vx -= fx/a.m; a.vy -= fy/a.m;
+      b.vx += fx/b.m; b.vy += fy/b.m;
+    }
+  }
+  for (const [s,t] of E){
+    const a = N[s], b = N[t];
+    const dx = b.x-a.x, dy = b.y-a.y;
+    const d = Math.hypot(dx,dy) || 1e-4;
+    const f = (d - REST) * SPRING;
+    const fx = dx/d*f, fy = dy/d*f;
+    a.vx += fx/a.m; a.vy += fy/a.m;
+    b.vx -= fx/b.m; b.vy -= fy/b.m;
+  }
+  for (const n of N){
+    n.vx -= n.x*CENTER; n.vy -= n.y*CENTER;
+    n.vx *= 0.86; n.vy *= 0.86;
+    n.x += n.vx*alpha; n.y += n.vy*alpha;
+  }
+  alpha *= 0.994;
+}
+for (let i=0;i<260;i++) step();   // settle before first paint
+
+/* ---------- view ---------- */
+let scale = 1, ox = 0, oy = 0, hover = -1, t0 = performance.now();
+function fit(){
+  // Frame the connected brain, not the orphan stars drifting at the rim.
+  const core = N.filter(n=>!n.orphan);
+  const set = core.length ? core : N;
+  let minx=1e9,maxx=-1e9,miny=1e9,maxy=-1e9;
+  for (const n of set){ minx=Math.min(minx,n.x); maxx=Math.max(maxx,n.x); miny=Math.min(miny,n.y); maxy=Math.max(maxy,n.y); }
+  const w = maxx-minx || 1, h = maxy-miny || 1;
+  scale = Math.min(W/(w+110), H/(h+110));
+  ox = W/2 - (minx+maxx)/2*scale;
+  oy = H/2 - (miny+maxy)/2*scale;
+}
+const sx = n => n.x*scale + ox, sy = n => n.y*scale + oy;
+
+function resize(){
+  W = cv.clientWidth; H = cv.clientHeight;
+  cv.width = W*DPR; cv.height = H*DPR;
+  ctx.setTransform(DPR,0,0,DPR,0,0);
+  fit();
+}
+window.addEventListener('resize', resize);
+
+/* ---------- render ---------- */
+function draw(now){
+  const t = (now - t0) / 1000;
+
+  // deep space + nebula
+  ctx.globalCompositeOperation = 'source-over';
+  ctx.fillStyle = '#050510'; ctx.fillRect(0,0,W,H);
+  const neb = [
+    [0.16*W, 0.14*H, Math.max(W,H)*0.55, 'rgba(124,58,237,0.26)'],
+    [0.85*W, 0.22*H, Math.max(W,H)*0.46, 'rgba(232,121,249,0.18)'],
+    [0.52*W, 0.95*H, Math.max(W,H)*0.55, 'rgba(34,211,238,0.15)'],
+    [0.78*W, 0.72*H, Math.max(W,H)*0.36, 'rgba(251,146,60,0.11)'],
+  ];
+  ctx.globalCompositeOperation = 'lighter';
+  for (const [x,y,r,c] of neb){
+    const g = ctx.createRadialGradient(x,y,0,x,y,r);
+    g.addColorStop(0,c); g.addColorStop(1,'rgba(0,0,0,0)');
+    ctx.fillStyle = g; ctx.fillRect(0,0,W,H);
+  }
+
+  const near = hover >= 0 ? new Set([hover, ...adj[hover]]) : null;
+
+  // links
+  ctx.lineCap = 'round';
+  for (const [s,t2] of E){
+    const a = N[s], b = N[t2];
+    const lit = near && near.has(s) && near.has(t2);
+    const dim = near && !lit;
+    const g = ctx.createLinearGradient(sx(a),sy(a),sx(b),sy(b));
+    const al = lit ? 'DD' : (dim ? '12' : '4A');
+    g.addColorStop(0, a.color + al);
+    g.addColorStop(1, b.color + al);
+    ctx.strokeStyle = g;
+    ctx.lineWidth = (lit ? 1.7 : 0.85) * Math.max(scale, 0.55);
+    ctx.beginPath(); ctx.moveTo(sx(a),sy(a)); ctx.lineTo(sx(b),sy(b)); ctx.stroke();
+  }
+
+  // halos, then cores
+  for (let i=0;i<N.length;i++){
+    const n = N[i];
+    const lit = near ? near.has(i) : true;
+    const pulse = 1 + Math.sin(t*1.1 + i*0.7)*0.05;
+    const rad = n.r * scale * pulse;
+    const halo = rad * (lit ? 7.5 : 4.5) * (n.orphan ? 0.75 : 1);
+    ctx.globalAlpha = (lit ? 0.95 : 0.22) * (n.orphan ? 0.5 : 1);
+    ctx.drawImage(sprite(n.color), sx(n)-halo, sy(n)-halo, halo*2, halo*2);
+  }
+  ctx.globalAlpha = 1;
+  ctx.globalCompositeOperation = 'lighter';
+  for (let i=0;i<N.length;i++){
+    const n = N[i];
+    const lit = near ? near.has(i) : true;
+    const pulse = 1 + Math.sin(t*1.1 + i*0.7)*0.05;
+    ctx.beginPath();
+    ctx.arc(sx(n), sy(n), Math.max(n.r*scale*pulse*0.62, 1.1), 0, Math.PI*2);
+    ctx.fillStyle = lit ? '#FFFFFF' : n.color + '99';
+    ctx.fill();
+  }
+
+  // labels: hubs when zoomed in, plus the hovered neighbourhood
+  ctx.globalCompositeOperation = 'source-over';
+  ctx.font = '500 10.5px "JetBrains Mono", monospace';
+  ctx.textAlign = 'center';
+  for (let i=0;i<N.length;i++){
+    const n = N[i];
+    const show = (near && near.has(i)) || (!near && scale > 2.2 && n.deg >= 8);
+    if (!show) continue;
+    const y = sy(n) - n.r*scale - 11;
+    ctx.fillStyle = 'rgba(5,5,16,0.72)';
+    const w = ctx.measureText(n.id).width;
+    ctx.fillRect(sx(n)-w/2-5, y-10, w+10, 14);
+    ctx.fillStyle = i === hover ? '#FFFFFF' : '#C4C8F0';
+    ctx.fillText(n.id, sx(n), y);
+  }
+
+  requestAnimationFrame(draw);
+}
+
+/* ---------- interaction ---------- */
+function pick(mx,my){
+  let best = -1, bd = 20*20;
+  for (let i=0;i<N.length;i++){
+    const dx = mx-sx(N[i]), dy = my-sy(N[i]);
+    const d = dx*dx+dy*dy;
+    const rr = Math.max(N[i].r*scale + 7, 9);
+    if (d < rr*rr && d < bd){ bd = d; best = i; }
+  }
+  return best;
+}
+
+let dragging = false, lastX = 0, lastY = 0, moved = 0;
+cv.addEventListener('pointerdown', e=>{ dragging = true; moved = 0; lastX = e.clientX; lastY = e.clientY; cv.classList.add('dragging'); cv.setPointerCapture(e.pointerId); });
+cv.addEventListener('pointerup', e=>{
+  dragging = false; cv.classList.remove('dragging');
+  if (moved < 5){
+    const i = pick(e.clientX, e.clientY);
+    if (i >= 0){
+      const url = 'obsidian://open?vault=' + encodeURIComponent(DATA.vault) + '&file=' + encodeURIComponent(N[i].path);
+      window.location.href = url;
+    }
+  }
+});
+cv.addEventListener('pointermove', e=>{
+  if (dragging){
+    const dx = e.clientX-lastX, dy = e.clientY-lastY;
+    moved += Math.abs(dx)+Math.abs(dy);
+    ox += dx; oy += dy; lastX = e.clientX; lastY = e.clientY;
+    tip.style.opacity = 0; hover = -1;
+    return;
+  }
+  const i = pick(e.clientX, e.clientY);
+  hover = i;
+  if (i >= 0){
+    tip.querySelector('.t').textContent = N[i].id;
+    tip.querySelector('.s').textContent = N[i].folder + '  ·  ' + N[i].deg + ' links';
+    tip.style.left = sx(N[i]) + 'px';
+    tip.style.top = (sy(N[i]) - N[i].r*scale - 16) + 'px';
+    tip.style.opacity = 1;
+    cv.style.cursor = 'pointer';
+  } else {
+    tip.style.opacity = 0;
+    cv.style.cursor = 'grab';
+  }
+});
+cv.addEventListener('wheel', e=>{
+  e.preventDefault();
+  const k = Math.exp(-e.deltaY * 0.0016);
+  const nx = (e.clientX - ox)/scale, ny = (e.clientY - oy)/scale;
+  scale = Math.min(Math.max(scale*k, 0.25), 6);
+  ox = e.clientX - nx*scale; oy = e.clientY - ny*scale;
+}, {passive:false});
+
+resize();
+requestAnimationFrame(draw);
+</script>
+</body></html>

@@ -1,0 +1,53 @@
+filters:
+  and:
+    - file.hasTag("project")
+properties:
+  note.status:
+    displayName: Status
+  note.area:
+    displayName: Area
+  note.deadline:
+    displayName: Due
+  file.mtime:
+    displayName: Touched
+views:
+  - type: cards
+    name: Active
+    filters:
+      and:
+        - note.status == "active"
+    order:
+      - file.name
+      - area
+      - deadline
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 220
+  - type: table
+    name: Blocked
+    filters:
+      and:
+        - note.status == "blocked"
+    order:
+      - file.name
+      - area
+      - file.mtime
+  - type: table
+    name: Someday
+    filters:
+      and:
+        - note.status == "someday"
+    order:
+      - file.name
+      - area
+  - type: table
+    name: Everything
+    order:
+      - file.name
+      - status
+      - area
+      - file.mtime
+    sort:
+      - property: status
+        direction: ASC

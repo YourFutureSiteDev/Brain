@@ -1,0 +1,11 @@
+# Obsidian keeps per machine state in here. Settings and themes are worth
+# versioning; which panes happened to be open is not.
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/*.json.bak
+
+.trash/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp

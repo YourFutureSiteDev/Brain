@@ -1,0 +1,80 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Brain theme preview</title>
+<link rel="stylesheet" href="../.obsidian/snippets/brain.css">
+<style>
+  html,body{margin:0;padding:0;height:100%}
+  body{background:#050510}
+  .workspace{min-height:100vh;padding:0}
+  .shell{display:flex;align-items:stretch}
+  .sidebar{width:230px;flex:none;min-height:100vh;padding:18px 0;background:rgba(5,5,16,.6);backdrop-filter:blur(6px);border-right:1px solid #1E2138}
+  .nav-folder-title{padding:5px 10px;margin:1px 8px;display:block;color:#A2A6CC}
+  .nav-file-title{padding:4px 10px 4px 22px;margin:1px 8px;display:block;color:#A2A6CC}
+
+  /* Shim: replicate the base rules Obsidian's own stylesheet provides,
+     so this preview measures the same thing the app will render. */
+  body.theme-dark{color:var(--text-normal);background:var(--background-primary);
+    font-family:var(--font-text-theme);font-size:var(--font-text-size);
+    line-height:var(--line-height-normal);}
+  .markdown-rendered{font-family:var(--font-text-theme);font-size:var(--font-text-size);
+    line-height:var(--line-height-normal);color:var(--text-normal);}
+  .markdown-rendered h1{font-family:var(--h1-font);font-size:var(--h1-size);font-weight:var(--h1-weight);color:var(--h1-color)}
+  .markdown-rendered h2{font-family:var(--h2-font);font-size:var(--h2-size);font-weight:var(--h2-weight);color:var(--h2-color)}
+  .markdown-rendered h3{font-family:var(--h3-font);font-size:var(--h3-size);font-weight:var(--h3-weight)}
+  .markdown-rendered code{font-family:var(--font-monospace-theme);background:var(--code-background);color:var(--code-normal)}
+  .markdown-rendered a{color:var(--text-accent);cursor:pointer}
+  .markdown-rendered a.tag{border-radius:var(--tag-radius);display:inline-block;margin-right:6px}
+  .callout{--callout-color-computed:#A78BFA}
+  .main{flex:1;padding:34px 46px 80px;max-width:900px}
+</style></head>
+<body class="theme-dark">
+<div class="workspace"><div class="shell">
+  <div class="sidebar">
+    <div class="nav-folder-title" data-path="00 Inbox"><span class="nav-folder-title-content">00 Inbox</span></div>
+    <div class="nav-folder-title" data-path="01 Daily"><span class="nav-folder-title-content">01 Daily</span></div>
+    <div class="nav-folder-title" data-path="02 Notes"><span class="nav-folder-title-content">02 Notes</span></div>
+    <div class="nav-folder-title" data-path="03 Sources"><span class="nav-folder-title-content">03 Sources</span></div>
+    <div class="nav-folder-title" data-path="04 Projects"><span class="nav-folder-title-content">04 Projects</span></div>
+    <div class="nav-file-title is-active">Your Future Site</div>
+    <div class="nav-file-title">Local Outreach Bot</div>
+    <div class="nav-folder-title" data-path="05 Areas"><span class="nav-folder-title-content">05 Areas</span></div>
+    <div class="nav-folder-title" data-path="07 People"><span class="nav-folder-title-content">07 People</span></div>
+    <div class="nav-folder-title" data-path="09 Maps"><span class="nav-folder-title-content">09 Maps</span></div>
+    <div class="nav-folder-title" data-path="08 Archive"><span class="nav-folder-title-content">08 Archive</span></div>
+  </div>
+  <div class="main markdown-preview-view markdown-rendered dashboard cards">
+    <h1>Brain</h1>
+    <div class="callout" data-callout="abstract" style="--callout-color-computed:#22D3EE">
+      <div class="callout-title">Second brain, 2026</div>
+      <div class="callout-content"><p>Everything enters through <a class="internal-link">Inbox</a>. Nothing stays there.</p></div>
+    </div>
+    <h2>Maps</h2>
+    <ul>
+      <li><strong><a class="internal-link">Business MOC</a></strong>Four ventures at very different stages.</li>
+      <li><strong><a class="internal-link">School MOC</a></strong>Year 11, six subjects, the syllabus that marks them.</li>
+      <li><strong><a class="internal-link">Web Development MOC</a></strong>How sites get built here and what has bitten before.</li>
+      <li><strong><a class="internal-link">AI and Automation MOC</a></strong>Things that run without being asked.</li>
+      <li><strong><a class="internal-link">Money MOC</a></strong>The road to the first thousand.</li>
+    </ul>
+    <h2>Status</h2>
+    <p>
+      <a class="tag" href="#status/active">#status/active</a>
+      <a class="tag" href="#status/blocked">#status/blocked</a>
+      <a class="tag" href="#status/someday">#status/someday</a>
+      <a class="tag" href="#seed">#seed</a>
+      <a class="tag" href="#grown">#grown</a>
+    </p>
+    <h2>Doing things</h2>
+    <table><thead><tr><th>I want to</th><th>Do this</th></tr></thead>
+    <tbody>
+      <tr><td>Capture a thought</td><td><code>Cmd+N</code>. It lands in 00 Inbox.</td></tr>
+      <tr><td>Open today's log</td><td><code>Cmd+P</code>, then "Daily note".</td></tr>
+      <tr><td>See the shape of it</td><td><code>Cmd+P</code>, then "Graph view".</td></tr>
+    </tbody></table>
+    <h2>Reading surface</h2>
+    <h3>Page one Maps results are the wrong prospects</h3>
+    <p>The businesses ranking first for a competitive search already have a good website. That is partly why they rank. It inverts how prospecting feels like it should work: the instinct is to go after the visible, successful businesses, and those are exactly the ones with nothing to buy.</p>
+    <blockquote>The real leads sit deeper in the results, in quieter suburbs, and in less contested niches.</blockquote>
+    <hr>
+  </div>
+</div></div>
+</body></html>

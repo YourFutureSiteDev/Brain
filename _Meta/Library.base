@@ -1,0 +1,28 @@
+views:
+  - type: cards
+    name: Sources
+    filters:
+      and:
+        - file.inFolder("03 Sources")
+    order:
+      - file.name
+      - author
+      - medium
+    cardSize: 200
+  - type: table
+    name: People
+    filters:
+      and:
+        - file.hasTag("person")
+    order:
+      - file.name
+      - role
+      - org
+  - type: table
+    name: Areas
+    filters:
+      and:
+        - file.hasTag("area")
+    order:
+      - file.name
+      - file.backlinks

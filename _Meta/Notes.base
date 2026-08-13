@@ -1,0 +1,39 @@
+filters:
+  and:
+    - file.inFolder("02 Notes")
+properties:
+  note.maturity:
+    displayName: Maturity
+  file.backlinks:
+    displayName: Linked from
+  file.mtime:
+    displayName: Touched
+views:
+  - type: table
+    name: All notes
+    order:
+      - file.name
+      - maturity
+      - file.backlinks
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: Seeds to grow
+    filters:
+      and:
+        - note.maturity == "seed"
+    order:
+      - file.name
+      - file.backlinks
+      - file.mtime
+  - type: cards
+    name: Grown
+    filters:
+      and:
+        - note.maturity == "grown"
+    order:
+      - file.name
+      - file.backlinks
+    cardSize: 200
