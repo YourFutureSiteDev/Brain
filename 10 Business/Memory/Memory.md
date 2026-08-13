@@ -46,6 +46,20 @@ Leave `role:` out and it goes to the CEO, who decides whose job it is.
 The roles are `ceo`, `cfo`, `cro`, `cmo`, `coo`, `cco`, `cdo`. What each one
 owns is in [[C-Suite]].
 
+## What the desks obey by themselves
+
+Two things, and only two, because a rule cannot read a sentence and a rule that
+guesses at one is worse than a rule that does nothing.
+
+**A veto.** `veto: Newcastle` in an instruction pauses that area and keeps it
+shut while the note stands.
+
+**Its own history.** Before a desk moves one of its numbers it reads the Lessons
+notes for that number, and it will not undo a change it made less than a
+fortnight ago. It says so in Observations when it holds off. That is what stops
+`chase_days` spending its life in transit between 8 and 11 and never being at
+either long enough to be judged.
+
 ## What the CEO reads before she answers
 
 Every instruction still standing, and the title of every lesson. So a note

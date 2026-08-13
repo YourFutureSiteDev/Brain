@@ -34,4 +34,27 @@ weight to 0.3" is you doing its job with less information than it has.
 **It is not a chat.** For a conversation, open the console and talk to the CEO.
 This is for the thing you thought of on the bus.
 
+## Making it stick
+
+The words above go to a desk once. To make something **standing**, so the CMO
+cannot quietly reopen an area a fortnight later when the numbers look fine, name
+it in the frontmatter:
+
+```
+---
+role: cmo
+veto: Newcastle, Maitland
+---
+
+Both of these have only ever produced price shoppers. Leave them shut.
+```
+
+A vetoed area is paused if it is running and never opened again while the note
+stands. Names are matched whole, so `Newcastle` stops `Newcastle NSW` and
+nothing else. This is the only part of a note a desk can obey by itself. The
+prose is for you and for the CEO.
+
+To lift it, add `withdrawn: 2026-09-01` to the frontmatter, or move the note out
+of this folder. Deleting it works too, and git still has it.
+
 Back to [[Memory]].
