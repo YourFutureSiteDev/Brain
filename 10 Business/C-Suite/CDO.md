@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-13T21:15:58
+updated: 2026-08-13T21:47:48
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **3674** | known |
-| With email | **114** | 3% |
-| With phone | **708** | 19% |
+| Leads | **3897** | known |
+| With email | **117** | 3% |
+| With phone | **735** | 19% |
 | With rating | **0** | 0% |
 | Unconfirmed | **58** | never mailed |
 
@@ -36,6 +36,8 @@ Where it stands right now.
 
 ## Learned
 
+- 2026-08-13 The 3% email rate is the market, not a backlog. 3115 of 3674 leads have no website at all, so there is no contact page to read. Every one of the 92 leads that has a site and is worth emailing was searched on 13 Aug 2026 and none published an address: the pages that load carry a contact form only, some disallow robots and are left alone, some have an invalid certificate. Real coverage is 94 of the 559 leads that have a site.
+- 2026-08-13 All 58 UNKNOWN leads were re-judged under the current rules on 13 Aug 2026 and not one resolved. 26 answer HTTP 403 because the site's firewall blocks the checker, 20 build their content in the browser so there is no HTML to judge, the rest are 500s, a timeout and a 526. Re-checking cannot clear these: the block is at their end. 37 of the 58 have a phone, and the call list excludes UNKNOWN.
 - 2026-08-12 recheck_days: default -> 45. you asked: Recheck healthy sites every 45 days
 
 ## Decided
@@ -52,4 +54,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-13T21:15:58. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-13T21:47:48. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-13T21:15:58
+updated: 2026-08-13T21:47:48
 role: "cmo"
 ---
 
@@ -25,6 +25,10 @@ Where it stands right now.
 ## Needs a decision
 
 - **Page one is the wrong place to look.** Businesses ranking for a competitive term already paid someone for a website. The real prospects are deeper in the results, in quieter suburbs, and in less contested niches.
+
+## Learned
+
+- 2026-08-13 Checked the live campaign against this on 13 Aug 2026 and it already obeys it. 60 areas live of 403 registered, every one regional: Dubbo, Broken Hill, Moree, Swan Hill. The niches are long tail: septic tank service, stump grinding, mower repairs, saddlery. Leads come from OpenStreetMap and hand research, not search rankings, so there is no page one to be on. Nothing to change.
 
 ## Decided
 
@@ -49,4 +53,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-13T21:15:58. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-13T21:47:48. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
