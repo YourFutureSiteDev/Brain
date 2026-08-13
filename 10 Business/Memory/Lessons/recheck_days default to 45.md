@@ -3,7 +3,7 @@ source: yfs-console
 kind: lesson
 role: cdo
 subject: recheck_days
-noted: "2026-08-13T16:12:23"
+noted: "2026-08-12T15:58:35"
 tags: [memory, lesson, cdo]
 ---
 
