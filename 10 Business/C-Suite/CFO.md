@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-14T07:57:21
+updated: 2026-08-14T12:14:40
 role: "cfo"
 ---
 
@@ -19,10 +19,10 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Banked | **$0** | 0 jobs |
-| Remake price | **$500** | 7 days, 2 revisions |
-| New build price | **$1,000** | 14 days, 3 revisions |
-| Monthly costs | **$0** | known running costs |
-| Break-even | **1 job** | covers a year of costs |
+| Website remake | **$500** | 7 days, 2 revisions |
+| New website | **$1,000** | 14 days, 3 revisions |
+| Monthly costs | **$162** | known running costs |
+| Break-even | **1 job a month** | $162 of costs at the $500 price |
 
 ## Needs a decision
 
@@ -31,4 +31,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-14T07:57:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-14T12:14:40. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
