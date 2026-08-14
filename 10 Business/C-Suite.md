@@ -3,7 +3,7 @@ title: "C-Suite"
 source: yfs-console
 kind: index
 tags: [business, c-suite]
-updated: 2026-08-15T08:47:10
+updated: 2026-08-15T09:23:01
 ---
 
 
@@ -18,7 +18,7 @@ Seven roles running Your Future Site out of the console on the VPS. Each one rea
 | [[CRO]] | Where does the pipeline stall? | 50 in the call queue; chasing at 11 days |
 | [[CMO]] | Which areas and niches deserve the bot's time? | Which areas and niches deserve the bot's time? |
 | [[COO]] | Is the machine running, and where does it jam? | Is the machine running, and where does it jam? |
-| [[CCO]] | Can this get the Gmail account killed, or us sued? | 44 suppressed, 24 bounces, cap 15/day |
+| [[CCO]] | Can this get the Gmail account killed, or us sued? | 45 suppressed, 25 bounces, cap 15/day |
 | [[CDO]] | Is the data good enough to act on? | Is the data good enough to act on? |
 
 ## Open decisions
@@ -30,10 +30,10 @@ Seven roles running Your Future Site out of the console on the VPS. Each one rea
 - **CRO: No replies from any email yet.** Either the message is not landing or the leads are wrong. Campaigns shows which niche is being hit.
 - **CRO: 50 follow-up calls queued.** A call two or three days after a mockup lands is a different conversation from a cold call. This is where the pipeline moves.
 - **CMO: Page one is the wrong place to look.** Businesses ranking for a competitive term already paid someone for a website. The real prospects are deeper in the results, in quieter suburbs, and in less contested niches.
-- **COO: 1972 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **COO: 1976 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 - **CCO: Australia only.** This satisfies the Spam Act: sender identified, contactable, working opt-out. The US CAN-SPAM Act also requires a physical postal address, so add a PO box before emailing any US business.
 - **CDO: Only 4% of leads have an email.** Expected. Google never returns emails and a business with no site has no contact page. Those leads are the call list, not a failure.
-- **CDO: 315 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
+- **CDO: 317 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
 
 ## Roles deliberately not built
 
@@ -46,4 +46,4 @@ Seven roles running Your Future Site out of the console on the VPS. Each one rea
 
 ---
 
-Written by the Your Future Site console on the VPS, 2026-08-15T08:47:11. The daily record of what changed is in [[C-Suite/Log/2026-08-15|today's log]].
+Written by the Your Future Site console on the VPS, 2026-08-15T09:23:02. The daily record of what changed is in [[C-Suite/Log/2026-08-15|today's log]].
