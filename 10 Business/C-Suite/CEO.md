@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-14T13:36:21
+updated: 2026-08-14T14:09:29
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **66** | all time |
 | Replies | **0** | 0.0% |
 | To call | **50** | queued now |
-| Leads known | **10915** | researched |
+| Leads known | **10961** | researched |
 
 ## Needs a decision
 
@@ -32,6 +32,10 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-14 asked: A task from the handover list. Do it if you can. Title: A preview is a mockup, not a site -> This needs Claude, code and server work, same as the last two. You've already made the call in your note: build it throu
+- 2026-08-14 Byron's stated vision for the preview flow: fold the brief into the mockup all the way through, then on customer approval collect payment and auto-schedule a call with him to help set up. This is the target end state for send_preview, to build in that order: brief-to-preview, then payment, then call scheduling.
+- 2026-08-14 asked: A task from the handover list. Do it if you can. Title: The pro niche still renders on ba -> This one needs Claude too, but a coding session, not this console. I don't have file or server access here, only the abi
+- 2026-08-14 Approved building a dedicated pro.html niche template from assets/niche-demos/pro, matching how food and beauty were built. Needs a real coding session, not this console.
 - 2026-08-14 asked: A task from the handover list. Do it if you can. Title: Photos: mine to sort, no decision -> This one needs Claude, but not this console. Fixing the fallback photo packs and widening the stock search before it giv
 - 2026-08-14 asked: wake up -> Cap is broken. Daily cap is set to 15 but 51 emails went out today, over three times the limit. Sending and bot are both
 - 2026-08-14 asked: wake up -> I could not place this with a desk.
@@ -40,10 +44,6 @@ Where it stands right now.
 - 2026-08-13 asked: what's the cmo currently doing -> CMO hasn't moved since last time. Areas live 60 of 403 listed, niches live 4 (trades, food, beauty, pro), search grid 52
 - 2026-08-13 asked: make sure the sites that cant be confirmed are still being sent emails or added to the cal -> Good catch, and here is why they are not just sitting in a hole. UNKNOWN means we could not confirm whether their site i
 - 2026-08-13 UNKNOWN leads stay unemailed on purpose (site status unconfirmed, risk of wrongly telling a working business their site is broken). Byron wants them still worked via the call list where a phone number exists, rather than dropped entirely. CDO tasked with routing UNKNOWN+phone leads onto the call queue.
-- 2026-08-13 asked: make sure the sites that cant be confirmed are still being sent emails or added to the cal -> handed to CRO
-- 2026-08-13 asked: how many leads unknown across both businesses -> Just one business here, not two, so this is the same number as before. 52 leads are UNKNOWN status across the whole pipe
-- 2026-08-13 asked: how many leads unknown across both businesses -> There's only one business here, Your Future Site, not two. I don't have a second business tracked anywhere in this data.
-- 2026-08-13 asked: what is a cmo currently doing for me -> CMO is sitting exactly where I left them last message, nothing new sent, nothing new back. Standing state is Areas live
 
 ## Noticed
 
@@ -58,6 +58,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-14 answered you: This needs Claude, code and server work, same as the last two. You've already made the call in your note: build it through to the end, brief folded into the pre
+- 2026-08-14 answered you: This one needs Claude too, but a coding session, not this console. I don't have file or server access here, only the ability to read the business and hand jobs
 - 2026-08-14 answered you: This one needs Claude, but not this console. Fixing the fallback photo packs and widening the stock search before it gives up means editing the mockup generator
 - 2026-08-14 answered you: Cap is broken. Daily cap is set to 15 but 51 emails went out today, over three times the limit. Sending and bot are both on, checks are showing 8 of 8 passing a
 - 2026-08-14 handed a job to CCO: Confirm the cap breach today (51 sent vs cap 15) has not put the Gmail account at risk. Recheck the 8 send checks against today's actual vol
@@ -68,9 +70,7 @@ Where it stands right now.
 - 2026-08-13 answered you: CMO hasn't moved since last time. Areas live 60 of 403 listed, niches live 4 (trades, food, beauty, pro), search grid 5220 searches per sweep. I'm holding them
 - 2026-08-13 answered you: Good catch, and here is why they are not just sitting in a hole. UNKNOWN means we could not confirm whether their site is actually broken or fine, so CCO's rule
 - 2026-08-13 handed a job to CDO: Pull the 52 UNKNOWN status leads. For any that have a phone number, add them to the call list so they are not being dropped just because we
-- 2026-08-13 answered you: handed to CRO
-- 2026-08-13 answered you: Just one business here, not two, so this is the same number as before. 52 leads are UNKNOWN status across the whole pipeline, meaning their site couldn't be con
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-14T13:36:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-14T14:09:29. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
