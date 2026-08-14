@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-14T15:21:40
+updated: 2026-08-14T15:56:35
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **66** | all time |
 | Replies | **0** | 0.0% |
 | To call | **50** | queued now |
-| Leads known | **11425** | researched |
+| Leads known | **11476** | researched |
 
 ## Needs a decision
 
@@ -32,6 +32,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-14 asked: how are my CMOS going right now -> CMO desk: 60 of 403 listed areas are live, 4 niches running (trades, food, beauty, pro), and each sweep runs 5220 search
 - 2026-08-14 asked: make sure the imesages are differnt to the numbers on the calls page the only thing that s -> I could not parse that clearly enough to act on. My best guess: you want the phone number shown inside a mockup image to
 - 2026-08-14 asked: A task from the handover list. Do it if you can. Title: A preview is a mockup, not a site -> This needs Claude, code and server work, same as the last two. You've already made the call in your note: build it throu
 - 2026-08-14 Byron's stated vision for the preview flow: fold the brief into the mockup all the way through, then on customer approval collect payment and auto-schedule a call with him to help set up. This is the target end state for send_preview, to build in that order: brief-to-preview, then payment, then call scheduling.
@@ -43,7 +44,6 @@ Where it stands right now.
 - 2026-08-14 asked: Test from Claude, no action needed. Before you answer, the shape of the company, because -> Two businesses, not one. Local outreach: 10108 found, 66 emailed, 24 replied, 3 won. Airbnb Walkthroughs: 96 found, 0 em
 - 2026-08-14 asked: Test from Claude, no action needed. In one sentence: how many businesses are you running, -> One business: Your Future Site. No second one exists in this data or anywhere I can see, so there's nothing to name beyo
 - 2026-08-13 asked: what's the cmo currently doing -> CMO hasn't moved since last time. Areas live 60 of 403 listed, niches live 4 (trades, food, beauty, pro), search grid 52
-- 2026-08-13 asked: make sure the sites that cant be confirmed are still being sent emails or added to the cal -> Good catch, and here is why they are not just sitting in a hole. UNKNOWN means we could not confirm whether their site i
 
 ## Noticed
 
@@ -58,6 +58,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-14 answered you: CMO desk: 60 of 403 listed areas are live, 4 niches running (trades, food, beauty, pro), and each sweep runs 5220 searches across that grid. Pro leads are being
 - 2026-08-14 answered you: I could not parse that clearly enough to act on. My best guess: you want the phone number shown inside a mockup image to be different from the number listed on
 - 2026-08-14 answered you: This needs Claude, code and server work, same as the last two. You've already made the call in your note: build it through to the end, brief folded into the pre
 - 2026-08-14 answered you: This one needs Claude too, but a coding session, not this console. I don't have file or server access here, only the ability to read the business and hand jobs
@@ -69,8 +70,7 @@ Where it stands right now.
 - 2026-08-14 answered you: Two businesses, not one. Local outreach: 10108 found, 66 emailed, 24 replied, 3 won. Airbnb Walkthroughs: 96 found, 0 emailed, 37 waiting on your approval. I've
 - 2026-08-14 answered you: One business: Your Future Site. No second one exists in this data or anywhere I can see, so there's nothing to name beyond that.
 - 2026-08-13 answered you: CMO hasn't moved since last time. Areas live 60 of 403 listed, niches live 4 (trades, food, beauty, pro), search grid 5220 searches per sweep. I'm holding them
-- 2026-08-13 answered you: Good catch, and here is why they are not just sitting in a hole. UNKNOWN means we could not confirm whether their site is actually broken or fine, so CCO's rule
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-14T15:21:40. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-14T15:56:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
