@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-15T23:47:41
+updated: 2026-08-16T00:10:49
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **80** | all time |
 | Replies | **0** | 0.0% |
 | To call | **50** | queued now |
-| Leads known | **17183** | researched |
+| Leads known | **17201** | researched |
 
 ## Needs a decision
 
@@ -32,6 +32,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-15 weekly pass: moved 0 of 4 numbers
 - 2026-08-15 asked: What does each desk deliver, and what are its steps in order? -> Here's each desk in the deliver/steps shape you want. CFO delivers a price that turns a job into profit, not just reven
 - 2026-08-15 Standing shape for describing any desk to Byron: what it delivers, then 3 to 5 steps it takes to get there. Not activity, not the last number it moved. Definitions as given 2026-08-15: CFO price and margin, CRO pipeline and call queue, CMO areas and niches, COO bot volume and uptime, CCO legal and unsuspended, CDO whether data is worth acting on.
 - 2026-08-15 asked: What does each desk deliver, and what are its steps in order? -> Here is what each desk delivers and how it gets there, holding to your standard: what lands, not what it is busy with.
@@ -43,7 +44,6 @@ Where it stands right now.
 - 2026-08-14 asked: A task from the handover list. Do it if you can. Title: The pro niche still renders on ba -> This one needs Claude too, but a coding session, not this console. I don't have file or server access here, only the abi
 - 2026-08-14 Approved building a dedicated pro.html niche template from assets/niche-demos/pro, matching how food and beauty were built. Needs a real coding session, not this console.
 - 2026-08-14 asked: A task from the handover list. Do it if you can. Title: Photos: mine to sort, no decision -> This one needs Claude, but not this console. Fixing the fallback photo packs and widening the stock search before it giv
-- 2026-08-14 asked: wake up -> Cap is broken. Daily cap is set to 15 but 51 emails went out today, over three times the limit. Sending and bot are both
 
 ## Noticed
 
@@ -73,4 +73,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-15T23:47:41. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:10:49. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

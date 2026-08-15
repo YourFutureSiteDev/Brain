@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-15T23:47:41
+updated: 2026-08-16T00:10:49
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **17183** | known |
-| With email | **743** | 4% |
-| With phone | **4303** | 25% |
+| Leads | **17201** | known |
+| With email | **744** | 4% |
+| With phone | **4311** | 25% |
 | With rating | **0** | 0% |
 | Unconfirmed | **360** | never mailed |
 
@@ -46,6 +46,10 @@ Where it stands right now.
 - 2026-08-13 asked: make sure the sites that cant be confirmed are still being sent emails or added to the cal -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
 - 2026-08-13 asked: Byron wants to know the rate leads are coming in. Start tracking daily new-lead counts (to -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
 
+## Noticed
+
+- 2026-08-15 the weekly pass left recheck_days where it is: 45 was only set on 2026-08-12, it is locked from changes for 14 days, and there is no recheck-outcome data yet to say whether it changed the right number of verdicts.
+
 ## Recently did
 
 - 2026-08-13 answered you: I am holding this rather than doing it. I cannot send an email, ring anyone, or spend money. Those stay with the mailer and its caps, and with you. What I can d
@@ -54,4 +58,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-15T23:47:41. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:10:49. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

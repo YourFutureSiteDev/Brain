@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-15T23:47:41
+updated: 2026-08-16T00:10:49
 role: "cro"
 ---
 
@@ -56,6 +56,10 @@ Where it stands right now.
 - 2026-08-13 asked: Keep the call queue ordered with no-website (rank 3, no_site bucket) leads first. They're -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-12 asked: We need more leads in the pipeline -> Noted and standing. I cannot do this directly - what I control is: change how many silent days before a lead is flagged
 
+## Noticed
+
+- 2026-08-15 the weekly pass left chase_days where it is: Queue has held flat at 50 for three straight days at 11 days and Byron still has not worked through it, so cutting the chase window further only piles more calls onto a queue that is not moving.
+
 ## Recently did
 
 - 2026-08-15 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
@@ -69,4 +73,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-15T23:47:41. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:10:49. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

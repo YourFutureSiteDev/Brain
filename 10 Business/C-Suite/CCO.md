@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-15T23:47:41
+updated: 2026-08-16T00:10:49
 role: "cco"
 ---
 
@@ -14,12 +14,12 @@ role: "cco"
 
 Where it stands right now.
 
-> 52 suppressed, 30 bounces, cap 15/day
+> 23 suppressed, 1 bounces, cap 15/day
 
 | | | |
 |---|---|---|
-| Suppressed | **52** | will never be mailed |
-| Sent today | **14** | cap 15 |
+| Suppressed | **23** | will never be mailed |
+| Sent today | **0** | cap 15 |
 | Checks passing | **8/8** | see below |
 
 ## Needs a decision
@@ -48,6 +48,10 @@ Where it stands right now.
 - 2026-08-13 asked: Name the specific check that is failing in the 7/8 passing count. Byron needs to know befo -> No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily ca
 - 2026-08-13 asked: Checks passing shows 7/8. Tell me which check is failing and whether it is a real risk to -> No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily ca
 
+## Noticed
+
+- 2026-08-15 the weekly pass left max_daily where it is: Bounces have climbed from 19 to 30 straight while cap sat fixed at 15, and the last max_daily change was 2026-08-14, under 14 days ago so I cannot move it anyway; also nothing reads this number today so changing it would not touch the real daily_cap in config.
+
 ## Recently did
 
 - 2026-08-14 adjusted itself: hard cap lowered to 10/day
@@ -65,4 +69,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-15T23:47:41. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:10:49. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
