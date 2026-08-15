@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-15T12:19:20
+updated: 2026-08-15T14:02:36
 role: "cmo"
 ---
 
@@ -49,6 +49,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-15 reply rate across everything is 0.0% over 80 emails
 - 2026-08-15 reply rate across everything is 0.0% over 66 emails
 - 2026-08-14 reply rate across everything is 0.0% over 66 emails
 
@@ -66,4 +67,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-15T12:19:20. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-15T14:02:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

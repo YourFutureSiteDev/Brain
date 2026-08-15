@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-15T12:19:19
+updated: 2026-08-15T14:02:36
 role: "cro"
 ---
 
@@ -18,7 +18,7 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Emailed | **66** | businesses |
+| Emailed | **80** | businesses |
 | Replied | **0** | 0.0% |
 | Called | **1** | at least once |
 | Won | **0** | paid |
@@ -66,4 +66,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-15T12:19:19. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-15T14:02:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
