@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-16T00:10:49
+updated: 2026-08-16T00:21:21
 role: "cco"
 ---
 
@@ -36,10 +36,11 @@ Where it stands right now.
 
 | Setting | Now | Why |
 |---|---|---|
-| max_daily | 10 | 4 bounces in 66 sends is over 5%, which is the level that gets a sending account reviewed |
+| max_daily | 50 | reset to the default: the 10 was set on 14 Aug from 29 phantom bounce rows that named nobody, and the real rate is 1 bounce in 80 |
 
 ## Learned
 
+- 2026-08-15 max_daily: 10 -> 50. reset to the default: the 10 was set on 14 Aug from 29 phantom bounce rows that named nobody, and the real rate is 1 bounce in 80. This number gates sending for the first time from today, so it was not left holding a figure that came from data which was never true.
 - 2026-08-14 max_daily: default -> 10. 4 bounces in 66 sends is over 5%, which is the level that gets a sending account reviewed
 
 ## Decided
@@ -69,4 +70,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:10:49. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:21:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
