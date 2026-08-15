@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-15T23:12:18
+updated: 2026-08-15T23:47:41
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **80** | all time |
 | Replies | **0** | 0.0% |
 | To call | **50** | queued now |
-| Leads known | **17129** | researched |
+| Leads known | **17183** | researched |
 
 ## Needs a decision
 
@@ -32,6 +32,10 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-15 asked: What does each desk deliver, and what are its steps in order? -> Here's each desk in the deliver/steps shape you want. CFO delivers a price that turns a job into profit, not just reven
+- 2026-08-15 Standing shape for describing any desk to Byron: what it delivers, then 3 to 5 steps it takes to get there. Not activity, not the last number it moved. Definitions as given 2026-08-15: CFO price and margin, CRO pipeline and call queue, CMO areas and niches, COO bot volume and uptime, CCO legal and unsuspended, CDO whether data is worth acting on.
+- 2026-08-15 asked: What does each desk deliver, and what are its steps in order? -> Here is what each desk delivers and how it gets there, holding to your standard: what lands, not what it is busy with.
+- 2026-08-15 Standard for judging every desk going forward: what it delivers, plus its 3 to 5 steps to get there. Not activity, not the last number moved. Applied 2026-08-15 across CFO, CRO, CMO, COO, CCO, CDO.
 - 2026-08-14 asked: how are my CMOS going right now -> CMO desk: 60 of 403 listed areas are live, 4 niches running (trades, food, beauty, pro), and each sweep runs 5220 search
 - 2026-08-14 asked: make sure the imesages are differnt to the numbers on the calls page the only thing that s -> I could not parse that clearly enough to act on. My best guess: you want the phone number shown inside a mockup image to
 - 2026-08-14 asked: A task from the handover list. Do it if you can. Title: A preview is a mockup, not a site -> This needs Claude, code and server work, same as the last two. You've already made the call in your note: build it throu
@@ -40,10 +44,6 @@ Where it stands right now.
 - 2026-08-14 Approved building a dedicated pro.html niche template from assets/niche-demos/pro, matching how food and beauty were built. Needs a real coding session, not this console.
 - 2026-08-14 asked: A task from the handover list. Do it if you can. Title: Photos: mine to sort, no decision -> This one needs Claude, but not this console. Fixing the fallback photo packs and widening the stock search before it giv
 - 2026-08-14 asked: wake up -> Cap is broken. Daily cap is set to 15 but 51 emails went out today, over three times the limit. Sending and bot are both
-- 2026-08-14 asked: wake up -> I could not place this with a desk.
-- 2026-08-14 asked: Test from Claude, no action needed. Before you answer, the shape of the company, because -> Two businesses, not one. Local outreach: 10108 found, 66 emailed, 24 replied, 3 won. Airbnb Walkthroughs: 96 found, 0 em
-- 2026-08-14 asked: Test from Claude, no action needed. In one sentence: how many businesses are you running, -> One business: Your Future Site. No second one exists in this data or anywhere I can see, so there's nothing to name beyo
-- 2026-08-13 asked: what's the cmo currently doing -> CMO hasn't moved since last time. Areas live 60 of 403 listed, niches live 4 (trades, food, beauty, pro), search grid 52
 
 ## Noticed
 
@@ -58,6 +58,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-15 answered you: Here's each desk in the deliver/steps shape you want. CFO delivers a price that turns a job into profit, not just revenue. Steps: set the remake/newbuild price
+- 2026-08-15 answered you: Here is what each desk delivers and how it gets there, holding to your standard: what lands, not what it is busy with. CFO delivers a price and margin that act
 - 2026-08-14 answered you: CMO desk: 60 of 403 listed areas are live, 4 niches running (trades, food, beauty, pro), and each sweep runs 5220 searches across that grid. Pro leads are being
 - 2026-08-14 answered you: I could not parse that clearly enough to act on. My best guess: you want the phone number shown inside a mockup image to be different from the number listed on
 - 2026-08-14 answered you: This needs Claude, code and server work, same as the last two. You've already made the call in your note: build it through to the end, brief folded into the pre
@@ -68,9 +70,7 @@ Where it stands right now.
 - 2026-08-14 handed a job to COO: Daily cap is 15 but 51 sent today, over 3x over. Find out why the cap did not throttle the run and get it enforced so this cannot happen aga
 - 2026-08-14 answered you: I could not place this with a desk.
 - 2026-08-14 answered you: Two businesses, not one. Local outreach: 10108 found, 66 emailed, 24 replied, 3 won. Airbnb Walkthroughs: 96 found, 0 emailed, 37 waiting on your approval. I've
-- 2026-08-14 answered you: One business: Your Future Site. No second one exists in this data or anywhere I can see, so there's nothing to name beyond that.
-- 2026-08-13 answered you: CMO hasn't moved since last time. Areas live 60 of 403 listed, niches live 4 (trades, food, beauty, pro), search grid 5220 searches per sweep. I'm holding them
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-15T23:12:18. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-15T23:47:41. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-15T23:12:18
+updated: 2026-08-15T23:47:41
 role: "cro"
 ---
 
@@ -48,6 +48,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-15 asked: From the vault, Every desk should be able to say what it delivers: I have kept a note in t -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-13 asked: make sure the sites that cant be confirmed are still being sent emails or added to the cal -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-13 asked: do you want to start recording the calls for you so you can -> Emailed 15, Replied 0, Called 0, Won 0. No replies from any email yet: Either the message is not landing or the leads ar
 - 2026-08-13 asked: Set up a fast way for Byron to log call outcome (answered, no answer, not interested, call -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
@@ -57,6 +58,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-15 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
+- 2026-08-15 picked up a note from the vault: Every desk should be able to say what it delivers
 - 2026-08-13 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-13 answered you: Emailed 15, Replied 0, Called 0, Won 0. No replies from any email yet: Either the message is not landing or the leads are wrong. Campaigns shows which niche is
 - 2026-08-13 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
@@ -66,4 +69,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-15T23:12:18. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-15T23:47:41. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
