@@ -3,7 +3,7 @@ title: "C-Suite"
 source: yfs-console
 kind: index
 tags: [business, c-suite]
-updated: 2026-08-16T06:59:56
+updated: 2026-08-16T07:32:19
 ---
 
 
@@ -46,4 +46,4 @@ Seven roles running Your Future Site out of the console on the VPS. Each one rea
 
 ---
 
-Written by the Your Future Site console on the VPS, 2026-08-16T06:59:57. The daily record of what changed is in [[C-Suite/Log/2026-08-16|today's log]].
+Written by the Your Future Site console on the VPS, 2026-08-16T07:32:20. The daily record of what changed is in [[C-Suite/Log/2026-08-16|today's log]].
