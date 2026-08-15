@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-16T00:21:21
+updated: 2026-08-16T00:56:15
 role: "cmo"
 ---
 
@@ -49,6 +49,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-16 Standing contract, set 16 Aug 2026: from the Researcher. Delivers: search time spent on areas and niches that are not already saturated. Steps: discover, collect, report. Ratio: 238 found, 308 qualified, 243 skipped in a sweep of 5220 searches across 60 live areas of 403 and 4 niches. Now: sweeping 60 areas, 4 niches.
 - 2026-08-15 the weekly pass left pause_after where it is: Reply rate is still 0.0% over 80 emails, no bigger sample than the 66 that set 100 two days ago, and this change is locked until 2026-08-28 anyway.
 - 2026-08-15 reply rate across everything is 0.0% over 80 emails
 - 2026-08-15 reply rate across everything is 0.0% over 66 emails
@@ -68,4 +69,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:21:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:56:15. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

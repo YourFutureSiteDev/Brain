@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-16T00:21:21
+updated: 2026-08-16T00:56:15
 role: "cco"
 ---
 
@@ -51,6 +51,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-16 Standing contract, set 16 Aug 2026: from the Publisher. Delivers: an account that stays alive and a business that stays legal. Steps: plan, schedule, publish, confirm, report. Ratio: 23 suppressed against 80 sent, of which 1 is a real bounce, 1.25%. Now: 8/8 compliance, sending shut for the weekend.
 - 2026-08-15 the weekly pass left max_daily where it is: Bounces have climbed from 19 to 30 straight while cap sat fixed at 15, and the last max_daily change was 2026-08-14, under 14 days ago so I cannot move it anyway; also nothing reads this number today so changing it would not touch the real daily_cap in config.
 
 ## Recently did
@@ -70,4 +71,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:21:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:56:15. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

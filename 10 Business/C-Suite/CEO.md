@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-16T00:21:21
+updated: 2026-08-16T00:56:15
 role: "ceo"
 ---
 
@@ -47,6 +47,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-16 Standing contract, set 16 Aug 2026: from the Manager's other half. Delivers: one source of truth, and a decision about whose job a thing is. Steps: read, route, say who got it and why, remember. Ratio: notes picked up from the vault against notes that reached a desk with a lever for them, 1 against 0 on 15 August. Now: no lever anywhere for prose.
 - 2026-08-14 Byron sent a garbled instruction about images vs numbers on the calls page and landline vs call script page. Asked him to restate before acting.
 - 2026-08-14 Handover task 'Photos: mine to sort' needs an actual coding session with repo/server access, not this CEO console. This console has no code or file tools. Flag any future code-shaped tasks the same way instead of trying to action them here.
 - 2026-08-14 2026-08-14: daily cap set to 15 but 51 emails sent that day, over 3x the configured cap. Sent to COO to find the cause and CCO to confirm no account risk.
@@ -54,7 +55,6 @@ Where it stands right now.
 - 2026-08-13 CMO deliberately held idle since 2026-08-13: no new area/niche expansion until call outcomes give real conversion signal. Standing state: 60 areas of 403, 4 niches (trades, food, beauty, pro), search grid 5220.
 - 2026-08-13 As of 2026-08-13, CMO has no active task from CEO this session. Last CMO state: Areas live 60, Niches live 4, Search grid 5220. CEO is deliberately holding CMO retargeting work until call outcomes exist to inform it.
 - 2026-08-13 Byron asked how to increase client sales on 2026-08-13. Answer given: zero sales so far, bottleneck is the 50 unworked follow-up calls, not lead volume or email volume. Lead volume and sending are healthy (2657 leads, 13 sent today, cap off).
-- 2026-08-13 On 2026-08-13 the bot added roughly 39 new no-email leads in two bursts (25 at 11:17, 14 at 11:51). No standing lead-intake-rate metric exists yet; asked CDO to build one.
 
 ## Recently did
 
@@ -73,4 +73,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:21:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:56:15. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

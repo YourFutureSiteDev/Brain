@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-16T00:21:21
+updated: 2026-08-16T00:56:15
 role: "cdo"
 ---
 
@@ -48,6 +48,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-16 Standing contract, set 16 Aug 2026: from the Analyst, the data half. Delivers: a straight answer on whether the lead data is worth acting on. Steps: track, analyse, learn, optimise. Ratio: 17129 leads, 4% with an email, 25% with a phone, 358 held out as UNKNOWN. Now: email coverage 4%.
 - 2026-08-15 the weekly pass left recheck_days where it is: 45 was only set on 2026-08-12, it is locked from changes for 14 days, and there is no recheck-outcome data yet to say whether it changed the right number of verdicts.
 
 ## Recently did
@@ -58,4 +59,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:21:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:56:15. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

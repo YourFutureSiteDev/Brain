@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-16T00:21:21
+updated: 2026-08-16T00:56:15
 role: "cro"
 ---
 
@@ -58,6 +58,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-16 Standing contract, set 16 Aug 2026: from the Analyst, and from the Hook Writer until the message has a desk of its own. Delivers: leads actually moving toward a paid job, and an opener worth answering. Steps: track, analyse, learn, optimise; and draft, cut, hand off. Ratio: 80 emailed, 0 replied, 50 in the call queue, 0 won; and the hook writer's 10 written, 3 survive, 1 sends, against our 1 written, 1 sent. Now: 50 waiting to be called, one opener, never tested.
 - 2026-08-15 the weekly pass left chase_days where it is: Queue has held flat at 50 for three straight days at 11 days and Byron still has not worked through it, so cutting the chase window further only piles more calls onto a queue that is not moving.
 
 ## Recently did
@@ -73,4 +74,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:21:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T00:56:15. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
