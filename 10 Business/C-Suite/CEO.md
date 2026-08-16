@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-17T07:47:00
+updated: 2026-08-17T09:30:10
 role: "ceo"
 ---
 
@@ -14,21 +14,21 @@ role: "ceo"
 
 Where it stands right now.
 
-> 80 emailed, 0 replies, too few replies to read a pattern. Sending is on.
+> 94 emailed, 0 replies, too few replies to read a pattern. Sending is on.
 
 | | | |
 |---|---|---|
 | Won | **$0** | 0 paid |
-| In play | **$54,500** | 79 live |
-| Emailed | **80** | all time |
+| In play | **$61,500** | 93 live |
+| Emailed | **94** | all time |
 | Replies | **0** | 0.0% |
 | To call | **50** | queued now |
-| Leads known | **20973** | researched |
+| Leads known | **21133** | researched |
 
 ## Needs a decision
 
 - **50 calls waiting.** Follow-up calls are the highest converting thing available and only you can make them.
-- **No replies yet.** 80 emails, no replies. Worth reading one before sending more.
+- **No replies yet.** 94 emails, no replies. Worth reading one before sending more.
 
 ## Decided
 
@@ -73,4 +73,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T07:47:00. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T09:30:10. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
