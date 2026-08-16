@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-17T05:38:24
+updated: 2026-08-17T06:10:33
 role: "cdo"
 ---
 
@@ -18,16 +18,16 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **20743** | known |
-| With email | **873** | 4% |
-| With phone | **5158** | 25% |
+| Leads | **20800** | known |
+| With email | **874** | 4% |
+| With phone | **5180** | 25% |
 | With rating | **0** | 0% |
-| Unconfirmed | **422** | never mailed |
+| Unconfirmed | **423** | never mailed |
 
 ## Needs a decision
 
 - **Only 4% of leads have an email.** Expected. Google never returns emails and a business with no site has no contact page. Those leads are the call list, not a failure.
-- **422 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
+- **423 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
 
 ## Carrying for Byron
 
@@ -59,4 +59,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T05:38:24. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T06:10:33. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
