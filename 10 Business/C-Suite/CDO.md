@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-16T21:02:58
+updated: 2026-08-16T21:34:11
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **19967** | known |
-| With email | **848** | 4% |
-| With phone | **5009** | 25% |
+| Leads | **19972** | known |
+| With email | **849** | 4% |
+| With phone | **5010** | 25% |
 | With rating | **0** | 0% |
 | Unconfirmed | **413** | never mailed |
 
@@ -59,4 +59,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T21:02:58. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-16T21:34:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
