@@ -1,6 +1,7 @@
 ---
 title: The CFO now has its own specialists
 role: cfo
+picked_up: 2026-08-17T22:47:28
 ---
 
 You have specialists now. 9 of them, in

@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-17T22:15:12
+updated: 2026-08-17T22:47:30
 role: "cdo"
 ---
 
@@ -18,19 +18,20 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **21800** | known |
-| With email | **936** | 4% |
-| With phone | **5490** | 25% |
+| Leads | **21893** | known |
+| With email | **937** | 4% |
+| With phone | **5517** | 25% |
 | With rating | **0** | 0% |
-| Unconfirmed | **446** | never mailed |
+| Unconfirmed | **447** | never mailed |
 
 ## Needs a decision
 
 - **Only 4% of leads have an email.** Expected. Google never returns emails and a business with no site has no contact page. Those leads are the call list, not a failure.
-- **446 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
+- **447 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
 
 ## Carrying for Byron
 
+- 2026-08-17 From the vault, The CDO now has its own specialists: You have specialists now. 16 of them, in academic (6), gis (13), sitting in `~/.claude/agents` on this box. They came from [[The agency agents roster]], which is where the full list and the other desks' shares are. Yours, and what each is for: - `academic-statistician` - whether a number means anything at this sample size - `academic-psychologist` - why people answer the way they do - `academic-geographer` - place, which is half of what we sort on - `academic-anthropologist` - the people behind the rows - `academic-historian` - what the record actually says - `academic-narratologist` - the story a set of numbers is being made to tell - `gis-spatial-data-scientist` - the towns and suburbs, treated as data - `gis-analyst` - the everyday geographic question - `gis-spatial-data-engineer` - the OpenStreetMap pipeline behind the leads - `gis-geoprocessing-specialist` - turning a region into a lead list - `engineering-data-engineer` - the pipeline itself - `engineering-database-optimizer` - SQLite, before it becomes the bottleneck - `engineering-ai-data-remediation-engineer` - fixing what the bot got wrong at scale - `data-consolidation-agent` - two businesses, two databases, one picture *(working)*
 - 2026-08-13 make sure the sites that cant be confirmed are still being sent emails or added to the call list *(working)*
 - 2026-08-13 Byron wants to know the rate leads are coming in. Start tracking daily new-lead counts (total and by source/niche) so this can be answered with a real number instead of reading timestamps off a snapshot. *(working)*
 
@@ -42,6 +43,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-17 asked: From the vault, The CDO now has its own specialists: You have specialists now. 16 of them, -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
 - 2026-08-13 asked: Pull the 52 UNKNOWN status leads. For any that have a phone number, add them to the call l -> I am holding this rather than doing it. I cannot send an email, ring anyone, or spend money. Those stay with the mailer
 - 2026-08-13 asked: make sure the sites that cant be confirmed are still being sent emails or added to the cal -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
 - 2026-08-13 asked: Byron wants to know the rate leads are coming in. Start tracking daily new-lead counts (to -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
@@ -53,10 +55,12 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-17 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
+- 2026-08-17 picked up a note from the vault: The CDO now has its own specialists
 - 2026-08-13 answered you: I am holding this rather than doing it. I cannot send an email, ring anyone, or spend money. Those stay with the mailer and its caps, and with you. What I can d
 - 2026-08-13 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-13 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T22:15:12. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T22:47:30. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

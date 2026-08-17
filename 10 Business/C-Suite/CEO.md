@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-17T22:15:12
+updated: 2026-08-17T22:47:30
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **94** | all time |
 | Replies | **0** | 0.0% |
 | To call | **50** | queued now |
-| Leads known | **21800** | researched |
+| Leads known | **21893** | researched |
 
 ## Needs a decision
 
@@ -58,6 +58,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-17 picked up a note from the vault: The CEO now has its own specialists
 - 2026-08-15 answered you: Here's each desk in the deliver/steps shape you want. CFO delivers a price that turns a job into profit, not just revenue. Steps: set the remake/newbuild price
 - 2026-08-15 answered you: Here is what each desk delivers and how it gets there, holding to your standard: what lands, not what it is busy with. CFO delivers a price and margin that act
 - 2026-08-14 answered you: CMO desk: 60 of 403 listed areas are live, 4 niches running (trades, food, beauty, pro), and each sweep runs 5220 searches across that grid. Pro leads are being
@@ -69,8 +70,7 @@ Where it stands right now.
 - 2026-08-14 handed a job to CCO: Confirm the cap breach today (51 sent vs cap 15) has not put the Gmail account at risk. Recheck the 8 send checks against today's actual vol
 - 2026-08-14 handed a job to COO: Daily cap is 15 but 51 sent today, over 3x over. Find out why the cap did not throttle the run and get it enforced so this cannot happen aga
 - 2026-08-14 answered you: I could not place this with a desk.
-- 2026-08-14 answered you: Two businesses, not one. Local outreach: 10108 found, 66 emailed, 24 replied, 3 won. Airbnb Walkthroughs: 96 found, 0 emailed, 37 waiting on your approval. I've
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T22:15:12. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T22:47:30. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

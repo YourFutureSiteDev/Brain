@@ -1,6 +1,7 @@
 ---
 title: The CEO now has its own specialists
 role: ceo
+picked_up: 2026-08-17T22:47:28
 ---
 
 You have specialists now. 7 of them, in

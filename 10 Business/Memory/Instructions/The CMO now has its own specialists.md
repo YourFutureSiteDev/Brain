@@ -1,6 +1,7 @@
 ---
 title: The CMO now has its own specialists
 role: cmo
+picked_up: 2026-08-17T22:47:28
 ---
 
 You have specialists now. 15 of them, in

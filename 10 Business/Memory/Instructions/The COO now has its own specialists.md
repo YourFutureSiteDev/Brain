@@ -1,6 +1,7 @@
 ---
 title: The COO now has its own specialists
 role: coo
+picked_up: 2026-08-17T22:47:28
 ---
 
 You have specialists now. 16 of them, in

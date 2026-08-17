@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-17T22:15:12
+updated: 2026-08-17T22:47:30
 role: "cro"
 ---
 
@@ -30,6 +30,7 @@ Where it stands right now.
 
 ## Carrying for Byron
 
+- 2026-08-17 From the vault, The CRO now has its own specialists: You have specialists now. 14 of them, in sales (9), product (5), sitting in `~/.claude/agents` on this box. They came from [[The agency agents roster]], which is where the full list and the other desks' shares are. Yours, and what each is for: - `sales-pipeline-analyst` - where deals die, by stage - `sales-outbound-strategist` - the outbound motion itself - `sales-discovery-coach` - the call after the mockup lands - `sales-deal-strategist` - one deal, worked properly - `sales-proposal-strategist` - the quote that follows a yes - `sales-offer-lead-gen-strategist` - what the offer should be - `sales-account-strategist` - the accounts worth keeping - `sales-coach` - how the calls are being run - `sales-engineer` - the technical half of a sale - `sales-outreach` - first contact, written - `sales-data-extraction-agent` - pulling structure out of a prospect's own site - `product-behavioral-nudge-engine` - the behavioural science of why people drop off - `product-feedback-synthesizer` - what the replies are actually saying - `customer-success-manager` - keeping the ones who bought Fifty follow-up calls are queued and no email has been replied to yet. `sales-pipeline-analyst` and `product- *(working)*
 - 2026-08-13 Set up a fast way for Byron to log call outcome (answered, no answer, not interested, call back, quoted, won) against each lead right after he calls, so conversion by niche and area becomes visible instead of guessed. *(working)*
 - 2026-08-13 Keep the call queue ordered with no-website (rank 3, no_site bucket) leads first. They're the top-priority calls and currently fill 11 of the 14 slots. *(working)*
 
@@ -48,6 +49,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-17 asked: From the vault, The CRO now has its own specialists: You have specialists now. 14 of them, -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-15 asked: From the vault, Every desk should be able to say what it delivers: I have kept a note in t -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-13 asked: make sure the sites that cant be confirmed are still being sent emails or added to the cal -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-13 asked: do you want to start recording the calls for you so you can -> Emailed 15, Replied 0, Called 0, Won 0. No replies from any email yet: Either the message is not landing or the leads ar
@@ -63,6 +65,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-17 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
+- 2026-08-17 picked up a note from the vault: The CRO now has its own specialists
 - 2026-08-15 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-15 picked up a note from the vault: Every desk should be able to say what it delivers
 - 2026-08-13 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
@@ -74,4 +78,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T22:15:12. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T22:47:30. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

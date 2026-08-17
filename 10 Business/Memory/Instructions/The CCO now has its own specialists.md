@@ -1,6 +1,7 @@
 ---
 title: The CCO now has its own specialists
 role: cco
+picked_up: 2026-08-17T22:47:28
 ---
 
 You have specialists now. 13 of them, in
