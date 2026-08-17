@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-17T22:47:30
+updated: 2026-08-18T00:07:10
 role: "cro"
 ---
 
@@ -19,13 +19,12 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Emailed | **94** | businesses |
-| Replied | **0** | 0.0% |
+| Replied | **2** | 2.1% |
 | Called | **8** | at least once |
 | Won | **0** | paid |
 
 ## Needs a decision
 
-- **No replies from any email yet.** Either the message is not landing or the leads are wrong. Campaigns shows which niche is being hit.
 - **50 follow-up calls queued.** A call two or three days after a mockup lands is a different conversation from a cold call. This is where the pipeline moves.
 
 ## Carrying for Byron
@@ -78,4 +77,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T22:47:30. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T00:07:10. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
