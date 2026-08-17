@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-17T14:46:24
+updated: 2026-08-17T15:19:12
 role: "coo"
 ---
 
@@ -18,8 +18,8 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 224 cycles |
-| Last cycle | **14:15** | 2026-08-17 |
+| Bot | **running** | 225 cycles |
+| Last cycle | **14:46** | 2026-08-17 |
 | Leads | **21503** | 21503 checked |
 | Call list | **2916** | no email found |
 | Daily cap | **15** | 14 sent today |
@@ -42,4 +42,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T14:46:24. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-17T15:19:12. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
