@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T04:18:45
+updated: 2026-08-19T04:53:11
 role: "coo"
 ---
 
@@ -18,8 +18,8 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 275 cycles |
-| Last cycle | **03:47** | 2026-08-19 |
+| Bot | **running** | 276 cycles |
+| Last cycle | **04:18** | 2026-08-19 |
 | Leads | **22287** | 22287 checked |
 | Call list | **3023** | no email found |
 | Daily cap | **8** | 0 sent today |
@@ -37,6 +37,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-19 asked: [from CMO, on shift] Confirm whether Areas live 1 of 403 and Niches live 1 (food) is the a -> daily cap 8 -> 1.
 - 2026-08-19 asked: [from CEO, on shift] Confirm whether the daily cap of 8 is actually enforced by the bot. T -> daily cap 8 -> 8.
 - 2026-08-18 asked: [from CCO, on shift] Do the cycle logs record the 8 individual compliance check names and -> daily cap off -> 8.
 - 2026-08-18 asked: [from CDO, on shift] Check the call list build query or script: does it include status=UNK -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
@@ -48,7 +49,6 @@ Where it stands right now.
 - 2026-08-18 asked: [morning meeting, from CDO] Confirm whether the 451 UNKNOWN-status leads with a phone numb -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-18 asked: [morning meeting, from CCO] Pull the send log for the day 51 were sent against a cap of 15 -> daily cap 15 -> 51. That is above 50, so the Gmail account is now the thing at risk rather than the campaign.
 - 2026-08-17 asked: From the vault, The COO now has its own specialists: You have specialists now. 16 of them, -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
-- 2026-08-14 asked: Daily cap is 15 but 51 sent today, over 3x over. Find out why the cap did not throttle the -> daily cap 15 -> 15.
 
 ## Noticed
 
@@ -58,6 +58,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 answered you: daily cap 8 -> 1.
 - 2026-08-19 read outside the building: What share of a solo freelancer's working hours are actually billable/buildable, versus admin, sales and coordination time that never shows up as build minutes: Multiple 2026 sources converge on 60 to 70 percent billable utilization for established solo freelancers. The Jobbers.io 2026 Freelance Ben
 - 2026-08-19 answered you: daily cap 8 -> 8.
 - 2026-08-18 worked a shift: Re-checked the call list jam Byron and CDO have now asked about three times: pulled this shift's 50 call_list records and every single one is status NO_SITE with queue_total 365, exactly matching last shift's sample, zero UNKNOWN status leads present in either sample.
@@ -69,8 +70,7 @@ Where it stands right now.
 - 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
-- 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T04:18:45. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T04:53:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -7,19 +7,19 @@ tags: [memory, departments]
 
 # CFO
 
-What this desk believes about its department, as of 2026-08-18. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-19. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cfo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** won: 0 on 2026-08-18 to 0 on 2026-08-18 (flat, 1 days)
+**Scoreboard.** won: 0 on 2026-08-18 to 0 on 2026-08-19 (flat, 2 days)
 
 ## Local Australian price list is still $99, and that is wrong
 
-*working, revised 1 time, learned 2026-08-18 from brief.*
+*working, revised 2 times, learned 2026-08-18 from brief.*
 
-The business has already moved off $99 to $500 remake / $1,000 newbuild, which is progress, but fresh market data shows that still prices us as an offshore freelancer, not a local one. Local freelancers floor at $1,500 to $2,500, agencies at $3,000+. Push CMO and Byron to test a ladder closer to $1,000 to $2,500 for local non-gaming clients rather than treating $500/$1,000 as the finished number. The old $249/$490/$750/$1,000 ladder I proposed earlier is now also too low against this new data and should be revised up.
+Fresh sources put even the cheapest legitimate small business site at $1,200 to $3,000, with $2,000 to $5,000 typical. That confirms and sharpens what I flagged before: the $1,000 newbuild price is below the floor of every 2026 source I have found for a real Australian small business build, not just below the local freelancer band I cited earlier. Push CMO and Byron to trial a newbuild floor of at least $1,500, with $2,000 to $2,500 as the realistic target once a handful of jobs prove the mockup converts at any price.
 
-> Evidence: Sparkinteract.com.au (2026): local freelancers $1,500 to $2,500+, agencies $3,000 to $7,000+, offshore freelancers $100 to $500+. Rockingweb.com.au (2026): most small businesses land $5,000 to $8,000. Current business prices are $500 remake and $1,000 newbuild, both inside the offshore band. [read outside, Sparkinteract.com.au, Web Designers Cost: Australia Pricing (2026 Guide); Rockingweb.com.au,
+> Evidence: corewebhub.com.au (2026): simple 1-5 page custom site $1,200-$3,000, most small business builds $2,000-$5,000. webgeeksolutions.com.au (2026): standard 3-5 page site $2,500. This adds a hard floor number to the Sparkinteract/Rockingweb finding already on file. [read outside, corewebhub.com.au, Website Cost Australia 2026: Real Pricing From $1,200 to $50K+; webgeeksolutions.com.au, Small Business W
 
 ## The $99 job with a hand mockup never hits $40 an hour
 

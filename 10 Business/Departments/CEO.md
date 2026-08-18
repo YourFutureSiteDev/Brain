@@ -7,11 +7,19 @@ tags: [memory, departments]
 
 # CEO
 
-What this desk believes about its department, as of 2026-08-18. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-19. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: ceo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** replies: 2 on 2026-08-18 to 2 on 2026-08-18 (flat, 1 days)
+**Scoreboard.** replies: 2 on 2026-08-18 to 2 on 2026-08-19 (flat, 2 days)
+
+## One trade, sequentially, never four at once
+
+*working, revised 1 time, learned 2026-08-18 from brief.*
+
+The market data backs this harder than I had it: small, tightly targeted sends beat big blended ones by nearly 3x on reply rate (5.8% vs 2.1%). That is an argument for CMO staying narrow by trade and area, not just a flywheel argument. Our current 1.4% reply rate is not a crisis, it is what an unfocused, mixed-niche 143-email batch looks like. Tell CMO the fix for reply rate is narrower targeting, not more volume.
+
+> Evidence: Puzzle Inbox and Martal 2026 cold email benchmarks: under-50-recipient sends average 5.8% reply vs 2.1% for large sends; general B2B average is 1 to 3%, both accessed 19 Aug 2026 [read outside, Puzzle Inbox, 'Cold Email Reply Rate Benchmarks 2026: B2B / SaaS / Agency', and Martal, 'B2B Cold Email Statistics 2026: Benchmarks & What Works Now', both accessed 19 Aug 2026]
 
 ## Reply-to-call speed is the real constraint, not send volume
 
@@ -28,14 +36,6 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 Do not sell pixels. Sell being the person who shows up and does it, since only 17 percent of Australian small businesses take any technical advice at all.
 
 > Evidence: Section 1, CPA Australia figure on IT advice, and the four defensible moats in Section 3.
-
-## One trade, sequentially, never four at once
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-When CMO proposes expanding niches or areas, check it against this before agreeing. Spreading thin kills the referral flywheel this plan depends on.
-
-> Evidence: Section 4 verdict and Section 7 twelve month plan: 'Trades served: 2, sequentially, not 4 at once.'
 
 ## Gaming outbound is dead, one passive Tebex listing only
 

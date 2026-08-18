@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # CRO
 
-What this desk believes about its department, as of 2026-08-18. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-19. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cro` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** calls waiting: 50 on 2026-08-18 to 50 on 2026-08-18 (flat, 1 days)
+**Scoreboard.** calls waiting: 50 on 2026-08-18 to 50 on 2026-08-19 (flat, 2 days)
 
 ## Fifth of the enabled areas are in the wrong time zone for the call plan
 
@@ -20,6 +20,14 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 Add a time-of-day rule on top of the time zone fix: call each area's local 9 to 10am or 3 to 4pm block, skip 12 to 2pm entirely, never before 8am or after 6pm local, and load Tuesday to Thursday first. This is US office-worker data, not proven on Australian tradies or beauty operators who are often on tools or with a client, so treat it as a starting window to test against our own call outcomes, not gospel.
 
 > Evidence: Close.com and Revenue.io 2026 cold call studies, both citing PhoneBurner call data, converging on 9 to 10am/3 to 4pm as peak and a 35 percent answer-rate drop over lunch [read outside, Close.com 'Best Days & Times to Cold Call (Data-Backed) in 2026'; PhoneBurner data cited via Revenue.io 'Best Time to Cold Call Prospects in 2026']
+
+## 50 queued calls are not follow-ups, they are mostly cold opens
+
+*working, revised 1 time, learned 2026-08-18 from shift.*
+
+Add to the cold-open script for the 47 no-email leads: write a 20 to 25 second voicemail line for every one of them, because most calls to a small business mobile will not be answered but two thirds of unknown-number voicemails still get checked. Name, business name, the one fault found (no website), and a callback number, no price stated. Do not skip the voicemail just because the call did not connect, that is not a failed call, it is a delivered one.
+
+> Evidence: Aussie AI Agency 2026: 81% of unknown-number calls go to voicemail, 67% of those voicemails get checked, voicemail-to-conversation conversion 4-11% for Australian small business [read outside, Aussie AI Agency, 'Missed Call Statistics Australia 2026' (aussieaiagency.com.au), cross-checked against CloudTalk 'Cold Calling Statistics 2026' and Scrap.io 'Cold Calling Success Rate in 2026: 200K+ Calls 
 
 ## The pipeline is not a lead count, it is a dial count
 
@@ -53,14 +61,6 @@ Before running any call block, confirm which niche the leads actually came from 
 
 > Evidence: Section A1 item 8: plumber was deliberately dropped from the config because every agency already targets it, so a plumber-flavoured script does not match the mechanic, food, beauty or pro leads the bot is actually producing.
 
-## 50 queued calls are not follow-ups, they are mostly cold opens
-
-*tried, revised 0 times, learned 2026-08-18 from shift.*
-
-Only 3 of the 50 in today's call queue have actually received a mockup email (GP Mechanical, Outback Barber, Plush Diamond). The other 47 are no-email leads who have never been contacted at all. Script these two groups differently: the 3 with a mockup sent get a real follow-up call referencing what was emailed and the $500/$1,000 price already quoted; the other 47 get a cold open, no mockup to reference, no price stated unless asked. Do not read one script to both.
-
-> Evidence: Counted stage across all 50 call_list entries: 3 stage=emailed (GP Mechanical sent 2026-08-18, Outback Barber sent 2026-08-14, Plush Diamond sent 2026-08-14), 47 stage=found with sent_at null and no email address.
-
 ## The 50-call queue is the head of a 365-deep backlog, not the whole list
 
 *tried, revised 0 times, learned 2026-08-18 from shift.*
@@ -68,6 +68,14 @@ Only 3 of the 50 in today's call queue have actually received a mockup email (GP
 Do not treat working through the visible 50 as clearing the queue. Keep working it top to bottom by buy_score, because the ranking is doing its job: the one entry that is not a no_site rank-3 lead (Damien Seton Mechanical, bucket=clicked, buy_score 95, opened the demo) correctly sits above the 49 no_site leads whose buy_score tops out at 78. Once these 50 are called, there are another 315 buy-ready leads waiting behind them.
 
 > Evidence: Every call_list record shows queue_total: 365 against queue_shown: 50; buy_score ordering places the single clicked lead (95) ahead of all 49 no_site leads (74-78).
+
+## Calls made are not landing on the priority queue
+
+*tried, revised 0 times, learned 2026-08-19 from shift.*
+
+The 2 leads confirmed called in the leads data (The Corner Pantry, Windsor NSW and Tamworth Chainsaw & Mower Centre) do not appear anywhere in the top 50 buy_score ranked call_list, and all 50 of those queued leads still show calls_made 0 and last_call null. Whoever is calling is not working from the ranked queue. Until outcomes get logged against queue records, buy_score ranking cannot reflect real contact history and effort keeps landing off the highest value leads.
+
+> Evidence: call_list (50 entries, all calls_made:0, last_call:null) vs leads array showing stage=called only for the-corner-pantry-windsor-nsw and tamworth-chainsaw-mower-centre-tamworth-nsw, neither present in call_list; pipeline.called=8 total across the whole business.
 
 ## What it used to believe
 

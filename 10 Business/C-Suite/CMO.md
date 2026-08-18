@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T04:18:45
+updated: 2026-08-19T04:53:11
 role: "cmo"
 ---
 
@@ -68,6 +68,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Compared this shift's CMO tiles against last shift's confirmed reading: last shift I verified niches live at 4 (trades, food, beauty, pro) matching ready_by_niche exactly, but this shift's live tile reads back to niches live 1 (food) and areas live 1 of 403, while ready_by_niche still shows all 4 ni
 - 2026-08-19 read outside the building: What reply rate and open rate benchmark should this business compare itself against, using the closest matching industry (local/real estate services) in a dated 2026 cold email benchmark study: Cleverly.co's industry benchmark report (dated 16 Apr 2026, updated 28 Jul 2026) has no figures for trades
 - 2026-08-18 worked a shift: Checked the CMO niches-live tile against ready_by_niche this shift: food is now confirmed live (tile reads trades, food, beauty, pro, 4 niches), which settles the ambiguity flagged last shift, and found the ready pool is heavily skewed toward beauty.
 - 2026-08-18 read outside the building: How does our 1.4% cold email reply rate compare to 2026 benchmarks, and could the machine's sending setup itself be the cause rather than the message?: 2026 benchmarks put a well-run B2B cold email campaign at 3 to 5% replies, with the platform-wide average at 3.43%. Even the weakest performing indu
@@ -79,8 +80,7 @@ Where it stands right now.
 - 2026-08-18 worked a shift: Checked the CEO's parked asks against today's data: geographic spread is genuinely nationwide (the top 50 in queue alone span NSW, VIC, QLD, WA and SA regional towns, zero Sydney), and the queue is overwhelmingly NO_SITE businesses as intended. Also found a mismatch: food shows 11 ready-to-send lead
 - 2026-08-18 adjusted itself: judge an area after 60 emails
 - 2026-08-18 paused area: Penrith NSW: 15+ emailed, no replies
-- 2026-08-17 opened area: Charters Towers QLD
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T04:18:45. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T04:53:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

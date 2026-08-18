@@ -7,11 +7,19 @@ tags: [memory, departments]
 
 # CCO
 
-What this desk believes about its department, as of 2026-08-18. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-19. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cco` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** suppressed: 23 on 2026-08-18 to 23 on 2026-08-18 (flat, 1 days)
+**Scoreboard.** suppressed: 23 on 2026-08-18 to 23 on 2026-08-19 (flat, 2 days)
+
+## Demo sites are the most urgent problem, not the outreach
+
+*working, revised 1 time, learned 2026-08-18 from brief.*
+
+This is not just a trust and disclaimer problem, it is a specific statutory exposure. Putting a fabricated NSW builder licence number (118422C) on a demo site linked from a cold email is the kind of building trade advertisement NSW Fair Trading actively enforces, with penalties running into six figures for an individual and real cases landing five figure penalty notices before any court action. Byron should treat pulling that licence number and the fabricated ABNs off all four demo sites as more urgent than any sending or targeting question in this brief.
+
+> Evidence: nsw.gov.au building trade advertisement rules: max penalty $110,000 individual / $330,000 corporation for unlicensed residential building work and advertising; 2026 Steve Preston case, nine penalty notices totalling $22,000, ABC News 28 Jul 2026 [read outside, NSW Government, nsw.gov.au 'Building trade advertisements' and Contracts Specialist 'Role of NSW OFT in Regulating Builders', cross checked
 
 ## Checks passing 7/8: no per check breakdown reaches this desk
 
@@ -20,14 +28,6 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 Fifth time this has been asked (Byron's notes this shift alone repeat it four times) and it still cannot be answered from tile data. Also flagging a discrepancy: Byron's note cites 51 sent against a cap of 15, but the live numbers this shift show sent_today=49 and daily_cap="off" with my own settings at max_daily=50. Either the cap of 15 was set and reverted intra-day, or that figure is stale. Escalating both to Byron directly since repeating the same gap in the playbook has not produced the dashboard change needed.
 
 > Evidence: cco tile: ["Checks passing","7/8","see below"], no names; business snapshot this shift: sent_today 49, daily_cap "off", settings max_daily=50, not 51 vs 15.
-
-## Demo sites are the most urgent problem, not the outreach
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-Push CCO and Byron to strip the fabricated ABNs and the fabricated NSW builder licence number off the demo sites, and add a top of page disclaimer banner to all four, before worrying about anything else in this brief.
-
-> Evidence: Part 2: fabricated ABN, builder licence 118422C, real Sydney phone numbers, one site with no disclaimer at all, linked from every cold email.
 
 ## Limb (d) of inferred consent is unchecked in code
 

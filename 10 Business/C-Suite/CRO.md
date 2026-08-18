@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T04:18:45
+updated: 2026-08-19T04:53:11
 role: "cro"
 ---
 
@@ -66,6 +66,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Cross checked the top 50 call_list against actual call activity: every one of the 50 shows calls_made 0 and last_call null, then traced the pipeline's called=8 total into the leads array to see which businesses those calls actually hit.
 - 2026-08-19 read outside the building: When a cold call to an Australian small business owner's mobile goes unanswered, do they actually check the voicemail, or is leaving one a wasted 20 seconds: 81 percent of calls from unknown numbers go to voicemail rather than being answered, but 67 percent of people still check a voicemail left by
 - 2026-08-18 worked a shift: Checked the 50-name call queue against the no-website-first ordering rule and against the CEO's ask about unconfirmed sites: ordering is fine (49 of 50 are no_site rank-3 leads, correctly outranked only by one clicked lead with a 95 buy_score), but every record also carries queue_total 365, so the v
 - 2026-08-18 read outside the building: What time of day gets the highest answer rate when cold calling small business owners like tradies, beauty and food operators: US sales-call data across several 2026 studies converge on the same window: best connect rates are 9 to 10am and 3 to 4pm, Tuesday through Thursday. Calls made 12 to 2pm see
@@ -77,8 +78,7 @@ Where it stands right now.
 - 2026-08-13 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-13 answered you: Emailed 15, Replied 0, Called 0, Won 0. No replies from any email yet: Either the message is not landing or the leads are wrong. Campaigns shows which niche is
 - 2026-08-13 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
-- 2026-08-13 answered you: chasing sooner: 14 silent days down to 11. nothing is stalled past that yet.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T04:18:45. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T04:53:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # CDO
 
-What this desk believes about its department, as of 2026-08-18. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-19. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cdo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.96 on 2026-08-18 (flat, 1 days)
+**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.96 on 2026-08-19 (flat, 2 days)
 
 ## UNKNOWN leads: no confirmed route to the call list
 
@@ -20,6 +20,14 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 Two consecutive shifts of call list sampling show zero unknown-bucket rows. This is now a repeated pattern, not a single small sample. I still cannot confirm the cause from data alone, this needs someone to check the actual call list build query for whether it filters to NO_SITE only. Escalating to COO this shift.
 
 > Evidence: 50-row call_list sample (of 365 queued) has bucket values clicked and no_site only, zero unknown, same result as the prior shift's 50-row sample.
+
+## Public AU business registers do not carry contact data
+
+*working, revised 1 time, learned 2026-08-18 from research.*
+
+Widen this belief: it is not just ABR that cannot confirm a missing website, OSM cannot either. A blank OSM website tag is known to mean 'nobody has entered this yet' as often as it means 'no website exists.' Do not treat an OSM-sourced NO_SITE verdict as fully confirmed unless the bot also does an independent live check (search or crawl) before emailing 'we could not find a website for you.' Worth a direct question to whoever owns the site-check step: does NO_SITE for osm-sourced leads rely on the OSM tag alone, or is it cross-checked. If it is tag-alone, that is a live source of false verdic
+
+> Evidence: SafeGraph benchmark: OSM fill rate 39.8%, quote on undocumented blank fields. safegraph.com/blog/comparing-safegraph-and-openstreetmap, checked 2026-08-19. Cross-checked against our own data: call_list sample of 50 and leads sample both show source osm with status_detail 'no website listed' as the dominant pattern. [read outside, SafeGraph, 'SafeGraph vs OpenStreetMap: The Hidden Cost of Free POI 
 
 ## No timer means the three hour rule is currently unmeasured
 
@@ -44,14 +52,6 @@ Keep lead and job data in the pipeline app only. If a spreadsheet, note, or seco
 Treat this as the standing top risk to the data itself. Any report on backups, git pushes, or database dumps for the pipeline app is worth surfacing immediately, since a lost machine means a lost database.
 
 > Evidence: Section 8: the business runs on one Jamf managed MacBook owned by a school, which can be locked or wiped, losing the lead database and the bot with it.
-
-## Public AU business registers do not carry contact data
-
-*tried, revised 0 times, learned 2026-08-18 from research.*
-
-Do not spend any bot or dev time trying to enrich leads (email, phone, or a website URL) from ABN Lookup or the ABR. It is a free, legitimate, government source but it only confirms a business is real and where it is registered, at state and postcode level. It cannot touch the 452 UNKNOWN leads or the 3017 phone-but-no-email leads. If we want more contact data, OSM and the existing scrape are still the only levers, or CMO widening the search grid.
-
-> Evidence: ABR web service response fields are entity name, ABN status, ACN, entity type, GST registration, business locations, business names, effective dates, no phone/email/website field. abr.business.gov.au/Documentation/WebServiceResponse, checked 2026-08-18 [read outside, abr.business.gov.au/Documentation/WebServiceResponse and abr.business.gov.au/Tools/WebServices, checked 2026-08-18]
 
 ## What it used to believe
 

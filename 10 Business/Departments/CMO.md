@@ -7,19 +7,27 @@ tags: [memory, departments]
 
 # CMO
 
-What this desk believes about its department, as of 2026-08-18. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-19. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cmo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.4 on 2026-08-18 (flat, 1 days)
+**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.4 on 2026-08-19 (flat, 2 days)
 
 ## Food niche has real inventory but is not counted as live
 
-*working, revised 1 time, learned 2026-08-18 from shift.*
+*working, revised 2 times, learned 2026-08-18 from shift.*
 
-Resolved: the CMO tile now shows 4 live niches (trades, food, beauty, pro), matching ready_by_niche exactly, so food was a stale count last time, not an off-books niche. New finding to act on: the ready pool is badly skewed, beauty 101 and trades 48 make up 88% of the 169 ready leads, food 11 and pro 9 combined are only 12%. If sweep time is split evenly across the 4 niches, food and pro are underperforming per hour swept; if it is not split evenly, this is expected. Worth confirming with CDO whether food and pro simply have fewer OSM-listed businesses nationwide or whether the sweep needs reb
+Stop treating the niches-live and areas-live tiles as ground truth. This shift they read back to 1 niche (food) and 1 of 403 areas, directly contradicting last shift's confirmed 4-niche read, with no config change recorded and identical ready_by_niche data underneath both readings. Cross-check these two tiles against ready_by_niche and the actual area spread in leads/call_list every time before advising on sweep coverage, the same way the CCO's 78-checks tile is already flagged as unreliable.
 
-> Evidence: business.roles.cmo tiles: 'Niches live 4, trades, food, beauty, pro'. business.totals.ready_by_niche: beauty 101, trades 48, food 11, pro 9, total 169.
+> Evidence: business.roles.cmo tiles this shift: Areas live 1 of 403, Niches live 1 (food). Last shift's logged evidence: same tile read Niches live 4 (trades, food, beauty, pro). business.totals.ready_by_niche unchanged in both: beauty 101, trades 48, food 11, pro 9.
+
+## A reply rate this low points at deliverability, not the message
+
+*working, revised 1 time, learned 2026-08-18 from research.*
+
+Add open-rate tracking (a tracking pixel, which most sending tools already support) before the CRO touches copy again. Reply rate alone cannot tell you if mail is landing in spam or landing and being ignored. Once opens are visible, compare against 35 to 40% as the local-services benchmark; if opens are far below that, it is spam placement and stays with COO and CCO to fix the sending setup; if opens are near benchmark but replies stay near zero, it is a message problem and belongs with CRO.
+
+> Evidence: Cleverly.co, 16 Apr 2026 (mod. 28 Jul 2026): real estate/local services cold email averages 35-40% open, 48%+ is good, 5-7% reply. This business currently tracks sent, replied and clicks only, no opens, so there is no way to tell the two failure modes apart. [read outside, cleverly.co, 'Cold Email Benchmarks by Industry', published 16 Apr 2026, modified 28 Jul 2026]
 
 ## GBP beats organic SEO for this business, act accordingly
 
@@ -68,13 +76,5 @@ Push the CRO to hold the mockup back for email two, not give it away in the firs
 Keep an eye on whether any Discord or forum activity for the business drifts from answering real questions into posting promo or building a following. The line is activity type, not platform.
 
 > Evidence: Section 7: 48% of AI citations trace to community platforms, Reddit alone 21 to 24% of AI Overview citations, but the brief draws a hard line between answering questions and content creation.
-
-## A reply rate this low points at deliverability, not the message
-
-*tried, revised 0 times, learned 2026-08-18 from research.*
-
-Before CRO rewrites subject lines or copy, confirm with COO and CCO what account sends the mail: is it an authenticated custom domain on Google Workspace with SPF, DKIM and DMARC set up, was it warmed up gradually before running near the daily cap, and is the spam complaint rate being tracked. A 1.4% reply rate is below even the worst published industry floor, which is a stronger signal of spam-folder placement than of weak targeting or weak copy.
-
-> Evidence: 143 sent, 2 replies = 1.4%, against a 2026 platform average of 3.43% and a worst-sector floor of 1.5 to 3.5% (Apollo.io, Instantly.ai). Safe volume is roughly 100/day per warmed inbox on an authenticated custom domain, not free Gmail (Woodpecker.co, Smartlead.ai, 2026). [read outside, Apollo.io, 'What's a Good Cold Email Reply Rate in 2026' and Instantly.ai cold email reply rate benchmarks (both 2
 
 Back to [[Memory]].
