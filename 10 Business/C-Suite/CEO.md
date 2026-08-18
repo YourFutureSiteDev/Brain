@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T08:05:54
+updated: 2026-08-19T08:38:05
 role: "ceo"
 ---
 
@@ -19,11 +19,11 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Won | **$0** | 0 paid |
-| In play | **$74,186** | 136 live |
+| In play | **$111,186** | 136 live |
 | Emailed | **143** | all time |
 | Replies | **2** | 1.4% |
 | To call | **50** | queued now |
-| Leads known | **22287** | researched |
+| Leads known | **22325** | researched |
 
 ## Needs a decision
 
@@ -76,4 +76,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T08:05:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T08:38:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -29,6 +29,14 @@ Add to the cold-open script for the 47 no-email leads: write a 20 to 25 second v
 
 > Evidence: Aussie AI Agency 2026: 81% of unknown-number calls go to voicemail, 67% of those voicemails get checked, voicemail-to-conversation conversion 4-11% for Australian small business [read outside, Aussie AI Agency, 'Missed Call Statistics Australia 2026' (aussieaiagency.com.au), cross-checked against CloudTalk 'Cold Calling Statistics 2026' and Scrap.io 'Cold Calling Success Rate in 2026: 200K+ Calls 
 
+## Calls made are not landing on the priority queue
+
+*working, revised 1 time, learned 2026-08-19 from shift.*
+
+This is now a two day flatline, not a one time snapshot. Whatever calling is happening (called=8 total, unchanged) is not writing back to call_list, and the 50 queued leads show zero contact activity across both readings. The fix is not more checking from this desk, it is the outcome-logging tool Byron already asked for. Keep flagging this until that exists.
+
+> Evidence: CRO fortnight number: calls waiting 50 on 2026-08-18 to 50 on 2026-08-19, flat. pipeline.called=8 both readings. All 50 call_list entries: calls_made 0, last_call null, both days.
+
 ## The pipeline is not a lead count, it is a dial count
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -68,14 +76,6 @@ Before running any call block, confirm which niche the leads actually came from 
 Do not treat working through the visible 50 as clearing the queue. Keep working it top to bottom by buy_score, because the ranking is doing its job: the one entry that is not a no_site rank-3 lead (Damien Seton Mechanical, bucket=clicked, buy_score 95, opened the demo) correctly sits above the 49 no_site leads whose buy_score tops out at 78. Once these 50 are called, there are another 315 buy-ready leads waiting behind them.
 
 > Evidence: Every call_list record shows queue_total: 365 against queue_shown: 50; buy_score ordering places the single clicked lead (95) ahead of all 49 no_site leads (74-78).
-
-## Calls made are not landing on the priority queue
-
-*tried, revised 0 times, learned 2026-08-19 from shift.*
-
-The 2 leads confirmed called in the leads data (The Corner Pantry, Windsor NSW and Tamworth Chainsaw & Mower Centre) do not appear anywhere in the top 50 buy_score ranked call_list, and all 50 of those queued leads still show calls_made 0 and last_call null. Whoever is calling is not working from the ranked queue. Until outcomes get logged against queue records, buy_score ranking cannot reflect real contact history and effort keeps landing off the highest value leads.
-
-> Evidence: call_list (50 entries, all calls_made:0, last_call:null) vs leads array showing stage=called only for the-corner-pantry-windsor-nsw and tamworth-chainsaw-mower-centre-tamworth-nsw, neither present in call_list; pipeline.called=8 total across the whole business.
 
 ## What it used to believe
 
