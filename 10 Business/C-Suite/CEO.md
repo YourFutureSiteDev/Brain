@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T09:09:59
+updated: 2026-08-19T09:33:46
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **143** | all time |
 | Replies | **2** | 1.4% |
 | To call | **50** | queued now |
-| Leads known | **22393** | researched |
+| Leads known | **22399** | researched |
 
 ## Needs a decision
 
@@ -31,49 +31,52 @@ Where it stands right now.
 
 ## Learned
 
+- 2026-08-19 UNKNOWN status leads never route to call list or get emailed, stuck at stage found. Confirmed three shifts running. This is a call list query bug, not a data quality gap, and needs Claude/code, not a desk lever. COO checked this shift per Byron, no fix reported yet.
+- 2026-08-19 CMO areas live and niches live tiles reading wrong is the same dashboard bug shape as CCO checks-passing, third time this pattern has been logged. Needs a code fix, not a desk lever, since ready_by_niche data underneath is fine.
+- 2026-08-19 CMO areas live and niches live tiles are unreliable, same shape of bug as the CCO checks-passing tile. Niches live showed 2 while ready_by_niche had live data for 4 niches (pro, beauty, trades, food) with no logged config change. Treat ready_by_niche as the trustworthy source until the tile is fixed. This is a code fix, not a desk lever.
 - 2026-08-18 CMO's sweep is area based (osm:<suburb>) per niche, not trade-keyword based. Requests like 'add concreters as a search term' don't map to a real lever, that trade is already covered under trades niche once the bot runs. Frame future asks about sub-trade coverage this way.
 
 ## Decided
 
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> CRO owns the call queue ordering, so I've sent this to them. The fix is queue discipline: the top of call_list by buy_sc
+- 2026-08-19 CRO tasked with enforcing ranked top to bottom order on the call queue. Actual calling stays with Byron. Next call should be Damien Seton Mechanical, 0404 977 607.
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> Three from the handover list, quick rundown. CMO tile bug: same read as before, this is a dashboard code problem not a
+- 2026-08-19 CRO instructed to work call_list top to bottom by buy_score going forward, not ad hoc. Actual dialing stays with Byron.
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> Two tasks. First, CMO tiles: this is the same dashboard bug already flagged against CCO's checks-passing tile, areas liv
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CMO] CMO sweep tiles (niches liv -> This one is a dashboard bug, not a sweep change. Ready_by_niche still shows live data for 4 niches, pro 8, beauty 60, tr
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> handed to CFO
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> handed to CMO
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CMO] CMO sweep tiles (niches liv -> handed to CMO
 - 2026-08-19 asked: and change the 1,500 to 1,000 dollars -> CFO flagged the remake price is already sitting at $3, so that instruction was already current, nothing to redo there. N
 - 2026-08-19 New website price moved from $1500 to $1000 AUD, per Byron on 2026-08-19. Remake price confirmed still at $3.
 - 2026-08-19 asked: and change the 1,500 to 1,000 dollars -> I could not place this with a desk.
-- 2026-08-19 asked: $3 -> Confirmed. Website remake goes from $3 to $500, new website stays at $1500. Sent to CFO to make the change. Worth knowin
-- 2026-08-19 Website remake price changed from $3 to $500 AUD on 2026-08-19, per Byron. New website price unchanged at $1500.
-- 2026-08-19 asked: $3 -> handed to CFO
-- 2026-08-19 asked: update the price from dollars to 500 -> Price is the CFO's lever, not mine to set directly. But your instruction is ambiguous, there are two live prices: websit
-- 2026-08-18 asked: start the bot again -> Bot is COO's lever, not mine to pull directly, but this is unambiguous so I've sent it straight to COO to start it now.
-- 2026-08-18 asked: start the bot again -> handed to COO
-- 2026-08-18 asked: ok repoer back in 5 mins to tell me how many the CMO has found -> Checked back and the honest number is zero. Not because of the concreters change, but because the bot has been stopped t
-- 2026-08-18 asked: ok repoer back in 5 mins to tell me how many the CMO has found -> I could not place this with a desk.
-- 2026-08-18 asked: can you add concreters to that list somehow and bulding comapies and landscapers? -> That's CMO's call, which sub trades the bot searches for. Trades right now is mostly auto repair and plumbing because th
 
 ## Noticed
 
+- 2026-08-19 8 calls made so far went to leads outside the top 50 ranked call_list (Windsor NSW, Tamworth chainsaw shop) instead of top buy_score leads like Damien Seton Mechanical (95, Dubbo, already opened demo). Queue was not being worked top to bottom.
+- 2026-08-19 CMO tile bug (areas live, niches live) confirmed same shape as CCO checks-passing tile bug. Both are dashboard read issues, not fixable by any desk lever. Needs Claude to check the query behind these tiles.
+- 2026-08-19 CRO's first 8 calls were made outside the ranked call_list top 50, missing top buy_score leads like Damien Seton Mechanical (95). Sent CRO the instruction to work the list top down from here.
 - 2026-08-19 Read outside on what reply rate should a small cold email business expect, and does targeting size change it (B2B cold email benchmarks 2026): Industry benchmark for 2026 puts typical B2B cold email reply rates at 1 to 3 percent, with 4 to 8 percent being strong. Our 2 replies from 143 emails (1.4 percent) sits at the low end of average, not a broken campaign. The sharper number: campaigns sent to under 50 recipients at a time average a 5.8 percent reply rate versus 2.1 percent for large blasts, because the list is tighter to one audience. (source: Puzzle Inbox, 'Cold Email Reply Rate Benchmarks 2026: B2B / SaaS / Agency', and Martal, 'B2B Cold Email Statistics 2026: Benchmarks & What Works Now', both accessed 19 Aug 2026)
 - 2026-08-18 Read outside on what regional Australian freelancers and small agencies actually charge for a small business website in 2026: Market floor is well above our prices. Local Australian freelancers run $1,500 to $2,500 and up per project, small agencies start at $3,000 to $7,000, and small business websites average $5,000 to $10,000. Even the cheapest local freelancer segment sits at $500 to $2,000 for a basic build. We charge $500 for a remake and $1,000 for a new build, below even the bottom of the freelancer range. (source: Rockingweb 'Website Costs Australia 2026' and Spark Interact 'Web Designers Cost: Australia Pricing (2026 Guide)', both accessed 18 Aug 2026)
 - 2026-08-18 Byron asked to start the bot again on 2026-08-18, following up on the concreters/builders/landscapers request. Bot was stopped at 11:50 that day.
 - 2026-08-18 2026-08-18: bot_running was false through this whole exchange. Zero new leads found in the 5 minutes Byron asked about, purely because the bot was off, unrelated to the concreters/landscapers search term question.
 - 2026-08-18 Trades niche sample (50 of 364 queued) skews heavily to auto/mechanical repair, then plumbing, then a long tail of builders, carpenters, electricians, HVAC, appliance repair, pool builders, cabinet makers, welders.
-- 2026-08-18 CMO dashboard claims 3 niches live (trades, beauty, pro) but data shows a 4th, food, with 11 ready leads and at least one food lead in the pipeline. Discrepancy sent to CMO to reconcile on 2026-08-18.
-- 2026-08-18 Messenger auto-reply bot is built and tested (14 Aug 2026, 40 checks plus live signed request) but blocked on Byron creating a Meta app, connecting the Page, and supplying four credential values (fb_page_token, fb_app_secret, fb_verify_token, fb_page_id) plus setting the webhook. This is not a desk lever, it needs Byron then a coding session to install on the box.
-- 2026-08-16 Standing contract, set 16 Aug 2026: from the Manager's other half. Delivers: one source of truth, and a decision about whose job a thing is. Steps: read, route, say who got it and why, remember. Ratio: notes picked up from the vault against notes that reached a desk with a lever for them, 1 against 0 on 15 August. Now: no lever anywhere for prose.
 
 ## Recently did
 
-- 2026-08-19 answered you: CFO flagged the remake price is already sitting at $3, so that instruction was already current, nothing to redo there. Now sending the new build price down from
-- 2026-08-19 handed a job to CFO: Update the new website price from $1,500 to $1,000. Confirm the change and report back the new break-even math at that price.
-- 2026-08-19 answered you: I could not place this with a desk.
-- 2026-08-19 answered you: Confirmed. Website remake goes from $3 to $500, new website stays at $1500. Sent to CFO to make the change. Worth knowing though: at $500 a remake, break even d
-- 2026-08-19 handed a job to CFO: Update website remake price from $3 to $500 AUD. New website price stays at $1500. Recalculate break even and margin tiles.
+- 2026-08-19 answered you: CRO owns the call queue ordering, so I've sent this to them. The fix is queue discipline: the top of call_list by buy_score is Damien Seton Mechanical in Dubbo,
+- 2026-08-19 handed a job to CRO: Enforce that the call queue is worked strictly top to bottom by buy_score, not by whatever lead happens to surface. Confirm the ranked order
+- 2026-08-19 answered you: Three from the handover list, quick rundown. CMO tile bug: same read as before, this is a dashboard code problem not a CMO lever. Areas live and niches live fl
+- 2026-08-19 handed a job to CRO: Work the call_list in buy_score order, top to bottom, not wherever a lead surfaces. Top of list right now: Damien Seton Mechanical, Dubbo NS
+- 2026-08-19 answered you: Two tasks. First, CMO tiles: this is the same dashboard bug already flagged against CCO's checks-passing tile, areas live and niches live are reading wrong whil
+- 2026-08-19 handed a job to CRO: Reorder how the call queue is worked: pull from call_list top to bottom by buy_score, not ad hoc. Damien Seton Mechanical (Dubbo, score 95,
 - 2026-08-19 answered you: handed to CFO
-- 2026-08-19 answered you: Price is the CFO's lever, not mine to set directly. But your instruction is ambiguous, there are two live prices: website remake at $3 and new website at $1500.
-- 2026-08-19 worked a shift: Compared today's snapshot to the last shift's numbers: emailed 143, called 8, 50 queued, and replies flat at 2 are all unchanged, but daily_cap has moved from 8 to 1 and sent_today is 0, so I checked what that does to the backlog.
-- 2026-08-19 read outside the building: what reply rate should a small cold email business expect, and does targeting size change it (B2B cold email benchmarks 2026): Industry benchmark for 2026 puts typical B2B cold email reply rates at 1 to 3 percent, with 4 to 8 percent being strong. Our 2 replies from 143 emails (1.4 percent) sits at
-- 2026-08-18 worked a shift: Checked today's live tiles against standing lessons: emailed 143 / called 8 / 50 queued are unchanged from the last shift, and replies are flat at 2 to 2 over one day, so nothing new there. Found one real discrepancy in today's numbers: daily_cap is set to 8 but sent_today is 49, a 6x overshoot.
-- 2026-08-18 worked a shift: Reviewed pipeline health and calling backlog: 143 emailed all time but only 8 leads ever called, while 50 follow up calls are queued now including a top scored lead who already opened the demo.
-- 2026-08-18 read outside the building: what regional Australian freelancers and small agencies actually charge for a small business website in 2026: Market floor is well above our prices. Local Australian freelancers run $1,500 to $2,500 and up per project, small agencies start at $3,000 to $7,000, and small business websites average $5,
+- 2026-08-19 answered you: handed to CMO
+- 2026-08-19 answered you: This one is a dashboard bug, not a sweep change. Ready_by_niche still shows live data for 4 niches, pro 8, beauty 60, trades 31, food 11, but the CMO tile says
+- 2026-08-19 handed a job to CMO: Do not act on the areas live or niches live tiles until they are fixed, they are known unreliable. Confirm from the actual sweep config, not
+- 2026-08-19 answered you: handed to CFO
+- 2026-08-19 answered you: handed to CMO
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:09:59. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:33:46. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

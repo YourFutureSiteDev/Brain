@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T09:10:00
+updated: 2026-08-19T09:33:46
 role: "cro"
 ---
 
@@ -29,6 +29,9 @@ Where it stands right now.
 
 ## Carrying for Byron
 
+- 2026-08-19 Enforce that the call queue is worked strictly top to bottom by buy_score, not by whatever lead happens to surface. Confirm the ranked order Damien Seton Mechanical (95) then GP Mechanical Nambour (78) then Whitten's Plumbing Warragul (78) is what gets presented next, and flag if anything in the call flow lets a lead outside the top 50 jump the queue. *(working)*
+- 2026-08-19 Work the call_list in buy_score order, top to bottom, not wherever a lead surfaces. Top of list right now: Damien Seton Mechanical, Dubbo NSW, score 95, already opened the demo. Then GP Mechanical Repairs (Nambour QLD, 78) and Whitten's Plumbing (Warragul VIC, 78). Flag it if the queue view isn't sorted by buy_score by default, that would explain why the last 8 calls went to Windsor and Tamworth instead of the top of the list. *(working)*
+- 2026-08-19 Reorder how the call queue is worked: pull from call_list top to bottom by buy_score, not ad hoc. Damien Seton Mechanical (Dubbo, score 95, already opened the demo) goes first, then the 77 to 78 scored trades and beauty leads below it. The two calls already made outside this order (Windsor NSW, Tamworth chainsaw shop) stay logged as made, just don't keep pulling from outside the ranked 50. *(working)*
 - 2026-08-17 From the vault, The CRO now has its own specialists: You have specialists now. 14 of them, in sales (9), product (5), sitting in `~/.claude/agents` on this box. They came from [[The agency agents roster]], which is where the full list and the other desks' shares are. Yours, and what each is for: - `sales-pipeline-analyst` - where deals die, by stage - `sales-outbound-strategist` - the outbound motion itself - `sales-discovery-coach` - the call after the mockup lands - `sales-deal-strategist` - one deal, worked properly - `sales-proposal-strategist` - the quote that follows a yes - `sales-offer-lead-gen-strategist` - what the offer should be - `sales-account-strategist` - the accounts worth keeping - `sales-coach` - how the calls are being run - `sales-engineer` - the technical half of a sale - `sales-outreach` - first contact, written - `sales-data-extraction-agent` - pulling structure out of a prospect's own site - `product-behavioral-nudge-engine` - the behavioural science of why people drop off - `product-feedback-synthesizer` - what the replies are actually saying - `customer-success-manager` - keeping the ones who bought Fifty follow-up calls are queued and no email has been replied to yet. `sales-pipeline-analyst` and `product- *(working)*
 - 2026-08-13 Set up a fast way for Byron to log call outcome (answered, no answer, not interested, call back, quoted, won) against each lead right after he calls, so conversion by niche and area becomes visible instead of guessed. *(working)*
 - 2026-08-13 Keep the call queue ordered with no-website (rank 3, no_site bucket) leads first. They're the top-priority calls and currently fill 11 of the 14 slots. *(working)*
@@ -48,6 +51,9 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-19 asked: Enforce that the call queue is worked strictly top to bottom by buy_score, not by whatever -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
+- 2026-08-19 asked: Work the call_list in buy_score order, top to bottom, not wherever a lead surfaces. Top of -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
+- 2026-08-19 asked: Reorder how the call queue is worked: pull from call_list top to bottom by buy_score, not -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-17 asked: From the vault, The CRO now has its own specialists: You have specialists now. 14 of them, -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-15 asked: From the vault, Every desk should be able to say what it delivers: I have kept a note in t -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-13 asked: make sure the sites that cant be confirmed are still being sent emails or added to the cal -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
@@ -66,6 +72,9 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
+- 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
+- 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-19 worked a shift: Checked whether the follow-up queue moved since the last reading: it has not. Pipeline.called is still 8 and every one of the 50 queued leads still shows calls_made 0 and last_call null, so I converted that into a task since it needs an actual tool built, not another read of the same numbers.
 - 2026-08-19 worked a shift: Cross checked the top 50 call_list against actual call activity: every one of the 50 shows calls_made 0 and last_call null, then traced the pipeline's called=8 total into the leads array to see which businesses those calls actually hit.
 - 2026-08-19 read outside the building: When a cold call to an Australian small business owner's mobile goes unanswered, do they actually check the voicemail, or is leaving one a wasted 20 seconds: 81 percent of calls from unknown numbers go to voicemail rather than being answered, but 67 percent of people still check a voicemail left by
@@ -75,10 +84,7 @@ Where it stands right now.
 - 2026-08-17 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-17 picked up a note from the vault: The CRO now has its own specialists
 - 2026-08-15 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
-- 2026-08-15 picked up a note from the vault: Every desk should be able to say what it delivers
-- 2026-08-13 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
-- 2026-08-13 answered you: Emailed 15, Replied 0, Called 0, Won 0. No replies from any email yet: Either the message is not landing or the leads are wrong. Campaigns shows which niche is
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:10:00. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:33:46. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

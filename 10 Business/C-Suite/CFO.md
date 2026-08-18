@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T09:09:59
+updated: 2026-08-19T09:33:46
 role: "cfo"
 ---
 
@@ -31,6 +31,8 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> the remake price is already $22,393
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> remake price $1,500 -> $22,393. Every email and payment link built from here uses the new number.
 - 2026-08-19 asked: Update the new website price from $1,500 to $1,000. Confirm the change and report back the -> remake price $3 -> $1,500. Every email and payment link built from here uses the new number.
 - 2026-08-19 asked: $3 -> the remake price is already $3
 - 2026-08-19 asked: Update website remake price from $3 to $500 AUD. New website price stays at $1500. Recalcu -> the remake price is already $3
@@ -46,6 +48,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 answered you: the remake price is already $22,393
+- 2026-08-19 answered you: remake price $1,500 -> $22,393. Every email and payment link built from here uses the new number.
 - 2026-08-19 answered you: remake price $3 -> $1,500. Every email and payment link built from here uses the new number.
 - 2026-08-19 answered you: the remake price is already $3
 - 2026-08-19 answered you: the remake price is already $3
@@ -56,9 +60,7 @@ Where it stands right now.
 - 2026-08-18 worked a shift: Checked the live numbers against my open beliefs: banked is still $0, 0 jobs won, monthly costs and break-even unchanged at $162 and 1 job. 143 emailed all time with 2 replies and 0 calls converted to a paid job, so there is still no real hours-per-job data to test the $500 remake margin against. No
 - 2026-08-18 read outside the building: What do local (not offshore) web designers and small agencies actually charge for a small business website in Australia right now, to check our $500 remake / $1,000 newbuild prices against the real lo: Local Australian freelancers charge $1,500 to $2,500+ for a small business site, small agencies st
 - 2026-08-18 read outside the building: What do website care/maintenance plans actually sell for per month in Australia right now, entry level and up: Entry level basic care plans in Australia run $90 to $180 a month for a brochure site with monthly updates, backups and minor edits. Standard plans run $180 to $380. Even the cheapest flat-
-- 2026-08-17 answered you: remake price $500 -> $9. Every email and payment link built from here uses the new number.
-- 2026-08-17 picked up a note from the vault: The CFO now has its own specialists
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:09:59. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:33:46. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

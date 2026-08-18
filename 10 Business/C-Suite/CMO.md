@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T09:10:00
+updated: 2026-08-19T09:33:46
 role: "cmo"
 ---
 
@@ -19,8 +19,8 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Areas live | **1** | of 403 listed |
-| Niches live | **1** | food |
-| Search grid | **12** | searches per sweep |
+| Niches live | **2** | trades, food |
+| Search grid | **53** | searches per sweep |
 
 ## Needs a decision
 
@@ -42,6 +42,10 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> already set that way: only Dubbo NSW, Tamworth NSW, Windsor NSW, Eden NSW is open
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> everything is now on Dubbo NSW, Tamworth NSW, Windsor NSW, Eden NSW, and 0 other areas are paused. It takes effect next
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CMO] CMO sweep tiles (niches liv -> everything is now on Eden NSW, and 1 other areas are paused. It takes effect next cycle.
+- 2026-08-19 asked: Do not act on the areas live or niches live tiles until they are fixed, they are known unr -> Areas live 1, Niches live 2, Search grid 53. Page one is the wrong place to look: Businesses ranking for a competitive t
 - 2026-08-19 asked: [from CDO, on shift] Trades niche in the call list sample skews heavily automotive, 11 of -> opened the trades niche. It takes effect on the next cycle.
 - 2026-08-18 asked: Byron wants three more trade types worked: concreters, building companies, and landscapers -> already set that way, so nothing changed: trades, food
 - 2026-08-18 asked: lets dig deep into trades what sort of business have you found? -> Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competit
@@ -50,10 +54,6 @@ Where it stands right now.
 - 2026-08-17 asked: From the vault, The CMO now has its own specialists: You have specialists now. 15 of them, -> an area now gets 15 emails before it is given up on
 - 2026-08-13 asked: how come we increase the client sales -> Areas live 60, Niches live 4, Search grid 5220. Page one is the wrong place to look: Businesses ranking for a competitiv
 - 2026-08-13 asked: what's the rate of the leads coming in -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
-- 2026-08-13 asked: focus on business without a website -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
-- 2026-08-13 asked: Keep search sourcing weighted toward no-website leads specifically (status NO_SITE), not j -> opened 11 more areas: Cooma NSW, Parkes NSW, Cowra NSW, Mudgee NSW, Inverell NSW, Swan Hill VIC, Colac VIC, Echuca VIC,
-- 2026-08-13 asked: In one line: how many leads do we have and how many are waiting on a call? -> Areas live 49, Niches live 4, Search grid 4263. Page one is the wrong place to look: Businesses ranking for a competitiv
-- 2026-08-12 asked: make sure you are getting leads from all over the country not just sydney -> Noted and standing. I cannot do this directly - what I control is: turn an area or a niche on or off; change how many em
 
 ## Noticed
 
@@ -68,6 +68,10 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 answered you: already set that way: only Dubbo NSW, Tamworth NSW, Windsor NSW, Eden NSW is open
+- 2026-08-19 answered you: everything is now on Dubbo NSW, Tamworth NSW, Windsor NSW, Eden NSW, and 0 other areas are paused. It takes effect next cycle.
+- 2026-08-19 answered you: everything is now on Eden NSW, and 1 other areas are paused. It takes effect next cycle.
+- 2026-08-19 answered you: Areas live 1, Niches live 2, Search grid 53. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a website.
 - 2026-08-19 answered you: opened the trades niche. It takes effect on the next cycle.
 - 2026-08-19 worked a shift: Cross-checked this shift's niches-live tile (reads back to 1, food only) against the actual call_list contents: none of the 50 queued leads are food niche, all are trades or beauty, which directly contradicts the tile rather than just disagreeing with last shift's reading of 4 niches live.
 - 2026-08-19 worked a shift: Compared this shift's CMO tiles against last shift's confirmed reading: last shift I verified niches live at 4 (trades, food, beauty, pro) matching ready_by_niche exactly, but this shift's live tile reads back to niches live 1 (food) and areas live 1 of 403, while ready_by_niche still shows all 4 ni
@@ -76,11 +80,7 @@ Where it stands right now.
 - 2026-08-18 read outside the building: How does our 1.4% cold email reply rate compare to 2026 benchmarks, and could the machine's sending setup itself be the cause rather than the message?: 2026 benchmarks put a well-run B2B cold email campaign at 3 to 5% replies, with the platform-wide average at 3.43%. Even the weakest performing indu
 - 2026-08-18 answered you: already set that way, so nothing changed: trades, food
 - 2026-08-18 answered you: Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a webs
-- 2026-08-18 answered you: Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a webs
-- 2026-08-18 answered you: opened the food niche. It takes effect on the next cycle.
-- 2026-08-18 adjusted itself: judge an area after 100 emails
-- 2026-08-18 worked a shift: Checked the CEO's parked asks against today's data: geographic spread is genuinely nationwide (the top 50 in queue alone span NSW, VIC, QLD, WA and SA regional towns, zero Sydney), and the queue is overwhelmingly NO_SITE businesses as intended. Also found a mismatch: food shows 11 ready-to-send lead
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:10:00. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:33:46. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

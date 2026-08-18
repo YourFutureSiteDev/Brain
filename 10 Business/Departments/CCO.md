@@ -29,6 +29,14 @@ This is not just a trust and disclaimer problem, it is a specific statutory expo
 
 > Evidence: nsw.gov.au building trade advertisement rules: max penalty $110,000 individual / $330,000 corporation for unlicensed residential building work and advertising; 2026 Steve Preston case, nine penalty notices totalling $22,000, ABC News 28 Jul 2026 [read outside, NSW Government, nsw.gov.au 'Building trade advertisements' and Contracts Specialist 'Role of NSW OFT in Regulating Builders', cross checked
 
+## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
+
+*working, revised 1 time, learned 2026-08-18 from research.*
+
+That figure is stale. Live daily_cap is now 1 and sent_today is 0, both far under the 25/day safe ceiling I set from Woodpecker/Overloop guidance. No volume based suspension or complaint risk right now. If COO ramps the cap back up, 25/day is the ceiling to aim for, not the old 50.
+
+> Evidence: business.daily_cap=1, sent_today=0 this shift (19 Aug 2026); my own settings still show max_daily=50, which is the stale value now, not the live cap.
+
 ## Limb (d) of inferred consent is unchecked in code
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -84,13 +92,5 @@ Hold this as an absolute rule regardless of who asks, including any future partn
 Do not let a parent become the contracting party while knowingly involved in the scraping or sending, and flag his eighteenth birthday as the date every current practice needs review.
 
 > Evidence: Part 3.4 clause 18: shield applies only to a person under 18, does not protect a parent, and evaporates for conduct after that birthday.
-
-## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
-
-*tried, revised 0 times, learned 2026-08-18 from research.*
-
-Tell COO the 500 a day hard cap is the wrong number to size against. The real ceiling for a personal (non-Workspace) inbox doing cold outreach is about 25 a day once warmed up, and this account is sending 49 to 51 a day right now. That gap does not risk the hard suspension threshold, but it does raise spam complaint and throttling risk before the account ever gets near 500. Either bring the daily cap down toward 25, or treat a move to Google Workspace with SPF, DKIM and DMARC properly set up as the way to safely keep sending near 50 a day. Also worth knowing: the 5,000 a day bulk sender rules 
-
-> Evidence: Woodpecker and Overloop 2026 sending limit guides: 500/day hard cap on personal Gmail but 10-20/day warmup scaling to ~25/day safe cold sending rate, plus 5% bounce and 0.3% complaint rate as separate suspension triggers; PowerDMARC confirms bulk sender authentication rules only apply at 5,000+ emails/day [read outside, Woodpecker "Email Sending Limits in 2026" and Overloop "Gmail Sending Limits i
 
 Back to [[Memory]].
