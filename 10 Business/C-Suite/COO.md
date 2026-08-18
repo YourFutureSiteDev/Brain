@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T22:33:17
+updated: 2026-08-18T23:05:24
 role: "coo"
 ---
 
@@ -18,11 +18,11 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 264 cycles |
-| Last cycle | **22:02** | 2026-08-18 |
+| Bot | **running** | 265 cycles |
+| Last cycle | **22:33** | 2026-08-18 |
 | Leads | **22280** | 22280 checked |
 | Call list | **3021** | no email found |
-| Daily cap | **off** | 49 sent today |
+| Daily cap | **8** | 49 sent today |
 
 ## Needs a decision
 
@@ -56,6 +56,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-18 worked a shift: Re-checked the call list jam Byron and CDO have now asked about three times: pulled this shift's 50 call_list records and every single one is status NO_SITE with queue_total 365, exactly matching last shift's sample, zero UNKNOWN status leads present in either sample.
 - 2026-08-18 answered you: daily cap off -> 8.
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-18 worked a shift: Checked the machine health (255 cycles, last cycle 14:55 today, cap 51 with 50 sent, no blackout) then dug into the call list jam Byron flagged from CDO: every one of the 50 call_list records pulled this shift carries queue_total 365, but my own COO tile reports Call list as 3020 (leads with phone,
@@ -67,8 +68,7 @@ Where it stands right now.
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-18 answered you: daily cap 15 -> 51. That is above 50, so the Gmail account is now the thing at risk rather than the campaign.
-- 2026-08-17 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T22:33:17. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T23:05:24. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

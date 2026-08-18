@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T22:33:17
+updated: 2026-08-18T23:05:24
 role: "cco"
 ---
 
@@ -14,13 +14,13 @@ role: "cco"
 
 Where it stands right now.
 
-> 23 suppressed, 1 bounces, cap 0/day
+> 23 suppressed, 1 bounces, cap 8/day
 
 | | | |
 |---|---|---|
 | Suppressed | **23** | will never be mailed |
-| Sent today | **49** | cap off |
-| Checks passing | **7/8** | see below |
+| Sent today | **49** | cap 8 |
+| Checks passing | **8/8** | see below |
 
 ## Needs a decision
 
@@ -76,4 +76,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T22:33:17. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T23:05:24. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

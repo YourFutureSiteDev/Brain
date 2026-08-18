@@ -3,7 +3,7 @@ title: "C-Suite"
 source: yfs-console
 kind: index
 tags: [business, c-suite]
-updated: 2026-08-18T22:33:14
+updated: 2026-08-18T23:05:23
 ---
 
 
@@ -18,7 +18,7 @@ Seven roles running Your Future Site out of the console on the VPS. Each one rea
 | [[CRO]] | Where does the pipeline stall? | 50 in the call queue; chasing at 11 days |
 | [[CMO]] | Which areas and niches deserve the bot's time? | Which areas and niches deserve the bot's time? |
 | [[COO]] | Is the machine running, and where does it jam? | Is the machine running, and where does it jam? |
-| [[CCO]] | Can this get the Gmail account killed, or us sued? | 23 suppressed, 1 bounces, cap 0/day |
+| [[CCO]] | Can this get the Gmail account killed, or us sued? | 23 suppressed, 1 bounces, cap 8/day |
 | [[CDO]] | Is the data good enough to act on? | Is the data good enough to act on? |
 
 ## Open decisions
@@ -44,4 +44,4 @@ Seven roles running Your Future Site out of the console on the VPS. Each one rea
 
 ---
 
-Written by the Your Future Site console on the VPS, 2026-08-18T22:33:16. The daily record of what changed is in [[C-Suite/Log/2026-08-18|today's log]].
+Written by the Your Future Site console on the VPS, 2026-08-18T23:05:24. The daily record of what changed is in [[C-Suite/Log/2026-08-18|today's log]].
