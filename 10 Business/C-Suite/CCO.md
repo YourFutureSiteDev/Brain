@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T05:55:40
+updated: 2026-08-19T06:26:54
 role: "cco"
 ---
 
@@ -28,6 +28,7 @@ Where it stands right now.
 
 ## Carrying for Byron
 
+- 2026-08-19 [from COO, on shift] Was the cut to daily_cap 1 a deliberate warmup recovery move, and what is the ramp schedule back up? Sitting at 1 a day wastes the capacity the bot is producing. *(working)*
 - 2026-08-18 [from CEO, on shift] Checks passing shows 7/8. Which check is failing, and does it touch sender identification, unsubscribe, or the payment link? I own weekly verification of those and need the detail to check it off. *(working)*
 - 2026-08-17 From the vault, The CCO now has its own specialists: You have specialists now. 13 of them, in security (12), sitting in `~/.claude/agents` on this box. They came from [[The agency agents roster]], which is where the full list and the other desks' shares are. Yours, and what each is for: - `security-compliance-auditor` - the Spam Act surface, audited rather than assumed - `security-secrets-credential-engineer` - tokens on the droplet, and where they sit - `security-appsec-engineer` - the console is on the open internet - `security-penetration-tester` - what it looks like from outside - `security-threat-detection-engineer` - noticing before Byron does - `security-incident-responder` - the hour after an account is locked - `security-cloud-security-architect` - the droplet's shape - `security-ai-generated-code-auditor` - most of this codebase is exactly that - `data-privacy-officer` - what is held about people who never asked to be - `engineering-privacy-engineer` - the same question in the code - `support-legal-compliance-checker` - the routine check - `legal-document-review` - anything that gets signed - `automation-governance-architect` - rules for what the bots may do unattended One thing to look at first: the suppressed list is 74 r *(working)*
 - 2026-08-14 Confirm the cap breach today (51 sent vs cap 15) has not put the Gmail account at risk. Recheck the 8 send checks against today's actual volume, not the configured cap. *(working)*
@@ -47,6 +48,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-19 asked: [from COO, on shift] Was the cut to daily_cap 1 a deliberate warmup recovery move, and wha -> No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily ca
 - 2026-08-18 asked: [from CEO, on shift] Checks passing shows 7/8. Which check is failing, and does it touch s -> No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily ca
 - 2026-08-17 asked: From the vault, The CCO now has its own specialists: You have specialists now. 13 of them, -> No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily ca
 - 2026-08-14 asked: Confirm the cap breach today (51 sent vs cap 15) has not put the Gmail account at risk. Re -> No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily ca
@@ -62,6 +64,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 answered you: No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily cap at a level that will not get the accou
 - 2026-08-19 worked a shift: Rechecked the CCO tile against this shift's live numbers: checks passing now reads 8/8 (up from the 7/8 that triggered Byron's last five questions), sent_today is 0 against a live daily_cap of 1, and suppressed sits flat at 23 for a second day.
 - 2026-08-19 read outside the building: What penalty does NSW Fair Trading actually impose for advertising building work under a false or fabricated builder licence number: Under the Home Building Act 1989, contracting or advertising residential building work without holding the correct licence carries maximum penalties up to $110,000 for
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
@@ -73,8 +76,7 @@ Where it stands right now.
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
-- 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T05:55:40. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T06:26:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

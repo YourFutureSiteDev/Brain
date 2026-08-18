@@ -11,15 +11,15 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 37 on 2026-08-19 (up, 2 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 44 on 2026-08-19 (up, 2 days)
 
 ## The bot never pauses, everything else does
 
-*working, revised 1 time, learned 2026-08-18 from brief.*
+*working, revised 2 times, learned 2026-08-18 from brief.*
 
-Add a second failure mode alongside blackouts: an account that gets killed by its own sending pattern, not by a scheduled pause. Before trusting the current 51 daily cap, confirm with CCO whether this Gmail account went through a slow ramp or jumped straight to near-cap volume, since about a third of all mail ever sent from it went out in a single day. If there was no real ramp, the fix is to drop the daily cap back toward 20 to 30 for a couple of weeks and let it climb, because losing this account costs the same weeks of rebuilding that a bad blackout does, and this failure is self-inflicted 
+Daily cap is now 1, sent_today 0, which is the ramp-down this lesson called for after the account jumped straight to near-cap volume. But 1 a day is not a ramp, it is close to a freeze, and it leaves 279 cycles of machine capacity running with almost nothing sent. Confirm with CCO this was deliberate and get a real ramp schedule, 20 to 30 rising over two weeks, not stuck at 1.
 
-> Evidence: Deliverability guides recommend starting new senders at 5 to 10 emails a day, ramping by 5 to 10 a day over 2 to 4 weeks before reaching 50 to 100; this account shows sent_total 143 against sent_today 49, meaning most volume arrived in one day rather than a gradual climb. [read outside, Saleshandy 'Warmup Email Account' guide and Mailreach 'Gmail Warmup Guide 2026' (both retrieved 2026-08-18), cro
+> Evidence: daily_cap 1, sent_today 0, bot_running true, sending_on true, 279 cycles total, cycles today rose 30 to 44. Last known state two shifts ago was cap 51 with 50 sent.
 
 ## Real capacity is nine months a year, not twelve
 

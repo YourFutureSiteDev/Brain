@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T05:55:40
+updated: 2026-08-19T06:26:54
 role: "coo"
 ---
 
@@ -18,8 +18,8 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 278 cycles |
-| Last cycle | **05:24** | 2026-08-19 |
+| Bot | **running** | 279 cycles |
+| Last cycle | **05:55** | 2026-08-19 |
 | Leads | **22287** | 22287 checked |
 | Call list | **3023** | no email found |
 | Daily cap | **1** | 0 sent today |
@@ -59,6 +59,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Checked machine health: bot still running at 279 cycles, last cycle 05:55 today, cycles today up from 30 to 44. Biggest change is daily_cap now 1 with 0 sent today, down from the 51 cap and 50 sent recorded last shift. Also re-pulled this shift's 50 call_list records, same result as the last two shi
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-19 answered you: daily cap 8 -> 1.
 - 2026-08-19 read outside the building: What share of a solo freelancer's working hours are actually billable/buildable, versus admin, sales and coordination time that never shows up as build minutes: Multiple 2026 sources converge on 60 to 70 percent billable utilization for established solo freelancers. The Jobbers.io 2026 Freelance Ben
@@ -70,8 +71,7 @@ Where it stands right now.
 - 2026-08-18 answered you: bot started.
 - 2026-08-18 read outside the building: Is a Gmail account sending 49-51 cold emails a day safe, or does that volume/pattern risk suspension for a new sender running from a personal Gmail address?: Free/personal Gmail is described across deliverability guides as unsuited to cold outreach at any volume because it lacks the domain reputatio
 - 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
-- 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T05:55:40. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T06:26:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
