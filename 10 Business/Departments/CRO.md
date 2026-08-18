@@ -61,6 +61,14 @@ Only 3 of the 50 in today's call queue have actually received a mockup email (GP
 
 > Evidence: Counted stage across all 50 call_list entries: 3 stage=emailed (GP Mechanical sent 2026-08-18, Outback Barber sent 2026-08-14, Plush Diamond sent 2026-08-14), 47 stage=found with sent_at null and no email address.
 
+## The 50-call queue is the head of a 365-deep backlog, not the whole list
+
+*tried, revised 0 times, learned 2026-08-18 from shift.*
+
+Do not treat working through the visible 50 as clearing the queue. Keep working it top to bottom by buy_score, because the ranking is doing its job: the one entry that is not a no_site rank-3 lead (Damien Seton Mechanical, bucket=clicked, buy_score 95, opened the demo) correctly sits above the 49 no_site leads whose buy_score tops out at 78. Once these 50 are called, there are another 315 buy-ready leads waiting behind them.
+
+> Evidence: Every call_list record shows queue_total: 365 against queue_shown: 50; buy_score ordering places the single clicked lead (95) ahead of all 49 no_site leads (74-78).
+
 ## What it used to believe
 
 - **The written price has no monthly care number attached, the call has to introduce it fresh** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.
