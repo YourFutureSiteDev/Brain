@@ -53,6 +53,14 @@ Treat this as the standing top risk to the data itself. Any report on backups, g
 
 > Evidence: Section 8: the business runs on one Jamf managed MacBook owned by a school, which can be locked or wiped, losing the lead database and the bot with it.
 
+## Trades niche sample is automotive-heavy, not general trades
+
+*tried, revised 0 times, learned 2026-08-19 from shift.*
+
+In the 50-row call list sample, 22 rows are trades niche. Of those, 11 (half) are automotive: 9 mechanical repair (Damien Seton Mechanical, GP Mechanical Repairs & Maintenance, Bartlett Mechanical, Darren Parker Mechanical, Gippsland Vehicle Diagnostic Services, Mackintosh Mechanical, Pridham Mechanical, Headline Engine Reconditioning, Lees 4x4), 1 auto electrical (Seebers Auto Electrical), 1 auto body (Raglan Repair and Paint). Only 1 is plumbing, 1 carpentry, 2 building/contracting, plus one each of HVAC, cabinetry, appliance repair, welding, pools, firewood. This is a sample of 50 of 366 qu
+
+> Evidence: call_list sample: 22 of 50 rows niche trades, 11 of those 22 automotive-related by business name and stated why field. queue_total 366, queue_shown 50.
+
 ## What it used to believe
 
 - **Care Pro's margin depends on clients not using their hours** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.
