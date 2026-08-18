@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 ## UNKNOWN leads: no confirmed route to the call list
 
-*working, revised 1 time, learned 2026-08-18 from shift.*
+*working, revised 2 times, learned 2026-08-18 from shift.*
 
-Two consecutive shifts of call list sampling show zero unknown-bucket rows. This is now a repeated pattern, not a single small sample. I still cannot confirm the cause from data alone, this needs someone to check the actual call list build query for whether it filters to NO_SITE only. Escalating to COO this shift.
+Third shift running the same check, now with a named example not just a sample pattern. Hawkesbury & Nepean Plumbing is UNKNOWN status, stage 'found', not called, not emailed, sitting idle. Combined with two shifts of 50-row call list samples showing zero unknown-bucket rows, this is no longer a maybe. Someone needs to open the call list build query and confirm whether it filters to NO_SITE only, excluding UNKNOWN entirely. This is a query fix, not a lever any desk here can pull.
 
-> Evidence: 50-row call_list sample (of 365 queued) has bucket values clicked and no_site only, zero unknown, same result as the prior shift's 50-row sample.
+> Evidence: Hawkesbury & Nepean Plumbing, slug hawkesbury-nepean-plumbing-penrith-nsw, status UNKNOWN, stage found, phone blank, email blank, no last_call, no sent_at. Call list sample: 50 of 365 queued, bucket values clicked and no_site only, zero unknown, same result as prior two shifts.
 
 ## Public AU business registers do not carry contact data
 

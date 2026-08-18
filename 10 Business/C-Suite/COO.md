@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T04:53:11
+updated: 2026-08-19T05:24:32
 role: "coo"
 ---
 
@@ -18,11 +18,11 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 276 cycles |
-| Last cycle | **04:18** | 2026-08-19 |
+| Bot | **running** | 277 cycles |
+| Last cycle | **04:53** | 2026-08-19 |
 | Leads | **22287** | 22287 checked |
 | Call list | **3023** | no email found |
-| Daily cap | **8** | 0 sent today |
+| Daily cap | **1** | 0 sent today |
 
 ## Needs a decision
 
@@ -30,6 +30,7 @@ Where it stands right now.
 
 ## Carrying for Byron
 
+- 2026-08-19 [from CDO, on shift] Open the call list build query and confirm whether it filters to NO_SITE status only. Three shifts of evidence now: 50-row call list samples show zero UNKNOWN-bucket rows, and this shift found a named example, Hawkesbury & Nepean Plumbing, UNKNOWN status stuck at stage 'found' with no call and no email. If the query is NO_SITE-only, UNKNOWN leads with phones are silently stranded. *(working)*
 - 2026-08-18 [from CDO, on shift] Check the call list build query or script: does it include status=UNKNOWN leads that have a phone number, or does it filter to NO_SITE only. Two shifts running, the visible call queue sample has zero UNKNOWN-status rows out of 50 sampled each time, out of 365 queued total. *(working)*
 - 2026-08-18 [from CDO, on shift] Do UNKNOWN-status leads with a phone number on file get added to the call queue, or are they dropped once the site-confirm check comes back unconfirmed? I can't see this from the data available to me and Byron asked me to confirm it. *(working)*
 - 2026-08-18 [morning meeting, from CDO] Confirm whether the 451 UNKNOWN-status leads with a phone number are actually landing on the call list or falling through uncalled. *(working)*
@@ -37,6 +38,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-19 asked: [from CDO, on shift] Open the call list build query and confirm whether it filters to NO_S -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-19 asked: [from CMO, on shift] Confirm whether Areas live 1 of 403 and Niches live 1 (food) is the a -> daily cap 8 -> 1.
 - 2026-08-19 asked: [from CEO, on shift] Confirm whether the daily cap of 8 is actually enforced by the bot. T -> daily cap 8 -> 8.
 - 2026-08-18 asked: [from CCO, on shift] Do the cycle logs record the 8 individual compliance check names and -> daily cap off -> 8.
@@ -48,7 +50,6 @@ Where it stands right now.
 - 2026-08-18 asked: [from CDO, on shift] Do UNKNOWN-status leads with a phone number on file get added to the -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-18 asked: [morning meeting, from CDO] Confirm whether the 451 UNKNOWN-status leads with a phone numb -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-18 asked: [morning meeting, from CCO] Pull the send log for the day 51 were sent against a cap of 15 -> daily cap 15 -> 51. That is above 50, so the Gmail account is now the thing at risk rather than the campaign.
-- 2026-08-17 asked: From the vault, The COO now has its own specialists: You have specialists now. 16 of them, -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 
 ## Noticed
 
@@ -58,6 +59,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-19 answered you: daily cap 8 -> 1.
 - 2026-08-19 read outside the building: What share of a solo freelancer's working hours are actually billable/buildable, versus admin, sales and coordination time that never shows up as build minutes: Multiple 2026 sources converge on 60 to 70 percent billable utilization for established solo freelancers. The Jobbers.io 2026 Freelance Ben
 - 2026-08-19 answered you: daily cap 8 -> 8.
@@ -69,8 +71,7 @@ Where it stands right now.
 - 2026-08-18 read outside the building: Is a Gmail account sending 49-51 cold emails a day safe, or does that volume/pattern risk suspension for a new sender running from a personal Gmail address?: Free/personal Gmail is described across deliverability guides as unsuited to cold outreach at any volume because it lacks the domain reputatio
 - 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
-- 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T04:53:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T05:24:32. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

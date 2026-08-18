@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T04:53:11
+updated: 2026-08-19T05:24:32
 role: "cdo"
 ---
 
@@ -64,6 +64,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Checked Byron's standing instruction that UNKNOWN leads still reach the call list or get emailed. Found a concrete example in this shift's lead sample: Hawkesbury & Nepean Plumbing (Penrith NSW), status UNKNOWN, stage still 'found', no call, no email. Call list sample again has zero UNKNOWN-bucket r
 - 2026-08-19 read outside the building: Does OpenStreetMap's absence of a website tag actually mean a business has no website, or just that nobody entered it?: A benchmark comparison of OSM POI data against a verified retail dataset found only a 39.8% attribute fill rate overall, and found OSM entries with blank fields carry no explanatio
 - 2026-08-18 worked a shift: Re-checked whether UNKNOWN status leads with phone numbers reach the call queue, since Byron flagged this again. Second shift in a row the evidence points the same way: this call list sample (50 of 365 queued) has bucket values of only clicked or no_site, zero unknown, and the single UNKNOWN lead vi
 - 2026-08-18 read outside the building: Does the free ABN Lookup / Australian Business Register web service return phone, email or website fields we could use to fill the contact gaps in our leads?: No. The ABR web service (free, GUID auth, updated hourly from the ABR) returns entity name, ABN status, ACN, entity type, GST registration, b
@@ -75,8 +76,7 @@ Where it stands right now.
 - 2026-08-17 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-17 picked up a note from the vault: The CDO now has its own specialists
 - 2026-08-13 answered you: I am holding this rather than doing it. I cannot send an email, ring anyone, or spend money. Those stay with the mailer and its caps, and with you. What I can d
-- 2026-08-13 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T04:53:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T05:24:32. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
