@@ -13,6 +13,14 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 
 **Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.4 on 2026-08-18 (flat, 1 days)
 
+## Food niche has real inventory but is not counted as live
+
+*working, revised 1 time, learned 2026-08-18 from shift.*
+
+Resolved: the CMO tile now shows 4 live niches (trades, food, beauty, pro), matching ready_by_niche exactly, so food was a stale count last time, not an off-books niche. New finding to act on: the ready pool is badly skewed, beauty 101 and trades 48 make up 88% of the 169 ready leads, food 11 and pro 9 combined are only 12%. If sweep time is split evenly across the 4 niches, food and pro are underperforming per hour swept; if it is not split evenly, this is expected. Worth confirming with CDO whether food and pro simply have fewer OSM-listed businesses nationwide or whether the sweep needs reb
+
+> Evidence: business.roles.cmo tiles: 'Niches live 4, trades, food, beauty, pro'. business.totals.ready_by_niche: beauty 101, trades 48, food 11, pro 9, total 169.
+
 ## GBP beats organic SEO for this business, act accordingly
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -60,14 +68,6 @@ Push the CRO to hold the mockup back for email two, not give it away in the firs
 Keep an eye on whether any Discord or forum activity for the business drifts from answering real questions into posting promo or building a following. The line is activity type, not platform.
 
 > Evidence: Section 7: 48% of AI citations trace to community platforms, Reddit alone 21 to 24% of AI Overview citations, but the brief draws a hard line between answering questions and content creation.
-
-## Food niche has real inventory but is not counted as live
-
-*tried, revised 0 times, learned 2026-08-18 from shift.*
-
-ready_by_niche shows food:11 and a food lead is already at called stage, but the CMO tile lists only 3 live niches (trades, beauty, pro). Either food is quietly running off-books or the live count is stale. Confirm which before assuming trades/beauty/pro is the whole picture when weighing area and niche coverage.
-
-> Evidence: business.totals.ready_by_niche.food = 11 and business.roles.cmo niches live = 3 (trades, beauty, pro); lead The Corner Pantry, Windsor NSW, niche food, stage called.
 
 ## A reply rate this low points at deliverability, not the message
 

@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T15:31:39
+updated: 2026-08-18T17:23:55
 role: "cco"
 ---
 
@@ -28,6 +28,7 @@ Where it stands right now.
 
 ## Carrying for Byron
 
+- 2026-08-18 [from CEO, on shift] Checks passing shows 7/8. Which check is failing, and does it touch sender identification, unsubscribe, or the payment link? I own weekly verification of those and need the detail to check it off. *(working)*
 - 2026-08-17 From the vault, The CCO now has its own specialists: You have specialists now. 13 of them, in security (12), sitting in `~/.claude/agents` on this box. They came from [[The agency agents roster]], which is where the full list and the other desks' shares are. Yours, and what each is for: - `security-compliance-auditor` - the Spam Act surface, audited rather than assumed - `security-secrets-credential-engineer` - tokens on the droplet, and where they sit - `security-appsec-engineer` - the console is on the open internet - `security-penetration-tester` - what it looks like from outside - `security-threat-detection-engineer` - noticing before Byron does - `security-incident-responder` - the hour after an account is locked - `security-cloud-security-architect` - the droplet's shape - `security-ai-generated-code-auditor` - most of this codebase is exactly that - `data-privacy-officer` - what is held about people who never asked to be - `engineering-privacy-engineer` - the same question in the code - `support-legal-compliance-checker` - the routine check - `legal-document-review` - anything that gets signed - `automation-governance-architect` - rules for what the bots may do unattended One thing to look at first: the suppressed list is 74 r *(working)*
 - 2026-08-14 Confirm the cap breach today (51 sent vs cap 15) has not put the Gmail account at risk. Recheck the 8 send checks against today's actual volume, not the configured cap. *(working)*
 - 2026-08-13 Name the specific check that is failing in the 7/8 passing count. Byron needs to know before it becomes a suspension risk. *(working)*
@@ -46,6 +47,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-18 asked: [from CEO, on shift] Checks passing shows 7/8. Which check is failing, and does it touch s -> No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily ca
 - 2026-08-17 asked: From the vault, The CCO now has its own specialists: You have specialists now. 13 of them, -> No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily ca
 - 2026-08-14 asked: Confirm the cap breach today (51 sent vs cap 15) has not put the Gmail account at risk. Re -> No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily ca
 - 2026-08-13 asked: Name the specific check that is failing in the 7/8 passing count. Byron needs to know befo -> No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily ca
@@ -60,6 +62,8 @@ Where it stands right now.
 ## Recently did
 
 - 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
+- 2026-08-18 answered you: No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily cap at a level that will not get the accou
+- 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 - 2026-08-18 read outside the building: What daily sending volume is actually safe for cold email from a personal Gmail account before it risks spam flags or suspension, versus Gmail's official caps: Personal Gmail's hard cap is 500 recipients a day, but that is not the safe number for cold outreach. Standard practice is to warm up at 10
 - 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 - 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
@@ -69,9 +73,7 @@ Where it stands right now.
 - 2026-08-17 picked up a note from the vault: The CCO now has its own specialists
 - 2026-08-14 adjusted itself: hard cap lowered to 10/day
 - 2026-08-14 answered you: No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily cap at a level that will not get the accou
-- 2026-08-14 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
-- 2026-08-14 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T15:31:39. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T17:23:55. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

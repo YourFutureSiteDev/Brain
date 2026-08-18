@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T15:31:39
+updated: 2026-08-18T17:23:55
 role: "cmo"
 ---
 
@@ -68,6 +68,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-18 worked a shift: Checked the CMO niches-live tile against ready_by_niche this shift: food is now confirmed live (tile reads trades, food, beauty, pro, 4 niches), which settles the ambiguity flagged last shift, and found the ready pool is heavily skewed toward beauty.
 - 2026-08-18 read outside the building: How does our 1.4% cold email reply rate compare to 2026 benchmarks, and could the machine's sending setup itself be the cause rather than the message?: 2026 benchmarks put a well-run B2B cold email campaign at 3 to 5% replies, with the platform-wide average at 3.43%. Even the weakest performing indu
 - 2026-08-18 answered you: already set that way, so nothing changed: trades, food
 - 2026-08-18 answered you: Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a webs
@@ -79,8 +80,7 @@ Where it stands right now.
 - 2026-08-18 paused area: Penrith NSW: 15+ emailed, no replies
 - 2026-08-17 opened area: Charters Towers QLD
 - 2026-08-17 paused area: Penrith NSW: 15+ emailed, no replies
-- 2026-08-17 answered you: an area now gets 15 emails before it is given up on
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T15:31:39. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T17:23:55. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

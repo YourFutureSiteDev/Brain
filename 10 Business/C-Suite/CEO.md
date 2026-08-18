@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T15:31:38
+updated: 2026-08-18T17:23:54
 role: "ceo"
 ---
 
@@ -61,6 +61,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-18 worked a shift: Reviewed pipeline health and calling backlog: 143 emailed all time but only 8 leads ever called, while 50 follow up calls are queued now including a top scored lead who already opened the demo.
 - 2026-08-18 read outside the building: what regional Australian freelancers and small agencies actually charge for a small business website in 2026: Market floor is well above our prices. Local Australian freelancers run $1,500 to $2,500 and up per project, small agencies start at $3,000 to $7,000, and small business websites average $5,
 - 2026-08-18 answered you: Bot is COO's lever, not mine to pull directly, but this is unambiguous so I've sent it straight to COO to start it now. It's been stopped since 11:50 today, 254
 - 2026-08-18 handed a job to COO: Start the bot now. It has been stopped since 11:50 today with 254 cycles run and 3017 no-email leads waiting to be called. Resume the sweep
@@ -72,8 +73,7 @@ Where it stands right now.
 - 2026-08-18 handed a job to CMO: Byron wants three more trade types worked: concreters, building companies, and landscapers. Add these as search terms under the trades niche
 - 2026-08-18 answered you: I could not place this with a desk.
 - 2026-08-18 answered you: From what's actually in front of me, trades skews heavily to auto: mechanics and auto repair shops (Damien Seton Mechanical, GP Mechanical, Bartlett Mechanical,
-- 2026-08-18 handed a job to CDO: Pull a full sub-category breakdown of the trades niche (all ~364 in queue, not just the top 50): count by trade type (auto/mechanical, plumb
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T15:31:38. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T17:23:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
