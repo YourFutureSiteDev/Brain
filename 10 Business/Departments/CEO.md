@@ -13,6 +13,14 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 
 **Scoreboard.** replies: 2 on 2026-08-18 to 2 on 2026-08-18 (flat, 1 days)
 
+## Reply-to-call speed is the real constraint, not send volume
+
+*working, revised 1 time, learned 2026-08-18 from brief.*
+
+143 emailed against only 8 ever called is a huge gap. When reviewing CRO's numbers each shift, check calls made versus calls queued, not just emails sent. The queue is growing faster than it clears.
+
+> Evidence: cro tiles: Emailed 143, Called 8, alert '50 follow-up calls queued'.
+
 ## The market is advice and execution, not the website itself
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -36,14 +44,6 @@ When CMO proposes expanding niches or areas, check it against this before agreei
 If CMO or COO propose more FiveM or Discord prospecting hours, say no. That time only goes to trades outreach now.
 
 > Evidence: Section 8, kill list item 4, and the $4,900 total addressable spend estimate in Section 1.
-
-## Reply-to-call speed is the real constraint, not send volume
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-When reviewing CRO's numbers, watch calls held and turnaround, not emails sent. A fast reply matters more than a bigger batch.
-
-> Evidence: Section 7: 'Reply-to-call speed is the constraint, not email volume.'
 
 ## Two live risks sit with me, not a specialist
 
