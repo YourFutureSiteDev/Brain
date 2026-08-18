@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T11:50:13
+updated: 2026-08-18T14:55:35
 role: "coo"
 ---
 
@@ -18,16 +18,15 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **stopped** | 253 cycles |
-| Last cycle | **07:57** | 2026-08-18 |
-| Leads | **22197** | 22197 checked |
-| Call list | **3017** | no email found |
+| Bot | **running** | 254 cycles |
+| Last cycle | **11:50** | 2026-08-18 |
+| Leads | **22257** | 22257 checked |
+| Call list | **3019** | no email found |
 | Daily cap | **51** | 49 sent today |
 
 ## Needs a decision
 
-- **Bot stopped.** Nothing is being researched, checked or drafted while it is off.
-- **3017 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **3019 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
@@ -37,6 +36,9 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-18 asked: start the bot again -> bot started.
+- 2026-08-18 asked: Start the bot now. It has been stopped since 11:50 today with 254 cycles run and 3017 no-e -> bot stopped. Nothing is researched or drafted until you start it.
+- 2026-08-18 asked: Bot has been stopped since the last cycle at 11:50 today (254 cycles run). Confirm there's -> bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 asked: [from CCO, on shift] Do the 253 bot cycles log a result for each of the 8 compliance check -> bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 asked: [from CDO, on shift] Do UNKNOWN-status leads with a phone number on file get added to the -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-18 asked: [morning meeting, from CDO] Confirm whether the 451 UNKNOWN-status leads with a phone numb -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
@@ -46,10 +48,15 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-18 Read outside on Is a Gmail account sending 49-51 cold emails a day safe, or does that volume/pattern risk suspension for a new sender running from a personal Gmail address?: Free/personal Gmail is described across deliverability guides as unsuited to cold outreach at any volume because it lacks the domain reputation a paid Workspace account builds, and gets flagged quickly regardless of staying under caps. Separately, the recommended path to a safe daily volume is a 2 to 4 week ramp starting at 5 to 10 emails a day, rising by 5 to 10 a day, before settling around 50 to 100. Our own numbers show sent_total is 143 all time but sent_today is 49, meaning roughly a third of everything ever sent from this account went out in one day. That is a jump, not a ramp. (source: Saleshandy 'Warmup Email Account' guide and Mailreach 'Gmail Warmup Guide 2026' (both retrieved 2026-08-18), cross checked ag
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Manager. Delivers: the bot running, at a safe volume, without jamming. Steps: plan, assign, automate, track, publish daily. Ratio: cycles run against cycles that sent. Now: a cycle every 30 minutes, cap 15.
 
 ## Recently did
 
+- 2026-08-18 answered you: bot started.
+- 2026-08-18 read outside the building: Is a Gmail account sending 49-51 cold emails a day safe, or does that volume/pattern risk suspension for a new sender running from a personal Gmail address?: Free/personal Gmail is described across deliverability guides as unsuited to cold outreach at any volume because it lacks the domain reputatio
+- 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
+- 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
@@ -60,4 +67,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T11:50:13. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T14:55:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

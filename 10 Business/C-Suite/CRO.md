@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T11:50:13
+updated: 2026-08-18T14:55:35
 role: "cro"
 ---
 
@@ -59,11 +59,13 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-18 Read outside on What time of day gets the highest answer rate when cold calling small business owners like tradies, beauty and food operators: US sales-call data across several 2026 studies converge on the same window: best connect rates are 9 to 10am and 3 to 4pm, Tuesday through Thursday. Calls made 12 to 2pm see about a 35 percent drop in answers because owner-operators are on lunch or with a client. Calls before 8am or after 6pm mostly miss. Monday connect rates run about 21 percent below midweek. (source: Close.com 'Best Days & Times to Cold Call (Data-Backed) in 2026'; PhoneBurner data cited via Revenue.io 'Best Time to Cold Call Prospects in 2026')
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Analyst, and from the Hook Writer until the message has a desk of its own. Delivers: leads actually moving toward a paid job, and an opener worth answering. Steps: track, analyse, learn, optimise; and draft, cut, hand off. Ratio: 80 emailed, 0 replied, 50 in the call queue, 0 won; and the hook writer's 10 written, 3 survive, 1 sends, against our 1 written, 1 sent. Now: 50 waiting to be called, one opener, never tested.
 - 2026-08-15 the weekly pass left chase_days where it is: Queue has held flat at 50 for three straight days at 11 days and Byron still has not worked through it, so cutting the chase window further only piles more calls onto a queue that is not moving.
 
 ## Recently did
 
+- 2026-08-18 read outside the building: What time of day gets the highest answer rate when cold calling small business owners like tradies, beauty and food operators: US sales-call data across several 2026 studies converge on the same window: best connect rates are 9 to 10am and 3 to 4pm, Tuesday through Thursday. Calls made 12 to 2pm see
 - 2026-08-18 worked a shift: Went through the 50 name call queue line by line and checked each lead's actual contact history: only 3 of the 50 (GP Mechanical Nambour, Outback Barber Roma, Plush Diamond Roma) have ever been emailed a mockup, the other 47 are stage=found with no email on file, meaning they've never been contacted
 - 2026-08-17 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-17 picked up a note from the vault: The CRO now has its own specialists
@@ -78,4 +80,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T11:50:13. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T14:55:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

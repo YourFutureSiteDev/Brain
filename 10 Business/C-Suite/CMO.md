@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T11:50:13
+updated: 2026-08-18T14:55:35
 role: "cmo"
 ---
 
@@ -19,8 +19,8 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Areas live | **402** | of 403 listed |
-| Niches live | **3** | trades, beauty, pro |
-| Search grid | **30150** | searches per sweep |
+| Niches live | **4** | trades, food, beauty, pro |
+| Search grid | **34974** | searches per sweep |
 
 ## Needs a decision
 
@@ -42,6 +42,10 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-18 asked: Byron wants three more trade types worked: concreters, building companies, and landscapers -> already set that way, so nothing changed: trades, food
+- 2026-08-18 asked: lets dig deep into trades what sort of business have you found? -> Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competit
+- 2026-08-18 asked: what niches have you found? -> Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competit
+- 2026-08-18 asked: Your tile says 3 niches live, trades, beauty, pro, but ready_by_niche shows food with 11 r -> opened the food niche. It takes effect on the next cycle.
 - 2026-08-17 asked: From the vault, The CMO now has its own specialists: You have specialists now. 15 of them, -> an area now gets 15 emails before it is given up on
 - 2026-08-13 asked: how come we increase the client sales -> Areas live 60, Niches live 4, Search grid 5220. Page one is the wrong place to look: Businesses ranking for a competitiv
 - 2026-08-13 asked: what's the rate of the leads coming in -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
@@ -53,6 +57,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-18 Read outside on How does our 1.4% cold email reply rate compare to 2026 benchmarks, and could the machine's sending setup itself be the cause rather than the message?: 2026 benchmarks put a well-run B2B cold email campaign at 3 to 5% replies, with the platform-wide average at 3.43%. Even the weakest performing industry sector, financial services, floors out at 1.5 to 3.5%. Our 2 replies from 143 sent (1.4%) sits below every published benchmark including that floor. Separately, the deliverability guides say the safe volume is around 100 cold emails a day per inbox, and only once that inbox is warmed up and sending from an authenticated custom domain on Google Workspace, not a free Gmail account. Warmup should start at 10 to 20 a day. Sending near cap without that groundwork is the classic way to land in spam regardless of what the email says. (source: Apollo.io, 'What's a Good Cold Email
 - 2026-08-18 reply rate across everything is 1.4% over 143 emails
 - 2026-08-18 reply rate across everything is 2.1% over 94 emails
 - 2026-08-17 pause_after was moved from 100.0 to 15 0 days ago and going back now would undo it before it has been given a fair go. Holding at 15 until 14 more days have passed. See [[pause_after 100.0 to 15]].
@@ -60,10 +65,14 @@ Where it stands right now.
 - 2026-08-16 reply rate across everything is 0.0% over 80 emails
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Researcher. Delivers: search time spent on areas and niches that are not already saturated. Steps: discover, collect, report. Ratio: 238 found, 308 qualified, 243 skipped in a sweep of 5220 searches across 60 live areas of 403 and 4 niches. Now: sweeping 60 areas, 4 niches.
 - 2026-08-15 the weekly pass left pause_after where it is: Reply rate is still 0.0% over 80 emails, no bigger sample than the 66 that set 100 two days ago, and this change is locked until 2026-08-28 anyway.
-- 2026-08-15 reply rate across everything is 0.0% over 80 emails
 
 ## Recently did
 
+- 2026-08-18 read outside the building: How does our 1.4% cold email reply rate compare to 2026 benchmarks, and could the machine's sending setup itself be the cause rather than the message?: 2026 benchmarks put a well-run B2B cold email campaign at 3 to 5% replies, with the platform-wide average at 3.43%. Even the weakest performing indu
+- 2026-08-18 answered you: already set that way, so nothing changed: trades, food
+- 2026-08-18 answered you: Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a webs
+- 2026-08-18 answered you: Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a webs
+- 2026-08-18 answered you: opened the food niche. It takes effect on the next cycle.
 - 2026-08-18 adjusted itself: judge an area after 100 emails
 - 2026-08-18 worked a shift: Checked the CEO's parked asks against today's data: geographic spread is genuinely nationwide (the top 50 in queue alone span NSW, VIC, QLD, WA and SA regional towns, zero Sydney), and the queue is overwhelmingly NO_SITE businesses as intended. Also found a mismatch: food shows 11 ready-to-send lead
 - 2026-08-18 adjusted itself: judge an area after 60 emails
@@ -71,12 +80,7 @@ Where it stands right now.
 - 2026-08-17 opened area: Charters Towers QLD
 - 2026-08-17 paused area: Penrith NSW: 15+ emailed, no replies
 - 2026-08-17 answered you: an area now gets 15 emails before it is given up on
-- 2026-08-17 picked up a note from the vault: The CMO now has its own specialists
-- 2026-08-14 adjusted itself: judge an area after 100 emails
-- 2026-08-13 answered you: Areas live 60, Niches live 4, Search grid 5220. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a websit
-- 2026-08-13 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
-- 2026-08-13 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T11:50:13. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T14:55:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
