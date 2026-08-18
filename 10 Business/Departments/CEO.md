@@ -69,6 +69,14 @@ CFO should treat $500/$1,000 as a floor-testing price, not a fixed anchor. There
 
 > Evidence: Local freelancer range $1,500 to $2,500+, small agency $3,000 to $7,000+, small business average $5,000 to $10,000, per Rockingweb and Spark Interact, both dated 2026 [read outside, Rockingweb 'Website Costs Australia 2026' and Spark Interact 'Web Designers Cost: Australia Pricing (2026 Guide)', both accessed 18 Aug 2026]
 
+## Daily cap of 8 is not matching actual sends
+
+*tried, revised 0 times, learned 2026-08-18 from shift.*
+
+COO tile shows daily cap 8 but sent_today 49 on the same read. Either the cap is not being enforced by the bot or it was raised without the CEO tile reflecting it. Check this every shift alongside CCO's suppression numbers, since a cap that does not bind is a sending-volume risk as much as a pacing one.
+
+> Evidence: business.daily_cap: 8, business.totals.sent_today: 49, coo tile 'Daily cap' shows '8' with detail '49 sent today' in the same snapshot.
+
 ## What it used to believe
 
 - **Care is the business, the build is just the door** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.
