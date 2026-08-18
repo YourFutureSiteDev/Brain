@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T23:36:33
+updated: 2026-08-19T00:07:36
 role: "coo"
 ---
 
@@ -18,15 +18,15 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 266 cycles |
-| Last cycle | **23:05** | 2026-08-18 |
-| Leads | **22280** | 22280 checked |
-| Call list | **3021** | no email found |
-| Daily cap | **8** | 49 sent today |
+| Bot | **running** | 267 cycles |
+| Last cycle | **23:36** | 2026-08-18 |
+| Leads | **22282** | 22282 checked |
+| Call list | **3022** | no email found |
+| Daily cap | **8** | 0 sent today |
 
 ## Needs a decision
 
-- **3021 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **3022 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
@@ -37,6 +37,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-19 asked: [from CEO, on shift] Confirm whether the daily cap of 8 is actually enforced by the bot. T -> daily cap 8 -> 8.
 - 2026-08-18 asked: [from CCO, on shift] Do the cycle logs record the 8 individual compliance check names and -> daily cap off -> 8.
 - 2026-08-18 asked: [from CDO, on shift] Check the call list build query or script: does it include status=UNK -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-18 asked: start the bot again -> bot started.
@@ -56,6 +57,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 answered you: daily cap 8 -> 8.
 - 2026-08-18 worked a shift: Re-checked the call list jam Byron and CDO have now asked about three times: pulled this shift's 50 call_list records and every single one is status NO_SITE with queue_total 365, exactly matching last shift's sample, zero UNKNOWN status leads present in either sample.
 - 2026-08-18 answered you: daily cap off -> 8.
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
@@ -67,8 +69,7 @@ Where it stands right now.
 - 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
-- 2026-08-18 answered you: daily cap 15 -> 51. That is above 50, so the Gmail account is now the thing at risk rather than the campaign.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T23:36:33. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T00:07:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

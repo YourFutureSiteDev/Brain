@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T23:36:33
+updated: 2026-08-19T00:07:36
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **143** | all time |
 | Replies | **2** | 1.4% |
 | To call | **50** | queued now |
-| Leads known | **22280** | researched |
+| Leads known | **22282** | researched |
 
 ## Needs a decision
 
@@ -61,6 +61,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-18 worked a shift: Checked today's live tiles against standing lessons: emailed 143 / called 8 / 50 queued are unchanged from the last shift, and replies are flat at 2 to 2 over one day, so nothing new there. Found one real discrepancy in today's numbers: daily_cap is set to 8 but sent_today is 49, a 6x overshoot.
 - 2026-08-18 worked a shift: Reviewed pipeline health and calling backlog: 143 emailed all time but only 8 leads ever called, while 50 follow up calls are queued now including a top scored lead who already opened the demo.
 - 2026-08-18 read outside the building: what regional Australian freelancers and small agencies actually charge for a small business website in 2026: Market floor is well above our prices. Local Australian freelancers run $1,500 to $2,500 and up per project, small agencies start at $3,000 to $7,000, and small business websites average $5,
 - 2026-08-18 answered you: Bot is COO's lever, not mine to pull directly, but this is unambiguous so I've sent it straight to COO to start it now. It's been stopped since 11:50 today, 254
@@ -72,8 +73,7 @@ Where it stands right now.
 - 2026-08-18 answered you: That's CMO's call, which sub trades the bot searches for. Trades right now is mostly auto repair and plumbing because those are the search terms live. I've told
 - 2026-08-18 handed a job to CMO: Byron wants three more trade types worked: concreters, building companies, and landscapers. Add these as search terms under the trades niche
 - 2026-08-18 answered you: I could not place this with a desk.
-- 2026-08-18 answered you: From what's actually in front of me, trades skews heavily to auto: mechanics and auto repair shops (Damien Seton Mechanical, GP Mechanical, Bartlett Mechanical,
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T23:36:33. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T00:07:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
