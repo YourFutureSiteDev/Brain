@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 ## Food niche has real inventory but is not counted as live
 
-*working, revised 2 times, learned 2026-08-18 from shift.*
+*proven, revised 3 times, learned 2026-08-18 from shift.*
 
-Stop treating the niches-live and areas-live tiles as ground truth. This shift they read back to 1 niche (food) and 1 of 403 areas, directly contradicting last shift's confirmed 4-niche read, with no config change recorded and identical ready_by_niche data underneath both readings. Cross-check these two tiles against ready_by_niche and the actual area spread in leads/call_list every time before advising on sweep coverage, the same way the CCO's 78-checks tile is already flagged as unreliable.
+Stop reading the niches-live and areas-live tiles as fact, full stop. This shift the tile claims food is the only live niche, but the actual call_list of 50 queued leads is 0% food and entirely trades and beauty. Last shift the same tile read 4 niches live with identical ready_by_niche underneath. Two shifts running, the tile has been wrong in a different direction each time while the real pipeline data stayed the same. Use call_list niche distribution as the ground truth for what the bot is actually working, never the tile.
 
-> Evidence: business.roles.cmo tiles this shift: Areas live 1 of 403, Niches live 1 (food). Last shift's logged evidence: same tile read Niches live 4 (trades, food, beauty, pro). business.totals.ready_by_niche unchanged in both: beauty 101, trades 48, food 11, pro 9.
+> Evidence: call_list top 50: 0 food, roughly half trades half beauty. Tile read: niches live 1 (food), areas live 1 of 403. ready_by_niche unchanged again: beauty 101, trades 48, food 11, pro 9, matching the 169 ready total exactly.
 
 ## A reply rate this low points at deliverability, not the message
 
