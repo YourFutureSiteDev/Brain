@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T20:28:31
+updated: 2026-08-18T20:59:45
 role: "cco"
 ---
 
@@ -64,6 +64,7 @@ Where it stands right now.
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
+- 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 - 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily cap at a level that will not get the accou
@@ -72,8 +73,7 @@ Where it stands right now.
 - 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 - 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 - 2026-08-18 worked a shift: Checked today's actual send volume against the cap Byron flagged, and tried to identify which of the 8 compliance checks is failing, but the CCO tile only reports a 7/8 pass count with no per check breakdown in the data available to me this shift.
-- 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T20:28:31. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T20:59:45. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
