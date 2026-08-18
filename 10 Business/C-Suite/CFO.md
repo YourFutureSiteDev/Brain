@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T08:38:05
+updated: 2026-08-19T09:09:59
 role: "cfo"
 ---
 
@@ -19,18 +19,21 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Banked | **$0** | 0 jobs |
-| Website remake | **$3** | 7 days, 2 revisions |
+| Website remake | **$1,500** | 7 days, 2 revisions |
 | New website | **$1,500** | 14 days, 3 revisions |
 | Monthly costs | **$162** | known running costs |
-| Break-even | **54 jobs a month** | $162 of costs at the $3 price |
+| Break-even | **1 job a month** | $162 of costs at the $1,500 price |
 
 ## Needs a decision
 
 - **Nothing banked yet.** No revenue until the first invoice is paid. Everything below is capacity, not income.
-- **Watch hours per job.** A remake at $3 needs to stay under about 12 hours to beat $40/hr. The moment a remake becomes a rebuild, the margin is gone. Price it as a new build instead.
+- **Watch hours per job.** A remake at $1,500 needs to stay under about 12 hours to beat $40/hr. The moment a remake becomes a rebuild, the margin is gone. Price it as a new build instead.
 
 ## Decided
 
+- 2026-08-19 asked: Update the new website price from $1,500 to $1,000. Confirm the change and report back the -> remake price $3 -> $1,500. Every email and payment link built from here uses the new number.
+- 2026-08-19 asked: $3 -> the remake price is already $3
+- 2026-08-19 asked: Update website remake price from $3 to $500 AUD. New website price stays at $1500. Recalcu -> the remake price is already $3
 - 2026-08-19 asked: [morning meeting, from CEO] Go ahead and trial the $1,500 newbuild floor, pricing is your -> newbuild price $1,000 -> $1,500. Every email and payment link built from here uses the new number.
 - 2026-08-17 asked: From the vault, The CFO now has its own specialists: You have specialists now. 9 of them, -> remake price $500 -> $9. Every email and payment link built from here uses the new number.
 
@@ -43,6 +46,9 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 answered you: remake price $3 -> $1,500. Every email and payment link built from here uses the new number.
+- 2026-08-19 answered you: the remake price is already $3
+- 2026-08-19 answered you: the remake price is already $3
 - 2026-08-19 answered you: newbuild price $1,000 -> $1,500. Every email and payment link built from here uses the new number.
 - 2026-08-19 worked a shift: Reread the live numbers: still $0 banked, 0 jobs won, 143 emailed with replies flat at 2, so there is still no hours-per-job data to test the $3 remake or $1,000 newbuild margins against. Instead checked the CFO tile's own break-even math and found it only tells half the story.
 - 2026-08-19 read outside the building: what a basic small business website (3-5 pages) actually costs to buy in Australia in 2026: Multiple 2026 guides converge on $1,200 to $3,000 for a simple custom 1-5 page site, with $2,000 to $5,000 typical for most small business builds and $2,500 cited as a standard 3-5 page price point. The $1,00
@@ -55,4 +61,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T08:38:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:09:59. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T08:38:05
+updated: 2026-08-19T09:10:00
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **22325** | known |
-| With email | **957** | 4% |
-| With phone | **5609** | 25% |
+| Leads | **22393** | known |
+| With email | **958** | 4% |
+| With phone | **5623** | 25% |
 | With rating | **0** | 0% |
 | Unconfirmed | **456** | never mailed |
 
@@ -66,6 +66,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Pulled the sub-category breakdown of the trades niche that Byron asked for, using the 50-row call list sample (366 queued total, no tool here to query beyond the rows already shown).
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-19 worked a shift: Checked Byron's standing instruction that UNKNOWN leads still reach the call list or get emailed. Found a concrete example in this shift's lead sample: Hawkesbury & Nepean Plumbing (Penrith NSW), status UNKNOWN, stage still 'found', no call, no email. Call list sample again has zero UNKNOWN-bucket r
 - 2026-08-19 read outside the building: Does OpenStreetMap's absence of a website tag actually mean a business has no website, or just that nobody entered it?: A benchmark comparison of OSM POI data against a verified retail dataset found only a 39.8% attribute fill rate overall, and found OSM entries with blank fields carry no explanatio
@@ -77,8 +78,7 @@ Where it stands right now.
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-17 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
-- 2026-08-17 picked up a note from the vault: The CDO now has its own specialists
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T08:38:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:10:00. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
