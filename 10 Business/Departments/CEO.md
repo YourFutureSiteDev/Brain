@@ -29,6 +29,14 @@ The market data backs this harder than I had it: small, tightly targeted sends b
 
 > Evidence: cro tiles: Emailed 143, Called 8, alert '50 follow-up calls queued'.
 
+## Daily cap of 8 is not matching actual sends
+
+*working, revised 1 time, learned 2026-08-18 from shift.*
+
+Cap now reads 1, not 8, and sent_today is 0, so today's numbers do match. But a cap of 1 against 169 ready leads and 1216 sendable ones means outbound has effectively stopped. Sent_total is still 143, same as last shift, so nothing has gone out since. Flag to COO to confirm this is a deliberate throttle and not an accidental drop.
+
+> Evidence: business.daily_cap: 1, totals.sent_today: 0, totals.sent_total: 143 (unchanged from prior shift's reading), totals.ready: 169, totals.sendable: 1216.
+
 ## The market is advice and execution, not the website itself
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -68,14 +76,6 @@ Reject any commitment from a specialist that implies same day response or a hard
 CFO should treat $500/$1,000 as a floor-testing price, not a fixed anchor. There is room to raise the new build price toward $1,500 to $2,000 without being expensive by market standards. Do not act alone and do not move it until a handful of jobs are banked: raising the price before the business can convert at the current one only makes each lost lead more expensive.
 
 > Evidence: Local freelancer range $1,500 to $2,500+, small agency $3,000 to $7,000+, small business average $5,000 to $10,000, per Rockingweb and Spark Interact, both dated 2026 [read outside, Rockingweb 'Website Costs Australia 2026' and Spark Interact 'Web Designers Cost: Australia Pricing (2026 Guide)', both accessed 18 Aug 2026]
-
-## Daily cap of 8 is not matching actual sends
-
-*tried, revised 0 times, learned 2026-08-18 from shift.*
-
-COO tile shows daily cap 8 but sent_today 49 on the same read. Either the cap is not being enforced by the bot or it was raised without the CEO tile reflecting it. Check this every shift alongside CCO's suppression numbers, since a cap that does not bind is a sending-volume risk as much as a pacing one.
-
-> Evidence: business.daily_cap: 8, business.totals.sent_today: 49, coo tile 'Daily cap' shows '8' with detail '49 sent today' in the same snapshot.
 
 ## What it used to believe
 

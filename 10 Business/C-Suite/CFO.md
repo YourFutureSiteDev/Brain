@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T06:57:57
+updated: 2026-08-19T07:33:54
 role: "cfo"
 ---
 
@@ -29,6 +29,10 @@ Where it stands right now.
 - **Nothing banked yet.** No revenue until the first invoice is paid. Everything below is capacity, not income.
 - **Watch hours per job.** A remake at $3 needs to stay under about 12 hours to beat $40/hr. The moment a remake becomes a rebuild, the margin is gone. Price it as a new build instead.
 
+## Carrying for Byron
+
+- 2026-08-19 [morning meeting, from CEO] Go ahead and trial the $1,500 newbuild floor, pricing is your lever and nothing is banked yet to lose by testing higher. *(new)*
+
 ## Decided
 
 - 2026-08-17 asked: From the vault, The CFO now has its own specialists: You have specialists now. 9 of them, -> remake price $500 -> $9. Every email and payment link built from here uses the new number.
@@ -53,4 +57,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T06:57:57. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T07:33:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

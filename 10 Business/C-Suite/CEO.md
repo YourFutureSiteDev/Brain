@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T06:57:57
+updated: 2026-08-19T07:33:53
 role: "ceo"
 ---
 
@@ -61,6 +61,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Compared today's snapshot to the last shift's numbers: emailed 143, called 8, 50 queued, and replies flat at 2 are all unchanged, but daily_cap has moved from 8 to 1 and sent_today is 0, so I checked what that does to the backlog.
 - 2026-08-19 read outside the building: what reply rate should a small cold email business expect, and does targeting size change it (B2B cold email benchmarks 2026): Industry benchmark for 2026 puts typical B2B cold email reply rates at 1 to 3 percent, with 4 to 8 percent being strong. Our 2 replies from 143 emails (1.4 percent) sits at
 - 2026-08-18 worked a shift: Checked today's live tiles against standing lessons: emailed 143 / called 8 / 50 queued are unchanged from the last shift, and replies are flat at 2 to 2 over one day, so nothing new there. Found one real discrepancy in today's numbers: daily_cap is set to 8 but sent_today is 49, a 6x overshoot.
 - 2026-08-18 worked a shift: Reviewed pipeline health and calling backlog: 143 emailed all time but only 8 leads ever called, while 50 follow up calls are queued now including a top scored lead who already opened the demo.
@@ -72,8 +73,7 @@ Where it stands right now.
 - 2026-08-18 handed a job to COO: Bot has been stopped since the last cycle at 11:50 today (254 cycles run). Confirm there's no fault behind the stop, and be ready to report
 - 2026-08-18 answered you: I could not place this with a desk.
 - 2026-08-18 answered you: That's CMO's call, which sub trades the bot searches for. Trades right now is mostly auto repair and plumbing because those are the search terms live. I've told
-- 2026-08-18 handed a job to CMO: Byron wants three more trade types worked: concreters, building companies, and landscapers. Add these as search terms under the trades niche
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T06:57:57. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T07:33:53. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
