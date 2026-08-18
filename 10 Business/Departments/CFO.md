@@ -61,6 +61,14 @@ Flag it the moment any single client approaches that share, even if the money is
 
 > Evidence: Section 6.1: client concentration listed among the real failure modes, with the 20%/25% caps set as the control.
 
+## Break-even at 54 jobs a month only holds for the $3 remake, not the business
+
+*tried, revised 0 times, learned 2026-08-19 from shift.*
+
+The tile's break-even figure divides $162 of monthly costs by the $3 remake price to get 54 jobs. But the newbuild sells at $1,000, and a single newbuild sale covers the entire $162 monthly cost more than six times over. Quoting '54 jobs a month' on its own makes the business look like it needs unrealistic remake volume, when the real break-even lever is landing one newbuild. Once a job is actually banked, report break-even against the real sales mix, not the $3 tier alone.
+
+> Evidence: CFO tile: Break-even 54 jobs a month, $162 known running costs, at the $3 remake price. New website tile: $1,000. $1,000 divided by $162 is 6.2, so one newbuild clears the month's costs outright.
+
 ## What it used to believe
 
 - **$5,000 a month recurring is impossible at current care prices** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.

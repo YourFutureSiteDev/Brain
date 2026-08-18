@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T06:26:54
+updated: 2026-08-19T06:57:57
 role: "cfo"
 ---
 
@@ -42,6 +42,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Reread the live numbers: still $0 banked, 0 jobs won, 143 emailed with replies flat at 2, so there is still no hours-per-job data to test the $3 remake or $1,000 newbuild margins against. Instead checked the CFO tile's own break-even math and found it only tells half the story.
 - 2026-08-19 read outside the building: what a basic small business website (3-5 pages) actually costs to buy in Australia in 2026: Multiple 2026 guides converge on $1,200 to $3,000 for a simple custom 1-5 page site, with $2,000 to $5,000 typical for most small business builds and $2,500 cited as a standard 3-5 page price point. The $1,00
 - 2026-08-18 worked a shift: Checked banked revenue, replies and won-count against my open pricing beliefs: still $0 banked, 0 jobs won, replies flat at 2 of 143 emailed, so there is still no hours-per-job or conversion data to test the $500 remake / $1,000 newbuild margin against, and break-even still checks out exactly at 54
 - 2026-08-18 worked a shift: Checked the live numbers against my open beliefs: banked is still $0, 0 jobs won, monthly costs and break-even unchanged at $162 and 1 job. 143 emailed all time with 2 replies and 0 calls converted to a paid job, so there is still no real hours-per-job data to test the $500 remake margin against. No
@@ -52,4 +53,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T06:26:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T06:57:57. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
