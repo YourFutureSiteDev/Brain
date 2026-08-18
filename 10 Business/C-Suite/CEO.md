@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T07:57:16
+updated: 2026-08-18T11:50:13
 role: "ceo"
 ---
 
@@ -14,23 +14,25 @@ role: "ceo"
 
 Where it stands right now.
 
-> 94 emailed, 2 replies, too few replies to read a pattern. Sending is on.
+> 143 emailed, 2 replies, too few replies to read a pattern. Sending is on.
 
 | | | |
 |---|---|---|
 | Won | **$0** | 0 paid |
-| In play | **$30,558** | 92 live |
-| Emailed | **94** | all time |
-| Replies | **2** | 2.1% |
+| In play | **$105,000** | 136 live |
+| Emailed | **143** | all time |
+| Replies | **2** | 1.4% |
 | To call | **50** | queued now |
-| Leads known | **22065** | researched |
+| Leads known | **22197** | researched |
 
 ## Needs a decision
 
+- **The bot is stopped.** Nothing is being researched or drafted until you start it again.
 - **50 calls waiting.** Follow-up calls are the highest converting thing available and only you can make them.
 
 ## Decided
 
+- 2026-08-18 asked: A task from the handover list. Do it if you can. Title: Messenger auto replies: built, wa -> This one needs Byron first, not a desk and not me. The Messenger auto-reply code is built and tested, 40 checks plus a l
 - 2026-08-15 weekly pass: moved 0 of 4 numbers
 - 2026-08-15 asked: What does each desk deliver, and what are its steps in order? -> Here's each desk in the deliver/steps shape you want. CFO delivers a price that turns a job into profit, not just reven
 - 2026-08-15 Standing shape for describing any desk to Byron: what it delivers, then 3 to 5 steps it takes to get there. Not activity, not the last number it moved. Definitions as given 2026-08-15: CFO price and margin, CRO pipeline and call queue, CMO areas and niches, COO bot volume and uptime, CCO legal and unsuspended, CDO whether data is worth acting on.
@@ -42,10 +44,10 @@ Where it stands right now.
 - 2026-08-14 Byron's stated vision for the preview flow: fold the brief into the mockup all the way through, then on customer approval collect payment and auto-schedule a call with him to help set up. This is the target end state for send_preview, to build in that order: brief-to-preview, then payment, then call scheduling.
 - 2026-08-14 asked: A task from the handover list. Do it if you can. Title: The pro niche still renders on ba -> This one needs Claude too, but a coding session, not this console. I don't have file or server access here, only the abi
 - 2026-08-14 Approved building a dedicated pro.html niche template from assets/niche-demos/pro, matching how food and beauty were built. Needs a real coding session, not this console.
-- 2026-08-14 asked: A task from the handover list. Do it if you can. Title: Photos: mine to sort, no decision -> This one needs Claude, but not this console. Fixing the fallback photo packs and widening the stock search before it giv
 
 ## Noticed
 
+- 2026-08-18 Messenger auto-reply bot is built and tested (14 Aug 2026, 40 checks plus live signed request) but blocked on Byron creating a Meta app, connecting the Page, and supplying four credential values (fb_page_token, fb_app_secret, fb_verify_token, fb_page_id) plus setting the webhook. This is not a desk lever, it needs Byron then a coding session to install on the box.
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Manager's other half. Delivers: one source of truth, and a decision about whose job a thing is. Steps: read, route, say who got it and why, remember. Ratio: notes picked up from the vault against notes that reached a desk with a lever for them, 1 against 0 on 15 August. Now: no lever anywhere for prose.
 - 2026-08-14 Byron sent a garbled instruction about images vs numbers on the calls page and landline vs call script page. Asked him to restate before acting.
 - 2026-08-14 Handover task 'Photos: mine to sort' needs an actual coding session with repo/server access, not this CEO console. This console has no code or file tools. Flag any future code-shaped tasks the same way instead of trying to action them here.
@@ -53,10 +55,10 @@ Where it stands right now.
 - 2026-08-14 Company runs two businesses: Local outreach (the one this console has been reading) and Airbnb Walkthroughs (96 found, 0 emailed, 0 replied, 0 won, no price set, not sending, 37 waiting for approval). Prior answers in this session covered Local outreach only.
 - 2026-08-13 CMO deliberately held idle since 2026-08-13: no new area/niche expansion until call outcomes give real conversion signal. Standing state: 60 areas of 403, 4 niches (trades, food, beauty, pro), search grid 5220.
 - 2026-08-13 As of 2026-08-13, CMO has no active task from CEO this session. Last CMO state: Areas live 60, Niches live 4, Search grid 5220. CEO is deliberately holding CMO retargeting work until call outcomes exist to inform it.
-- 2026-08-13 Byron asked how to increase client sales on 2026-08-13. Answer given: zero sales so far, bottleneck is the 50 unworked follow-up calls, not lead volume or email volume. Lead volume and sending are healthy (2657 leads, 13 sent today, cap off).
 
 ## Recently did
 
+- 2026-08-18 answered you: This one needs Byron first, not a desk and not me. The Messenger auto-reply code is built and tested, 40 checks plus a live signed request, two real bugs caught
 - 2026-08-17 picked up a note from the vault: The CEO now has its own specialists
 - 2026-08-15 answered you: Here's each desk in the deliver/steps shape you want. CFO delivers a price that turns a job into profit, not just revenue. Steps: set the remake/newbuild price
 - 2026-08-15 answered you: Here is what each desk delivers and how it gets there, holding to your standard: what lands, not what it is busy with. CFO delivers a price and margin that act
@@ -68,8 +70,7 @@ Where it stands right now.
 - 2026-08-14 answered you: Cap is broken. Daily cap is set to 15 but 51 emails went out today, over three times the limit. Sending and bot are both on, checks are showing 8 of 8 passing a
 - 2026-08-14 handed a job to CCO: Confirm the cap breach today (51 sent vs cap 15) has not put the Gmail account at risk. Recheck the 8 send checks against today's actual vol
 - 2026-08-14 handed a job to COO: Daily cap is 15 but 51 sent today, over 3x over. Find out why the cap did not throttle the run and get it enforced so this cannot happen aga
-- 2026-08-14 answered you: I could not place this with a desk.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T07:57:16. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T11:50:13. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

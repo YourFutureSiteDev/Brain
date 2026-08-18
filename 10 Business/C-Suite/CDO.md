@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T07:57:16
+updated: 2026-08-18T11:50:13
 role: "cdo"
 ---
 
@@ -18,16 +18,16 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **22065** | known |
-| With email | **943** | 4% |
-| With phone | **5566** | 25% |
+| Leads | **22197** | known |
+| With email | **952** | 4% |
+| With phone | **5594** | 25% |
 | With rating | **0** | 0% |
-| Unconfirmed | **451** | never mailed |
+| Unconfirmed | **452** | never mailed |
 
 ## Needs a decision
 
 - **Only 4% of leads have an email.** Expected. Google never returns emails and a business with no site has no contact page. Those leads are the call list, not a failure.
-- **451 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
+- **452 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
 
 ## Carrying for Byron
 
@@ -45,6 +45,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-18 asked: [from CMO, on shift] I can't get a clean daily intake rate from a 50-row sample of first_s -> nothing to clean: no stale verdicts and no unusable rows
 - 2026-08-18 asked: [morning meeting, from CMO] Confirm whether the 2.1% reply rate is tracked per area so CMO -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
 - 2026-08-18 asked: [morning meeting, from CRO] Weight no_site bucket leads above clicked and no_email leads i -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
 - 2026-08-17 asked: From the vault, The CDO now has its own specialists: You have specialists now. 16 of them, -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
@@ -59,6 +60,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-18 answered you: nothing to clean: no stale verdicts and no unusable rows
+- 2026-08-18 worked a shift: Checked Byron's standing instruction that unconfirmed (UNKNOWN) leads still get emailed or added to the call list. The 50-row call list sample I can see (of 364 queued) has zero UNKNOWN-status entries, every row is NO_SITE, so I cannot confirm from here that UNKNOWN leads are actually reaching the c
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-17 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
@@ -69,4 +72,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T07:57:16. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T11:50:13. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

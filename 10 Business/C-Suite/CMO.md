@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T07:57:16
+updated: 2026-08-18T11:50:13
 role: "cmo"
 ---
 
@@ -30,10 +30,11 @@ Where it stands right now.
 
 | Setting | Now | Why |
 |---|---|---|
-| pause_after | 60 | overall reply rate is 2.1%; judging an area on fewer than 60 emails would pause good areas by chance |
+| pause_after | 100 | overall reply rate is 1.4%; judging an area on fewer than 100 emails would pause good areas by chance |
 
 ## Learned
 
+- 2026-08-18 pause_after: 60.0 -> 100. overall reply rate is 1.4%; judging an area on fewer than 100 emails would pause good areas by chance
 - 2026-08-18 pause_after: 15.0 -> 60. overall reply rate is 2.1%; judging an area on fewer than 60 emails would pause good areas by chance
 - 2026-08-17 pause_after: 100.0 -> 15. you asked: From the vault, The CMO now has its own specialists: You have specialists now. 1
 - 2026-08-14 pause_after: default -> 100. overall reply rate is 0.0%; judging an area on fewer than 100 emails would pause good areas by chance
@@ -52,6 +53,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-18 reply rate across everything is 1.4% over 143 emails
 - 2026-08-18 reply rate across everything is 2.1% over 94 emails
 - 2026-08-17 pause_after was moved from 100.0 to 15 0 days ago and going back now would undo it before it has been given a fair go. Holding at 15 until 14 more days have passed. See [[pause_after 100.0 to 15]].
 - 2026-08-17 reply rate across everything is 0.0% over 94 emails
@@ -59,10 +61,11 @@ Where it stands right now.
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Researcher. Delivers: search time spent on areas and niches that are not already saturated. Steps: discover, collect, report. Ratio: 238 found, 308 qualified, 243 skipped in a sweep of 5220 searches across 60 live areas of 403 and 4 niches. Now: sweeping 60 areas, 4 niches.
 - 2026-08-15 the weekly pass left pause_after where it is: Reply rate is still 0.0% over 80 emails, no bigger sample than the 66 that set 100 two days ago, and this change is locked until 2026-08-28 anyway.
 - 2026-08-15 reply rate across everything is 0.0% over 80 emails
-- 2026-08-15 reply rate across everything is 0.0% over 66 emails
 
 ## Recently did
 
+- 2026-08-18 adjusted itself: judge an area after 100 emails
+- 2026-08-18 worked a shift: Checked the CEO's parked asks against today's data: geographic spread is genuinely nationwide (the top 50 in queue alone span NSW, VIC, QLD, WA and SA regional towns, zero Sydney), and the queue is overwhelmingly NO_SITE businesses as intended. Also found a mismatch: food shows 11 ready-to-send lead
 - 2026-08-18 adjusted itself: judge an area after 60 emails
 - 2026-08-18 paused area: Penrith NSW: 15+ emailed, no replies
 - 2026-08-17 opened area: Charters Towers QLD
@@ -73,9 +76,7 @@ Where it stands right now.
 - 2026-08-13 answered you: Areas live 60, Niches live 4, Search grid 5220. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a websit
 - 2026-08-13 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-13 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
-- 2026-08-13 answered you: opened 11 more areas: Cooma NSW, Parkes NSW, Cowra NSW, Mudgee NSW, Inverell NSW, Swan Hill VIC, Colac VIC, Echuca VIC, Benalla VIC, Emerald QLD, Roma QLD. They
-- 2026-08-13 answered you: Areas live 49, Niches live 4, Search grid 4263. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a websit
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T07:57:16. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T11:50:13. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
