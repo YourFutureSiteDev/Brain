@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T09:33:46
+updated: 2026-08-19T09:53:05
 role: "coo"
 ---
 
@@ -18,15 +18,15 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 285 cycles |
-| Last cycle | **09:10** | 2026-08-19 |
-| Leads | **22399** | 22399 checked |
-| Call list | **3036** | no email found |
-| Daily cap | **1** | 0 sent today |
+| Bot | **running** | 286 cycles |
+| Last cycle | **09:33** | 2026-08-19 |
+| Leads | **22503** | 22503 checked |
+| Call list | **3039** | no email found |
+| Daily cap | **off** | 1 sent today |
 
 ## Needs a decision
 
-- **3036 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **3039 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
@@ -61,6 +61,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Rechecked machine health (286 cycles, last cycle 09:33, cap still stuck at 1 with 0 sent today) and reconfirmed the call list jam using this shift's own call_list sample: all 50 rows status NO_SITE, zero UNKNOWN, queue_total 398 against the COO tile's 3036 leads with phone and no email.
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-19 answered you: daily cap 1 -> 1.
@@ -72,8 +73,7 @@ Where it stands right now.
 - 2026-08-18 worked a shift: Re-checked the call list jam Byron and CDO have now asked about three times: pulled this shift's 50 call_list records and every single one is status NO_SITE with queue_total 365, exactly matching last shift's sample, zero UNKNOWN status leads present in either sample.
 - 2026-08-18 answered you: daily cap off -> 8.
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
-- 2026-08-18 worked a shift: Checked the machine health (255 cycles, last cycle 14:55 today, cap 51 with 50 sent, no blackout) then dug into the call list jam Byron flagged from CDO: every one of the 50 call_list records pulled this shift carries queue_total 365, but my own COO tile reports Call list as 3020 (leads with phone,
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:33:46. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:53:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

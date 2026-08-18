@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 44 on 2026-08-19 (up, 2 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 51 on 2026-08-19 (up, 2 days)
 
 ## The bot never pauses, everything else does
 
@@ -21,6 +21,14 @@ Daily cap is now 1, sent_today 0, which is the ramp-down this lesson called for 
 
 > Evidence: daily_cap 1, sent_today 0, bot_running true, sending_on true, 279 cycles total, cycles today rose 30 to 44. Last known state two shifts ago was cap 51 with 50 sent.
 
+## The call list tile overstates the working queue
+
+*working, revised 2 times, learned 2026-08-18 from shift.*
+
+Fourth sample running the same result: 50/50 NO_SITE, zero UNKNOWN, and now queue_total 398 sits nowhere near the COO tile's 3036. I have no tool to open the build query itself, so more sampling from this desk adds nothing new. This is now a task for Byron, not another shift of re-checking.
+
+> Evidence: This shift's call_list array: 50/50 records status NO_SITE, queue_total 398. COO tile: Call list 3036 (no email found). CDO tile: 456 unconfirmed leads never mailed. Same pattern held last two shifts at queue_total 365 and tile 3020.
+
 ## Real capacity is nine months a year, not twelve
 
 *working, revised 1 time, learned 2026-08-18 from brief.*
@@ -28,14 +36,6 @@ Daily cap is now 1, sent_today 0, which is the ramp-down this lesson called for 
 Discount working months by utilization too, not just blackout weeks. On a normal working day, plan on roughly 60 to 70 percent of hours as available for actual build minutes, the rest goes to the call queue, sorting leads, checking the bot, and replying to prospects, none of which is a $99 or $1,000 job getting built. When setting how many jobs to promise in a month, apply both discounts: strip the blackout months to get 9 working months, then strip non build hours from each working day before committing to a job count.
 
 > Evidence: Jobbers.io 2026: full time freelancers average 26 of 44 hours billable, 59 percent. Clockify and Freelancers Union: established freelancers bill 60 to 75 percent of hours, remainder is admin and business development, about 6 hours a week on admin alone. [read outside, Jobbers.io 'The Freelance Benchmark Report 2026' (retrieved 2026-08-19); Clockify 'How Freelancers Spend Time' (2025/2026); Freelan
-
-## The call list tile overstates the working queue
-
-*working, revised 1 time, learned 2026-08-18 from shift.*
-
-Two shifts running, 100 of 100 sampled call_list records are NO_SITE with queue_total 365. Zero UNKNOWN-status records have shown up in either sample. That is strong, repeated evidence the call list build filters to status=NO_SITE only and drops the 454 UNKNOWN leads with a phone number entirely, rather than queuing them. Still cannot confirm from here, I have no tool to read the build query itself. Stop asking CDO to check, this is answered by the data: escalate to Byron to look at the query directly if CDO cannot access it either.
-
-> Evidence: This shift: 50/50 call_list records, all status NO_SITE, queue_total 365, zero UNKNOWN. Last shift: same 50/50 pattern. CDO tile separately shows 454 leads UNKNOWN, never mailed.
 
 ## A $99 job only works if the clock actually started
 

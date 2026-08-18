@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T09:33:46
+updated: 2026-08-19T09:53:05
 role: "cfo"
 ---
 
@@ -19,15 +19,15 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Banked | **$0** | 0 jobs |
-| Website remake | **$1,500** | 7 days, 2 revisions |
+| Website remake | **$500** | 7 days, 2 revisions |
 | New website | **$1,500** | 14 days, 3 revisions |
 | Monthly costs | **$162** | known running costs |
-| Break-even | **1 job a month** | $162 of costs at the $1,500 price |
+| Break-even | **1 job a month** | $162 of costs at the $500 price |
 
 ## Needs a decision
 
 - **Nothing banked yet.** No revenue until the first invoice is paid. Everything below is capacity, not income.
-- **Watch hours per job.** A remake at $1,500 needs to stay under about 12 hours to beat $40/hr. The moment a remake becomes a rebuild, the margin is gone. Price it as a new build instead.
+- **Watch hours per job.** A remake at $500 needs to stay under about 12 hours to beat $40/hr. The moment a remake becomes a rebuild, the margin is gone. Price it as a new build instead.
 
 ## Decided
 
@@ -48,6 +48,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Reread the live numbers (still $0 banked, 0 jobs won, 143 emailed, replies flat at 2) then checked my own CFO tile's alert copy against the live $22,393 remake price instead of taking it at face value.
 - 2026-08-19 answered you: the remake price is already $22,393
 - 2026-08-19 answered you: remake price $1,500 -> $22,393. Every email and payment link built from here uses the new number.
 - 2026-08-19 answered you: remake price $3 -> $1,500. Every email and payment link built from here uses the new number.
@@ -59,8 +60,7 @@ Where it stands right now.
 - 2026-08-18 worked a shift: Checked banked revenue, replies and won-count against my open pricing beliefs: still $0 banked, 0 jobs won, replies flat at 2 of 143 emailed, so there is still no hours-per-job or conversion data to test the $500 remake / $1,000 newbuild margin against, and break-even still checks out exactly at 54
 - 2026-08-18 worked a shift: Checked the live numbers against my open beliefs: banked is still $0, 0 jobs won, monthly costs and break-even unchanged at $162 and 1 job. 143 emailed all time with 2 replies and 0 calls converted to a paid job, so there is still no real hours-per-job data to test the $500 remake margin against. No
 - 2026-08-18 read outside the building: What do local (not offshore) web designers and small agencies actually charge for a small business website in Australia right now, to check our $500 remake / $1,000 newbuild prices against the real lo: Local Australian freelancers charge $1,500 to $2,500+ for a small business site, small agencies st
-- 2026-08-18 read outside the building: What do website care/maintenance plans actually sell for per month in Australia right now, entry level and up: Entry level basic care plans in Australia run $90 to $180 a month for a brochure site with monthly updates, backups and minor edits. Standard plans run $180 to $380. Even the cheapest flat-
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:33:46. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:53:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

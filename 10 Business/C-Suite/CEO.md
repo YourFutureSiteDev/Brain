@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T09:33:46
+updated: 2026-08-19T09:53:05
 role: "ceo"
 ---
 
@@ -14,16 +14,16 @@ role: "ceo"
 
 Where it stands right now.
 
-> 143 emailed, 2 replies, too few replies to read a pattern. Sending is on.
+> 144 emailed, 2 replies, too few replies to read a pattern. Sending is on.
 
 | | | |
 |---|---|---|
 | Won | **$0** | 0 paid |
-| In play | **$204,000** | 136 live |
-| Emailed | **143** | all time |
+| In play | **$142,500** | 137 live |
+| Emailed | **144** | all time |
 | Replies | **2** | 1.4% |
 | To call | **50** | queued now |
-| Leads known | **22399** | researched |
+| Leads known | **22503** | researched |
 
 ## Needs a decision
 
@@ -31,6 +31,7 @@ Where it stands right now.
 
 ## Learned
 
+- 2026-08-19 UNKNOWN status leads never route to call list or get emailed and sit stuck at stage found, confirmed across three shifts now. CDO's tile frames the no-email part as working as intended, but that doesn't cover why UNKNOWN leads with a phone number don't reach the call list either. This is a code fix to the call list and email queries, not a desk lever, same shape as the CCO checks-passing tile bug and the CMO areas live and niches live tile bug.
 - 2026-08-19 UNKNOWN status leads never route to call list or get emailed, stuck at stage found. Confirmed three shifts running. This is a call list query bug, not a data quality gap, and needs Claude/code, not a desk lever. COO checked this shift per Byron, no fix reported yet.
 - 2026-08-19 CMO areas live and niches live tiles reading wrong is the same dashboard bug shape as CCO checks-passing, third time this pattern has been logged. Needs a code fix, not a desk lever, since ready_by_niche data underneath is fine.
 - 2026-08-19 CMO areas live and niches live tiles are unreliable, same shape of bug as the CCO checks-passing tile. Niches live showed 2 while ready_by_niche had live data for 4 niches (pro, beauty, trades, food) with no logged config change. Treat ready_by_niche as the trustworthy source until the tile is fixed. This is a code fix, not a desk lever.
@@ -38,6 +39,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> This is the same UNKNOWN-routing gap flagged the last three shifts, and it's not something any desk can fix with their l
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> CRO owns the call queue ordering, so I've sent this to them. The fix is queue discipline: the top of call_list by buy_sc
 - 2026-08-19 CRO tasked with enforcing ranked top to bottom order on the call queue. Actual calling stays with Byron. Next call should be Damien Seton Mechanical, 0404 977 607.
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> Three from the handover list, quick rundown. CMO tile bug: same read as before, this is a dashboard code problem not a
@@ -49,7 +51,6 @@ Where it stands right now.
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CMO] CMO sweep tiles (niches liv -> handed to CMO
 - 2026-08-19 asked: and change the 1,500 to 1,000 dollars -> CFO flagged the remake price is already sitting at $3, so that instruction was already current, nothing to redo there. N
 - 2026-08-19 New website price moved from $1500 to $1000 AUD, per Byron on 2026-08-19. Remake price confirmed still at $3.
-- 2026-08-19 asked: and change the 1,500 to 1,000 dollars -> I could not place this with a desk.
 
 ## Noticed
 
@@ -64,6 +65,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 answered you: This is the same UNKNOWN-routing gap flagged the last three shifts, and it's not something any desk can fix with their levers. The CDO tile calls it working as
 - 2026-08-19 answered you: CRO owns the call queue ordering, so I've sent this to them. The fix is queue discipline: the top of call_list by buy_score is Damien Seton Mechanical in Dubbo,
 - 2026-08-19 handed a job to CRO: Enforce that the call queue is worked strictly top to bottom by buy_score, not by whatever lead happens to surface. Confirm the ranked order
 - 2026-08-19 answered you: Three from the handover list, quick rundown. CMO tile bug: same read as before, this is a dashboard code problem not a CMO lever. Areas live and niches live fl
@@ -75,8 +77,7 @@ Where it stands right now.
 - 2026-08-19 answered you: This one is a dashboard bug, not a sweep change. Ready_by_niche still shows live data for 4 niches, pro 8, beauty 60, trades 31, food 11, but the CMO tile says
 - 2026-08-19 handed a job to CMO: Do not act on the areas live or niches live tiles until they are fixed, they are known unreliable. Confirm from the actual sweep config, not
 - 2026-08-19 answered you: handed to CFO
-- 2026-08-19 answered you: handed to CMO
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:33:46. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:53:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T09:33:46
+updated: 2026-08-19T09:53:05
 role: "cco"
 ---
 
@@ -19,8 +19,8 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Suppressed | **23** | will never be mailed |
-| Sent today | **0** | cap 1 |
-| Checks passing | **8/8** | see below |
+| Sent today | **1** | cap off |
+| Checks passing | **7/8** | see below |
 
 ## Needs a decision
 
@@ -64,6 +64,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-19 worked a shift: Rechecked today's live sent_today and daily_cap against Byron's open question about a '51 sent vs cap 15' breach and against last shift's stale note calling 51/day double the safe rate: live data now shows sent_today=0 against daily_cap=1, so there is no breach today and the volume risk that note wa
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily cap at a level that will not get the accou
 - 2026-08-19 worked a shift: Rechecked the CCO tile against this shift's live numbers: checks passing now reads 8/8 (up from the 7/8 that triggered Byron's last five questions), sent_today is 0 against a live daily_cap of 1, and suppressed sits flat at 23 for a second day.
@@ -75,8 +76,7 @@ Where it stands right now.
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
-- 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:33:46. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:53:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

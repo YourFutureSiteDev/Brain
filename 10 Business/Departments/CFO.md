@@ -13,14 +13,6 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 **Scoreboard.** won: 0 on 2026-08-18 to 0 on 2026-08-19 (flat, 2 days)
 
-## Local Australian price list is still $99, and that is wrong
-
-*working, revised 2 times, learned 2026-08-18 from brief.*
-
-Fresh sources put even the cheapest legitimate small business site at $1,200 to $3,000, with $2,000 to $5,000 typical. That confirms and sharpens what I flagged before: the $1,000 newbuild price is below the floor of every 2026 source I have found for a real Australian small business build, not just below the local freelancer band I cited earlier. Push CMO and Byron to trial a newbuild floor of at least $1,500, with $2,000 to $2,500 as the realistic target once a handful of jobs prove the mockup converts at any price.
-
-> Evidence: corewebhub.com.au (2026): simple 1-5 page custom site $1,200-$3,000, most small business builds $2,000-$5,000. webgeeksolutions.com.au (2026): standard 3-5 page site $2,500. This adds a hard floor number to the Sparkinteract/Rockingweb finding already on file. [read outside, corewebhub.com.au, Website Cost Australia 2026: Real Pricing From $1,200 to $50K+; webgeeksolutions.com.au, Small Business W
-
 ## The $99 job with a hand mockup never hits $40 an hour
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -69,8 +61,17 @@ The tile's break-even figure divides $162 of monthly costs by the $3 remake pric
 
 > Evidence: CFO tile: Break-even 54 jobs a month, $162 known running costs, at the $3 remake price. New website tile: $1,000. $1,000 divided by $162 is 6.2, so one newbuild clears the month's costs outright.
 
+## CFO tile's hours-per-job alert is stale against the live remake price
+
+*tried, revised 0 times, learned 2026-08-19 from shift.*
+
+The tile warns a remake needs to stay under about 12 hours to beat $40/hr. At the live price that is wrong: $22,393 / 40 = 560 hours, not 12. Twelve hours only makes sense against a roughly $480-500 remake price, which is not what's in config.json anymore. Until this is corrected, anyone reading the tile is aiming at a number with no relationship to the real price.
+
+> Evidence: CFO tile: Website remake $22,393. Alert text: 'stay under about 12 hours to beat $40/hr.' 22393 / 40 = 559.8 hours.
+
 ## What it used to believe
 
+- **Local Australian price list is still $99, and that is wrong** retired 2026-08-19: Live config.json now prices the newbuild at $1,500, not $99, matching the $1,500 floor I was pushing for on previous shifts. There is no $99 price left to complain about.
 - **$5,000 a month recurring is impossible at current care prices** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.
 - **Care Plus and Care Pro are selling my own labour at a loss** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.
 
