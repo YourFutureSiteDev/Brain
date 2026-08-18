@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T02:13:04
+updated: 2026-08-19T02:44:44
 role: "coo"
 ---
 
@@ -18,8 +18,8 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 271 cycles |
-| Last cycle | **01:41** | 2026-08-19 |
+| Bot | **running** | 272 cycles |
+| Last cycle | **02:13** | 2026-08-19 |
 | Leads | **22285** | 22285 checked |
 | Call list | **3023** | no email found |
 | Daily cap | **8** | 0 sent today |
@@ -52,11 +52,13 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-19 Read outside on What share of a solo freelancer's working hours are actually billable/buildable, versus admin, sales and coordination time that never shows up as build minutes: Multiple 2026 sources converge on 60 to 70 percent billable utilization for established solo freelancers. The Jobbers.io 2026 Freelance Benchmark Report puts full time freelancers at about 44 hours worked per week with roughly 26 billable (59 percent). Clockify's freelancer time study and the Freelancers Union both cite 60 to 75 percent billable, with the rest going to proposals, invoicing, admin and business development, roughly 6 hours a week on admin alone even after the freelancer already has clients. (source: Jobbers.io 'The Freelance Benchmark Report 2026' (retrieved 2026-08-19); Clockify 'How Freelancers Spend Time' (2025/2026); Freelancers Union utilization figures cited in the same search)
 - 2026-08-18 Read outside on Is a Gmail account sending 49-51 cold emails a day safe, or does that volume/pattern risk suspension for a new sender running from a personal Gmail address?: Free/personal Gmail is described across deliverability guides as unsuited to cold outreach at any volume because it lacks the domain reputation a paid Workspace account builds, and gets flagged quickly regardless of staying under caps. Separately, the recommended path to a safe daily volume is a 2 to 4 week ramp starting at 5 to 10 emails a day, rising by 5 to 10 a day, before settling around 50 to 100. Our own numbers show sent_total is 143 all time but sent_today is 49, meaning roughly a third of everything ever sent from this account went out in one day. That is a jump, not a ramp. (source: Saleshandy 'Warmup Email Account' guide and Mailreach 'Gmail Warmup Guide 2026' (both retrieved 2026-08-18), cross checked ag
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Manager. Delivers: the bot running, at a safe volume, without jamming. Steps: plan, assign, automate, track, publish daily. Ratio: cycles run against cycles that sent. Now: a cycle every 30 minutes, cap 15.
 
 ## Recently did
 
+- 2026-08-19 read outside the building: What share of a solo freelancer's working hours are actually billable/buildable, versus admin, sales and coordination time that never shows up as build minutes: Multiple 2026 sources converge on 60 to 70 percent billable utilization for established solo freelancers. The Jobbers.io 2026 Freelance Ben
 - 2026-08-19 answered you: daily cap 8 -> 8.
 - 2026-08-18 worked a shift: Re-checked the call list jam Byron and CDO have now asked about three times: pulled this shift's 50 call_list records and every single one is status NO_SITE with queue_total 365, exactly matching last shift's sample, zero UNKNOWN status leads present in either sample.
 - 2026-08-18 answered you: daily cap off -> 8.
@@ -68,8 +70,7 @@ Where it stands right now.
 - 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
-- 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T02:13:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T02:44:44. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
