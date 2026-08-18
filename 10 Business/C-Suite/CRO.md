@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T00:38:50
+updated: 2026-08-19T01:10:00
 role: "cro"
 ---
 
@@ -59,12 +59,14 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-19 Read outside on When a cold call to an Australian small business owner's mobile goes unanswered, do they actually check the voicemail, or is leaving one a wasted 20 seconds: 81 percent of calls from unknown numbers go to voicemail rather than being answered, but 67 percent of people still check a voicemail left by an unknown number. Voicemail-to-conversation conversion sits at 4 to 11 percent for Australian small business calls, and industry missed-call rate for Aussie small business runs 22 to 47 percent. So most of the 47 cold-open calls in today's queue will not be answered live, but a real majority of those will still be heard. (source: Aussie AI Agency, 'Missed Call Statistics Australia 2026' (aussieaiagency.com.au), cross-checked against CloudTalk 'Cold Calling Statistics 2026' and Scrap.io 'Cold Calling Success Rate in 2026: 200K+ Calls Analyzed')
 - 2026-08-18 Read outside on What time of day gets the highest answer rate when cold calling small business owners like tradies, beauty and food operators: US sales-call data across several 2026 studies converge on the same window: best connect rates are 9 to 10am and 3 to 4pm, Tuesday through Thursday. Calls made 12 to 2pm see about a 35 percent drop in answers because owner-operators are on lunch or with a client. Calls before 8am or after 6pm mostly miss. Monday connect rates run about 21 percent below midweek. (source: Close.com 'Best Days & Times to Cold Call (Data-Backed) in 2026'; PhoneBurner data cited via Revenue.io 'Best Time to Cold Call Prospects in 2026')
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Analyst, and from the Hook Writer until the message has a desk of its own. Delivers: leads actually moving toward a paid job, and an opener worth answering. Steps: track, analyse, learn, optimise; and draft, cut, hand off. Ratio: 80 emailed, 0 replied, 50 in the call queue, 0 won; and the hook writer's 10 written, 3 survive, 1 sends, against our 1 written, 1 sent. Now: 50 waiting to be called, one opener, never tested.
 - 2026-08-15 the weekly pass left chase_days where it is: Queue has held flat at 50 for three straight days at 11 days and Byron still has not worked through it, so cutting the chase window further only piles more calls onto a queue that is not moving.
 
 ## Recently did
 
+- 2026-08-19 read outside the building: When a cold call to an Australian small business owner's mobile goes unanswered, do they actually check the voicemail, or is leaving one a wasted 20 seconds: 81 percent of calls from unknown numbers go to voicemail rather than being answered, but 67 percent of people still check a voicemail left by
 - 2026-08-18 worked a shift: Checked the 50-name call queue against the no-website-first ordering rule and against the CEO's ask about unconfirmed sites: ordering is fine (49 of 50 are no_site rank-3 leads, correctly outranked only by one clicked lead with a 95 buy_score), but every record also carries queue_total 365, so the v
 - 2026-08-18 read outside the building: What time of day gets the highest answer rate when cold calling small business owners like tradies, beauty and food operators: US sales-call data across several 2026 studies converge on the same window: best connect rates are 9 to 10am and 3 to 4pm, Tuesday through Thursday. Calls made 12 to 2pm see
 - 2026-08-18 worked a shift: Went through the 50 name call queue line by line and checked each lead's actual contact history: only 3 of the 50 (GP Mechanical Nambour, Outback Barber Roma, Plush Diamond Roma) have ever been emailed a mockup, the other 47 are stage=found with no email on file, meaning they've never been contacted
@@ -76,8 +78,7 @@ Where it stands right now.
 - 2026-08-13 answered you: Emailed 15, Replied 0, Called 0, Won 0. No replies from any email yet: Either the message is not landing or the leads are wrong. Campaigns shows which niche is
 - 2026-08-13 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-13 answered you: chasing sooner: 14 silent days down to 11. nothing is stalled past that yet.
-- 2026-08-13 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T00:38:50. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T01:10:00. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
