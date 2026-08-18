@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T07:33:54
+updated: 2026-08-19T08:05:54
 role: "coo"
 ---
 
@@ -18,8 +18,8 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 281 cycles |
-| Last cycle | **06:58** | 2026-08-19 |
+| Bot | **running** | 282 cycles |
+| Last cycle | **07:33** | 2026-08-19 |
 | Leads | **22287** | 22287 checked |
 | Call list | **3023** | no email found |
 | Daily cap | **1** | 0 sent today |
@@ -30,8 +30,8 @@ Where it stands right now.
 
 ## Carrying for Byron
 
-- 2026-08-19 [morning meeting, from CCO] Break the compliance checks tile into its 8 named checks instead of one pass count, so a silent drop can be caught and named. *(new)*
-- 2026-08-19 [morning meeting, from CMO] Confirm whether the bot's actual sweep config (areas and niches running) is stable or resetting, since the live tile disagrees with ready_by_niche shift to shift with no logged change. *(new)*
+- 2026-08-19 [morning meeting, from CCO] Break the compliance checks tile into its 8 named checks instead of one pass count, so a silent drop can be caught and named. *(working)*
+- 2026-08-19 [morning meeting, from CMO] Confirm whether the bot's actual sweep config (areas and niches running) is stable or resetting, since the live tile disagrees with ready_by_niche shift to shift with no logged change. *(working)*
 - 2026-08-19 [from CDO, on shift] Open the call list build query and confirm whether it filters to NO_SITE status only. Three shifts of evidence now: 50-row call list samples show zero UNKNOWN-bucket rows, and this shift found a named example, Hawkesbury & Nepean Plumbing, UNKNOWN status stuck at stage 'found' with no call and no email. If the query is NO_SITE-only, UNKNOWN leads with phones are silently stranded. *(working)*
 - 2026-08-18 [from CDO, on shift] Check the call list build query or script: does it include status=UNKNOWN leads that have a phone number, or does it filter to NO_SITE only. Two shifts running, the visible call queue sample has zero UNKNOWN-status rows out of 50 sampled each time, out of 365 queued total. *(working)*
 - 2026-08-18 [from CDO, on shift] Do UNKNOWN-status leads with a phone number on file get added to the call queue, or are they dropped once the site-confirm check comes back unconfirmed? I can't see this from the data available to me and Byron asked me to confirm it. *(working)*
@@ -40,6 +40,8 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-19 asked: [morning meeting, from CCO] Break the compliance checks tile into its 8 named checks inste -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
+- 2026-08-19 asked: [morning meeting, from CMO] Confirm whether the bot's actual sweep config (areas and niche -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-19 asked: [from CEO, on shift] Daily cap is now 1, down from 8 last shift, and sent_today is 0. Was -> daily cap 1 -> 1.
 - 2026-08-19 asked: [from CDO, on shift] Open the call list build query and confirm whether it filters to NO_S -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-19 asked: [from CMO, on shift] Confirm whether Areas live 1 of 403 and Niches live 1 (food) is the a -> daily cap 8 -> 1.
@@ -50,8 +52,6 @@ Where it stands right now.
 - 2026-08-18 asked: Start the bot now. It has been stopped since 11:50 today with 254 cycles run and 3017 no-e -> bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 asked: Bot has been stopped since the last cycle at 11:50 today (254 cycles run). Confirm there's -> bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 asked: [from CCO, on shift] Do the 253 bot cycles log a result for each of the 8 compliance check -> bot stopped. Nothing is researched or drafted until you start it.
-- 2026-08-18 asked: [from CDO, on shift] Do UNKNOWN-status leads with a phone number on file get added to the -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
-- 2026-08-18 asked: [morning meeting, from CDO] Confirm whether the 451 UNKNOWN-status leads with a phone numb -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 
 ## Noticed
 
@@ -61,6 +61,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
+- 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-19 answered you: daily cap 1 -> 1.
 - 2026-08-19 worked a shift: Checked machine health: bot still running at 279 cycles, last cycle 05:55 today, cycles today up from 30 to 44. Biggest change is daily_cap now 1 with 0 sent today, down from the 51 cap and 50 sent recorded last shift. Also re-pulled this shift's 50 call_list records, same result as the last two shi
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
@@ -71,9 +73,7 @@ Where it stands right now.
 - 2026-08-18 answered you: daily cap off -> 8.
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-18 worked a shift: Checked the machine health (255 cycles, last cycle 14:55 today, cap 51 with 50 sent, no blackout) then dug into the call list jam Byron flagged from CDO: every one of the 50 call_list records pulled this shift carries queue_total 365, but my own COO tile reports Call list as 3020 (leads with phone,
-- 2026-08-18 answered you: bot started.
-- 2026-08-18 read outside the building: Is a Gmail account sending 49-51 cold emails a day safe, or does that volume/pattern risk suspension for a new sender running from a personal Gmail address?: Free/personal Gmail is described across deliverability guides as unsuited to cold outreach at any volume because it lacks the domain reputatio
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T07:33:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T08:05:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
