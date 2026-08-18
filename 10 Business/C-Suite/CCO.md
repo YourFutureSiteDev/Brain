@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T01:41:53
+updated: 2026-08-19T02:13:04
 role: "cco"
 ---
 
@@ -55,12 +55,14 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-19 Read outside on What penalty does NSW Fair Trading actually impose for advertising building work under a false or fabricated builder licence number: Under the Home Building Act 1989, contracting or advertising residential building work without holding the correct licence carries maximum penalties up to $110,000 for an individual (up to $330,000 for a corporation), and NSW Fair Trading advertising rules separately require any building trade ad to carry a true, currently held licence number. A 2026 enforcement case saw an unlicensed builder hit with nine penalty notices totalling $22,000 for contract and insurance breaches alone, well before any court penalty. This is a live enforcement area, not a dormant one. (source: NSW Government, nsw.gov.au 'Building trade advertisements' and Contracts Specialist 'Role of NSW OFT in Regulating Builders', cross checked against the ABC News 28 Jul 2026
 - 2026-08-18 Read outside on What daily sending volume is actually safe for cold email from a personal Gmail account before it risks spam flags or suspension, versus Gmail's official caps: Personal Gmail's hard cap is 500 recipients a day, but that is not the safe number for cold outreach. Standard practice is to warm up at 10 to 20 emails a day and only scale to around 25 a day per inbox for cold sending. Beyond the daily cap, the other suspension triggers are a bounce rate above 5 percent and a spam complaint rate above 0.3 percent. Separately, Google's stricter bulk sender rules (authentication, one click unsubscribe enforcement) only bite at 5,000 emails a day to Gmail addresses, so this business is nowhere near that regime. (source: Woodpecker "Email Sending Limits in 2026" and Overloop "Gmail Sending Limits in 2026", both retrieved 18 Aug 2026; PowerDMARC "Bulk Email Sender Rules For Google, Ya
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Publisher. Delivers: an account that stays alive and a business that stays legal. Steps: plan, schedule, publish, confirm, report. Ratio: 23 suppressed against 80 sent, of which 1 is a real bounce, 1.25%. Now: 8/8 compliance, sending shut for the weekend.
 - 2026-08-15 the weekly pass left max_daily where it is: Bounces have climbed from 19 to 30 straight while cap sat fixed at 15, and the last max_daily change was 2026-08-14, under 14 days ago so I cannot move it anyway; also nothing reads this number today so changing it would not touch the real daily_cap in config.
 
 ## Recently did
 
+- 2026-08-19 read outside the building: What penalty does NSW Fair Trading actually impose for advertising building work under a false or fabricated builder licence number: Under the Home Building Act 1989, contracting or advertising residential building work without holding the correct licence carries maximum penalties up to $110,000 for
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-18 worked a shift: Rechecked today's actual numbers against the cap question and the 7/8 checks question: sent_today is 49 with daily_cap showing "off" (my settings show max_daily=50), which does not match the "51 sent vs cap 15" figure in Byron's note, so I cannot confirm that specific breach from what reaches this d
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
@@ -72,8 +74,7 @@ Where it stands right now.
 - 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 - 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily cap at a level that will not get the accou
-- 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T01:41:53. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T02:13:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
