@@ -13,6 +13,14 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 
 **Scoreboard.** suppressed: 23 on 2026-08-18 to 23 on 2026-08-18 (flat, 1 days)
 
+## Checks passing 7/8: no per check breakdown reaches this desk
+
+*working, revised 1 time, learned 2026-08-18 from shift.*
+
+Fifth time this has been asked (Byron's notes this shift alone repeat it four times) and it still cannot be answered from tile data. Also flagging a discrepancy: Byron's note cites 51 sent against a cap of 15, but the live numbers this shift show sent_today=49 and daily_cap="off" with my own settings at max_daily=50. Either the cap of 15 was set and reverted intra-day, or that figure is stale. Escalating both to Byron directly since repeating the same gap in the playbook has not produced the dashboard change needed.
+
+> Evidence: cco tile: ["Checks passing","7/8","see below"], no names; business snapshot this shift: sent_today 49, daily_cap "off", settings max_daily=50, not 51 vs 15.
+
 ## Demo sites are the most urgent problem, not the outreach
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -76,14 +84,6 @@ Hold this as an absolute rule regardless of who asks, including any future partn
 Do not let a parent become the contracting party while knowingly involved in the scraping or sending, and flag his eighteenth birthday as the date every current practice needs review.
 
 > Evidence: Part 3.4 clause 18: shield applies only to a person under 18, does not protect a parent, and evaporates for conduct after that birthday.
-
-## Checks passing 7/8: no per check breakdown reaches this desk
-
-*tried, revised 0 times, learned 2026-08-18 from shift.*
-
-Byron has asked which check is failing on three separate notes now and I still cannot answer it, because the CCO tile gives a bare 7/8 count with no names attached. Stop guessing at it each shift. It needs the dashboard or the compliance code to surface the 8 check names and their individual pass or fail state, or it needs to come from COO's cycle logs if those record it. Until one of those exists, this question cannot be closed from here.
-
-> Evidence: cco tile shows only ["Checks passing", "7/8", "see below"] with no breakdown, and this is the third standing note from Byron asking for the same thing.
 
 ## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
 

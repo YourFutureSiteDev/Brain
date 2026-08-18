@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T22:02:11
+updated: 2026-08-18T22:33:17
 role: "cco"
 ---
 
@@ -62,6 +62,8 @@ Where it stands right now.
 ## Recently did
 
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
+- 2026-08-18 worked a shift: Rechecked today's actual numbers against the cap question and the 7/8 checks question: sent_today is 49 with daily_cap showing "off" (my settings show max_daily=50), which does not match the "51 sent vs cap 15" figure in Byron's note, so I cannot confirm that specific breach from what reaches this d
+- 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
@@ -71,9 +73,7 @@ Where it stands right now.
 - 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily cap at a level that will not get the accou
 - 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
-- 2026-08-18 read outside the building: What daily sending volume is actually safe for cold email from a personal Gmail account before it risks spam flags or suspension, versus Gmail's official caps: Personal Gmail's hard cap is 500 recipients a day, but that is not the safe number for cold outreach. Standard practice is to warm up at 10
-- 2026-08-18 daily cap is 51: above 50 the Gmail account is the thing at risk, not the campaign. Lowering it is yours to do in config.json
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T22:02:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T22:33:17. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

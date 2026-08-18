@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T22:02:11
+updated: 2026-08-18T22:33:17
 role: "coo"
 ---
 
@@ -18,8 +18,8 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 263 cycles |
-| Last cycle | **21:31** | 2026-08-18 |
+| Bot | **running** | 264 cycles |
+| Last cycle | **22:02** | 2026-08-18 |
 | Leads | **22280** | 22280 checked |
 | Call list | **3021** | no email found |
 | Daily cap | **off** | 49 sent today |
@@ -37,6 +37,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-18 asked: [from CCO, on shift] Do the cycle logs record the 8 individual compliance check names and -> daily cap off -> 8.
 - 2026-08-18 asked: [from CDO, on shift] Check the call list build query or script: does it include status=UNK -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-18 asked: start the bot again -> bot started.
 - 2026-08-18 asked: Start the bot now. It has been stopped since 11:50 today with 254 cycles run and 3017 no-e -> bot stopped. Nothing is researched or drafted until you start it.
@@ -55,6 +56,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-18 answered you: daily cap off -> 8.
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-18 worked a shift: Checked the machine health (255 cycles, last cycle 14:55 today, cap 51 with 50 sent, no blackout) then dug into the call list jam Byron flagged from CDO: every one of the 50 call_list records pulled this shift carries queue_total 365, but my own COO tile reports Call list as 3020 (leads with phone,
 - 2026-08-18 answered you: bot started.
@@ -66,8 +68,7 @@ Where it stands right now.
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-18 answered you: daily cap 15 -> 51. That is above 50, so the Gmail account is now the thing at risk rather than the campaign.
 - 2026-08-17 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
-- 2026-08-17 picked up a note from the vault: The COO now has its own specialists
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T22:02:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T22:33:17. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
