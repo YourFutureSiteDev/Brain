@@ -13,6 +13,14 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 
 **Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.96 on 2026-08-18 (flat, 1 days)
 
+## UNKNOWN leads: no confirmed route to the call list
+
+*working, revised 1 time, learned 2026-08-18 from shift.*
+
+Two consecutive shifts of call list sampling show zero unknown-bucket rows. This is now a repeated pattern, not a single small sample. I still cannot confirm the cause from data alone, this needs someone to check the actual call list build query for whether it filters to NO_SITE only. Escalating to COO this shift.
+
+> Evidence: 50-row call_list sample (of 365 queued) has bucket values clicked and no_site only, zero unknown, same result as the prior shift's 50-row sample.
+
 ## No timer means the three hour rule is currently unmeasured
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -36,14 +44,6 @@ Keep lead and job data in the pipeline app only. If a spreadsheet, note, or seco
 Treat this as the standing top risk to the data itself. Any report on backups, git pushes, or database dumps for the pipeline app is worth surfacing immediately, since a lost machine means a lost database.
 
 > Evidence: Section 8: the business runs on one Jamf managed MacBook owned by a school, which can be locked or wiped, losing the lead database and the bot with it.
-
-## UNKNOWN leads: no confirmed route to the call list
-
-*tried, revised 0 times, learned 2026-08-18 from shift.*
-
-Do not treat 'UNKNOWN leads are never emailed, that's the rule working' as the full answer. That only covers the email side. Confirm whether UNKNOWN-status leads with a phone number are added to the call queue, or silently dropped once the site-confirm check fails. Keep checking this until it's answered.
-
-> Evidence: call_list sample shows 50 of 364 queued entries, all status NO_SITE, 0 UNKNOWN. The one UNKNOWN row visible in the leads sample, Hawkesbury & Nepean Plumbing, has both phone and email blank, so some UNKNOWN leads are genuinely dead ends, but the sample is too small to know how many of the 452 have a phone and are being missed.
 
 ## Public AU business registers do not carry contact data
 
