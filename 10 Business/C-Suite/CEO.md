@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T03:15:53
+updated: 2026-08-19T03:47:10
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **143** | all time |
 | Replies | **2** | 1.4% |
 | To call | **50** | queued now |
-| Leads known | **22285** | researched |
+| Leads known | **22287** | researched |
 
 ## Needs a decision
 
@@ -50,6 +50,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-19 Read outside on what reply rate should a small cold email business expect, and does targeting size change it (B2B cold email benchmarks 2026): Industry benchmark for 2026 puts typical B2B cold email reply rates at 1 to 3 percent, with 4 to 8 percent being strong. Our 2 replies from 143 emails (1.4 percent) sits at the low end of average, not a broken campaign. The sharper number: campaigns sent to under 50 recipients at a time average a 5.8 percent reply rate versus 2.1 percent for large blasts, because the list is tighter to one audience. (source: Puzzle Inbox, 'Cold Email Reply Rate Benchmarks 2026: B2B / SaaS / Agency', and Martal, 'B2B Cold Email Statistics 2026: Benchmarks & What Works Now', both accessed 19 Aug 2026)
 - 2026-08-18 Read outside on what regional Australian freelancers and small agencies actually charge for a small business website in 2026: Market floor is well above our prices. Local Australian freelancers run $1,500 to $2,500 and up per project, small agencies start at $3,000 to $7,000, and small business websites average $5,000 to $10,000. Even the cheapest local freelancer segment sits at $500 to $2,000 for a basic build. We charge $500 for a remake and $1,000 for a new build, below even the bottom of the freelancer range. (source: Rockingweb 'Website Costs Australia 2026' and Spark Interact 'Web Designers Cost: Australia Pricing (2026 Guide)', both accessed 18 Aug 2026)
 - 2026-08-18 Byron asked to start the bot again on 2026-08-18, following up on the concreters/builders/landscapers request. Bot was stopped at 11:50 that day.
 - 2026-08-18 2026-08-18: bot_running was false through this whole exchange. Zero new leads found in the 5 minutes Byron asked about, purely because the bot was off, unrelated to the concreters/landscapers search term question.
@@ -57,10 +58,10 @@ Where it stands right now.
 - 2026-08-18 CMO dashboard claims 3 niches live (trades, beauty, pro) but data shows a 4th, food, with 11 ready leads and at least one food lead in the pipeline. Discrepancy sent to CMO to reconcile on 2026-08-18.
 - 2026-08-18 Messenger auto-reply bot is built and tested (14 Aug 2026, 40 checks plus live signed request) but blocked on Byron creating a Meta app, connecting the Page, and supplying four credential values (fb_page_token, fb_app_secret, fb_verify_token, fb_page_id) plus setting the webhook. This is not a desk lever, it needs Byron then a coding session to install on the box.
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Manager's other half. Delivers: one source of truth, and a decision about whose job a thing is. Steps: read, route, say who got it and why, remember. Ratio: notes picked up from the vault against notes that reached a desk with a lever for them, 1 against 0 on 15 August. Now: no lever anywhere for prose.
-- 2026-08-14 Byron sent a garbled instruction about images vs numbers on the calls page and landline vs call script page. Asked him to restate before acting.
 
 ## Recently did
 
+- 2026-08-19 read outside the building: what reply rate should a small cold email business expect, and does targeting size change it (B2B cold email benchmarks 2026): Industry benchmark for 2026 puts typical B2B cold email reply rates at 1 to 3 percent, with 4 to 8 percent being strong. Our 2 replies from 143 emails (1.4 percent) sits at
 - 2026-08-18 worked a shift: Checked today's live tiles against standing lessons: emailed 143 / called 8 / 50 queued are unchanged from the last shift, and replies are flat at 2 to 2 over one day, so nothing new there. Found one real discrepancy in today's numbers: daily_cap is set to 8 but sent_today is 49, a 6x overshoot.
 - 2026-08-18 worked a shift: Reviewed pipeline health and calling backlog: 143 emailed all time but only 8 leads ever called, while 50 follow up calls are queued now including a top scored lead who already opened the demo.
 - 2026-08-18 read outside the building: what regional Australian freelancers and small agencies actually charge for a small business website in 2026: Market floor is well above our prices. Local Australian freelancers run $1,500 to $2,500 and up per project, small agencies start at $3,000 to $7,000, and small business websites average $5,
@@ -72,8 +73,7 @@ Where it stands right now.
 - 2026-08-18 answered you: I could not place this with a desk.
 - 2026-08-18 answered you: That's CMO's call, which sub trades the bot searches for. Trades right now is mostly auto repair and plumbing because those are the search terms live. I've told
 - 2026-08-18 handed a job to CMO: Byron wants three more trade types worked: concreters, building companies, and landscapers. Add these as search terms under the trades niche
-- 2026-08-18 answered you: I could not place this with a desk.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T03:15:53. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T03:47:10. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
