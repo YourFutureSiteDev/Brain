@@ -13,6 +13,14 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 **Scoreboard.** suppressed: 23 on 2026-08-18 to 23 on 2026-08-19 (flat, 2 days)
 
+## Checks passing 7/8: no per check breakdown reaches this desk
+
+*working, revised 2 times, learned 2026-08-18 from shift.*
+
+The count has moved to 8/8 this shift, so nothing is currently failing and Byron's immediate risk question is answered: no. But the tile still only reports a pass count, not names, so I cannot say what the eighth check was, why it failed before, or whether it could silently drop again without anyone here knowing which one moved. Treat 8/8 as good news for right now, not as the gap being closed.
+
+> Evidence: cco tile this shift: ["Checks passing","8/8","see below"], sent_today=0, business-level daily_cap=1, my own settings max_daily=50.
+
 ## Demo sites are the most urgent problem, not the outreach
 
 *working, revised 1 time, learned 2026-08-18 from brief.*
@@ -20,14 +28,6 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 This is not just a trust and disclaimer problem, it is a specific statutory exposure. Putting a fabricated NSW builder licence number (118422C) on a demo site linked from a cold email is the kind of building trade advertisement NSW Fair Trading actively enforces, with penalties running into six figures for an individual and real cases landing five figure penalty notices before any court action. Byron should treat pulling that licence number and the fabricated ABNs off all four demo sites as more urgent than any sending or targeting question in this brief.
 
 > Evidence: nsw.gov.au building trade advertisement rules: max penalty $110,000 individual / $330,000 corporation for unlicensed residential building work and advertising; 2026 Steve Preston case, nine penalty notices totalling $22,000, ABC News 28 Jul 2026 [read outside, NSW Government, nsw.gov.au 'Building trade advertisements' and Contracts Specialist 'Role of NSW OFT in Regulating Builders', cross checked
-
-## Checks passing 7/8: no per check breakdown reaches this desk
-
-*working, revised 1 time, learned 2026-08-18 from shift.*
-
-Fifth time this has been asked (Byron's notes this shift alone repeat it four times) and it still cannot be answered from tile data. Also flagging a discrepancy: Byron's note cites 51 sent against a cap of 15, but the live numbers this shift show sent_today=49 and daily_cap="off" with my own settings at max_daily=50. Either the cap of 15 was set and reverted intra-day, or that figure is stale. Escalating both to Byron directly since repeating the same gap in the playbook has not produced the dashboard change needed.
-
-> Evidence: cco tile: ["Checks passing","7/8","see below"], no names; business snapshot this shift: sent_today 49, daily_cap "off", settings max_daily=50, not 51 vs 15.
 
 ## Limb (d) of inferred consent is unchecked in code
 
