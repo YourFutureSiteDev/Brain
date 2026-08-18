@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T18:54:06
+updated: 2026-08-18T19:26:07
 role: "cfo"
 ---
 
@@ -19,15 +19,15 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Banked | **$0** | 0 jobs |
-| Website remake | **$500** | 7 days, 2 revisions |
+| Website remake | **$3** | 7 days, 2 revisions |
 | New website | **$1,000** | 14 days, 3 revisions |
 | Monthly costs | **$162** | known running costs |
-| Break-even | **1 job a month** | $162 of costs at the $500 price |
+| Break-even | **54 jobs a month** | $162 of costs at the $3 price |
 
 ## Needs a decision
 
 - **Nothing banked yet.** No revenue until the first invoice is paid. Everything below is capacity, not income.
-- **Watch hours per job.** A remake at $500 needs to stay under about 12 hours to beat $40/hr. The moment a remake becomes a rebuild, the margin is gone. Price it as a new build instead.
+- **Watch hours per job.** A remake at $3 needs to stay under about 12 hours to beat $40/hr. The moment a remake becomes a rebuild, the margin is gone. Price it as a new build instead.
 
 ## Decided
 
@@ -49,4 +49,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T18:54:06. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T19:26:07. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

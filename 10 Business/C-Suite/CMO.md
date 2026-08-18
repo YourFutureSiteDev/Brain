@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T18:54:06
+updated: 2026-08-18T19:26:07
 role: "cmo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Areas live | **402** | of 403 listed |
-| Niches live | **4** | trades, food, beauty, pro |
-| Search grid | **34974** | searches per sweep |
+| Areas live | **1** | of 403 listed |
+| Niches live | **1** | food |
+| Search grid | **12** | searches per sweep |
 
 ## Needs a decision
 
@@ -83,4 +83,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T18:54:06. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T19:26:07. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
