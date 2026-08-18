@@ -11,7 +11,15 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cfo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** (no scoreboard yet)
+**Scoreboard.** won: 0 on 2026-08-18 to 0 on 2026-08-18 (flat, 1 days)
+
+## Local Australian price list is still $99, and that is wrong
+
+*working, revised 1 time, learned 2026-08-18 from brief.*
+
+The business has already moved off $99 to $500 remake / $1,000 newbuild, which is progress, but fresh market data shows that still prices us as an offshore freelancer, not a local one. Local freelancers floor at $1,500 to $2,500, agencies at $3,000+. Push CMO and Byron to test a ladder closer to $1,000 to $2,500 for local non-gaming clients rather than treating $500/$1,000 as the finished number. The old $249/$490/$750/$1,000 ladder I proposed earlier is now also too low against this new data and should be revised up.
+
+> Evidence: Sparkinteract.com.au (2026): local freelancers $1,500 to $2,500+, agencies $3,000 to $7,000+, offshore freelancers $100 to $500+. Rockingweb.com.au (2026): most small businesses land $5,000 to $8,000. Current business prices are $500 remake and $1,000 newbuild, both inside the offshore band. [read outside, Sparkinteract.com.au, Web Designers Cost: Australia Pricing (2026 Guide); Rockingweb.com.au,
 
 ## The $99 job with a hand mockup never hits $40 an hour
 
@@ -37,30 +45,6 @@ Hold COO to a cap of eight delivery jobs a month, not twelve. If volume is pushi
 
 > Evidence: Section 4.5: the plan's twelve-job month needs 64.5 hours against 52 available; eight jobs at a higher local price roughly doubles revenue for the same hours.
 
-## Local Australian price list is still $99, and that is wrong
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-Push CMO and Byron toward the local ladder of $249 / $490 / $750 / $1,000 and care at $49 / $89 / $149 for any non-gaming client. Leave the gaming price at $99 untouched.
-
-> Evidence: Section 5.2: $99 sits at 3% of the local market's entry point of $1,500 to $8,000 and reads as a hobbyist price, not a discount.
-
-## Care Plus and Care Pro are selling my own labour at a loss
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-Do not let care plan pricing move without checking this. At current prices those two tiers include hours worth more than the plan charges for them.
-
-> Evidence: Section 4.6: Care Plus includes one hour at $40, the ad-hoc rate, for nothing extra; Care Pro includes three hours at $26.67 each against a $40 ad-hoc rate.
-
-## $5,000 a month recurring is impossible at current care prices
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-Do not treat $5,000 MRR as a near-term target while care plans are $20/$40/$80. Only sign off on that goal once care pricing has actually moved to the repriced ladder.
-
-> Evidence: Section 4.6: $5,000/mo at $32 blended needs 157 clients and 146 servicing hours a month against 52 available; even repriced it needs 71 clients and 66 hours.
-
 ## Add-ons are the most profitable line and are underused
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -76,5 +60,10 @@ Push add-ons harder than tier upgrades whenever pricing or upsell strategy comes
 Flag it the moment any single client approaches that share, even if the money is welcome. One client that size becomes leverage against the business.
 
 > Evidence: Section 6.1: client concentration listed among the real failure modes, with the 20%/25% caps set as the control.
+
+## What it used to believe
+
+- **$5,000 a month recurring is impossible at current care prices** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.
+- **Care Plus and Care Pro are selling my own labour at a loss** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.
 
 Back to [[Memory]].

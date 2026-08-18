@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: ceo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** (no scoreboard yet)
+**Scoreboard.** replies: 2 on 2026-08-18 to 2 on 2026-08-18 (flat, 1 days)
 
 ## The market is advice and execution, not the website itself
 
@@ -20,14 +20,6 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 Do not sell pixels. Sell being the person who shows up and does it, since only 17 percent of Australian small businesses take any technical advice at all.
 
 > Evidence: Section 1, CPA Australia figure on IT advice, and the four defensible moats in Section 3.
-
-## Care is the business, the build is just the door
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-Never let a specialist propose a build-only deal or discount the care bundle to close a sale. Price build-only high enough that nobody picks it.
-
-> Evidence: Section 6, the bundling argument and the $980 to $1,960 LTV swing from reporting alone.
 
 ## One trade, sequentially, never four at once
 
@@ -68,5 +60,17 @@ Check weekly that every send has correct sender identification and a working uns
 Reject any commitment from a specialist that implies same day response or a hard uptime guarantee. Hold the line at one business day turnaround.
 
 > Evidence: Section 5, the rule 'never sell anything whose failure mode is the one person had exams.'
+
+## Our price sits under the market floor, not just under agency price
+
+*tried, revised 0 times, learned 2026-08-18 from research.*
+
+CFO should treat $500/$1,000 as a floor-testing price, not a fixed anchor. There is room to raise the new build price toward $1,500 to $2,000 without being expensive by market standards. Do not act alone and do not move it until a handful of jobs are banked: raising the price before the business can convert at the current one only makes each lost lead more expensive.
+
+> Evidence: Local freelancer range $1,500 to $2,500+, small agency $3,000 to $7,000+, small business average $5,000 to $10,000, per Rockingweb and Spark Interact, both dated 2026 [read outside, Rockingweb 'Website Costs Australia 2026' and Spark Interact 'Web Designers Cost: Australia Pricing (2026 Guide)', both accessed 18 Aug 2026]
+
+## What it used to believe
+
+- **Care is the business, the build is just the door** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.
 
 Back to [[Memory]].

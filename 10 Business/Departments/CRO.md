@@ -13,6 +13,14 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 
 **Scoreboard.** calls waiting: 50 on 2026-08-18 to 50 on 2026-08-18 (flat, 1 days)
 
+## Fifth of the enabled areas are in the wrong time zone for the call plan
+
+*working, revised 1 time, learned 2026-08-18 from brief.*
+
+Add a time-of-day rule on top of the time zone fix: call each area's local 9 to 10am or 3 to 4pm block, skip 12 to 2pm entirely, never before 8am or after 6pm local, and load Tuesday to Thursday first. This is US office-worker data, not proven on Australian tradies or beauty operators who are often on tools or with a client, so treat it as a starting window to test against our own call outcomes, not gospel.
+
+> Evidence: Close.com and Revenue.io 2026 cold call studies, both citing PhoneBurner call data, converging on 9 to 10am/3 to 4pm as peak and a 35 percent answer-rate drop over lunch [read outside, Close.com 'Best Days & Times to Cold Call (Data-Backed) in 2026'; PhoneBurner data cited via Revenue.io 'Best Time to Cold Call Prospects in 2026']
+
 ## The pipeline is not a lead count, it is a dial count
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -21,14 +29,6 @@ Do not report leads generated as progress. Track how many are actually called or
 
 > Evidence: Brief says it is early with almost nothing sent and nothing banked, and the whole CTO/CEO section on the bot shows discovery and mockups are automated but the human step, the call, is the one nobody has timed or measured.
 
-## Fifth of the enabled areas are in the wrong time zone for the call plan
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-Before building or running any call block, check which areas are WA, NT or SA and either skip them in that block or give them their own slot in their own local time.
-
-> Evidence: Section A1 item 9: 66 areas across NSW, VIC, QLD, SA, WA, TAS and NT, roughly a fifth outside eastern time, and the CSO's call blocks were written against one clock with nobody checking the lead list.
-
 ## The quote in the prospect's inbox is $500 or $1,000, never say a different number on the call
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -36,14 +36,6 @@ Before building or running any call block, check which areas are WA, NT or SA an
 Always open config.json pricing before a call or a script gets written, and never quote $99 or $250 for a local job. That number does not exist anymore for that lead.
 
 > Evidence: Section A1 item 1: config.json sets remake at $500 and newbuild at $1,000, already sent in every email, while three officers' scripts and tables argued over $99 and $250.
-
-## The written price has no monthly care number attached, the call has to introduce it fresh
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-Plan every call assuming the prospect has only seen a one off number. Introduce care pricing as new information, not as something reinforcing what they read.
-
-> Evidence: Section A2: the word care and any recurring price appear nowhere in compose.py, so the email anchors on a one off figure and the call is the only place the monthly plan gets said at all.
 
 ## The old 59 percent no-website line is dead, our own data replaces it
 
@@ -68,5 +60,9 @@ Before running any call block, confirm which niche the leads actually came from 
 Only 3 of the 50 in today's call queue have actually received a mockup email (GP Mechanical, Outback Barber, Plush Diamond). The other 47 are no-email leads who have never been contacted at all. Script these two groups differently: the 3 with a mockup sent get a real follow-up call referencing what was emailed and the $500/$1,000 price already quoted; the other 47 get a cold open, no mockup to reference, no price stated unless asked. Do not read one script to both.
 
 > Evidence: Counted stage across all 50 call_list entries: 3 stage=emailed (GP Mechanical sent 2026-08-18, Outback Barber sent 2026-08-14, Plush Diamond sent 2026-08-14), 47 stage=found with sent_at null and no email address.
+
+## What it used to believe
+
+- **The written price has no monthly care number attached, the call has to introduce it fresh** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.
 
 Back to [[Memory]].

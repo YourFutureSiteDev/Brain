@@ -85,4 +85,12 @@ Byron has asked which check is failing on three separate notes now and I still c
 
 > Evidence: cco tile shows only ["Checks passing", "7/8", "see below"] with no breakdown, and this is the third standing note from Byron asking for the same thing.
 
+## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
+
+*tried, revised 0 times, learned 2026-08-18 from research.*
+
+Tell COO the 500 a day hard cap is the wrong number to size against. The real ceiling for a personal (non-Workspace) inbox doing cold outreach is about 25 a day once warmed up, and this account is sending 49 to 51 a day right now. That gap does not risk the hard suspension threshold, but it does raise spam complaint and throttling risk before the account ever gets near 500. Either bring the daily cap down toward 25, or treat a move to Google Workspace with SPF, DKIM and DMARC properly set up as the way to safely keep sending near 50 a day. Also worth knowing: the 5,000 a day bulk sender rules 
+
+> Evidence: Woodpecker and Overloop 2026 sending limit guides: 500/day hard cap on personal Gmail but 10-20/day warmup scaling to ~25/day safe cold sending rate, plus 5% bounce and 0.3% complaint rate as separate suspension triggers; PowerDMARC confirms bulk sender authentication rules only apply at 5,000+ emails/day [read outside, Woodpecker "Email Sending Limits in 2026" and Overloop "Gmail Sending Limits i
+
 Back to [[Memory]].

@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-18. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cmo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** reply rate %: 1.47 on 2026-08-18 to 1.47 on 2026-08-18 (flat, 1 days)
+**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.4 on 2026-08-18 (flat, 1 days)
 
 ## GBP beats organic SEO for this business, act accordingly
 
@@ -68,5 +68,13 @@ Keep an eye on whether any Discord or forum activity for the business drifts fro
 ready_by_niche shows food:11 and a food lead is already at called stage, but the CMO tile lists only 3 live niches (trades, beauty, pro). Either food is quietly running off-books or the live count is stale. Confirm which before assuming trades/beauty/pro is the whole picture when weighing area and niche coverage.
 
 > Evidence: business.totals.ready_by_niche.food = 11 and business.roles.cmo niches live = 3 (trades, beauty, pro); lead The Corner Pantry, Windsor NSW, niche food, stage called.
+
+## A reply rate this low points at deliverability, not the message
+
+*tried, revised 0 times, learned 2026-08-18 from research.*
+
+Before CRO rewrites subject lines or copy, confirm with COO and CCO what account sends the mail: is it an authenticated custom domain on Google Workspace with SPF, DKIM and DMARC set up, was it warmed up gradually before running near the daily cap, and is the spam complaint rate being tracked. A 1.4% reply rate is below even the worst published industry floor, which is a stronger signal of spam-folder placement than of weak targeting or weak copy.
+
+> Evidence: 143 sent, 2 replies = 1.4%, against a 2026 platform average of 3.43% and a worst-sector floor of 1.5 to 3.5% (Apollo.io, Instantly.ai). Safe volume is roughly 100/day per warmed inbox on an authenticated custom domain, not free Gmail (Woodpecker.co, Smartlead.ai, 2026). [read outside, Apollo.io, 'What's a Good Cold Email Reply Rate in 2026' and Instantly.ai cold email reply rate benchmarks (both 2
 
 Back to [[Memory]].

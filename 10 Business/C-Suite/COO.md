@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-18T14:55:35
+updated: 2026-08-18T15:31:39
 role: "coo"
 ---
 
@@ -18,15 +18,15 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 254 cycles |
-| Last cycle | **11:50** | 2026-08-18 |
-| Leads | **22257** | 22257 checked |
-| Call list | **3019** | no email found |
+| Bot | **running** | 255 cycles |
+| Last cycle | **14:55** | 2026-08-18 |
+| Leads | **22262** | 22262 checked |
+| Call list | **3020** | no email found |
 | Daily cap | **51** | 49 sent today |
 
 ## Needs a decision
 
-- **3019 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **3020 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
@@ -53,6 +53,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-18 worked a shift: Checked the machine health (255 cycles, last cycle 14:55 today, cap 51 with 50 sent, no blackout) then dug into the call list jam Byron flagged from CDO: every one of the 50 call_list records pulled this shift carries queue_total 365, but my own COO tile reports Call list as 3020 (leads with phone,
 - 2026-08-18 answered you: bot started.
 - 2026-08-18 read outside the building: Is a Gmail account sending 49-51 cold emails a day safe, or does that volume/pattern risk suspension for a new sender running from a personal Gmail address?: Free/personal Gmail is described across deliverability guides as unsuited to cold outreach at any volume because it lacks the domain reputatio
 - 2026-08-18 answered you: bot stopped. Nothing is researched or drafted until you start it.
@@ -67,4 +68,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T14:55:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-18T15:31:39. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
