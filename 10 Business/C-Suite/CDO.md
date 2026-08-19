@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T01:39:11
+updated: 2026-08-20T02:10:42
 role: "cdo"
 ---
 
@@ -59,6 +59,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-20 Read outside on Is there a free way to cross-check whether an OSM-sourced NO_SITE lead actually has no website, so a blank OSM tag isn't the only signal before we email 'we could not find a website for you'?: Yes, there's a concrete free-tier path. Google Places API's Contact Data SKU includes the website field (along with phone and hours). It carries its own free monthly allowance of 1,000 calls before any charge applies. Since we send nowhere near 1,000 emails a month right now (178 sent all time, 0 today), this is enough headroom to live-check every OSM-sourced NO_SITE lead before it gets emailed, at zero cost, for the volumes this business currently runs. (source: developers.google.com/maps/billing-and-pricing (via mapsleads.co/blog/google-places-api-free-tier-limits-2026 and safegraph.com/guides/google-places-api-pricing, both checked 2026-08-20))
 - 2026-08-19 Read outside on Does OpenStreetMap's absence of a website tag actually mean a business has no website, or just that nobody entered it?: A benchmark comparison of OSM POI data against a verified retail dataset found only a 39.8% attribute fill rate overall, and found OSM entries with blank fields carry no explanation for why the field is blank. Direct quote: OSM's crowd-sourced structure doesn't provide any documentation explaining why a field is blank, so there's no way to distinguish 'this business doesn't have a website' from 'no one has entered this yet.' Most of our own call_list and lead rows with status NO_SITE have source osm and status_detail 'no website listed', which is the exact failure mode this describes. (source: SafeGraph, 'SafeGraph vs OpenStreetMap: The Hidden Cost of Free POI Data' (benchmark study referenced from July 2022, page current as of 2026), safegraph.com/blog/
 - 2026-08-18 Read outside on Does the free ABN Lookup / Australian Business Register web service return phone, email or website fields we could use to fill the contact gaps in our leads?: No. The ABR web service (free, GUID auth, updated hourly from the ABR) returns entity name, ABN status, ACN, entity type, GST registration, business locations at state and postcode level, business names and effective dates. It does not carry phone, email or website fields at all. Separately, a side search on how many Australian small businesses lack a website returned wildly inconsistent figures across sources, from 22% to 65% depending on year and methodology, so that number is not solid enough to use for anything. (source: abr.business.gov.au/Documentation/WebServiceResponse and abr.business.gov.au/Tools/WebServices, checked 2026-08-18)
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Analyst, the data half. Delivers: a straight answer on whether the lead data is worth acting on. Steps: track, analyse, learn, optimise. Ratio: 17129 leads, 4% with an email, 25% with a phone, 358 held out as UNKNOWN. Now: email coverage 4%.
@@ -66,6 +67,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 read outside the building: Is there a free way to cross-check whether an OSM-sourced NO_SITE lead actually has no website, so a blank OSM tag isn't the only signal before we email 'we could not find a website for you'?: Yes, there's a concrete free-tier path. Google Places API's Contact Data SKU includes the website field (al
 - 2026-08-19 worked a shift: Chased this shift's fortnight number, the usable-verdict rate falling from 97.96% (8/18) to 97.67% (8/19), and checked whether today's mass sweep:mobile ingestion explains it. It does not: (25471-593)/25471 = 97.67%, matching the tile, but every newly ingested sweep:mobile row visible today (Bill's
 - 2026-08-19 worked a shift: Reread the call_list queue_buckets aggregate (not just the 50 sampled rows) and found the unconfirmed bucket has 154 of 1740 queued entries, occupying the exact tail of the sort order, which finally answers the UNKNOWN-routing question I've raised four shifts running.
 - 2026-08-19 worked a shift: Re-checked the UNKNOWN routing question a fourth time using this shift's data: the 50-row call list dump has zero unknown-bucket rows again (all 50 are bucket clicked or no_site), and Hawkesbury & Nepean Plumbing is still status UNKNOWN, stage found, no call, no email, unchanged from prior shifts. A
@@ -77,8 +79,7 @@ Where it stands right now.
 - 2026-08-18 read outside the building: Does the free ABN Lookup / Australian Business Register web service return phone, email or website fields we could use to fill the contact gaps in our leads?: No. The ABR web service (free, GUID auth, updated hourly from the ABR) returns entity name, ABN status, ACN, entity type, GST registration, b
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-18 answered you: nothing to clean: no stale verdicts and no unusable rows
-- 2026-08-18 worked a shift: Checked Byron's standing instruction that unconfirmed (UNKNOWN) leads still get emailed or added to the call list. The 50-row call list sample I can see (of 364 queued) has zero UNKNOWN-status entries, every row is NO_SITE, so I cannot confirm from here that UNKNOWN leads are actually reaching the c
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T01:39:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T02:10:42. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
