@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T11:01:57
+updated: 2026-08-19T15:21:04
 role: "coo"
 ---
 
@@ -18,15 +18,15 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 289 cycles |
-| Last cycle | **10:56** | 2026-08-19 |
-| Leads | **22668** | 22668 checked |
-| Call list | **3057** | no email found |
-| Daily cap | **off** | 1 sent today |
+| Bot | **running** | 290 cycles |
+| Last cycle | **11:02** | 2026-08-19 |
+| Leads | **24764** | 23660 checked |
+| Call list | **4048** | no email found |
+| Daily cap | **off** | 50 sent today |
 
 ## Needs a decision
 
-- **3057 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **4048 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
@@ -61,6 +61,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 settled leads with no website: 991 marked NO_SITE
+- 2026-08-19 worked a shift: Checked machine health this shift: daily cap has moved from 1 (last shift) to off entirely, with sent_today now 44 and total cycles up from 279 to 290, bot_running true, sending_on true. Did not re-run the call list sample again since the last three shifts already nailed that pattern and it was alre
 - 2026-08-19 worked a shift: Rechecked machine health (286 cycles, last cycle 09:33, cap still stuck at 1 with 0 sent today) and reconfirmed the call list jam using this shift's own call_list sample: all 50 rows status NO_SITE, zero UNKNOWN, queue_total 398 against the COO tile's 3036 leads with phone and no email.
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
@@ -71,9 +73,7 @@ Where it stands right now.
 - 2026-08-19 read outside the building: What share of a solo freelancer's working hours are actually billable/buildable, versus admin, sales and coordination time that never shows up as build minutes: Multiple 2026 sources converge on 60 to 70 percent billable utilization for established solo freelancers. The Jobbers.io 2026 Freelance Ben
 - 2026-08-19 answered you: daily cap 8 -> 8.
 - 2026-08-18 worked a shift: Re-checked the call list jam Byron and CDO have now asked about three times: pulled this shift's 50 call_list records and every single one is status NO_SITE with queue_total 365, exactly matching last shift's sample, zero UNKNOWN status leads present in either sample.
-- 2026-08-18 answered you: daily cap off -> 8.
-- 2026-08-18 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T11:01:57. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T15:21:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

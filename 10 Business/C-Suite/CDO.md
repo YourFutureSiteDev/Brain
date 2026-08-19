@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T11:01:57
+updated: 2026-08-19T15:21:04
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **22668** | known |
+| Leads | **24764** | known |
 | With email | **961** | 4% |
-| With phone | **5678** | 25% |
+| With phone | **7773** | 31% |
 | With rating | **0** | 0% |
 | Unconfirmed | **461** | never mailed |
 
@@ -66,6 +66,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Re-checked the UNKNOWN routing question a fourth time using this shift's data: the 50-row call list dump has zero unknown-bucket rows again (all 50 are bucket clicked or no_site), and Hawkesbury & Nepean Plumbing is still status UNKNOWN, stage found, no call, no email, unchanged from prior shifts. A
 - 2026-08-19 worked a shift: Pulled the sub-category breakdown of the trades niche that Byron asked for, using the 50-row call list sample (366 queued total, no tool here to query beyond the rows already shown).
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-19 worked a shift: Checked Byron's standing instruction that UNKNOWN leads still reach the call list or get emailed. Found a concrete example in this shift's lead sample: Hawkesbury & Nepean Plumbing (Penrith NSW), status UNKNOWN, stage still 'found', no call, no email. Call list sample again has zero UNKNOWN-bucket r
@@ -77,8 +78,7 @@ Where it stands right now.
 - 2026-08-18 worked a shift: Checked Byron's standing instruction that unconfirmed (UNKNOWN) leads still get emailed or added to the call list. The 50-row call list sample I can see (of 364 queued) has zero UNKNOWN-status entries, every row is NO_SITE, so I cannot confirm from here that UNKNOWN leads are actually reaching the c
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
-- 2026-08-17 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T11:01:57. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T15:21:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

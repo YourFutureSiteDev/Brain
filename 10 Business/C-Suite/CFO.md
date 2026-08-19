@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T11:01:56
+updated: 2026-08-19T15:21:03
 role: "cfo"
 ---
 
@@ -48,6 +48,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Reread the live numbers, still $0 banked and 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-19), then checked the CFO tile's remake price against my last-shift concern and found the live price is back to $500, not the $22,393 I flagged before.
 - 2026-08-19 worked a shift: Reread the live numbers (still $0 banked, 0 jobs won, 143 emailed, replies flat at 2) then checked my own CFO tile's alert copy against the live $22,393 remake price instead of taking it at face value.
 - 2026-08-19 answered you: the remake price is already $22,393
 - 2026-08-19 answered you: remake price $1,500 -> $22,393. Every email and payment link built from here uses the new number.
@@ -59,8 +60,7 @@ Where it stands right now.
 - 2026-08-19 read outside the building: what a basic small business website (3-5 pages) actually costs to buy in Australia in 2026: Multiple 2026 guides converge on $1,200 to $3,000 for a simple custom 1-5 page site, with $2,000 to $5,000 typical for most small business builds and $2,500 cited as a standard 3-5 page price point. The $1,00
 - 2026-08-18 worked a shift: Checked banked revenue, replies and won-count against my open pricing beliefs: still $0 banked, 0 jobs won, replies flat at 2 of 143 emailed, so there is still no hours-per-job or conversion data to test the $500 remake / $1,000 newbuild margin against, and break-even still checks out exactly at 54
 - 2026-08-18 worked a shift: Checked the live numbers against my open beliefs: banked is still $0, 0 jobs won, monthly costs and break-even unchanged at $162 and 1 job. 143 emailed all time with 2 replies and 0 calls converted to a paid job, so there is still no real hours-per-job data to test the $500 remake margin against. No
-- 2026-08-18 read outside the building: What do local (not offshore) web designers and small agencies actually charge for a small business website in Australia right now, to check our $500 remake / $1,000 newbuild prices against the real lo: Local Australian freelancers charge $1,500 to $2,500+ for a small business site, small agencies st
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T11:01:56. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T15:21:03. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

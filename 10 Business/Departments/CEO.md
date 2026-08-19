@@ -69,6 +69,14 @@ CFO should treat $500/$1,000 as a floor-testing price, not a fixed anchor. There
 
 > Evidence: Local freelancer range $1,500 to $2,500+, small agency $3,000 to $7,000+, small business average $5,000 to $10,000, per Rockingweb and Spark Interact, both dated 2026 [read outside, Rockingweb 'Website Costs Australia 2026' and Spark Interact 'Web Designers Cost: Australia Pricing (2026 Guide)', both accessed 18 Aug 2026]
 
+## CMO areas live and niches live tiles are unreliable same shape of bug
+
+*tried, revised 0 times, learned 2026-08-19 from shift.*
+
+Sharper than before: the area block is not spread evenly, it concentrates in beauty. 13 of 29 ready beauty leads are blocked_area versus 2 of 22 trades, total ready_blocked_area is 15, yet the areas live tile says 402 of 403 areas are live. If nearly every area were actually live, blocks should be rare and even across niches, not 45 percent of one niche's ready leads. Tell CMO to check whether the areas that are live actually cover where beauty leads sit, not just check the aggregate count.
+
+> Evidence: totals.ready_by_niche beauty 29 vs ready_live_by_niche beauty 16 (13 blocked); trades 22 vs 20 (2 blocked); totals.ready_blocked_area 15; cmo tile areas live 402 of 403.
+
 ## What it used to believe
 
 - **Daily cap of 8 is not matching actual sends** retired 2026-08-19: Cap is no longer stuck between a set number and an overshoot, it now reads 'off' outright, so the mismatch this heading described no longer exists. Evidence: business.daily_cap is now 'off', not 1 or 8.

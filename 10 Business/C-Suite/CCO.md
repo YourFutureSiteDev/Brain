@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T11:01:57
+updated: 2026-08-19T15:21:04
 role: "cco"
 ---
 
@@ -19,7 +19,7 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Suppressed | **23** | will never be mailed |
-| Sent today | **1** | cap off |
+| Sent today | **50** | cap off |
 | Checks passing | **6/8** | Opt-out in every email; Daily cap |
 
 ## Needs a decision
@@ -65,6 +65,8 @@ Where it stands right now.
 ## Recently did
 
 - 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
+- 2026-08-19 worked a shift: Rechecked today's live CCO tile against Byron's cap-breach question and the recurring 51-sent-vs-cap-15 report: business.daily_cap now reads "off" with sent_today at 42, and checks passing has flapped back to 7/8 after reading 8/8 last shift.
+- 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
@@ -74,9 +76,7 @@ Where it stands right now.
 - 2026-08-19 read outside the building: What penalty does NSW Fair Trading actually impose for advertising building work under a false or fabricated builder licence number: Under the Home Building Act 1989, contracting or advertising residential building work without holding the correct licence carries maximum penalties up to $110,000 for
 - 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-18 worked a shift: Rechecked today's actual numbers against the cap question and the 7/8 checks question: sent_today is 49 with daily_cap showing "off" (my settings show max_daily=50), which does not match the "51 sent vs cap 15" figure in Byron's note, so I cannot confirm that specific breach from what reaches this d
-- 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
-- 2026-08-18 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T11:01:57. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T15:21:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

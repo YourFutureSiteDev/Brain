@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T11:01:56
+updated: 2026-08-19T15:21:04
 role: "cro"
 ---
 
@@ -18,8 +18,8 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Emailed | **144** | businesses |
-| Replied | **2** | 1.4% |
+| Emailed | **179** | businesses |
+| Replied | **2** | 1.1% |
 | Called | **8** | at least once |
 | Won | **0** | paid |
 
@@ -72,6 +72,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Rechecked the call_list top 50 for buy_score ordering and cross-referenced queue_total against last shift's reading: ordering still holds (Damien Seton Mechanical at 95 sits above all 49 no_site leads at 74-78) and calls made is still stuck at pipeline.called=8, but queue_total on every record has m
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
@@ -83,8 +84,7 @@ Where it stands right now.
 - 2026-08-18 worked a shift: Went through the 50 name call queue line by line and checked each lead's actual contact history: only 3 of the 50 (GP Mechanical Nambour, Outback Barber Roma, Plush Diamond Roma) have ever been emailed a mockup, the other 47 are stage=found with no email on file, meaning they've never been contacted
 - 2026-08-17 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-17 picked up a note from the vault: The CRO now has its own specialists
-- 2026-08-15 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T11:01:56. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T15:21:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T11:01:56
+updated: 2026-08-19T15:21:03
 role: "ceo"
 ---
 
@@ -14,16 +14,16 @@ role: "ceo"
 
 Where it stands right now.
 
-> 144 emailed, 2 replies, too few replies to read a pattern. Sending is on.
+> 179 emailed, 2 replies, too few replies to read a pattern. Sending is on.
 
 | | | |
 |---|---|---|
 | Won | **$0** | 0 paid |
-| In play | **$142,500** | 137 live |
-| Emailed | **144** | all time |
-| Replies | **2** | 1.4% |
+| In play | **$184,500** | 185 live |
+| Emailed | **179** | all time |
+| Replies | **2** | 1.1% |
 | To call | **50** | queued now |
-| Leads known | **22668** | researched |
+| Leads known | **24764** | researched |
 
 ## Needs a decision
 
@@ -39,6 +39,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-19 messages report: Beauty and the plain 'see your work' text are carrying every reply that matters, food is d -> fix: Reorder the call queue so beauty and trades repliers get called before food and pro repliers, since beauty replies at 28
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> This is the same UNKNOWN-routing gap flagged the last three shifts, and it's not something any desk can fix with their l
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> CRO owns the call queue ordering, so I've sent this to them. The fix is queue discipline: the top of call_list by buy_sc
 - 2026-08-19 CRO tasked with enforcing ranked top to bottom order on the call queue. Actual calling stays with Byron. Next call should be Damien Seton Mechanical, 0404 977 607.
@@ -50,7 +51,6 @@ Where it stands right now.
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> handed to CMO
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CMO] CMO sweep tiles (niches liv -> handed to CMO
 - 2026-08-19 asked: and change the 1,500 to 1,000 dollars -> CFO flagged the remake price is already sitting at $3, so that instruction was already current, nothing to redo there. N
-- 2026-08-19 New website price moved from $1500 to $1000 AUD, per Byron on 2026-08-19. Remake price confirmed still at $3.
 
 ## Noticed
 
@@ -65,6 +65,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Compared today's ready/ready_live breakdown by niche against CMO's areas-live tile: beauty has 13 of its 29 ready leads blocked_area (16 live) while trades only has 2 of 22 blocked (20 live), even though the areas live tile claims 402 of 403 areas are live. That is a real, niche-specific mismatch, n
+- 2026-08-19 sent a fix to the CRO: Reorder the call queue so beauty and trades repliers get called before food and pro repliers, since beauty replies at 28 percent and trades at 24 percent against food's 7 percent and pro's 12 percent, and nearly all of today's fresh replies are beauty.
 - 2026-08-19 worked a shift: Compared today's call_list entries against the CEO tile: the board shows '50 calls waiting' but every entry in the call queue carries queue_total 398, so the real backlog is close to 8x the displayed number. Also checked the daily cap thread from the last two shifts: cap has moved from 8 to 1 to now
 - 2026-08-19 answered you: This is the same UNKNOWN-routing gap flagged the last three shifts, and it's not something any desk can fix with their levers. The CDO tile calls it working as
 - 2026-08-19 answered you: CRO owns the call queue ordering, so I've sent this to them. The fix is queue discipline: the top of call_list by buy_score is Damien Seton Mechanical in Dubbo,
@@ -75,9 +77,7 @@ Where it stands right now.
 - 2026-08-19 handed a job to CRO: Reorder how the call queue is worked: pull from call_list top to bottom by buy_score, not ad hoc. Damien Seton Mechanical (Dubbo, score 95,
 - 2026-08-19 answered you: handed to CFO
 - 2026-08-19 answered you: handed to CMO
-- 2026-08-19 answered you: This one is a dashboard bug, not a sweep change. Ready_by_niche still shows live data for 4 niches, pro 8, beauty 60, trades 31, food 11, but the CMO tile says
-- 2026-08-19 handed a job to CMO: Do not act on the areas live or niches live tiles until they are fixed, they are known unreliable. Confirm from the actual sweep config, not
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T11:01:56. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T15:21:03. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
