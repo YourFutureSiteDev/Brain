@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T03:14:04
+updated: 2026-08-20T03:45:42
 role: "cfo"
 ---
 
@@ -41,6 +41,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-20 Read outside on What do one off small business websites actually sell for from local freelancers in Australia right now, and where does that put our $500 remake and $1,500 newbuild: Local Australian freelancers price a basic one off small business website at roughly $1,500 to $2,500 or more, with a basic project floor around $500 to $2,000. Small agency builds run $3,000 to $10,000, and full small business averages sit around $5,000 to $10,000. Our $1,500 newbuild sits right at the bottom edge of what a solo local freelancer charges, before agency pricing even starts. The $500 remake sits at the very floor of the basic project range, the cheapest end anyone quotes. (source: keentodesign.com.au, rockingweb.com.au, webics.com.au and lovemyonlinemarketing.com, all 2026 Australian web design pricing guides)
 - 2026-08-19 Read outside on what a basic small business website (3-5 pages) actually costs to buy in Australia in 2026: Multiple 2026 guides converge on $1,200 to $3,000 for a simple custom 1-5 page site, with $2,000 to $5,000 typical for most small business builds and $2,500 cited as a standard 3-5 page price point. The $1,000 newbuild price sits below even the cheapest cited floor for a basic custom site. (source: corewebhub.com.au, Website Cost Australia 2026: Real Pricing From $1,200 to $50K+; webgeeksolutions.com.au, Small Business Website Cost Australia: 2026 Pricing Guide; xpertstart.com.au, How Much Does a Website Cost in Australia? 2026 Guide)
 - 2026-08-18 Read outside on What do local (not offshore) web designers and small agencies actually charge for a small business website in Australia right now, to check our $500 remake / $1,000 newbuild prices against the real lo: Local Australian freelancers charge $1,500 to $2,500+ for a small business site, small agencies start at $3,000 to $7,000+, and most small businesses land between $5,000 and $8,000 overall. The only place $500-ish pricing shows up is offshore freelancers at $100 to $500. Our current $500 remake and $1,000 newbuild sit inside the offshore band, not the local one. (source: Sparkinteract.com.au, Web Designers Cost: Australia Pricing (2026 Guide); Rockingweb.com.au, Website Costs Australia 2026; Strong.digital, How Much Does A Website Cost In Australia (2026); all retrieved via web search, August 2026)
 - 2026-08-18 Read outside on What do website care/maintenance plans actually sell for per month in Australia right now, entry level and up: Entry level basic care plans in Australia run $90 to $180 a month for a brochure site with monthly updates, backups and minor edits. Standard plans run $180 to $380. Even the cheapest flat-fee competitor found (Congero) starts at $49 a month for AI-driven unlimited edits. Our three tiers are priced at $20, $40 and $80 a month, all under even the lowest market entry point. (source: Fox & Lee, WordPress Care Plan Costs & Benchmarks 2026 (foxandlee.com.au); websitemaintanceagency.com.au, Website Maintenance Cost Australia 2026; congero.com.au pricing pages, both retrieved via web search today)
@@ -48,6 +49,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 read outside the building: What do one off small business websites actually sell for from local freelancers in Australia right now, and where does that put our $500 remake and $1,500 newbuild: Local Australian freelancers price a basic one off small business website at roughly $1,500 to $2,500 or more, with a basic project fl
 - 2026-08-19 worked a shift: Rechecked banked revenue and jobs won (still $0, 0 jobs, flat across the fortnight), then checked the CFO tile's own break-even line against the fix I asked for last shift.
 - 2026-08-19 worked a shift: Rechecked banked revenue, jobs won, prices and break-even math against live numbers: still $0 banked, 0 jobs won flat across the fortnight, remake $500 and newbuild $1500 confirmed as the only two things this business sells, and the break-even tile's $162/$500=1 job math still holds. Also checked my
 - 2026-08-19 worked a shift: Reread the live numbers, still $0 banked and 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-19), then checked the CFO tile's remake price against my last-shift concern and found the live price is back to $500, not the $22,393 I flagged before.
@@ -59,8 +61,7 @@ Where it stands right now.
 - 2026-08-19 answered you: the remake price is already $3
 - 2026-08-19 answered you: newbuild price $1,000 -> $1,500. Every email and payment link built from here uses the new number.
 - 2026-08-19 worked a shift: Reread the live numbers: still $0 banked, 0 jobs won, 143 emailed with replies flat at 2, so there is still no hours-per-job data to test the $3 remake or $1,000 newbuild margins against. Instead checked the CFO tile's own break-even math and found it only tells half the story.
-- 2026-08-19 read outside the building: what a basic small business website (3-5 pages) actually costs to buy in Australia in 2026: Multiple 2026 guides converge on $1,200 to $3,000 for a simple custom 1-5 page site, with $2,000 to $5,000 typical for most small business builds and $2,500 cited as a standard 3-5 page price point. The $1,00
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T03:14:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T03:45:42. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
