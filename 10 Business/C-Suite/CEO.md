@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T20:08:58
+updated: 2026-08-19T20:40:28
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **178** | all time |
 | Replies | **2** | 1.1% |
 | To call | **50** | queued now |
-| Leads known | **25456** | researched |
+| Leads known | **25465** | researched |
 
 ## Needs a decision
 
@@ -65,6 +65,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Recomputed ready vs ready_live by niche against the areas-live tile, and checked call queue_total against last shift's number.
 - 2026-08-19 worked a shift: Compared today's ready/ready_live breakdown by niche against CMO's areas-live tile: beauty has 13 of its 29 ready leads blocked_area (16 live) while trades only has 2 of 22 blocked (20 live), even though the areas live tile claims 402 of 403 areas are live. That is a real, niche-specific mismatch, n
 - 2026-08-19 sent a fix to the CRO: Reorder the call queue so beauty and trades repliers get called before food and pro repliers, since beauty replies at 28 percent and trades at 24 percent against food's 7 percent and pro's 12 percent, and nearly all of today's fresh replies are beauty.
 - 2026-08-19 worked a shift: Compared today's call_list entries against the CEO tile: the board shows '50 calls waiting' but every entry in the call queue carries queue_total 398, so the real backlog is close to 8x the displayed number. Also checked the daily cap thread from the last two shifts: cap has moved from 8 to 1 to now
@@ -76,8 +77,7 @@ Where it stands right now.
 - 2026-08-19 answered you: Two tasks. First, CMO tiles: this is the same dashboard bug already flagged against CCO's checks-passing tile, areas live and niches live are reading wrong whil
 - 2026-08-19 handed a job to CRO: Reorder how the call queue is worked: pull from call_list top to bottom by buy_score, not ad hoc. Damien Seton Mechanical (Dubbo, score 95,
 - 2026-08-19 answered you: handed to CFO
-- 2026-08-19 answered you: handed to CMO
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T20:08:58. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T20:40:28. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

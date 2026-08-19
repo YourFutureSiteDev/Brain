@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T20:08:58
+updated: 2026-08-19T20:40:29
 role: "cmo"
 ---
 
@@ -42,6 +42,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-19 asked: [from CEO, on shift] Blocked_area now spans all four niches at 57 to 78 percent of ready l -> paused the trades niche. paused the food niche. paused the pro niche. It takes effect on the next cycle.
 - 2026-08-19 asked: [from CEO, on shift] 13 of 29 ready beauty leads are blocked_area right now, versus 2 of 2 -> already set that way, so nothing changed: trades, beauty
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> already set that way: only Dubbo NSW, Tamworth NSW, Windsor NSW, Eden NSW is open
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> everything is now on Dubbo NSW, Tamworth NSW, Windsor NSW, Eden NSW, and 0 other areas are paused. It takes effect next
@@ -53,7 +54,6 @@ Where it stands right now.
 - 2026-08-18 asked: what niches have you found? -> Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competit
 - 2026-08-18 asked: Your tile says 3 niches live, trades, beauty, pro, but ready_by_niche shows food with 11 r -> opened the food niche. It takes effect on the next cycle.
 - 2026-08-17 asked: From the vault, The CMO now has its own specialists: You have specialists now. 15 of them, -> an area now gets 15 emails before it is given up on
-- 2026-08-13 asked: how come we increase the client sales -> Areas live 60, Niches live 4, Search grid 5220. Page one is the wrong place to look: Businesses ranking for a competitiv
 
 ## Noticed
 
@@ -68,6 +68,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 answered you: paused the trades niche. paused the food niche. paused the pro niche. It takes effect on the next cycle.
 - 2026-08-19 worked a shift: Hand counted niche split in today's 50 row call_list (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile, which claims 4 niches live (trades, food, beauty, pro), and against ready_by_niche/ready_live_by_niche, which show food and pro both have real ready inventory.
 - 2026-08-19 answered you: already set that way, so nothing changed: trades, beauty
 - 2026-08-19 reported to the CEO: Beauty and the plain 'see your work' text are carrying every reply that matters, food is dead weight at 7% and should stop getting sent volume.
@@ -79,8 +80,7 @@ Where it stands right now.
 - 2026-08-19 answered you: opened the trades niche. It takes effect on the next cycle.
 - 2026-08-19 worked a shift: Cross-checked this shift's niches-live tile (reads back to 1, food only) against the actual call_list contents: none of the 50 queued leads are food niche, all are trades or beauty, which directly contradicts the tile rather than just disagreeing with last shift's reading of 4 niches live.
 - 2026-08-19 worked a shift: Compared this shift's CMO tiles against last shift's confirmed reading: last shift I verified niches live at 4 (trades, food, beauty, pro) matching ready_by_niche exactly, but this shift's live tile reads back to niches live 1 (food) and areas live 1 of 403, while ready_by_niche still shows all 4 ni
-- 2026-08-19 read outside the building: What reply rate and open rate benchmark should this business compare itself against, using the closest matching industry (local/real estate services) in a dated 2026 cold email benchmark study: Cleverly.co's industry benchmark report (dated 16 Apr 2026, updated 28 Jul 2026) has no figures for trades
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T20:08:58. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T20:40:29. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

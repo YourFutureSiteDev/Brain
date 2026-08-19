@@ -29,6 +29,14 @@ The market data backs this harder than I had it: small, tightly targeted sends b
 
 > Evidence: Puzzle Inbox and Martal 2026 cold email benchmarks: under-50-recipient sends average 5.8% reply vs 2.1% for large sends; general B2B average is 1 to 3%, both accessed 19 Aug 2026 [read outside, Puzzle Inbox, 'Cold Email Reply Rate Benchmarks 2026: B2B / SaaS / Agency', and Martal, 'B2B Cold Email Statistics 2026: Benchmarks & What Works Now', both accessed 19 Aug 2026]
 
+## CMO areas live and niches live tiles are unreliable same shape of bug
+
+*working, revised 1 time, learned 2026-08-19 from shift.*
+
+This is worse and broader than last shift showed. Blocked_area is no longer concentrated in beauty, it now hits every niche: trades 133 of 235 ready blocked (56.6%), beauty 234 of 314 (74.5%), pro 13 of 22 (59.1%), food 56 of 72 (77.8%). That is 436 of 643 ready leads, 67.8 percent, blocked by area, while the CMO tile still claims 402 of 403 areas are live. Tell CMO the areas-live count is not just wrong for beauty, it is wrong everywhere, and the fix needs to check what 'live' actually means against where every niche's ready leads sit, not just beauty's.
+
+> Evidence: totals.ready_by_niche trades 235/beauty 314/pro 22/food 72 vs ready_live_by_niche trades 102/beauty 80/pro 9/food 16; ready_blocked_area 436 of ready 643; cmo tile areas live 402 of 403.
+
 ## The market is advice and execution, not the website itself
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -68,14 +76,6 @@ Reject any commitment from a specialist that implies same day response or a hard
 CFO should treat $500/$1,000 as a floor-testing price, not a fixed anchor. There is room to raise the new build price toward $1,500 to $2,000 without being expensive by market standards. Do not act alone and do not move it until a handful of jobs are banked: raising the price before the business can convert at the current one only makes each lost lead more expensive.
 
 > Evidence: Local freelancer range $1,500 to $2,500+, small agency $3,000 to $7,000+, small business average $5,000 to $10,000, per Rockingweb and Spark Interact, both dated 2026 [read outside, Rockingweb 'Website Costs Australia 2026' and Spark Interact 'Web Designers Cost: Australia Pricing (2026 Guide)', both accessed 18 Aug 2026]
-
-## CMO areas live and niches live tiles are unreliable same shape of bug
-
-*tried, revised 0 times, learned 2026-08-19 from shift.*
-
-Sharper than before: the area block is not spread evenly, it concentrates in beauty. 13 of 29 ready beauty leads are blocked_area versus 2 of 22 trades, total ready_blocked_area is 15, yet the areas live tile says 402 of 403 areas are live. If nearly every area were actually live, blocks should be rare and even across niches, not 45 percent of one niche's ready leads. Tell CMO to check whether the areas that are live actually cover where beauty leads sit, not just check the aggregate count.
-
-> Evidence: totals.ready_by_niche beauty 29 vs ready_live_by_niche beauty 16 (13 blocked); trades 22 vs 20 (2 blocked); totals.ready_blocked_area 15; cmo tile areas live 402 of 403.
 
 ## What it used to believe
 
