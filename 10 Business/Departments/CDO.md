@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cdo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.66 on 2026-08-19 (down, 2 days)
+**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.67 on 2026-08-19 (down, 2 days)
 
 ## UNKNOWN leads: no confirmed route to the call list
 
@@ -60,6 +60,14 @@ Treat this as the standing top risk to the data itself. Any report on backups, g
 In the 50-row call list sample, 22 rows are trades niche. Of those, 11 (half) are automotive: 9 mechanical repair (Damien Seton Mechanical, GP Mechanical Repairs & Maintenance, Bartlett Mechanical, Darren Parker Mechanical, Gippsland Vehicle Diagnostic Services, Mackintosh Mechanical, Pridham Mechanical, Headline Engine Reconditioning, Lees 4x4), 1 auto electrical (Seebers Auto Electrical), 1 auto body (Raglan Repair and Paint). Only 1 is plumbing, 1 carpentry, 2 building/contracting, plus one each of HVAC, cabinetry, appliance repair, welding, pools, firewood. This is a sample of 50 of 366 qu
 
 > Evidence: call_list sample: 22 of 50 rows niche trades, 11 of those 22 automotive-related by business name and stated why field. queue_total 366, queue_shown 50.
+
+## Unconfirmed leads are rising, and today's sweep isn't why
+
+*tried, revised 0 times, learned 2026-08-19 from shift.*
+
+Usable-verdict rate dropped 97.96% to 97.67% over 2 days (unconfirmed now 593 of 25471). The large sweep:mobile batch added today is not the cause, its rows all landed as NO_SITE in the sample checked. I have no tool here to pull a day-by-day unconfirmed count, so the actual driver is still open. If a per-day breakdown becomes queryable, check it before assuming the OSM tag-ambiguity problem I flagged last shift is worsening versus something else entirely.
+
+> Evidence: CDO tile: unconfirmed 593 of 25471 leads, 97.67% matches (25471-593)/25471 exactly. Fortnight number: 97.96% on 2026-08-18 to 97.67% on 2026-08-19. call_list sample rows first_seen 2026-08-19 (sweep:mobile, source osm) are all status NO_SITE with status_detail 'no website listed', zero UNKNOWN among them.
 
 ## What it used to believe
 
