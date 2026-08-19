@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T00:04:28
+updated: 2026-08-20T00:36:04
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **178** | all time |
 | Replies | **2** | 1.1% |
 | To call | **50** | queued now |
-| Leads known | **25478** | researched |
+| Leads known | **25480** | researched |
 
 ## Needs a decision
 
@@ -54,6 +54,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-20 Read outside on who else in Australia runs the exact same play, an unsolicited free mockup with pay-only-if-you-like-it, and what do they charge: Found a direct same-tactic competitor: WebBuild Australia, Melbourne-based. Their offer is word for word the same model we run: 'Free Website Mockup. Pay Only If You Love It,' mockup delivered in 24 to 48 hours, no cost if you walk away. Current price is a 'Flash Sale, 48 hrs only' Starter package at $248 AUD, marked down from $600, capped at the first 10 customers. Delivery is inside 48 hours. (source: webbuildaustralia.com, fetched 20 Aug 2026)
 - 2026-08-19 8 calls made so far went to leads outside the top 50 ranked call_list (Windsor NSW, Tamworth chainsaw shop) instead of top buy_score leads like Damien Seton Mechanical (95, Dubbo, already opened demo). Queue was not being worked top to bottom.
 - 2026-08-19 CMO tile bug (areas live, niches live) confirmed same shape as CCO checks-passing tile bug. Both are dashboard read issues, not fixable by any desk lever. Needs Claude to check the query behind these tiles.
 - 2026-08-19 CRO's first 8 calls were made outside the ranked call_list top 50, missing top buy_score leads like Damien Seton Mechanical (95). Sent CRO the instruction to work the list top down from here.
@@ -61,10 +62,10 @@ Where it stands right now.
 - 2026-08-18 Read outside on what regional Australian freelancers and small agencies actually charge for a small business website in 2026: Market floor is well above our prices. Local Australian freelancers run $1,500 to $2,500 and up per project, small agencies start at $3,000 to $7,000, and small business websites average $5,000 to $10,000. Even the cheapest local freelancer segment sits at $500 to $2,000 for a basic build. We charge $500 for a remake and $1,000 for a new build, below even the bottom of the freelancer range. (source: Rockingweb 'Website Costs Australia 2026' and Spark Interact 'Web Designers Cost: Australia Pricing (2026 Guide)', both accessed 18 Aug 2026)
 - 2026-08-18 Byron asked to start the bot again on 2026-08-18, following up on the concreters/builders/landscapers request. Bot was stopped at 11:50 that day.
 - 2026-08-18 2026-08-18: bot_running was false through this whole exchange. Zero new leads found in the 5 minutes Byron asked about, purely because the bot was off, unrelated to the concreters/landscapers search term question.
-- 2026-08-18 Trades niche sample (50 of 364 queued) skews heavily to auto/mechanical repair, then plumbing, then a long tail of builders, carpenters, electricians, HVAC, appliance repair, pool builders, cabinet makers, welders.
 
 ## Recently did
 
+- 2026-08-20 read outside the building: who else in Australia runs the exact same play, an unsolicited free mockup with pay-only-if-you-like-it, and what do they charge: Found a direct same-tactic competitor: WebBuild Australia, Melbourne-based. Their offer is word for word the same model we run: 'Free Website Mockup. Pay Only If You Love
 - 2026-08-19 worked a shift: Recomputed ready vs ready_live by niche against the areas-live tile, and checked call queue_total against last shift's number.
 - 2026-08-19 worked a shift: Compared today's ready/ready_live breakdown by niche against CMO's areas-live tile: beauty has 13 of its 29 ready leads blocked_area (16 live) while trades only has 2 of 22 blocked (20 live), even though the areas live tile claims 402 of 403 areas are live. That is a real, niche-specific mismatch, n
 - 2026-08-19 sent a fix to the CRO: Reorder the call queue so beauty and trades repliers get called before food and pro repliers, since beauty replies at 28 percent and trades at 24 percent against food's 7 percent and pro's 12 percent, and nearly all of today's fresh replies are beauty.
@@ -76,8 +77,7 @@ Where it stands right now.
 - 2026-08-19 handed a job to CRO: Work the call_list in buy_score order, top to bottom, not wherever a lead surfaces. Top of list right now: Damien Seton Mechanical, Dubbo NS
 - 2026-08-19 answered you: Two tasks. First, CMO tiles: this is the same dashboard bug already flagged against CCO's checks-passing tile, areas live and niches live are reading wrong whil
 - 2026-08-19 handed a job to CRO: Reorder how the call queue is worked: pull from call_list top to bottom by buy_score, not ad hoc. Damien Seton Mechanical (Dubbo, score 95,
-- 2026-08-19 answered you: handed to CFO
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T00:04:28. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T00:36:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
