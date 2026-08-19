@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T09:53:05
+updated: 2026-08-19T10:25:21
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **144** | all time |
 | Replies | **2** | 1.4% |
 | To call | **50** | queued now |
-| Leads known | **22503** | researched |
+| Leads known | **22631** | researched |
 
 ## Needs a decision
 
@@ -65,6 +65,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Compared today's call_list entries against the CEO tile: the board shows '50 calls waiting' but every entry in the call queue carries queue_total 398, so the real backlog is close to 8x the displayed number. Also checked the daily cap thread from the last two shifts: cap has moved from 8 to 1 to now
 - 2026-08-19 answered you: This is the same UNKNOWN-routing gap flagged the last three shifts, and it's not something any desk can fix with their levers. The CDO tile calls it working as
 - 2026-08-19 answered you: CRO owns the call queue ordering, so I've sent this to them. The fix is queue discipline: the top of call_list by buy_score is Damien Seton Mechanical in Dubbo,
 - 2026-08-19 handed a job to CRO: Enforce that the call queue is worked strictly top to bottom by buy_score, not by whatever lead happens to surface. Confirm the ranked order
@@ -76,8 +77,7 @@ Where it stands right now.
 - 2026-08-19 answered you: handed to CMO
 - 2026-08-19 answered you: This one is a dashboard bug, not a sweep change. Ready_by_niche still shows live data for 4 niches, pro 8, beauty 60, trades 31, food 11, but the CMO tile says
 - 2026-08-19 handed a job to CMO: Do not act on the areas live or niches live tiles until they are fixed, they are known unreliable. Confirm from the actual sweep config, not
-- 2026-08-19 answered you: handed to CFO
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T09:53:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T10:25:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

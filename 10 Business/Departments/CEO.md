@@ -13,6 +13,14 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 **Scoreboard.** replies: 2 on 2026-08-18 to 2 on 2026-08-19 (flat, 2 days)
 
+## Reply-to-call speed is the real constraint, not send volume
+
+*working, revised 2 times, learned 2026-08-18 from brief.*
+
+The displayed '50 queued' undercounts the real backlog badly. Every row in the call queue this shift carries queue_total 398 against calls_made still at 8 total (pipeline.called). When reviewing CRO's numbers, use queue_total from the call list data, not the CEO tile's rounded count, and keep pushing that the fix is calling faster, not emailing more.
+
+> Evidence: call_list rows all show queue_total 398, queue_shown 50; pipeline.called 8 against totals.sent_total 144.
+
 ## One trade, sequentially, never four at once
 
 *working, revised 1 time, learned 2026-08-18 from brief.*
@@ -20,22 +28,6 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 The market data backs this harder than I had it: small, tightly targeted sends beat big blended ones by nearly 3x on reply rate (5.8% vs 2.1%). That is an argument for CMO staying narrow by trade and area, not just a flywheel argument. Our current 1.4% reply rate is not a crisis, it is what an unfocused, mixed-niche 143-email batch looks like. Tell CMO the fix for reply rate is narrower targeting, not more volume.
 
 > Evidence: Puzzle Inbox and Martal 2026 cold email benchmarks: under-50-recipient sends average 5.8% reply vs 2.1% for large sends; general B2B average is 1 to 3%, both accessed 19 Aug 2026 [read outside, Puzzle Inbox, 'Cold Email Reply Rate Benchmarks 2026: B2B / SaaS / Agency', and Martal, 'B2B Cold Email Statistics 2026: Benchmarks & What Works Now', both accessed 19 Aug 2026]
-
-## Reply-to-call speed is the real constraint, not send volume
-
-*working, revised 1 time, learned 2026-08-18 from brief.*
-
-143 emailed against only 8 ever called is a huge gap. When reviewing CRO's numbers each shift, check calls made versus calls queued, not just emails sent. The queue is growing faster than it clears.
-
-> Evidence: cro tiles: Emailed 143, Called 8, alert '50 follow-up calls queued'.
-
-## Daily cap of 8 is not matching actual sends
-
-*working, revised 1 time, learned 2026-08-18 from shift.*
-
-Cap now reads 1, not 8, and sent_today is 0, so today's numbers do match. But a cap of 1 against 169 ready leads and 1216 sendable ones means outbound has effectively stopped. Sent_total is still 143, same as last shift, so nothing has gone out since. Flag to COO to confirm this is a deliberate throttle and not an accidental drop.
-
-> Evidence: business.daily_cap: 1, totals.sent_today: 0, totals.sent_total: 143 (unchanged from prior shift's reading), totals.ready: 169, totals.sendable: 1216.
 
 ## The market is advice and execution, not the website itself
 
@@ -79,6 +71,7 @@ CFO should treat $500/$1,000 as a floor-testing price, not a fixed anchor. There
 
 ## What it used to believe
 
+- **Daily cap of 8 is not matching actual sends** retired 2026-08-19: Cap is no longer stuck between a set number and an overshoot, it now reads 'off' outright, so the mismatch this heading described no longer exists. Evidence: business.daily_cap is now 'off', not 1 or 8.
 - **Care is the business, the build is just the door** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.
 
 Back to [[Memory]].
