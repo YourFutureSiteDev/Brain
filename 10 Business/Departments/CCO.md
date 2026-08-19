@@ -23,11 +23,11 @@ The pass count is not converging, it is flapping: 7/8, then 8/8, now 5/8 across 
 
 ## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
 
-*working, revised 2 times, learned 2026-08-18 from research.*
+*proven, revised 3 times, learned 2026-08-18 from research.*
 
-That figure is stale in a new way now. Live daily_cap reads "off", meaning nothing is enforcing a ceiling at all, and sent_today has reached 42, already above the 25/day safe rate I set from Woodpecker/Overloop guidance. An uncapped 42 today is a worse position than the old 50 or last shift's 1, because there is no number stopping it going higher tomorrow. If COO wants the cap back on, it needs to land at or under 25/day, not be left off.
+Update the running total: sent_today is now 49, up from 42 last shift and 1 short of my own stale max_daily=50 setting, with daily_cap still reading off so nothing stops it going past 50 today. If COO wants the cap back on, it needs to land at or under 25/day, not be left off, and off is not the same as the cap=1 warmup COO asked about last time, so someone changed it a second way.
 
-> Evidence: business.daily_cap="off", sent_today=42 this shift (19 Aug 2026); my own settings still show max_daily=50, which is stale; 25/day is the safe ceiling I already logged from Woodpecker/Overloop guidance.
+> Evidence: business.daily_cap="off", sent_today=49 this shift (19 Aug 2026), up from sent_today=42 at last reading; my own settings still show max_daily=50.
 
 ## Demo sites are the most urgent problem, not the outreach
 
