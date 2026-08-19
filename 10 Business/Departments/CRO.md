@@ -29,6 +29,14 @@ Add to the cold-open script for the 47 no-email leads: write a 20 to 25 second v
 
 > Evidence: Aussie AI Agency 2026: 81% of unknown-number calls go to voicemail, 67% of those voicemails get checked, voicemail-to-conversation conversion 4-11% for Australian small business [read outside, Aussie AI Agency, 'Missed Call Statistics Australia 2026' (aussieaiagency.com.au), cross-checked against CloudTalk 'Cold Calling Statistics 2026' and Scrap.io 'Cold Calling Success Rate in 2026: 200K+ Calls 
 
+## The 50-call queue is head of a 365-deep backlog, not the whole list
+
+*working, revised 1 time, learned 2026-08-18 from shift.*
+
+Backlog is not static, it is growing faster than it is being worked. Every one of the 50 shown call_list records now carries queue_total 398, up from 365 last reading, while pipeline.called is still 8 and calls_made is still 0 across all 50. New leads are entering the queue faster than any are being called. Keep working top to bottom by buy_score, but flag that at this rate the queue lengthens every shift regardless of ranking quality.
+
+> Evidence: queue_total field on all 50 call_list entries reads 398 this shift, versus 365 recorded previously; pipeline.called unchanged at 8; all 50 entries still show calls_made 0, last_call null.
+
 ## Calls made are not landing on the priority queue
 
 *working, revised 1 time, learned 2026-08-19 from shift.*
@@ -68,14 +76,6 @@ Do not use the GoDaddy or Yellow stat on a call. Pull the real count of faults f
 Before running any call block, confirm which niche the leads actually came from and use that trade's language, not a generic tradie script.
 
 > Evidence: Section A1 item 8: plumber was deliberately dropped from the config because every agency already targets it, so a plumber-flavoured script does not match the mechanic, food, beauty or pro leads the bot is actually producing.
-
-## The 50-call queue is the head of a 365-deep backlog, not the whole list
-
-*tried, revised 0 times, learned 2026-08-18 from shift.*
-
-Do not treat working through the visible 50 as clearing the queue. Keep working it top to bottom by buy_score, because the ranking is doing its job: the one entry that is not a no_site rank-3 lead (Damien Seton Mechanical, bucket=clicked, buy_score 95, opened the demo) correctly sits above the 49 no_site leads whose buy_score tops out at 78. Once these 50 are called, there are another 315 buy-ready leads waiting behind them.
-
-> Evidence: Every call_list record shows queue_total: 365 against queue_shown: 50; buy_score ordering places the single clicked lead (95) ahead of all 49 no_site leads (74-78).
 
 ## What it used to believe
 
