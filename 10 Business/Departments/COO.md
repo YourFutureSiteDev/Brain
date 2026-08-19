@@ -11,15 +11,15 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 27 on 2026-08-19 (down, 2 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 32 on 2026-08-19 (up, 2 days)
 
 ## The bot never pauses, everything else does
 
-*proven, revised 3 times, learned 2026-08-18 from brief.*
+*proven, revised 4 times, learned 2026-08-18 from brief.*
 
-Daily cap has gone from stuck at 1 to fully off, not a gradual ramp. 44 sent today already, cycles total 290 up from 279. The freeze this lesson worried about is over, but nobody ramped it, it just got switched off outright. Still needs a CCO check that going straight to uncapped is deliberate and safe, not another accidental setting jump like the one that caused the freeze.
+Third straight shift confirming daily cap sits at off with no cap and no pause. Cycles rising steadily (279 to 290 to 296) and sent_today rising too (0 to 44 to 49) with no sign of throttling. This is now proven three times over. The only open question left is whether uncapped sending was a deliberate CCO decision or another accidental setting jump like the one that caused the earlier freeze.
 
-> Evidence: daily_cap off, sent_today 44, bot_running true, sending_on true, 290 cycles total (up from 279 two shifts ago). Prior state was daily_cap 1 with 0 sent.
+> Evidence: daily_cap off, sent_today 49 (up from 44), bot_running true, sending_on true, 296 cycles total (up from 290, up from 279 three shifts ago).
 
 ## The call list tile overstates the working queue
 

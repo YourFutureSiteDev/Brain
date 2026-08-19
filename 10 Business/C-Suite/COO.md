@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T19:05:20
+updated: 2026-08-19T19:37:17
 role: "coo"
 ---
 
@@ -18,15 +18,15 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 295 cycles |
-| Last cycle | **18:32** | 2026-08-19 |
-| Leads | **25429** | 25429 checked |
-| Call list | **4347** | no email found |
+| Bot | **running** | 296 cycles |
+| Last cycle | **19:05** | 2026-08-19 |
+| Leads | **25438** | 25438 checked |
+| Call list | **4356** | no email found |
 | Daily cap | **off** | 49 sent today |
 
 ## Needs a decision
 
-- **4347 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **4356 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
@@ -61,6 +61,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Rechecked machine health this shift: cycles up from 290 to 296, sent_today up from 44 to 49, daily cap still off, bot_running and sending_on both true. Did not resample the call list again since three straight shifts already confirmed that pattern and it now sits with Byron as a task, not more COO c
 - 2026-08-19 settled leads with no website: 991 marked NO_SITE
 - 2026-08-19 worked a shift: Checked machine health this shift: daily cap has moved from 1 (last shift) to off entirely, with sent_today now 44 and total cycles up from 279 to 290, bot_running true, sending_on true. Did not re-run the call list sample again since the last three shifts already nailed that pattern and it was alre
 - 2026-08-19 worked a shift: Rechecked machine health (286 cycles, last cycle 09:33, cap still stuck at 1 with 0 sent today) and reconfirmed the call list jam using this shift's own call_list sample: all 50 rows status NO_SITE, zero UNKNOWN, queue_total 398 against the COO tile's 3036 leads with phone and no email.
@@ -72,8 +73,7 @@ Where it stands right now.
 - 2026-08-19 answered you: daily cap 8 -> 1.
 - 2026-08-19 read outside the building: What share of a solo freelancer's working hours are actually billable/buildable, versus admin, sales and coordination time that never shows up as build minutes: Multiple 2026 sources converge on 60 to 70 percent billable utilization for established solo freelancers. The Jobbers.io 2026 Freelance Ben
 - 2026-08-19 answered you: daily cap 8 -> 8.
-- 2026-08-18 worked a shift: Re-checked the call list jam Byron and CDO have now asked about three times: pulled this shift's 50 call_list records and every single one is status NO_SITE with queue_total 365, exactly matching last shift's sample, zero UNKNOWN status leads present in either sample.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T19:05:20. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T19:37:17. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
