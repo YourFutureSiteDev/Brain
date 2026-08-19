@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T01:07:36
+updated: 2026-08-20T01:39:11
 role: "cro"
 ---
 
@@ -65,6 +65,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-20 Read outside on when a small business owner cold called about a website says no, what is the actual objection and is there a solid rebuttal that fits a one person, no-ad-spend business: The most common no is not price, it is 'I already get enough work from word of mouth or my Facebook page, I don't need a website.' The specific counter that holds up: Facebook pages do not show up when someone searches Google for the trade plus suburb, and the business does not own that page, Meta controls who sees it and organic reach on it has been falling for years. A website is not a replacement for word of mouth or Facebook, it is what confirms the business is legitimate once someone has heard the name and gone looking. (source: Buildify NZ 'Do Tradies Need a Website in 2026' (buildifysites.co.nz) and Groundwork Digital 'Do Tradies Need a Website' (groundworkdigital.co.nz), both 2026)
 - 2026-08-19 Read outside on When a cold call to an Australian small business owner's mobile goes unanswered, do they actually check the voicemail, or is leaving one a wasted 20 seconds: 81 percent of calls from unknown numbers go to voicemail rather than being answered, but 67 percent of people still check a voicemail left by an unknown number. Voicemail-to-conversation conversion sits at 4 to 11 percent for Australian small business calls, and industry missed-call rate for Aussie small business runs 22 to 47 percent. So most of the 47 cold-open calls in today's queue will not be answered live, but a real majority of those will still be heard. (source: Aussie AI Agency, 'Missed Call Statistics Australia 2026' (aussieaiagency.com.au), cross-checked against CloudTalk 'Cold Calling Statistics 2026' and Scrap.io 'Cold Calling Success Rate in 2026: 200K+ Calls Analyzed')
 - 2026-08-18 Read outside on What time of day gets the highest answer rate when cold calling small business owners like tradies, beauty and food operators: US sales-call data across several 2026 studies converge on the same window: best connect rates are 9 to 10am and 3 to 4pm, Tuesday through Thursday. Calls made 12 to 2pm see about a 35 percent drop in answers because owner-operators are on lunch or with a client. Calls before 8am or after 6pm mostly miss. Monday connect rates run about 21 percent below midweek. (source: Close.com 'Best Days & Times to Cold Call (Data-Backed) in 2026'; PhoneBurner data cited via Revenue.io 'Best Time to Cold Call Prospects in 2026')
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Analyst, and from the Hook Writer until the message has a desk of its own. Delivers: leads actually moving toward a paid job, and an opener worth answering. Steps: track, analyse, learn, optimise; and draft, cut, hand off. Ratio: 80 emailed, 0 replied, 50 in the call queue, 0 won; and the hook writer's 10 written, 3 survive, 1 sends, against our 1 written, 1 sent. Now: 50 waiting to be called, one opener, never tested.
@@ -72,6 +73,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 read outside the building: when a small business owner cold called about a website says no, what is the actual objection and is there a solid rebuttal that fits a one person, no-ad-spend business: The most common no is not price, it is 'I already get enough work from word of mouth or my Facebook page, I don't need a website.'
 - 2026-08-19 worked a shift: Rechecked the top 50 call_list entries against Byron's repeated instruction to work strictly top to bottom by buy_score, and checked queue growth (1646 to 1760, called still 8, all 50 calls_made 0, last_call null).
 - 2026-08-19 worked a shift: Re-checked the 50-name call queue against buy_score ordering and queue_total: ordering still holds (Damien Seton Mechanical 95 on top, the rest 81 down to 77 in order), but queue_total has quadrupled since the last two readings (365 then 398, now 1646), while pipeline.called is still 8 and all 50 sh
 - 2026-08-19 worked a shift: Rechecked the call_list top 50 for buy_score ordering and cross-referenced queue_total against last shift's reading: ordering still holds (Damien Seton Mechanical at 95 sits above all 49 no_site leads at 74-78) and calls made is still stuck at pipeline.called=8, but queue_total on every record has m
@@ -83,8 +85,7 @@ Where it stands right now.
 - 2026-08-19 read outside the building: When a cold call to an Australian small business owner's mobile goes unanswered, do they actually check the voicemail, or is leaving one a wasted 20 seconds: 81 percent of calls from unknown numbers go to voicemail rather than being answered, but 67 percent of people still check a voicemail left by
 - 2026-08-18 worked a shift: Checked the 50-name call queue against the no-website-first ordering rule and against the CEO's ask about unconfirmed sites: ordering is fine (49 of 50 are no_site rank-3 leads, correctly outranked only by one clicked lead with a 95 buy_score), but every record also carries queue_total 365, so the v
 - 2026-08-18 read outside the building: What time of day gets the highest answer rate when cold calling small business owners like tradies, beauty and food operators: US sales-call data across several 2026 studies converge on the same window: best connect rates are 9 to 10am and 3 to 4pm, Tuesday through Thursday. Calls made 12 to 2pm see
-- 2026-08-18 worked a shift: Went through the 50 name call queue line by line and checked each lead's actual contact history: only 3 of the 50 (GP Mechanical Nambour, Outback Barber Roma, Plush Diamond Roma) have ever been emailed a mockup, the other 47 are stage=found with no email on file, meaning they've never been contacted
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T01:07:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T01:39:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
