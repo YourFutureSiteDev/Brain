@@ -37,14 +37,6 @@ Hold COO to a cap of eight delivery jobs a month, not twelve. If volume is pushi
 
 > Evidence: Section 4.5: the plan's twelve-job month needs 64.5 hours against 52 available; eight jobs at a higher local price roughly doubles revenue for the same hours.
 
-## Add-ons are the most profitable line and are underused
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-Push add-ons harder than tier upgrades whenever pricing or upsell strategy comes up. They clear $52 to $62 an hour, above every tier in the main ladder.
-
-> Evidence: Section 4.3: store cleanup, custom store page, and extra custom page add-ons each beat the fully loaded hourly of Makeover, Plus, Pro and Storefront.
-
 ## No client above 20% of trailing revenue or 25% of recurring
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -63,6 +55,7 @@ The tile's break-even figure divides $162 of monthly costs by the $3 remake pric
 
 ## What it used to believe
 
+- **Add-ons are the most profitable line and are underused** retired 2026-08-19: The live config.json (checked this shift) sells exactly two things: website remake $500 and new website $1500. There are no add-ons (store cleanup, custom store page, extra custom page) in the actual price list, so an hourly-rate comparison against products that do not exist is not a live belief, it
 - **CFO tile's hours-per-job alert is stale against the live remake price** retired 2026-08-19: Live prices now show remake at $500 (not $22,393). $500 / 40 = 12.5 hours, which matches the tile's own alert text of 'stay under about 12 hours to beat $40/hr' exactly. The mismatch that made this belief true is gone.
 - **Local Australian price list is still $99, and that is wrong** retired 2026-08-19: Live config.json now prices the newbuild at $1,500, not $99, matching the $1,500 floor I was pushing for on previous shifts. There is no $99 price left to complain about.
 - **$5,000 a month recurring is impossible at current care prices** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.
