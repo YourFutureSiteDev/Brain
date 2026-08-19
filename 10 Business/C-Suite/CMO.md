@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T00:36:05
+updated: 2026-08-20T01:07:36
 role: "cmo"
 ---
 
@@ -57,6 +57,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-20 Read outside on Do food/hospitality businesses reply to cold email at a different rate than trades or beauty, per outside industry data, to check whether the food niche's 7% reply rate in-house is a known pattern or : No trustworthy figure exists. A search summary claimed Food & Beverage cold email gets 3.47% reply, '8x the average,' citing puzzleinbox.com. I fetched both puzzleinbox pages the claim traced to directly and neither contains any Food & Beverage row at all, the industries listed are SaaS, agencies, recruiting, financial services, real estate, manufacturing, healthcare IT, legal, consulting and IT services/MSP, all B2B seller-to-business outreach. The number was not on the page it was attributed to. (source: puzzleinbox.com/blog/cold-email-reply-rate-benchmarks (published 25 Mar 2026) and puzzleinbox.com/blog/cold-email-response-rate-by-industry (published 5 Apr 2026), fetche
 - 2026-08-19 reply rate across everything is 1.1% over 178 emails
 - 2026-08-19 reply rate across everything is 1.1% over 179 emails
 - 2026-08-19 reply rate across everything is 1.4% over 144 emails
@@ -64,10 +65,10 @@ Where it stands right now.
 - 2026-08-18 Read outside on How does our 1.4% cold email reply rate compare to 2026 benchmarks, and could the machine's sending setup itself be the cause rather than the message?: 2026 benchmarks put a well-run B2B cold email campaign at 3 to 5% replies, with the platform-wide average at 3.43%. Even the weakest performing industry sector, financial services, floors out at 1.5 to 3.5%. Our 2 replies from 143 sent (1.4%) sits below every published benchmark including that floor. Separately, the deliverability guides say the safe volume is around 100 cold emails a day per inbox, and only once that inbox is warmed up and sending from an authenticated custom domain on Google Workspace, not a free Gmail account. Warmup should start at 10 to 20 a day. Sending near cap without that groundwork is the classic way to land in spam regardless of what the email says. (source: Apollo.io, 'What's a Good Cold Email
 - 2026-08-18 reply rate across everything is 1.4% over 143 emails
 - 2026-08-18 reply rate across everything is 2.1% over 94 emails
-- 2026-08-17 pause_after was moved from 100.0 to 15 0 days ago and going back now would undo it before it has been given a fair go. Holding at 15 until 14 more days have passed. See [[pause_after 100.0 to 15]].
 
 ## Recently did
 
+- 2026-08-20 read outside the building: Do food/hospitality businesses reply to cold email at a different rate than trades or beauty, per outside industry data, to check whether the food niche's 7% reply rate in-house is a known pattern or : No trustworthy figure exists. A search summary claimed Food & Beverage cold email gets 3.47% reply
 - 2026-08-19 worked a shift: Hand counted this shift's 50 row call_list (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile which now reads 1 niche live (beauty) and against ready_live_by_niche which shows beauty 80 and nothing for trades, food or pro; also checked call_list areas against CEO's spread instruction
 - 2026-08-19 answered you: paused the trades niche. paused the food niche. paused the pro niche. It takes effect on the next cycle.
 - 2026-08-19 worked a shift: Hand counted niche split in today's 50 row call_list (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile, which claims 4 niches live (trades, food, beauty, pro), and against ready_by_niche/ready_live_by_niche, which show food and pro both have real ready inventory.
@@ -79,8 +80,7 @@ Where it stands right now.
 - 2026-08-19 answered you: everything is now on Eden NSW, and 1 other areas are paused. It takes effect next cycle.
 - 2026-08-19 answered you: Areas live 1, Niches live 2, Search grid 53. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a website.
 - 2026-08-19 answered you: opened the trades niche. It takes effect on the next cycle.
-- 2026-08-19 worked a shift: Cross-checked this shift's niches-live tile (reads back to 1, food only) against the actual call_list contents: none of the 50 queued leads are food niche, all are trades or beauty, which directly contradicts the tile rather than just disagreeing with last shift's reading of 4 niches live.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T00:36:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T01:07:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
