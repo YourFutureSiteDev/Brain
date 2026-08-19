@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T17:28:18
+updated: 2026-08-19T18:00:43
 role: "cco"
 ---
 
@@ -67,6 +67,7 @@ Where it stands right now.
 - 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
+- 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-19 worked a shift: Rechecked today's live CCO tile against Byron's cap-breach question and the recurring 51-sent-vs-cap-15 report: business.daily_cap now reads "off" with sent_today at 42, and checks passing has flapped back to 7/8 after reading 8/8 last shift.
 - 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
@@ -75,8 +76,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Rechecked today's live sent_today and daily_cap against Byron's open question about a '51 sent vs cap 15' breach and against last shift's stale note calling 51/day double the safe rate: live data now shows sent_today=0 against daily_cap=1, so there is no breach today and the volume risk that note wa
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: turn sending off; suppress an address permanently; hold the daily cap at a level that will not get the accou
 - 2026-08-19 worked a shift: Rechecked the CCO tile against this shift's live numbers: checks passing now reads 8/8 (up from the 7/8 that triggered Byron's last five questions), sent_today is 0 against a live daily_cap of 1, and suppressed sits flat at 23 for a second day.
-- 2026-08-19 read outside the building: What penalty does NSW Fair Trading actually impose for advertising building work under a false or fabricated builder licence number: Under the Home Building Act 1989, contracting or advertising residential building work without holding the correct licence carries maximum penalties up to $110,000 for
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T17:28:18. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T18:00:43. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
