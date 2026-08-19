@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cmo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.12 on 2026-08-20 (down, 3 days)
+**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.1 on 2026-08-20 (down, 3 days)
 
 ## Food niche has real inventory but is not counted as live
 
@@ -100,5 +100,13 @@ Keep hand counting the call_list every shift, do not read niches-live or ready_l
 Treat the reply-text field as incomplete, not zero. When judging which wording or niche is really working, confirm with Byron directly on any batch where the sync looks thin, don't take a low written-reply count as proof a message failed.
 
 > Evidence: Of the 12 most recent replies noticed, 0 have the actual reply text on this box, the rest were texted back on Byron's phone and never reached the database.
+
+## CMO lead area field mismatches the lead's own location, not just the tile totals
+
+*tried, revised 0 times, learned 2026-08-20 from shift.*
+
+This is a separate bug from the niches-live tile. The per-lead area field itself is wrong for roughly half of today's queue, and it is not just neighbouring suburbs, several cross state lines entirely: Acme Composite Supplies (slug says donnybrook-wa, area field says Brisbane QLD), St George's Barber Shop (slug walkerston-qld, area field Perth WA), Mano's Barbershop (slug burnett-heads-qld, area field Sydney NSW). If area targeting or the areas-live count reads this field, it is working off wrong locations. Don't trust the area field on any lead without checking the slug or address first.
+
+> Evidence: Of 50 rows in this shift's call_list, at least 24 have an area field that does not match the suburb in the lead's own slug, including at least 3 that cross state borders entirely.
 
 Back to [[Memory]].

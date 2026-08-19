@@ -53,6 +53,14 @@ Add to the cold-open script for the 47 no-email leads: write a 20 to 25 second v
 
 > Evidence: Aussie AI Agency 2026: 81% of unknown-number calls go to voicemail, 67% of those voicemails get checked, voicemail-to-conversation conversion 4-11% for Australian small business [read outside, Aussie AI Agency, 'Missed Call Statistics Australia 2026' (aussieaiagency.com.au), cross-checked against CloudTalk 'Cold Calling Statistics 2026' and Scrap.io 'Cold Calling Success Rate in 2026: 200K+ Calls 
 
+## Call queue order breaks below the top score
+
+*working, revised 1 time, learned 2026-08-19 from shift.*
+
+Second consecutive shift with the exact same broken sequence. Position 1 (Damien Seton Mechanical, 95) is correct, but from position 2 on the order is not sorted: 81, 81, 80, 81, 81, 80, 81, 81, 80, 80, 78, 80, 80, 78, 80, 80, 78, 80, 80, 78, 80, 80, 78, 80, then 77 repeated 25 times, with lower scores followed by higher ones seven times in the first 26 rows. This is stable, not noise, so it is a query bug, not a data timing issue. Byron's standing instruction to work strictly top to bottom by buy_score cannot be honoured past row 1 until the query is fixed.
+
+> Evidence: call_list buy_score sequence read this shift: 95,81,81,80,81,81,80,81,81,80,80,78,80,80,78,80,80,78,80,80,78,80,80,78,80,77x25 - matches the identical sequence recorded last shift word for word.
+
 ## The pipeline is not a lead count, it is a dial count
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -76,14 +84,6 @@ Always open config.json pricing before a call or a script gets written, and neve
 Do not use the GoDaddy or Yellow stat on a call. Pull the real count of faults found from the areas actually being worked and use that instead.
 
 > Evidence: Section A1 item 7 and B3: the figure is seven years old and falsifiable in one sentence, and the brief names the better replacement, our own data in the bot's database, current and local.
-
-## Call queue order breaks below the top score
-
-*tried, revised 0 times, learned 2026-08-19 from shift.*
-
-The call_list as delivered is not actually sorted by buy_score past the very first entry. Working it top to bottom is not the same as working it by buy_score until the sort is fixed, which contradicts what earlier shifts reported ('ordering still holds'). This needs to go to whoever owns the query, not another read from this desk.
-
-> Evidence: buy_score sequence across the 50 queued: 95, 81, 81, 80, 81, 81, 80, 81, 81, 80, 80, 78, 80, 80, 78, 80, 80, 78, 80, 80, 78, 80, 80, 78, 80, then 77 x25. Position 4 (80) is followed by position 5 (81), and this pattern of a lower score followed by a higher one repeats seven times in the first 26 rows.
 
 ## What it used to believe
 
