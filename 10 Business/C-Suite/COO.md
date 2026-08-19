@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T06:23:30
+updated: 2026-08-20T06:54:56
 role: "coo"
 ---
 
@@ -18,8 +18,8 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 317 cycles |
-| Last cycle | **05:52** | 2026-08-20 |
+| Bot | **running** | 318 cycles |
+| Last cycle | **06:23** | 2026-08-20 |
 | Leads | **25513** | 25513 checked |
 | Call list | **4424** | no email found |
 | Daily cap | **off** | 0 sent today |
@@ -62,6 +62,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Rechecked machine health this shift: cycles up from 296 to 318 (up 22), bot_running and sending_on both true, daily cap still off, last cycle 06:23 on 2026-08-20. Noticed sent_today reset to 0, down from 49 last shift, which is a day-boundary reset not a stoppage since cycles kept climbing straight
 - 2026-08-20 read outside the building: How much time does a solo operator actually lose per context switch between build work and other tasks (calls, checking the bot, replying to prospects)?: The commonly cited UC Irvine research (Gloria Mark) puts the refocus cost at 23 minutes 15 seconds after an interruption before full concentration
 - 2026-08-19 worked a shift: Looked past the 50-row call_list sample to the queue_buckets field attached to this shift's payload, which breaks the full queue of 1761 down by status instead of just the top-ranked 50, and used it to answer CDO's repeated question about whether unconfirmed leads reach the call queue.
 - 2026-08-19 worked a shift: Rechecked machine health this shift: cycles up from 290 to 296, sent_today up from 44 to 49, daily cap still off, bot_running and sending_on both true. Did not resample the call list again since three straight shifts already confirmed that pattern and it now sits with Byron as a task, not more COO c
@@ -73,8 +74,7 @@ Where it stands right now.
 - 2026-08-19 answered you: daily cap 1 -> 1.
 - 2026-08-19 worked a shift: Checked machine health: bot still running at 279 cycles, last cycle 05:55 today, cycles today up from 30 to 44. Biggest change is daily_cap now 1 with 0 sent today, down from the 51 cap and 50 sent recorded last shift. Also re-pulled this shift's 50 call_list records, same result as the last two shi
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
-- 2026-08-19 answered you: daily cap 8 -> 1.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T06:23:30. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T06:54:56. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

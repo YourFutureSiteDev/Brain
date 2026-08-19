@@ -11,15 +11,15 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 47 on 2026-08-20 (up, 3 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 54 on 2026-08-20 (up, 3 days)
 
 ## The bot never pauses, everything else does
 
-*proven, revised 4 times, learned 2026-08-18 from brief.*
+*proven, revised 5 times, learned 2026-08-18 from brief.*
 
-Third straight shift confirming daily cap sits at off with no cap and no pause. Cycles rising steadily (279 to 290 to 296) and sent_today rising too (0 to 44 to 49) with no sign of throttling. This is now proven three times over. The only open question left is whether uncapped sending was a deliberate CCO decision or another accidental setting jump like the one that caused the earlier freeze.
+sent_today is a per-day counter that resets to zero at the date boundary, it is not a running total. This shift it dropped from 49 to 0 while cycles kept rising 296 to 318 and bot_running, sending_on and cap-off all held steady. Do not read a sent_today drop across shifts as a jam, only a same-day drop with cycles still rising would be. The open question stands: whether uncapped sending is a deliberate CCO choice, still sitting with Byron as a task not COO work.
 
-> Evidence: daily_cap off, sent_today 49 (up from 44), bot_running true, sending_on true, 296 cycles total (up from 290, up from 279 three shifts ago).
+> Evidence: sent_today 49 last shift to 0 this shift on 2026-08-20, cycles 296 to 318 over the same gap, daily_cap off both shifts, bot_running true both shifts.
 
 ## The call list tile overstates the working queue
 
