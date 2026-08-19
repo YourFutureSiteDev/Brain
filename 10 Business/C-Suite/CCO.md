@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T02:10:42
+updated: 2026-08-20T02:42:36
 role: "cco"
 ---
 
@@ -57,6 +57,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-20 Read outside on What actually gets a Gmail account suspended for cold sending in 2026, spam complaint rate thresholds and bulk sender rules: Google's bulk sender rules (DMARC, one click unsubscribe, spam threshold) legally kick in at 5,000 messages a day to Gmail addresses, which this business is nowhere near. The real trigger across volume levels is spam complaint rate: Google enforces a hard ceiling of 0.3% complaints and treats 0.1% as the line bulk senders must stay under, with 0.08% as the safe working number. Other suspension triggers named: bounce rate above 5%, and sending without SPF/DKIM/DMARC on the domain. Since November 2025 Gmail has been scaling permanent 550 rejections for senders who fail these checks. (source: gmass.co/blog/gmail-bulk-sender-guidelines (2026), litemail.ai/blog/google-email-sender-guidelines-2026-changes, growthhacksuite.com/what-are-gmail-sending-limits
 - 2026-08-19 Read outside on What penalty does NSW Fair Trading actually impose for advertising building work under a false or fabricated builder licence number: Under the Home Building Act 1989, contracting or advertising residential building work without holding the correct licence carries maximum penalties up to $110,000 for an individual (up to $330,000 for a corporation), and NSW Fair Trading advertising rules separately require any building trade ad to carry a true, currently held licence number. A 2026 enforcement case saw an unlicensed builder hit with nine penalty notices totalling $22,000 for contract and insurance breaches alone, well before any court penalty. This is a live enforcement area, not a dormant one. (source: NSW Government, nsw.gov.au 'Building trade advertisements' and Contracts Specialist 'Role of NSW OFT in Regulating Builders', cross checked against the ABC News 28 Jul 2026
 - 2026-08-18 Read outside on What daily sending volume is actually safe for cold email from a personal Gmail account before it risks spam flags or suspension, versus Gmail's official caps: Personal Gmail's hard cap is 500 recipients a day, but that is not the safe number for cold outreach. Standard practice is to warm up at 10 to 20 emails a day and only scale to around 25 a day per inbox for cold sending. Beyond the daily cap, the other suspension triggers are a bounce rate above 5 percent and a spam complaint rate above 0.3 percent. Separately, Google's stricter bulk sender rules (authentication, one click unsubscribe enforcement) only bite at 5,000 emails a day to Gmail addresses, so this business is nowhere near that regime. (source: Woodpecker "Email Sending Limits in 2026" and Overloop "Gmail Sending Limits in 2026", both retrieved 18 Aug 2026; PowerDMARC "Bulk Email Sender Rules For Google, Ya
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Publisher. Delivers: an account that stays alive and a business that stays legal. Steps: plan, schedule, publish, confirm, report. Ratio: 23 suppressed against 80 sent, of which 1 is a real bounce, 1.25%. Now: 8/8 compliance, sending shut for the weekend.
@@ -64,6 +65,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
+- 2026-08-20 read outside the building: What actually gets a Gmail account suspended for cold sending in 2026, spam complaint rate thresholds and bulk sender rules: Google's bulk sender rules (DMARC, one click unsubscribe, spam threshold) legally kick in at 5,000 messages a day to Gmail addresses, which this business is nowhere near. The
 - 2026-08-20 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-20 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-20 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
@@ -74,9 +77,7 @@ Where it stands right now.
 - 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-19 worked a shift: Rechecked today's live CCO tile against the two open Byron questions (cap breach, name of the failing check): sent_today has climbed from 42 to 49 since last shift while daily_cap still reads off, and checks passing is 5/8 with the tile still only naming the 3 passing checks, not the 3 failing ones.
 - 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
-- 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
-- 2026-08-19 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T02:10:42. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T02:42:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
