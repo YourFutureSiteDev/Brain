@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # CFO
 
-What this desk believes about its department, as of 2026-08-19. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-20. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cfo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** won: 0 on 2026-08-18 to 0 on 2026-08-19 (flat, 2 days)
+**Scoreboard.** won: 0 on 2026-08-18 to 0 on 2026-08-20 (flat, 3 days)
 
 ## The $99 job with a hand mockup never hits $40 an hour
 
@@ -44,6 +44,14 @@ Hold COO to a cap of eight delivery jobs a month, not twelve. If volume is pushi
 Flag it the moment any single client approaches that share, even if the money is welcome. One client that size becomes leverage against the business.
 
 > Evidence: Section 6.1: client concentration listed among the real failure modes, with the 20%/25% caps set as the control.
+
+## Newbuild price sits at the bottom of the local freelancer market, not below it
+
+*tried, revised 0 times, learned 2026-08-20 from research.*
+
+The $1,500 newbuild is not underpriced against a $99 floor anymore, it is priced exactly where solo Australian freelancers start ($1,500 to $2,500). There is real room to test $2,000 to $2,500 on newbuild quotes without leaving the local freelancer band, let alone touching agency territory at $3,000 plus. Worth proposing a price test once a handful of jobs have actually closed at $1,500, not before, since we have zero banked revenue to know how price sensitive these leads are.
+
+> Evidence: 2026 Australian pricing guides (keentodesign.com.au, rockingweb.com.au, webics.com.au, lovemyonlinemarketing.com) put local freelancer one off sites at $1,500 to $2,500+, basic freelance projects at $500 to $2,000, and agency small business builds at $5,000 to $10,000. [read outside, keentodesign.com.au, rockingweb.com.au, webics.com.au and lovemyonlinemarketing.com, all 2026 Australian web design
 
 ## What it used to believe
 

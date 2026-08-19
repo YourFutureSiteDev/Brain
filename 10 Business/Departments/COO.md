@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # COO
 
-What this desk believes about its department, as of 2026-08-19. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-20. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 40 on 2026-08-19 (up, 2 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 47 on 2026-08-20 (up, 3 days)
 
 ## The bot never pauses, everything else does
 
@@ -31,11 +31,11 @@ The queue is not NO_SITE-only after all: queue_buckets this shift reads clicked 
 
 ## Real capacity is nine months a year, not twelve
 
-*working, revised 1 time, learned 2026-08-18 from brief.*
+*working, revised 2 times, learned 2026-08-18 from brief.*
 
-Discount working months by utilization too, not just blackout weeks. On a normal working day, plan on roughly 60 to 70 percent of hours as available for actual build minutes, the rest goes to the call queue, sorting leads, checking the bot, and replying to prospects, none of which is a $99 or $1,000 job getting built. When setting how many jobs to promise in a month, apply both discounts: strip the blackout months to get 9 working months, then strip non build hours from each working day before committing to a job count.
+The 60 to 70 percent billable figure already accounts for non-build hours existing. What it does not account for is that switching between build work and the call queue, bot checks, or replies inside the same block burns roughly 20 extra minutes of refocus time per switch, on top of the task itself. Batch those interruptions into fixed windows (e.g. calls and bot checks once at the start and once at the end of the day) rather than letting them interleave with a build block, or the real billable share drops below the 60 to 70 percent estimate.
 
-> Evidence: Jobbers.io 2026: full time freelancers average 26 of 44 hours billable, 59 percent. Clockify and Freelancers Union: established freelancers bill 60 to 75 percent of hours, remainder is admin and business development, about 6 hours a week on admin alone. [read outside, Jobbers.io 'The Freelance Benchmark Report 2026' (retrieved 2026-08-19); Clockify 'How Freelancers Spend Time' (2025/2026); Freelan
+> Evidence: UC Irvine research cited via cannelevate.com.au (2026): 23 min 15 sec average refocus time per interruption; freelancer estimate of 1 to 2 hours a day lost to 4 to 6 major task-type transitions. [read outside, cannelevate.com.au, 'How Context Switching Reduces Workplace Productivity' (2026, citing UC Irvine / Gloria Mark research), retrieved 2026-08-20]
 
 ## A $99 job only works if the clock actually started
 

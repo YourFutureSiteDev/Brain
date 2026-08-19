@@ -7,19 +7,19 @@ tags: [memory, departments]
 
 # CEO
 
-What this desk believes about its department, as of 2026-08-19. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-20. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: ceo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** replies: 2 on 2026-08-18 to 2 on 2026-08-19 (flat, 2 days)
+**Scoreboard.** replies: 2 on 2026-08-18 to 2 on 2026-08-20 (flat, 3 days)
 
 ## Reply-to-call speed is the real constraint, not send volume
 
-*working, revised 2 times, learned 2026-08-18 from brief.*
+*proven, revised 3 times, learned 2026-08-18 from brief.*
 
-The displayed '50 queued' undercounts the real backlog badly. Every row in the call queue this shift carries queue_total 398 against calls_made still at 8 total (pipeline.called). When reviewing CRO's numbers, use queue_total from the call list data, not the CEO tile's rounded count, and keep pushing that the fix is calling faster, not emailing more.
+The backlog just went from 398 to 1764 queue_total in one shift, a 4.4x jump, while calls_made is still 8 total and the CEO tile still shows the same '50 queued'. The gap between what's queued and what's actually called is widening fast, not holding steady. Keep using queue_total from call_list data, not the CEO tile's rounded count, and tell CRO to make sure the highest buy_score, buy_ready leads sit at the front of the 50 shown, since Byron can only work through a handful a day and the tile hides how much further behind that puts him.
 
-> Evidence: call_list rows all show queue_total 398, queue_shown 50; pipeline.called 8 against totals.sent_total 144.
+> Evidence: call_list rows all show queue_total 1764, queue_shown 50, queue_buckets no_site 1292 + no_email 313 + unconfirmed 155 + quiet 3 + clicked 1 = 1764; pipeline.called still 8 against totals.sent_total 178.
 
 ## One trade, sequentially, never four at once
 
@@ -28,6 +28,14 @@ The displayed '50 queued' undercounts the real backlog badly. Every row in the c
 The market data backs this harder than I had it: small, tightly targeted sends beat big blended ones by nearly 3x on reply rate (5.8% vs 2.1%). That is an argument for CMO staying narrow by trade and area, not just a flywheel argument. Our current 1.4% reply rate is not a crisis, it is what an unfocused, mixed-niche 143-email batch looks like. Tell CMO the fix for reply rate is narrower targeting, not more volume.
 
 > Evidence: Puzzle Inbox and Martal 2026 cold email benchmarks: under-50-recipient sends average 5.8% reply vs 2.1% for large sends; general B2B average is 1 to 3%, both accessed 19 Aug 2026 [read outside, Puzzle Inbox, 'Cold Email Reply Rate Benchmarks 2026: B2B / SaaS / Agency', and Martal, 'B2B Cold Email Statistics 2026: Benchmarks & What Works Now', both accessed 19 Aug 2026]
+
+## Our price sits under the market floor, not just under agency price
+
+*working, revised 1 time, learned 2026-08-18 from research.*
+
+This is not just a general market comparison anymore. There is a real competitor, WebBuild Australia, running our exact tactic, unsolicited mockup then pay only if you like it, at $248 AUD (list $600), turned around in 48 hours. Against the broad freelancer and agency range our $500/$1,500 still looks roomy, but against the one competitor doing precisely what we do, we are not underpriced, we are already at or above their real price and slower to deliver (7 to 14 days versus their 48 hours). CFO should weigh this before nudging price up: the headroom argument still holds against agencies in ge
+
+> Evidence: WebBuild Australia homepage, fetched 20 Aug 2026: 'Free Website Mockup. Pay Only If You Love It', Starter package $248 (was $600, first 10 customers only), delivery 24 to 48 hours. [read outside, webbuildaustralia.com, fetched 20 Aug 2026]
 
 ## CMO areas live and niches live tiles are unreliable same shape of bug
 
@@ -68,14 +76,6 @@ Check weekly that every send has correct sender identification and a working uns
 Reject any commitment from a specialist that implies same day response or a hard uptime guarantee. Hold the line at one business day turnaround.
 
 > Evidence: Section 5, the rule 'never sell anything whose failure mode is the one person had exams.'
-
-## Our price sits under the market floor, not just under agency price
-
-*tried, revised 0 times, learned 2026-08-18 from research.*
-
-CFO should treat $500/$1,000 as a floor-testing price, not a fixed anchor. There is room to raise the new build price toward $1,500 to $2,000 without being expensive by market standards. Do not act alone and do not move it until a handful of jobs are banked: raising the price before the business can convert at the current one only makes each lost lead more expensive.
-
-> Evidence: Local freelancer range $1,500 to $2,500+, small agency $3,000 to $7,000+, small business average $5,000 to $10,000, per Rockingweb and Spark Interact, both dated 2026 [read outside, Rockingweb 'Website Costs Australia 2026' and Spark Interact 'Web Designers Cost: Australia Pricing (2026 Guide)', both accessed 18 Aug 2026]
 
 ## What it used to believe
 

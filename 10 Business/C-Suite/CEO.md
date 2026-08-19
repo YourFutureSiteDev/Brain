@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T03:45:42
+updated: 2026-08-20T04:17:17
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **178** | all time |
 | Replies | **2** | 1.1% |
 | To call | **50** | queued now |
-| Leads known | **25495** | researched |
+| Leads known | **25500** | researched |
 
 ## Needs a decision
 
@@ -65,6 +65,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Checked today's call queue backlog against last shift's recorded number: queue_total is now 1764 across every call_list entry (buckets: no_site 1292, unconfirmed 155, no_email 313, quiet 3, clicked 1), against calls_made still at 8 in pipeline.called. Also confirmed the areas-live vs ready-blocked-a
 - 2026-08-20 read outside the building: who else in Australia runs the exact same play, an unsolicited free mockup with pay-only-if-you-like-it, and what do they charge: Found a direct same-tactic competitor: WebBuild Australia, Melbourne-based. Their offer is word for word the same model we run: 'Free Website Mockup. Pay Only If You Love
 - 2026-08-19 worked a shift: Recomputed ready vs ready_live by niche against the areas-live tile, and checked call queue_total against last shift's number.
 - 2026-08-19 worked a shift: Compared today's ready/ready_live breakdown by niche against CMO's areas-live tile: beauty has 13 of its 29 ready leads blocked_area (16 live) while trades only has 2 of 22 blocked (20 live), even though the areas live tile claims 402 of 403 areas are live. That is a real, niche-specific mismatch, n
@@ -76,8 +77,7 @@ Where it stands right now.
 - 2026-08-19 answered you: Three from the handover list, quick rundown. CMO tile bug: same read as before, this is a dashboard code problem not a CMO lever. Areas live and niches live fl
 - 2026-08-19 handed a job to CRO: Work the call_list in buy_score order, top to bottom, not wherever a lead surfaces. Top of list right now: Damien Seton Mechanical, Dubbo NS
 - 2026-08-19 answered you: Two tasks. First, CMO tiles: this is the same dashboard bug already flagged against CCO's checks-passing tile, areas live and niches live are reading wrong whil
-- 2026-08-19 handed a job to CRO: Reorder how the call queue is worked: pull from call_list top to bottom by buy_score, not ad hoc. Damien Seton Mechanical (Dubbo, score 95,
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T03:45:42. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T04:17:17. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # CMO
 
-What this desk believes about its department, as of 2026-08-19. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-20. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cmo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.12 on 2026-08-19 (down, 2 days)
+**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.12 on 2026-08-20 (down, 3 days)
 
 ## Food niche has real inventory but is not counted as live
 

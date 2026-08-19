@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # CDO
 
-What this desk believes about its department, as of 2026-08-19. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-20. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cdo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.67 on 2026-08-19 (down, 2 days)
+**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.67 on 2026-08-20 (down, 3 days)
 
 ## UNKNOWN leads: no confirmed route to the call list
 
@@ -23,11 +23,11 @@ Correcting this. UNKNOWN/unconfirmed leads do reach the call list, they are just
 
 ## Public AU business registers do not carry contact data
 
-*working, revised 1 time, learned 2026-08-18 from research.*
+*working, revised 2 times, learned 2026-08-18 from research.*
 
-Widen this belief: it is not just ABR that cannot confirm a missing website, OSM cannot either. A blank OSM website tag is known to mean 'nobody has entered this yet' as often as it means 'no website exists.' Do not treat an OSM-sourced NO_SITE verdict as fully confirmed unless the bot also does an independent live check (search or crawl) before emailing 'we could not find a website for you.' Worth a direct question to whoever owns the site-check step: does NO_SITE for osm-sourced leads rely on the OSM tag alone, or is it cross-checked. If it is tag-alone, that is a live source of false verdic
+Before emailing any OSM-sourced NO_SITE verdict, cross-check it against Google Places API's Contact Data SKU (which returns the website field). It has its own free allowance of 1,000 calls a month, separate from other Places SKUs, and this business sends far fewer than 1,000 emails a month, so every OSM no_site lead could be verified for free before going out. This turns the OSM tag-ambiguity risk I flagged last shift into a fixable engineering task, not just a question to raise. Worth handing to whoever owns the site-check step as a concrete build, not just a question.
 
-> Evidence: SafeGraph benchmark: OSM fill rate 39.8%, quote on undocumented blank fields. safegraph.com/blog/comparing-safegraph-and-openstreetmap, checked 2026-08-19. Cross-checked against our own data: call_list sample of 50 and leads sample both show source osm with status_detail 'no website listed' as the dominant pattern. [read outside, SafeGraph, 'SafeGraph vs OpenStreetMap: The Hidden Cost of Free POI 
+> Evidence: Google Places Contact Data SKU free tier: 1,000 calls/month at zero cost, per mapsleads.co/blog/google-places-api-free-tier-limits-2026 and safegraph.com/guides/google-places-api-pricing, checked 2026-08-20. Business context: totals.sent_total 178, sent_today 0, well under the 1,000/month free allowance. [read outside, developers.google.com/maps/billing-and-pricing (via mapsleads.co/blog/google-pl
 
 ## No timer means the three hour rule is currently unmeasured
 

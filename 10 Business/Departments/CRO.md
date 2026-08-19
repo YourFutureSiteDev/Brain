@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # CRO
 
-What this desk believes about its department, as of 2026-08-19. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-20. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cro` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** calls waiting: 50 on 2026-08-18 to 50 on 2026-08-19 (flat, 2 days)
+**Scoreboard.** calls waiting: 50 on 2026-08-18 to 50 on 2026-08-20 (flat, 3 days)
 
 ## The 50-call queue is head of a 365-deep backlog, not the whole list
 
@@ -28,6 +28,14 @@ The backlog is not creeping, it jumped: queue_total went 365 to 398 over one pri
 Add a time-of-day rule on top of the time zone fix: call each area's local 9 to 10am or 3 to 4pm block, skip 12 to 2pm entirely, never before 8am or after 6pm local, and load Tuesday to Thursday first. This is US office-worker data, not proven on Australian tradies or beauty operators who are often on tools or with a client, so treat it as a starting window to test against our own call outcomes, not gospel.
 
 > Evidence: Close.com and Revenue.io 2026 cold call studies, both citing PhoneBurner call data, converging on 9 to 10am/3 to 4pm as peak and a 35 percent answer-rate drop over lunch [read outside, Close.com 'Best Days & Times to Cold Call (Data-Backed) in 2026'; PhoneBurner data cited via Revenue.io 'Best Time to Cold Call Prospects in 2026']
+
+## A script written for a plumber cannot be read to the leads on the list
+
+*working, revised 1 time, learned 2026-08-18 from brief.*
+
+Add a specific line for the 'I've got Facebook, I don't need a website' objection, which will come up often on this list since most leads are beauty and trades with no site at all. Say it plainly: Facebook doesn't come up when someone Googles the trade and the suburb, and the business doesn't own that page, Meta does. A site is what backs up word of mouth once someone goes looking. Do not argue against Facebook itself, most of these owners like it fine, just point out it can't do the one job a search result can.
+
+> Evidence: Buildify NZ and Groundwork Digital 2026: Facebook rarely appears for local trade searches, page ownership sits with Meta not the business, organic reach on Facebook pages has dropped significantly. [read outside, Buildify NZ 'Do Tradies Need a Website in 2026' (buildifysites.co.nz) and Groundwork Digital 'Do Tradies Need a Website' (groundworkdigital.co.nz), both 2026]
 
 ## 50 queued calls are not follow-ups, they are mostly cold opens
 
@@ -68,14 +76,6 @@ Always open config.json pricing before a call or a script gets written, and neve
 Do not use the GoDaddy or Yellow stat on a call. Pull the real count of faults found from the areas actually being worked and use that instead.
 
 > Evidence: Section A1 item 7 and B3: the figure is seven years old and falsifiable in one sentence, and the brief names the better replacement, our own data in the bot's database, current and local.
-
-## A script written for a plumber cannot be read to the leads on the list
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-Before running any call block, confirm which niche the leads actually came from and use that trade's language, not a generic tradie script.
-
-> Evidence: Section A1 item 8: plumber was deliberately dropped from the config because every agency already targets it, so a plumber-flavoured script does not match the mechanic, food, beauty or pro leads the bot is actually producing.
 
 ## Call queue order breaks below the top score
 
