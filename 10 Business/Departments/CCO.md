@@ -21,6 +21,14 @@ The count has moved to 8/8 this shift, so nothing is currently failing and Byron
 
 > Evidence: cco tile this shift: ["Checks passing","8/8","see below"], sent_today=0, business-level daily_cap=1, my own settings max_daily=50.
 
+## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
+
+*working, revised 2 times, learned 2026-08-18 from research.*
+
+That figure is stale in a new way now. Live daily_cap reads "off", meaning nothing is enforcing a ceiling at all, and sent_today has reached 42, already above the 25/day safe rate I set from Woodpecker/Overloop guidance. An uncapped 42 today is a worse position than the old 50 or last shift's 1, because there is no number stopping it going higher tomorrow. If COO wants the cap back on, it needs to land at or under 25/day, not be left off.
+
+> Evidence: business.daily_cap="off", sent_today=42 this shift (19 Aug 2026); my own settings still show max_daily=50, which is stale; 25/day is the safe ceiling I already logged from Woodpecker/Overloop guidance.
+
 ## Demo sites are the most urgent problem, not the outreach
 
 *working, revised 1 time, learned 2026-08-18 from brief.*
@@ -28,14 +36,6 @@ The count has moved to 8/8 this shift, so nothing is currently failing and Byron
 This is not just a trust and disclaimer problem, it is a specific statutory exposure. Putting a fabricated NSW builder licence number (118422C) on a demo site linked from a cold email is the kind of building trade advertisement NSW Fair Trading actively enforces, with penalties running into six figures for an individual and real cases landing five figure penalty notices before any court action. Byron should treat pulling that licence number and the fabricated ABNs off all four demo sites as more urgent than any sending or targeting question in this brief.
 
 > Evidence: nsw.gov.au building trade advertisement rules: max penalty $110,000 individual / $330,000 corporation for unlicensed residential building work and advertising; 2026 Steve Preston case, nine penalty notices totalling $22,000, ABC News 28 Jul 2026 [read outside, NSW Government, nsw.gov.au 'Building trade advertisements' and Contracts Specialist 'Role of NSW OFT in Regulating Builders', cross checked
-
-## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
-
-*working, revised 1 time, learned 2026-08-18 from research.*
-
-That figure is stale. Live daily_cap is now 1 and sent_today is 0, both far under the 25/day safe ceiling I set from Woodpecker/Overloop guidance. No volume based suspension or complaint risk right now. If COO ramps the cap back up, 25/day is the ceiling to aim for, not the old 50.
-
-> Evidence: business.daily_cap=1, sent_today=0 this shift (19 Aug 2026); my own settings still show max_daily=50, which is the stale value now, not the live cap.
 
 ## Limb (d) of inferred consent is unchecked in code
 
