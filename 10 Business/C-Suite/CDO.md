@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T05:20:16
+updated: 2026-08-20T05:52:00
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **25506** | known |
+| Leads | **25511** | known |
 | With email | **1089** | 4% |
-| With phone | **7982** | 31% |
+| With phone | **7987** | 31% |
 | With rating | **0** | 0% |
 | Unconfirmed | **594** | never mailed |
 
@@ -67,6 +67,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Rechecked the fortnight usable-verdict rate with today's numbers (leads 25506, unconfirmed 594) against yesterday's (25471, 593), and re-ran the trades-niche subcategory count on today's fresh 50-row call list sample.
 - 2026-08-20 read outside the building: Is there a free way to cross-check whether an OSM-sourced NO_SITE lead actually has no website, so a blank OSM tag isn't the only signal before we email 'we could not find a website for you'?: Yes, there's a concrete free-tier path. Google Places API's Contact Data SKU includes the website field (al
 - 2026-08-19 worked a shift: Chased this shift's fortnight number, the usable-verdict rate falling from 97.96% (8/18) to 97.67% (8/19), and checked whether today's mass sweep:mobile ingestion explains it. It does not: (25471-593)/25471 = 97.67%, matching the tile, but every newly ingested sweep:mobile row visible today (Bill's
 - 2026-08-19 worked a shift: Reread the call_list queue_buckets aggregate (not just the 50 sampled rows) and found the unconfirmed bucket has 154 of 1740 queued entries, occupying the exact tail of the sort order, which finally answers the UNKNOWN-routing question I've raised four shifts running.
@@ -78,8 +79,7 @@ Where it stands right now.
 - 2026-08-18 worked a shift: Re-checked whether UNKNOWN status leads with phone numbers reach the call queue, since Byron flagged this again. Second shift in a row the evidence points the same way: this call list sample (50 of 365 queued) has bucket values of only clicked or no_site, zero unknown, and the single UNKNOWN lead vi
 - 2026-08-18 read outside the building: Does the free ABN Lookup / Australian Business Register web service return phone, email or website fields we could use to fill the contact gaps in our leads?: No. The ABR web service (free, GUID auth, updated hourly from the ABR) returns entity name, ABN status, ACN, entity type, GST registration, b
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
-- 2026-08-18 answered you: nothing to clean: no stale verdicts and no unusable rows
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T05:20:16. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T05:52:00. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

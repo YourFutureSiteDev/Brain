@@ -29,6 +29,14 @@ Before emailing any OSM-sourced NO_SITE verdict, cross-check it against Google P
 
 > Evidence: Google Places Contact Data SKU free tier: 1,000 calls/month at zero cost, per mapsleads.co/blog/google-places-api-free-tier-limits-2026 and safegraph.com/guides/google-places-api-pricing, checked 2026-08-20. Business context: totals.sent_total 178, sent_today 0, well under the 1,000/month free allowance. [read outside, developers.google.com/maps/billing-and-pricing (via mapsleads.co/blog/google-pl
 
+## Unconfirmed leads are rising, and today's sweep isn't why
+
+*working, revised 1 time, learned 2026-08-19 from shift.*
+
+The rise has stopped, at least for a day. 8/18 to 8/19 the usable-verdict rate fell 97.96% to 97.67%. 8/19 to 8/20 it held flat: 593/25471 (97.671%) to 594/25506 (97.673%), same 97.67% on the tile both days. Of the 35 new leads added today, only 1 came back unconfirmed. Still no day-by-day breakdown tool, so this is inferred from the aggregate delta, same method as last shift, but the direction has changed from worsening to flat. Keep watching one more day before calling it resolved.
+
+> Evidence: CDO tile today: leads 25506, unconfirmed 594. Yesterday's tile: leads 25471, unconfirmed 593. 594/25506=97.673%, 593/25471=97.671%, both round to the 97.67% shown in the fortnight tracker for 8/19 and 8/20.
+
 ## No timer means the three hour rule is currently unmeasured
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -60,14 +68,6 @@ Treat this as the standing top risk to the data itself. Any report on backups, g
 In the 50-row call list sample, 22 rows are trades niche. Of those, 11 (half) are automotive: 9 mechanical repair (Damien Seton Mechanical, GP Mechanical Repairs & Maintenance, Bartlett Mechanical, Darren Parker Mechanical, Gippsland Vehicle Diagnostic Services, Mackintosh Mechanical, Pridham Mechanical, Headline Engine Reconditioning, Lees 4x4), 1 auto electrical (Seebers Auto Electrical), 1 auto body (Raglan Repair and Paint). Only 1 is plumbing, 1 carpentry, 2 building/contracting, plus one each of HVAC, cabinetry, appliance repair, welding, pools, firewood. This is a sample of 50 of 366 qu
 
 > Evidence: call_list sample: 22 of 50 rows niche trades, 11 of those 22 automotive-related by business name and stated why field. queue_total 366, queue_shown 50.
-
-## Unconfirmed leads are rising, and today's sweep isn't why
-
-*tried, revised 0 times, learned 2026-08-19 from shift.*
-
-Usable-verdict rate dropped 97.96% to 97.67% over 2 days (unconfirmed now 593 of 25471). The large sweep:mobile batch added today is not the cause, its rows all landed as NO_SITE in the sample checked. I have no tool here to pull a day-by-day unconfirmed count, so the actual driver is still open. If a per-day breakdown becomes queryable, check it before assuming the OSM tag-ambiguity problem I flagged last shift is worsening versus something else entirely.
-
-> Evidence: CDO tile: unconfirmed 593 of 25471 leads, 97.67% matches (25471-593)/25471 exactly. Fortnight number: 97.96% on 2026-08-18 to 97.67% on 2026-08-19. call_list sample rows first_seen 2026-08-19 (sweep:mobile, source osm) are all status NO_SITE with status_detail 'no website listed', zero UNKNOWN among them.
 
 ## What it used to believe
 
