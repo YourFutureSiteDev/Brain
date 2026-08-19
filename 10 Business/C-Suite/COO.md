@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T02:42:36
+updated: 2026-08-20T03:14:05
 role: "coo"
 ---
 
@@ -18,15 +18,15 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 310 cycles |
-| Last cycle | **02:10** | 2026-08-20 |
-| Leads | **25488** | 25488 checked |
-| Call list | **4403** | no email found |
+| Bot | **running** | 311 cycles |
+| Last cycle | **02:42** | 2026-08-20 |
+| Leads | **25492** | 25492 checked |
+| Call list | **4407** | no email found |
 | Daily cap | **off** | 0 sent today |
 
 ## Needs a decision
 
-- **4403 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **4407 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
@@ -55,12 +55,14 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-20 Read outside on How much time does a solo operator actually lose per context switch between build work and other tasks (calls, checking the bot, replying to prospects)?: The commonly cited UC Irvine research (Gloria Mark) puts the refocus cost at 23 minutes 15 seconds after an interruption before full concentration on the original task returns. Freelancer-specific write-ups extrapolate that a person juggling several distinct task types in one day hits 4 to 6 major transitions, costing 1 to 2 hours a day just in refocus time, separate from the interruption itself. (source: cannelevate.com.au, 'How Context Switching Reduces Workplace Productivity' (2026, citing UC Irvine / Gloria Mark research), retrieved 2026-08-20)
 - 2026-08-19 Read outside on What share of a solo freelancer's working hours are actually billable/buildable, versus admin, sales and coordination time that never shows up as build minutes: Multiple 2026 sources converge on 60 to 70 percent billable utilization for established solo freelancers. The Jobbers.io 2026 Freelance Benchmark Report puts full time freelancers at about 44 hours worked per week with roughly 26 billable (59 percent). Clockify's freelancer time study and the Freelancers Union both cite 60 to 75 percent billable, with the rest going to proposals, invoicing, admin and business development, roughly 6 hours a week on admin alone even after the freelancer already has clients. (source: Jobbers.io 'The Freelance Benchmark Report 2026' (retrieved 2026-08-19); Clockify 'How Freelancers Spend Time' (2025/2026); Freelancers Union utilization figures cited in the same search)
 - 2026-08-18 Read outside on Is a Gmail account sending 49-51 cold emails a day safe, or does that volume/pattern risk suspension for a new sender running from a personal Gmail address?: Free/personal Gmail is described across deliverability guides as unsuited to cold outreach at any volume because it lacks the domain reputation a paid Workspace account builds, and gets flagged quickly regardless of staying under caps. Separately, the recommended path to a safe daily volume is a 2 to 4 week ramp starting at 5 to 10 emails a day, rising by 5 to 10 a day, before settling around 50 to 100. Our own numbers show sent_total is 143 all time but sent_today is 49, meaning roughly a third of everything ever sent from this account went out in one day. That is a jump, not a ramp. (source: Saleshandy 'Warmup Email Account' guide and Mailreach 'Gmail Warmup Guide 2026' (both retrieved 2026-08-18), cross checked ag
 - 2026-08-16 Standing contract, set 16 Aug 2026: from the Manager. Delivers: the bot running, at a safe volume, without jamming. Steps: plan, assign, automate, track, publish daily. Ratio: cycles run against cycles that sent. Now: a cycle every 30 minutes, cap 15.
 
 ## Recently did
 
+- 2026-08-20 read outside the building: How much time does a solo operator actually lose per context switch between build work and other tasks (calls, checking the bot, replying to prospects)?: The commonly cited UC Irvine research (Gloria Mark) puts the refocus cost at 23 minutes 15 seconds after an interruption before full concentration
 - 2026-08-19 worked a shift: Looked past the 50-row call_list sample to the queue_buckets field attached to this shift's payload, which breaks the full queue of 1761 down by status instead of just the top-ranked 50, and used it to answer CDO's repeated question about whether unconfirmed leads reach the call queue.
 - 2026-08-19 worked a shift: Rechecked machine health this shift: cycles up from 290 to 296, sent_today up from 44 to 49, daily cap still off, bot_running and sending_on both true. Did not resample the call list again since three straight shifts already confirmed that pattern and it now sits with Byron as a task, not more COO c
 - 2026-08-19 settled leads with no website: 991 marked NO_SITE
@@ -72,8 +74,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Checked machine health: bot still running at 279 cycles, last cycle 05:55 today, cycles today up from 30 to 44. Biggest change is daily_cap now 1 with 0 sent today, down from the 51 cap and 50 sent recorded last shift. Also re-pulled this shift's 50 call_list records, same result as the last two shi
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-19 answered you: daily cap 8 -> 1.
-- 2026-08-19 read outside the building: What share of a solo freelancer's working hours are actually billable/buildable, versus admin, sales and coordination time that never shows up as build minutes: Multiple 2026 sources converge on 60 to 70 percent billable utilization for established solo freelancers. The Jobbers.io 2026 Freelance Ben
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T02:42:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T03:14:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
