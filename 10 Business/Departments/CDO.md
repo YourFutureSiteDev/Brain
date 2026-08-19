@@ -11,15 +11,15 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cdo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 98.13 on 2026-08-19 (up, 2 days)
+**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.66 on 2026-08-19 (down, 2 days)
 
 ## UNKNOWN leads: no confirmed route to the call list
 
-*working, revised 2 times, learned 2026-08-18 from shift.*
+*proven, revised 3 times, learned 2026-08-18 from shift.*
 
-Third shift running the same check, now with a named example not just a sample pattern. Hawkesbury & Nepean Plumbing is UNKNOWN status, stage 'found', not called, not emailed, sitting idle. Combined with two shifts of 50-row call list samples showing zero unknown-bucket rows, this is no longer a maybe. Someone needs to open the call list build query and confirm whether it filters to NO_SITE only, excluding UNKNOWN entirely. This is a query fix, not a lever any desk here can pull.
+Correcting this. UNKNOWN/unconfirmed leads do reach the call list, they are just sorted last by buy_score so they never appear in a 50-row top sample, which is why three straight shifts of sampling looked like exclusion. The aggregate queue_buckets field (separate from the per-row bucket on the 50 shown) proves it. Hawkesbury & Nepean Plumbing specifically is stuck for a different reason: it has no phone number at all, so it can never enter the call list regardless of status, and it's UNKNOWN so it's never emailed either. That is a missing-contact-data problem on one lead, not a systemic routi
 
-> Evidence: Hawkesbury & Nepean Plumbing, slug hawkesbury-nepean-plumbing-penrith-nsw, status UNKNOWN, stage found, phone blank, email blank, no last_call, no sent_at. Call list sample: 50 of 365 queued, bucket values clicked and no_site only, zero unknown, same result as prior two shifts.
+> Evidence: call_list queue_total 1740, queue_buckets: clicked 1, no_site 1273, no_email 310, quiet 2, unconfirmed 154 (sums to 1740). queue_bucket_first shows unconfirmed starting at position 1587 of 1740, meaning it occupies the last 154 slots by design, not zero slots. Hawkesbury & Nepean Plumbing lead record: phone blank, email blank, status UNKNOWN.
 
 ## Public AU business registers do not carry contact data
 

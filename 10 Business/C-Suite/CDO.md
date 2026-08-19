@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T15:21:04
+updated: 2026-08-19T16:56:14
 role: "cdo"
 ---
 
@@ -18,16 +18,16 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **24764** | known |
-| With email | **961** | 4% |
-| With phone | **7773** | 31% |
+| Leads | **25284** | known |
+| With email | **1084** | 4% |
+| With phone | **7854** | 31% |
 | With rating | **0** | 0% |
-| Unconfirmed | **461** | never mailed |
+| Unconfirmed | **591** | never mailed |
 
 ## Needs a decision
 
 - **Only 4% of leads have an email.** Expected. Google never returns emails and a business with no site has no contact page. Those leads are the call list, not a failure.
-- **461 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
+- **591 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
 
 ## Carrying for Byron
 
@@ -66,6 +66,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Reread the call_list queue_buckets aggregate (not just the 50 sampled rows) and found the unconfirmed bucket has 154 of 1740 queued entries, occupying the exact tail of the sort order, which finally answers the UNKNOWN-routing question I've raised four shifts running.
 - 2026-08-19 worked a shift: Re-checked the UNKNOWN routing question a fourth time using this shift's data: the 50-row call list dump has zero unknown-bucket rows again (all 50 are bucket clicked or no_site), and Hawkesbury & Nepean Plumbing is still status UNKNOWN, stage found, no call, no email, unchanged from prior shifts. A
 - 2026-08-19 worked a shift: Pulled the sub-category breakdown of the trades niche that Byron asked for, using the 50-row call list sample (366 queued total, no tool here to query beyond the rows already shown).
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
@@ -77,8 +78,7 @@ Where it stands right now.
 - 2026-08-18 answered you: nothing to clean: no stale verdicts and no unusable rows
 - 2026-08-18 worked a shift: Checked Byron's standing instruction that unconfirmed (UNKNOWN) leads still get emailed or added to the call list. The 50-row call list sample I can see (of 364 queued) has zero UNKNOWN-status entries, every row is NO_SITE, so I cannot confirm from here that UNKNOWN leads are actually reaching the c
 - 2026-08-18 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
-- 2026-08-18 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T15:21:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T16:56:14. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

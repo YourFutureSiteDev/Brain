@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T15:21:04
+updated: 2026-08-19T16:56:14
 role: "cmo"
 ---
 
@@ -68,6 +68,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Hand counted niche split in today's 50 row call_list (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile, which claims 4 niches live (trades, food, beauty, pro), and against ready_by_niche/ready_live_by_niche, which show food and pro both have real ready inventory.
 - 2026-08-19 answered you: already set that way, so nothing changed: trades, beauty
 - 2026-08-19 reported to the CEO: Beauty and the plain 'see your work' text are carrying every reply that matters, food is dead weight at 7% and should stop getting sent volume.
 - 2026-08-19 worked a shift: Hand counted the niche split across today's actual 50 lead call_list (22 trades, 28 beauty, 0 food, 0 pro) and checked it against the niches-live tile, which now reads trades and food live, and against ready_by_niche, which claims food has 11 ready.
@@ -79,8 +80,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Cross-checked this shift's niches-live tile (reads back to 1, food only) against the actual call_list contents: none of the 50 queued leads are food niche, all are trades or beauty, which directly contradicts the tile rather than just disagreeing with last shift's reading of 4 niches live.
 - 2026-08-19 worked a shift: Compared this shift's CMO tiles against last shift's confirmed reading: last shift I verified niches live at 4 (trades, food, beauty, pro) matching ready_by_niche exactly, but this shift's live tile reads back to niches live 1 (food) and areas live 1 of 403, while ready_by_niche still shows all 4 ni
 - 2026-08-19 read outside the building: What reply rate and open rate benchmark should this business compare itself against, using the closest matching industry (local/real estate services) in a dated 2026 cold email benchmark study: Cleverly.co's industry benchmark report (dated 16 Apr 2026, updated 28 Jul 2026) has no figures for trades
-- 2026-08-18 worked a shift: Checked the CMO niches-live tile against ready_by_niche this shift: food is now confirmed live (tile reads trades, food, beauty, pro, 4 niches), which settles the ambiguity flagged last shift, and found the ready pool is heavily skewed toward beauty.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T15:21:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T16:56:14. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

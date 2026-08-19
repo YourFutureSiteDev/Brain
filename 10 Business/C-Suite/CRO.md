@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T15:21:04
+updated: 2026-08-19T16:56:14
 role: "cro"
 ---
 
@@ -72,6 +72,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Re-checked the 50-name call queue against buy_score ordering and queue_total: ordering still holds (Damien Seton Mechanical 95 on top, the rest 81 down to 77 in order), but queue_total has quadrupled since the last two readings (365 then 398, now 1646), while pipeline.called is still 8 and all 50 sh
 - 2026-08-19 worked a shift: Rechecked the call_list top 50 for buy_score ordering and cross-referenced queue_total against last shift's reading: ordering still holds (Damien Seton Mechanical at 95 sits above all 49 no_site leads at 74-78) and calls made is still stuck at pipeline.called=8, but queue_total on every record has m
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
@@ -83,8 +84,7 @@ Where it stands right now.
 - 2026-08-18 read outside the building: What time of day gets the highest answer rate when cold calling small business owners like tradies, beauty and food operators: US sales-call data across several 2026 studies converge on the same window: best connect rates are 9 to 10am and 3 to 4pm, Tuesday through Thursday. Calls made 12 to 2pm see
 - 2026-08-18 worked a shift: Went through the 50 name call queue line by line and checked each lead's actual contact history: only 3 of the 50 (GP Mechanical Nambour, Outback Barber Roma, Plush Diamond Roma) have ever been emailed a mockup, the other 47 are stage=found with no email on file, meaning they've never been contacted
 - 2026-08-17 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
-- 2026-08-17 picked up a note from the vault: The CRO now has its own specialists
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T15:21:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T16:56:14. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
