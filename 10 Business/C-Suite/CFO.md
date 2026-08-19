@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T23:32:29
+updated: 2026-08-20T00:04:28
 role: "cfo"
 ---
 
@@ -48,6 +48,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Rechecked banked revenue and jobs won (still $0, 0 jobs, flat across the fortnight), then checked the CFO tile's own break-even line against the fix I asked for last shift.
 - 2026-08-19 worked a shift: Rechecked banked revenue, jobs won, prices and break-even math against live numbers: still $0 banked, 0 jobs won flat across the fortnight, remake $500 and newbuild $1500 confirmed as the only two things this business sells, and the break-even tile's $162/$500=1 job math still holds. Also checked my
 - 2026-08-19 worked a shift: Reread the live numbers, still $0 banked and 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-19), then checked the CFO tile's remake price against my last-shift concern and found the live price is back to $500, not the $22,393 I flagged before.
 - 2026-08-19 worked a shift: Reread the live numbers (still $0 banked, 0 jobs won, 143 emailed, replies flat at 2) then checked my own CFO tile's alert copy against the live $22,393 remake price instead of taking it at face value.
@@ -59,8 +60,7 @@ Where it stands right now.
 - 2026-08-19 answered you: newbuild price $1,000 -> $1,500. Every email and payment link built from here uses the new number.
 - 2026-08-19 worked a shift: Reread the live numbers: still $0 banked, 0 jobs won, 143 emailed with replies flat at 2, so there is still no hours-per-job data to test the $3 remake or $1,000 newbuild margins against. Instead checked the CFO tile's own break-even math and found it only tells half the story.
 - 2026-08-19 read outside the building: what a basic small business website (3-5 pages) actually costs to buy in Australia in 2026: Multiple 2026 guides converge on $1,200 to $3,000 for a simple custom 1-5 page site, with $2,000 to $5,000 typical for most small business builds and $2,500 cited as a standard 3-5 page price point. The $1,00
-- 2026-08-18 worked a shift: Checked banked revenue, replies and won-count against my open pricing beliefs: still $0 banked, 0 jobs won, replies flat at 2 of 143 emailed, so there is still no hours-per-job or conversion data to test the $500 remake / $1,000 newbuild margin against, and break-even still checks out exactly at 54
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T23:32:29. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T00:04:28. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
