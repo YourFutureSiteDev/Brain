@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 ## Checks passing 7/8: no per check breakdown reaches this desk
 
-*working, revised 2 times, learned 2026-08-18 from shift.*
+*proven, revised 3 times, learned 2026-08-18 from shift.*
 
-The count has moved to 8/8 this shift, so nothing is currently failing and Byron's immediate risk question is answered: no. But the tile still only reports a pass count, not names, so I cannot say what the eighth check was, why it failed before, or whether it could silently drop again without anyone here knowing which one moved. Treat 8/8 as good news for right now, not as the gap being closed.
+The pass count is not converging, it is flapping: 7/8, then 8/8, now 5/8 across three shifts, so nobody can trust a single day's reading. Worse, the tile's own passing list names Daily cap as one of the checks currently passing while the live business setting shows daily_cap=off and sent_today=49, uncapped. Either that check is not testing the live setting or it is broken. Whoever owns this tile needs to name all 8 checks and confirm what Daily cap actually measures before this can answer Byron's suspension-risk question with any confidence.
 
-> Evidence: cco tile this shift: ["Checks passing","8/8","see below"], sent_today=0, business-level daily_cap=1, my own settings max_daily=50.
+> Evidence: cco tile this shift: ["Checks passing","5/8","Opt-out in every email; Daily cap; No address harvesting"]; business.daily_cap="off", sent_today=49; prior shifts read 8/8 and 7/8 with no names given either time.
 
 ## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
 
