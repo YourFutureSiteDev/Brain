@@ -13,6 +13,14 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 **Scoreboard.** suppressed: 23 on 2026-08-18 to 23 on 2026-08-20 (flat, 3 days)
 
+## Checks passing 7/8: no per check breakdown reaches this desk
+
+*proven, revised 4 times, learned 2026-08-18 from shift.*
+
+The count itself is not the problem anymore, its instability is: 8/8, 7/8, 5/8, 8/8, now 5/8 across five shifts, and underneath it daily_cap has also been flipping between "off" and "1" with no documented reason. A tile whose own denominator setting keeps changing cannot answer Byron's question about which check fails. Until whoever owns the check code names all 8 checks and pins daily_cap to one state, keep telling Byron this specific question is unanswered, not answer it with whichever 3 names happen to be on today's passing list.
+
+> Evidence: today: 5/8 passing (Opt-out in every email; Daily cap; No address harvesting), daily_cap="off", sent_today=0. Prior five shifts read 8/8, 7/8, 5/8, 8/8 in sequence, with daily_cap alternating off/1/off underneath those readings.
+
 ## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
 
 *proven, revised 4 times, learned 2026-08-18 from research.*
@@ -20,14 +28,6 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 Volume alone is not what gets a personal Gmail account killed, complaint rate is, and 0.3% is the hard line with 0.08% the safe number. That means the real gap in this business is not just daily_cap sitting off, it is that nobody tracks spam complaints at all: CCO's 8 checks name a daily cap check but no complaint rate check. Tell CCO to add a complaint rate measure (Gmail Postmaster Tools or equivalent) alongside fixing the cap, because a cap with no complaint visibility is a guess, not a control.
 
 > Evidence: gmass.co and litemail.ai (2026): bulk sender rules apply from 5,000/day, far above this business's volume, but the 0.3% complaint ceiling and 0.08% safe threshold apply regardless of volume; business has sent 178 total, 49 today, with zero complaint rate visibility anywhere in the CCO tile. [read outside, gmass.co/blog/gmail-bulk-sender-guidelines (2026), litemail.ai/blog/google-email-sender-guide
-
-## Checks passing 7/8: no per check breakdown reaches this desk
-
-*proven, revised 3 times, learned 2026-08-18 from shift.*
-
-The pass count is not converging, it is flapping: 7/8, then 8/8, now 5/8 across three shifts, so nobody can trust a single day's reading. Worse, the tile's own passing list names Daily cap as one of the checks currently passing while the live business setting shows daily_cap=off and sent_today=49, uncapped. Either that check is not testing the live setting or it is broken. Whoever owns this tile needs to name all 8 checks and confirm what Daily cap actually measures before this can answer Byron's suspension-risk question with any confidence.
-
-> Evidence: cco tile this shift: ["Checks passing","5/8","Opt-out in every email; Daily cap; No address harvesting"]; business.daily_cap="off", sent_today=49; prior shifts read 8/8 and 7/8 with no names given either time.
 
 ## Demo sites are the most urgent problem, not the outreach
 
