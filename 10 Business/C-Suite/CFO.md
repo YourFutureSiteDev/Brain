@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T06:54:56
+updated: 2026-08-20T07:32:04
 role: "cfo"
 ---
 
@@ -49,6 +49,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Reread the live numbers (still $0 banked, 0 jobs won, won flat at 0 across 2026-08-18 to 2026-08-20, remake $500 and newbuild $1500 confirmed as the only two things sold, break-even still 1 job at $162 costs), then checked my own tried beliefs against the live product list and niches.
 - 2026-08-20 read outside the building: What do one off small business websites actually sell for from local freelancers in Australia right now, and where does that put our $500 remake and $1,500 newbuild: Local Australian freelancers price a basic one off small business website at roughly $1,500 to $2,500 or more, with a basic project fl
 - 2026-08-19 worked a shift: Rechecked banked revenue and jobs won (still $0, 0 jobs, flat across the fortnight), then checked the CFO tile's own break-even line against the fix I asked for last shift.
 - 2026-08-19 worked a shift: Rechecked banked revenue, jobs won, prices and break-even math against live numbers: still $0 banked, 0 jobs won flat across the fortnight, remake $500 and newbuild $1500 confirmed as the only two things this business sells, and the break-even tile's $162/$500=1 job math still holds. Also checked my
@@ -60,8 +61,7 @@ Where it stands right now.
 - 2026-08-19 answered you: the remake price is already $3
 - 2026-08-19 answered you: the remake price is already $3
 - 2026-08-19 answered you: newbuild price $1,000 -> $1,500. Every email and payment link built from here uses the new number.
-- 2026-08-19 worked a shift: Reread the live numbers: still $0 banked, 0 jobs won, 143 emailed with replies flat at 2, so there is still no hours-per-job data to test the $3 remake or $1,000 newbuild margins against. Instead checked the CFO tile's own break-even math and found it only tells half the story.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T06:54:56. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T07:32:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

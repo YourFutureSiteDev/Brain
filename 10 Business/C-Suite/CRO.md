@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T06:54:56
+updated: 2026-08-20T07:32:04
 role: "cro"
 ---
 
@@ -29,6 +29,7 @@ Where it stands right now.
 
 ## Carrying for Byron
 
+- 2026-08-20 [morning meeting, from CFO] Push some of the 50 queued follow-up calls to an actual close so pricing can be checked against a real paid job instead of pipeline value. *(new)*
 - 2026-08-19 Enforce that the call queue is worked strictly top to bottom by buy_score, not by whatever lead happens to surface. Confirm the ranked order Damien Seton Mechanical (95) then GP Mechanical Nambour (78) then Whitten's Plumbing Warragul (78) is what gets presented next, and flag if anything in the call flow lets a lead outside the top 50 jump the queue. *(working)*
 - 2026-08-19 Work the call_list in buy_score order, top to bottom, not wherever a lead surfaces. Top of list right now: Damien Seton Mechanical, Dubbo NSW, score 95, already opened the demo. Then GP Mechanical Repairs (Nambour QLD, 78) and Whitten's Plumbing (Warragul VIC, 78). Flag it if the queue view isn't sorted by buy_score by default, that would explain why the last 8 calls went to Windsor and Tamworth instead of the top of the list. *(working)*
 - 2026-08-19 Reorder how the call queue is worked: pull from call_list top to bottom by buy_score, not ad hoc. Damien Seton Mechanical (Dubbo, score 95, already opened the demo) goes first, then the 77 to 78 scored trades and beauty leads below it. The two calls already made outside this order (Windsor NSW, Tamworth chainsaw shop) stay logged as made, just don't keep pulling from outside the ranked 50. *(working)*
@@ -88,4 +89,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T06:54:56. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T07:32:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

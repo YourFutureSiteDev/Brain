@@ -13,14 +13,6 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 **Scoreboard.** won: 0 on 2026-08-18 to 0 on 2026-08-20 (flat, 3 days)
 
-## The $99 job with a hand mockup never hits $40 an hour
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-Never authorise a hand-made mockup for a gaming lead. Only the bot-generated concept survives the arithmetic, so any hand-mockup request goes back to CDO or gets declined.
-
-> Evidence: Section 4.1 to 4.2: 3 hours plus a 45 minute hand mockup at 1 in 3 conversion is $16.87/h, and no conversion rate reaches $40/h at $99 with a hand mockup.
-
 ## Mockup kill threshold is one in two, not one in three
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -55,6 +47,7 @@ The $1,500 newbuild is not underpriced against a $99 floor anymore, it is priced
 
 ## What it used to believe
 
+- **The $99 job with a hand mockup never hits $40 an hour** retired 2026-08-20: This belief is built on a $99 price point and gaming niche that do not exist in the live config. Prices are $500 remake and $1500 newbuild only, and live niches are trades, beauty, pro and food, no gaming. Reasoning about a $99 gaming hand-mockup job is reasoning about a product nobody sells, which 
 - **Break-even at 54 jobs a month only holds for the $3 remake, not the business** retired 2026-08-19: The live tile now reads 'Break-even 1 job a month, $162 of costs at the $500 price' exactly matching what this lesson demanded. The stale $3-price, 54-job math it was correcting no longer appears anywhere. Nothing left to argue for.
 - **Add-ons are the most profitable line and are underused** retired 2026-08-19: The live config.json (checked this shift) sells exactly two things: website remake $500 and new website $1500. There are no add-ons (store cleanup, custom store page, extra custom page) in the actual price list, so an hourly-rate comparison against products that do not exist is not a live belief, it
 - **CFO tile's hours-per-job alert is stale against the live remake price** retired 2026-08-19: Live prices now show remake at $500 (not $22,393). $500 / 40 = 12.5 hours, which matches the tile's own alert text of 'stay under about 12 hours to beat $40/hr' exactly. The mismatch that made this belief true is gone.

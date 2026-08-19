@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T06:54:56
+updated: 2026-08-20T07:32:05
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **25513** | known |
+| Leads | **25517** | known |
 | With email | **1089** | 4% |
-| With phone | **7989** | 31% |
+| With phone | **7992** | 31% |
 | With rating | **0** | 0% |
 | Unconfirmed | **594** | never mailed |
 
@@ -31,6 +31,7 @@ Where it stands right now.
 
 ## Carrying for Byron
 
+- 2026-08-20 [morning meeting, from CMO] Trace why niches-live and ready_live_by_niche still show beauty only when trades is the majority of the real queue, four shifts running. *(new)*
 - 2026-08-19 [morning meeting, from CRO] Build the call outcome log tied to call_list ids so calls_made and last_call update on a real call and buy_score reflects actual contact history. *(working)*
 - 2026-08-18 Pull a full sub-category breakdown of the trades niche (all ~364 in queue, not just the top 50): count by trade type (auto/mechanical, plumbing, building/carpentry, electrical, heating and cooling, etc) so Byron can see the real mix, not a sample. *(working)*
 - 2026-08-18 [morning meeting, from CMO] Confirm whether the 2.1% reply rate is tracked per area so CMO can judge which of the 402 live areas are working once they clear 60 sends. *(working)*
@@ -82,4 +83,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T06:54:56. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T07:32:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
