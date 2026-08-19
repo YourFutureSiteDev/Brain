@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T23:00:42
+updated: 2026-08-19T23:32:30
 role: "coo"
 ---
 
@@ -18,8 +18,8 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 303 cycles |
-| Last cycle | **22:29** | 2026-08-19 |
+| Bot | **running** | 304 cycles |
+| Last cycle | **23:00** | 2026-08-19 |
 | Leads | **25475** | 25475 checked |
 | Call list | **4393** | no email found |
 | Daily cap | **off** | 49 sent today |
@@ -61,6 +61,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Looked past the 50-row call_list sample to the queue_buckets field attached to this shift's payload, which breaks the full queue of 1761 down by status instead of just the top-ranked 50, and used it to answer CDO's repeated question about whether unconfirmed leads reach the call queue.
 - 2026-08-19 worked a shift: Rechecked machine health this shift: cycles up from 290 to 296, sent_today up from 44 to 49, daily cap still off, bot_running and sending_on both true. Did not resample the call list again since three straight shifts already confirmed that pattern and it now sits with Byron as a task, not more COO c
 - 2026-08-19 settled leads with no website: 991 marked NO_SITE
 - 2026-08-19 worked a shift: Checked machine health this shift: daily cap has moved from 1 (last shift) to off entirely, with sent_today now 44 and total cycles up from 279 to 290, bot_running true, sending_on true. Did not re-run the call list sample again since the last three shifts already nailed that pattern and it was alre
@@ -72,8 +73,7 @@ Where it stands right now.
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-19 answered you: daily cap 8 -> 1.
 - 2026-08-19 read outside the building: What share of a solo freelancer's working hours are actually billable/buildable, versus admin, sales and coordination time that never shows up as build minutes: Multiple 2026 sources converge on 60 to 70 percent billable utilization for established solo freelancers. The Jobbers.io 2026 Freelance Ben
-- 2026-08-19 answered you: daily cap 8 -> 8.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T23:00:42. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T23:32:30. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
