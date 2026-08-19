@@ -77,6 +77,14 @@ Before running any call block, confirm which niche the leads actually came from 
 
 > Evidence: Section A1 item 8: plumber was deliberately dropped from the config because every agency already targets it, so a plumber-flavoured script does not match the mechanic, food, beauty or pro leads the bot is actually producing.
 
+## Call queue order breaks below the top score
+
+*tried, revised 0 times, learned 2026-08-19 from shift.*
+
+The call_list as delivered is not actually sorted by buy_score past the very first entry. Working it top to bottom is not the same as working it by buy_score until the sort is fixed, which contradicts what earlier shifts reported ('ordering still holds'). This needs to go to whoever owns the query, not another read from this desk.
+
+> Evidence: buy_score sequence across the 50 queued: 95, 81, 81, 80, 81, 81, 80, 81, 81, 80, 80, 78, 80, 80, 78, 80, 80, 78, 80, 80, 78, 80, 80, 78, 80, then 77 x25. Position 4 (80) is followed by position 5 (81), and this pattern of a lower score followed by a higher one repeats seven times in the first 26 rows.
+
 ## What it used to believe
 
 - **The written price has no monthly care number attached, the call has to introduce it fresh** retired 2026-08-18: Byron, 18 Aug 2026: care plans are not part of this business. They are in the briefs but not in config.json pricing, which sells remake and newbuild only.
