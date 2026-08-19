@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T18:00:43
+updated: 2026-08-19T18:32:54
 role: "cmo"
 ---
 
@@ -57,6 +57,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-19 reply rate across everything is 1.1% over 178 emails
 - 2026-08-19 reply rate across everything is 1.1% over 179 emails
 - 2026-08-19 reply rate across everything is 1.4% over 144 emails
 - 2026-08-19 Read outside on What reply rate and open rate benchmark should this business compare itself against, using the closest matching industry (local/real estate services) in a dated 2026 cold email benchmark study: Cleverly.co's industry benchmark report (dated 16 Apr 2026, updated 28 Jul 2026) has no figures for trades, beauty or food specifically, but its closest analog, real estate and local services, sits at 35 to 40% open rate (48%+ is called good) and 5 to 7% reply rate. That is a concrete open-rate target this business has no way to check itself against right now, because nothing in the current tracking captures opens at all, only sent, replied and link clicks. (source: cleverly.co, 'Cold Email Benchmarks by Industry', published 16 Apr 2026, modified 28 Jul 2026)
@@ -64,7 +65,6 @@ Where it stands right now.
 - 2026-08-18 reply rate across everything is 1.4% over 143 emails
 - 2026-08-18 reply rate across everything is 2.1% over 94 emails
 - 2026-08-17 pause_after was moved from 100.0 to 15 0 days ago and going back now would undo it before it has been given a fair go. Holding at 15 until 14 more days have passed. See [[pause_after 100.0 to 15]].
-- 2026-08-17 reply rate across everything is 0.0% over 94 emails
 
 ## Recently did
 
@@ -83,4 +83,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T18:00:43. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T18:32:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
