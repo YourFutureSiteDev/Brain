@@ -11,15 +11,15 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 51 on 2026-08-19 (up, 2 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 27 on 2026-08-19 (down, 2 days)
 
 ## The bot never pauses, everything else does
 
-*working, revised 2 times, learned 2026-08-18 from brief.*
+*proven, revised 3 times, learned 2026-08-18 from brief.*
 
-Daily cap is now 1, sent_today 0, which is the ramp-down this lesson called for after the account jumped straight to near-cap volume. But 1 a day is not a ramp, it is close to a freeze, and it leaves 279 cycles of machine capacity running with almost nothing sent. Confirm with CCO this was deliberate and get a real ramp schedule, 20 to 30 rising over two weeks, not stuck at 1.
+Daily cap has gone from stuck at 1 to fully off, not a gradual ramp. 44 sent today already, cycles total 290 up from 279. The freeze this lesson worried about is over, but nobody ramped it, it just got switched off outright. Still needs a CCO check that going straight to uncapped is deliberate and safe, not another accidental setting jump like the one that caused the freeze.
 
-> Evidence: daily_cap 1, sent_today 0, bot_running true, sending_on true, 279 cycles total, cycles today rose 30 to 44. Last known state two shifts ago was cap 51 with 50 sent.
+> Evidence: daily_cap off, sent_today 44, bot_running true, sending_on true, 290 cycles total (up from 279 two shifts ago). Prior state was daily_cap 1 with 0 sent.
 
 ## The call list tile overstates the working queue
 

@@ -77,4 +77,12 @@ Keep an eye on whether any Discord or forum activity for the business drifts fro
 
 > Evidence: Section 7: 48% of AI citations trace to community platforms, Reddit alone 21 to 24% of AI Overview citations, but the brief draws a hard line between answering questions and content creation.
 
+## Food niche and its menu wording both underperform, don't keep feeding it volume
+
+*tried, revised 0 times, learned 2026-08-19 from msgchain.*
+
+Shift daily texting volume from food toward beauty and trades until food's reply rate closes the gap, and retire the menu specific wording outright.
+
+> Evidence: food 59 sent 4 replied 7% versus beauty 134 sent 37 replied 28%, and the menu wording is 8 sent 0 replied
+
 Back to [[Memory]].
