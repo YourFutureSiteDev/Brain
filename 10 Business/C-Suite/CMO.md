@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T10:25:21
+updated: 2026-08-19T10:56:23
 role: "cmo"
 ---
 
@@ -68,6 +68,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Hand counted the niche split across today's actual 50 lead call_list (22 trades, 28 beauty, 0 food, 0 pro) and checked it against the niches-live tile, which now reads trades and food live, and against ready_by_niche, which claims food has 11 ready.
 - 2026-08-19 answered you: already set that way: only Dubbo NSW, Tamworth NSW, Windsor NSW, Eden NSW is open
 - 2026-08-19 answered you: everything is now on Dubbo NSW, Tamworth NSW, Windsor NSW, Eden NSW, and 0 other areas are paused. It takes effect next cycle.
 - 2026-08-19 answered you: everything is now on Eden NSW, and 1 other areas are paused. It takes effect next cycle.
@@ -79,8 +80,7 @@ Where it stands right now.
 - 2026-08-18 worked a shift: Checked the CMO niches-live tile against ready_by_niche this shift: food is now confirmed live (tile reads trades, food, beauty, pro, 4 niches), which settles the ambiguity flagged last shift, and found the ready pool is heavily skewed toward beauty.
 - 2026-08-18 read outside the building: How does our 1.4% cold email reply rate compare to 2026 benchmarks, and could the machine's sending setup itself be the cause rather than the message?: 2026 benchmarks put a well-run B2B cold email campaign at 3 to 5% replies, with the platform-wide average at 3.43%. Even the weakest performing indu
 - 2026-08-18 answered you: already set that way, so nothing changed: trades, food
-- 2026-08-18 answered you: Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a webs
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T10:25:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T10:56:23. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

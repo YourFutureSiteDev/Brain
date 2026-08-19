@@ -11,15 +11,15 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cmo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.4 on 2026-08-19 (flat, 2 days)
+**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.39 on 2026-08-19 (down, 2 days)
 
 ## Food niche has real inventory but is not counted as live
 
-*proven, revised 3 times, learned 2026-08-18 from shift.*
+*proven, revised 4 times, learned 2026-08-18 from shift.*
 
-Stop reading the niches-live and areas-live tiles as fact, full stop. This shift the tile claims food is the only live niche, but the actual call_list of 50 queued leads is 0% food and entirely trades and beauty. Last shift the same tile read 4 niches live with identical ready_by_niche underneath. Two shifts running, the tile has been wrong in a different direction each time while the real pipeline data stayed the same. Use call_list niche distribution as the ground truth for what the bot is actually working, never the tile.
+Drop this claim in its old form, it no longer fits what the tile is doing. Keep the meta lesson: never read niches-live or areas-live as fact, always count call_list by hand. Third shift running the tile has been wrong in a different way each time, 4 niches live, then 1 food only, now 2 trades and food, while the real queue has stayed trades and beauty the whole time and food sits at zero actual leads in queue despite ready_by_niche claiming 11 ready.
 
-> Evidence: call_list top 50: 0 food, roughly half trades half beauty. Tile read: niches live 1 (food), areas live 1 of 403. ready_by_niche unchanged again: beauty 101, trades 48, food 11, pro 9, matching the 169 ready total exactly.
+> Evidence: Counted all 50 call_list rows: 22 trades, 28 beauty, 0 food, 0 pro. Tile says niches live 2 (trades, food). ready_by_niche shows beauty 60, trades 34, food 11, pro 8 of 113 total ready, so food inventory exists somewhere in the pipeline but none of it has reached the working queue.
 
 ## A reply rate this low points at deliverability, not the message
 
