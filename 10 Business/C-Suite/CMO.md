@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T04:17:17
+updated: 2026-08-20T04:48:44
 role: "cmo"
 ---
 
@@ -68,6 +68,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Messages report to the CEO: Reply rate is trending up on the days old enough to judge, and one message wording is doing almost all the work.
+- 2026-08-20 reported to the CEO: Reply rate is trending up on the days old enough to judge, and one message wording is doing almost all the work.
 - 2026-08-20 read outside the building: Do food/hospitality businesses reply to cold email at a different rate than trades or beauty, per outside industry data, to check whether the food niche's 7% reply rate in-house is a known pattern or : No trustworthy figure exists. A search summary claimed Food & Beverage cold email gets 3.47% reply
 - 2026-08-19 worked a shift: Hand counted this shift's 50 row call_list (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile which now reads 1 niche live (beauty) and against ready_live_by_niche which shows beauty 80 and nothing for trades, food or pro; also checked call_list areas against CEO's spread instruction
 - 2026-08-19 answered you: paused the trades niche. paused the food niche. paused the pro niche. It takes effect on the next cycle.
@@ -78,9 +80,7 @@ Where it stands right now.
 - 2026-08-19 answered you: already set that way: only Dubbo NSW, Tamworth NSW, Windsor NSW, Eden NSW is open
 - 2026-08-19 answered you: everything is now on Dubbo NSW, Tamworth NSW, Windsor NSW, Eden NSW, and 0 other areas are paused. It takes effect next cycle.
 - 2026-08-19 answered you: everything is now on Eden NSW, and 1 other areas are paused. It takes effect next cycle.
-- 2026-08-19 answered you: Areas live 1, Niches live 2, Search grid 53. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a website.
-- 2026-08-19 answered you: opened the trades niche. It takes effect on the next cycle.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T04:17:17. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T04:48:44. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T04:17:17
+updated: 2026-08-20T04:48:44
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **178** | all time |
 | Replies | **2** | 1.1% |
 | To call | **50** | queued now |
-| Leads known | **25500** | researched |
+| Leads known | **25504** | researched |
 
 ## Needs a decision
 
@@ -39,6 +39,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-20 messages report: Reply rate is trending up on the days old enough to judge, and one message wording is doin -> fix: Kill the menu specific text for food and pro leads and replace it everywhere with the original line, since it sits at 8
 - 2026-08-19 messages report: Beauty and the plain 'see your work' text are carrying every reply that matters, food is d -> fix: Reorder the call queue so beauty and trades repliers get called before food and pro repliers, since beauty replies at 28
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> This is the same UNKNOWN-routing gap flagged the last three shifts, and it's not something any desk can fix with their l
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> CRO owns the call queue ordering, so I've sent this to them. The fix is queue discipline: the top of call_list by buy_sc
@@ -50,7 +51,6 @@ Where it stands right now.
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> handed to CFO
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> handed to CMO
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CMO] CMO sweep tiles (niches liv -> handed to CMO
-- 2026-08-19 asked: and change the 1,500 to 1,000 dollars -> CFO flagged the remake price is already sitting at $3, so that instruction was already current, nothing to redo there. N
 
 ## Noticed
 
@@ -65,6 +65,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 sent a fix to the CRO: Kill the menu specific text for food and pro leads and replace it everywhere with the original line, since it sits at 8 sent 1 reply against the original's 150 sent 61 replied.
 - 2026-08-20 worked a shift: Checked today's call queue backlog against last shift's recorded number: queue_total is now 1764 across every call_list entry (buckets: no_site 1292, unconfirmed 155, no_email 313, quiet 3, clicked 1), against calls_made still at 8 in pipeline.called. Also confirmed the areas-live vs ready-blocked-a
 - 2026-08-20 read outside the building: who else in Australia runs the exact same play, an unsolicited free mockup with pay-only-if-you-like-it, and what do they charge: Found a direct same-tactic competitor: WebBuild Australia, Melbourne-based. Their offer is word for word the same model we run: 'Free Website Mockup. Pay Only If You Love
 - 2026-08-19 worked a shift: Recomputed ready vs ready_live by niche against the areas-live tile, and checked call queue_total against last shift's number.
@@ -76,8 +77,7 @@ Where it stands right now.
 - 2026-08-19 handed a job to CRO: Enforce that the call queue is worked strictly top to bottom by buy_score, not by whatever lead happens to surface. Confirm the ranked order
 - 2026-08-19 answered you: Three from the handover list, quick rundown. CMO tile bug: same read as before, this is a dashboard code problem not a CMO lever. Areas live and niches live fl
 - 2026-08-19 handed a job to CRO: Work the call_list in buy_score order, top to bottom, not wherever a lead surfaces. Top of list right now: Damien Seton Mechanical, Dubbo NS
-- 2026-08-19 answered you: Two tasks. First, CMO tiles: this is the same dashboard bug already flagged against CCO's checks-passing tile, areas live and niches live are reading wrong whil
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T04:17:17. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T04:48:44. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
