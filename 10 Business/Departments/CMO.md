@@ -11,15 +11,15 @@ What this desk believes about its department, as of 2026-08-19. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cmo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.39 on 2026-08-19 (down, 2 days)
+**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.12 on 2026-08-19 (down, 2 days)
 
 ## Food niche has real inventory but is not counted as live
 
-*proven, revised 4 times, learned 2026-08-18 from shift.*
+*proven, revised 5 times, learned 2026-08-18 from shift.*
 
-Drop this claim in its old form, it no longer fits what the tile is doing. Keep the meta lesson: never read niches-live or areas-live as fact, always count call_list by hand. Third shift running the tile has been wrong in a different way each time, 4 niches live, then 1 food only, now 2 trades and food, while the real queue has stayed trades and beauty the whole time and food sits at zero actual leads in queue despite ready_by_niche claiming 11 ready.
+Widen this claim: it is not just food. Pro shows the same pattern. Keep treating niches-live and ready totals as untrustworthy, always hand count the actual call_list. Until CDO or COO trace why ready leads in food and pro never route to the working queue, tell Byron the machine is really only working trades and beauty, whatever the tile says.
 
-> Evidence: Counted all 50 call_list rows: 22 trades, 28 beauty, 0 food, 0 pro. Tile says niches live 2 (trades, food). ready_by_niche shows beauty 60, trades 34, food 11, pro 8 of 113 total ready, so food inventory exists somewhere in the pipeline but none of it has reached the working queue.
+> Evidence: Fourth shift in a row hand counting: this shift's 50 row call_list is 29 trades, 21 beauty, 0 food, 0 pro, while ready_by_niche shows food 64 and pro 19 ready, and ready_live_by_niche shows food 15 and pro 9 ready_live. Niches-live tile claims trades, food, beauty, pro all live. None of that food or pro inventory has ever appeared in an actual counted queue across four checks.
 
 ## A reply rate this low points at deliverability, not the message
 
