@@ -85,4 +85,12 @@ Shift daily texting volume from food toward beauty and trades until food's reply
 
 > Evidence: food 59 sent 4 replied 7% versus beauty 134 sent 37 replied 28%, and the menu wording is 8 sent 0 replied
 
+## CMO areas live and niches live tiles are unreliable same shape of bug
+
+*tried, revised 0 times, learned 2026-08-19 from shift.*
+
+Keep hand counting the call_list every shift, do not read niches-live or ready_live_by_niche either way. Today the tile undercounts in the opposite direction from before: it claims only beauty is live and ready_live_by_niche shows 0 for trades, but trades is 29 of 50 rows in the actual working queue, more than half. The tile has now been wrong both by overclaiming niches (food, pro) that never appear in queue, and by underclaiming a niche (trades) that is clearly the majority of queue volume. It is not a food or pro specific bug, the tile and ready_live_by_niche are simply disconnected from th
+
+> Evidence: This shift's 50 row call_list hand count: 29 trades, 21 beauty, 0 food, 0 pro. Tile reads niches live 1 (beauty). ready_live_by_niche reads beauty 80 only, no entry for trades despite trades being the largest slice of the actual queue.
+
 Back to [[Memory]].
