@@ -93,4 +93,12 @@ Keep hand counting the call_list every shift, do not read niches-live or ready_l
 
 > Evidence: This shift's 50 row call_list hand count: 29 trades, 21 beauty, 0 food, 0 pro. Tile reads niches live 1 (beauty). ready_live_by_niche reads beauty 80 only, no entry for trades despite trades being the largest slice of the actual queue.
 
+## Replies landing on Byron's phone are invisible to the board
+
+*tried, revised 0 times, learned 2026-08-20 from msgchain.*
+
+Treat the reply-text field as incomplete, not zero. When judging which wording or niche is really working, confirm with Byron directly on any batch where the sync looks thin, don't take a low written-reply count as proof a message failed.
+
+> Evidence: Of the 12 most recent replies noticed, 0 have the actual reply text on this box, the rest were texted back on Byron's phone and never reached the database.
+
 Back to [[Memory]].

@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T04:48:44
+updated: 2026-08-20T05:20:16
 role: "cro"
 ---
 
@@ -73,6 +73,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Cross checked the 50 queued call_list entries against the buy_score order Byron wants enforced, and checked whether call activity moved since the last two readings.
 - 2026-08-20 read outside the building: when a small business owner cold called about a website says no, what is the actual objection and is there a solid rebuttal that fits a one person, no-ad-spend business: The most common no is not price, it is 'I already get enough work from word of mouth or my Facebook page, I don't need a website.'
 - 2026-08-19 worked a shift: Rechecked the top 50 call_list entries against Byron's repeated instruction to work strictly top to bottom by buy_score, and checked queue growth (1646 to 1760, called still 8, all 50 calls_made 0, last_call null).
 - 2026-08-19 worked a shift: Re-checked the 50-name call queue against buy_score ordering and queue_total: ordering still holds (Damien Seton Mechanical 95 on top, the rest 81 down to 77 in order), but queue_total has quadrupled since the last two readings (365 then 398, now 1646), while pipeline.called is still 8 and all 50 sh
@@ -84,8 +85,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Cross checked the top 50 call_list against actual call activity: every one of the 50 shows calls_made 0 and last_call null, then traced the pipeline's called=8 total into the leads array to see which businesses those calls actually hit.
 - 2026-08-19 read outside the building: When a cold call to an Australian small business owner's mobile goes unanswered, do they actually check the voicemail, or is leaving one a wasted 20 seconds: 81 percent of calls from unknown numbers go to voicemail rather than being answered, but 67 percent of people still check a voicemail left by
 - 2026-08-18 worked a shift: Checked the 50-name call queue against the no-website-first ordering rule and against the CEO's ask about unconfirmed sites: ordering is fine (49 of 50 are no_site rank-3 leads, correctly outranked only by one clicked lead with a 95 buy_score), but every record also carries queue_total 365, so the v
-- 2026-08-18 read outside the building: What time of day gets the highest answer rate when cold calling small business owners like tradies, beauty and food operators: US sales-call data across several 2026 studies converge on the same window: best connect rates are 9 to 10am and 3 to 4pm, Tuesday through Thursday. Calls made 12 to 2pm see
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T04:48:44. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T05:20:16. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

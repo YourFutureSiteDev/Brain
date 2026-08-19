@@ -21,6 +21,14 @@ The backlog is not creeping, it jumped: queue_total went 365 to 398 over one pri
 
 > Evidence: queue_total on all 50 call_list entries reads 1646 this shift versus 398 two readings ago; queue_buckets sums to 1646 (no_site 1273, no_email 253, unconfirmed 117, quiet 2, clicked 1); most new rows show first_seen 2026-08-19T11:25 or 15:04 with search_term sweep:mobile.
 
+## Calls made are not landing on the priority queue
+
+*working, revised 2 times, learned 2026-08-19 from shift.*
+
+This is now a three day flatline, not two. Keep flagging it as a tool gap, not something this desk can fix by reading again. Whatever calling Byron is doing off to the side is not writing back to call_list, so the queue looks idle even if work is happening.
+
+> Evidence: Department number line: calls waiting 50 on 2026-08-18, 50 on 2026-08-19, 50 on 2026-08-20, flat for 3 days. pipeline.called is still 8, unchanged across all three readings. All 50 call_list entries in this pull still show calls_made 0 and last_call null. Meanwhile queue_total behind the top 50 grew from 1646 to 1765 in the same window, so the backlog is moving even though the worked list looks fr
+
 ## Fifth of the enabled areas are in the wrong time zone for the call plan
 
 *working, revised 1 time, learned 2026-08-18 from brief.*
@@ -44,14 +52,6 @@ Add a specific line for the 'I've got Facebook, I don't need a website' objectio
 Add to the cold-open script for the 47 no-email leads: write a 20 to 25 second voicemail line for every one of them, because most calls to a small business mobile will not be answered but two thirds of unknown-number voicemails still get checked. Name, business name, the one fault found (no website), and a callback number, no price stated. Do not skip the voicemail just because the call did not connect, that is not a failed call, it is a delivered one.
 
 > Evidence: Aussie AI Agency 2026: 81% of unknown-number calls go to voicemail, 67% of those voicemails get checked, voicemail-to-conversation conversion 4-11% for Australian small business [read outside, Aussie AI Agency, 'Missed Call Statistics Australia 2026' (aussieaiagency.com.au), cross-checked against CloudTalk 'Cold Calling Statistics 2026' and Scrap.io 'Cold Calling Success Rate in 2026: 200K+ Calls 
-
-## Calls made are not landing on the priority queue
-
-*working, revised 1 time, learned 2026-08-19 from shift.*
-
-This is now a two day flatline, not a one time snapshot. Whatever calling is happening (called=8 total, unchanged) is not writing back to call_list, and the 50 queued leads show zero contact activity across both readings. The fix is not more checking from this desk, it is the outcome-logging tool Byron already asked for. Keep flagging this until that exists.
-
-> Evidence: CRO fortnight number: calls waiting 50 on 2026-08-18 to 50 on 2026-08-19, flat. pipeline.called=8 both readings. All 50 call_list entries: calls_made 0, last_call null, both days.
 
 ## The pipeline is not a lead count, it is a dial count
 
