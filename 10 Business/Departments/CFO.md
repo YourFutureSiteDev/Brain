@@ -45,16 +45,9 @@ Flag it the moment any single client approaches that share, even if the money is
 
 > Evidence: Section 6.1: client concentration listed among the real failure modes, with the 20%/25% caps set as the control.
 
-## Break-even at 54 jobs a month only holds for the $3 remake, not the business
-
-*tried, revised 0 times, learned 2026-08-19 from shift.*
-
-The tile's break-even figure divides $162 of monthly costs by the $3 remake price to get 54 jobs. But the newbuild sells at $1,000, and a single newbuild sale covers the entire $162 monthly cost more than six times over. Quoting '54 jobs a month' on its own makes the business look like it needs unrealistic remake volume, when the real break-even lever is landing one newbuild. Once a job is actually banked, report break-even against the real sales mix, not the $3 tier alone.
-
-> Evidence: CFO tile: Break-even 54 jobs a month, $162 known running costs, at the $3 remake price. New website tile: $1,000. $1,000 divided by $162 is 6.2, so one newbuild clears the month's costs outright.
-
 ## What it used to believe
 
+- **Break-even at 54 jobs a month only holds for the $3 remake, not the business** retired 2026-08-19: The live tile now reads 'Break-even 1 job a month, $162 of costs at the $500 price' exactly matching what this lesson demanded. The stale $3-price, 54-job math it was correcting no longer appears anywhere. Nothing left to argue for.
 - **Add-ons are the most profitable line and are underused** retired 2026-08-19: The live config.json (checked this shift) sells exactly two things: website remake $500 and new website $1500. There are no add-ons (store cleanup, custom store page, extra custom page) in the actual price list, so an hourly-rate comparison against products that do not exist is not a live belief, it
 - **CFO tile's hours-per-job alert is stale against the live remake price** retired 2026-08-19: Live prices now show remake at $500 (not $22,393). $500 / 40 = 12.5 hours, which matches the tile's own alert text of 'stay under about 12 hours to beat $40/hr' exactly. The mismatch that made this belief true is gone.
 - **Local Australian price list is still $99, and that is wrong** retired 2026-08-19: Live config.json now prices the newbuild at $1,500, not $99, matching the $1,500 floor I was pushing for on previous shifts. There is no $99 price left to complain about.
