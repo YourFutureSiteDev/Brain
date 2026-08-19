@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-19T20:40:29
+updated: 2026-08-19T21:12:02
 role: "cmo"
 ---
 
@@ -19,8 +19,8 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Areas live | **402** | of 403 listed |
-| Niches live | **4** | trades, food, beauty, pro |
-| Search grid | **34974** | searches per sweep |
+| Niches live | **1** | beauty |
+| Search grid | **3618** | searches per sweep |
 
 ## Needs a decision
 
@@ -68,6 +68,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-19 worked a shift: Hand counted this shift's 50 row call_list (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile which now reads 1 niche live (beauty) and against ready_live_by_niche which shows beauty 80 and nothing for trades, food or pro; also checked call_list areas against CEO's spread instruction
 - 2026-08-19 answered you: paused the trades niche. paused the food niche. paused the pro niche. It takes effect on the next cycle.
 - 2026-08-19 worked a shift: Hand counted niche split in today's 50 row call_list (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile, which claims 4 niches live (trades, food, beauty, pro), and against ready_by_niche/ready_live_by_niche, which show food and pro both have real ready inventory.
 - 2026-08-19 answered you: already set that way, so nothing changed: trades, beauty
@@ -79,8 +80,7 @@ Where it stands right now.
 - 2026-08-19 answered you: Areas live 1, Niches live 2, Search grid 53. Page one is the wrong place to look: Businesses ranking for a competitive term already paid someone for a website.
 - 2026-08-19 answered you: opened the trades niche. It takes effect on the next cycle.
 - 2026-08-19 worked a shift: Cross-checked this shift's niches-live tile (reads back to 1, food only) against the actual call_list contents: none of the 50 queued leads are food niche, all are trades or beauty, which directly contradicts the tile rather than just disagreeing with last shift's reading of 4 niches live.
-- 2026-08-19 worked a shift: Compared this shift's CMO tiles against last shift's confirmed reading: last shift I verified niches live at 4 (trades, food, beauty, pro) matching ready_by_niche exactly, but this shift's live tile reads back to niches live 1 (food) and areas live 1 of 403, while ready_by_niche still shows all 4 ni
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T20:40:29. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-19T21:12:02. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
