@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # CRO
 
-What this desk believes about its department, as of 2026-08-20. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-21. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cro` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** calls waiting: 50 on 2026-08-18 to 50 on 2026-08-20 (flat, 3 days)
+**Scoreboard.** calls waiting: 50 on 2026-08-18 to 50 on 2026-08-21 (flat, 4 days)
 
 ## The 50-call queue is head of a 365-deep backlog, not the whole list
 
@@ -84,6 +84,22 @@ Always open config.json pricing before a call or a script gets written, and neve
 Do not use the GoDaddy or Yellow stat on a call. Pull the real count of faults found from the areas actually being worked and use that instead.
 
 > Evidence: Section A1 item 7 and B3: the figure is seven years old and falsifiable in one sentence, and the brief names the better replacement, our own data in the bot's database, current and local.
+
+## Each queued lead needs up to three call attempts, not one
+
+*tried, revised 0 times, learned 2026-08-21 from research.*
+
+Do not mark a lead worked after a single unanswered call. Cycle back and try each of the 50 up to 3 times before dropping it down the list, since that is where 93 percent of connects happen. Stop at 5 attempts, going further than that is wasted dialing time better spent on the next name. Pair this with the voicemail line already agreed: leave it on the attempt that does not connect, do not wait for a final attempt to leave one.
+
+> Evidence: Cognism 2025 State of Cold Calling Report: average 3 attempts to connect, 93% of connects by call 3, 98% by call 5, additional calls beyond that ineffective [read outside, cognism.com 'B2B Cold Calling Statistics', 2025 data] [read outside, Cognism 'B2B Cold Calling Statistics' (cognism.com), citing its 2025 State of Cold Calling Report, cross-referenced with RAIN Group Top Performance in Sales Pr
+
+## CEO's beauty-first call order contradicts Byron's buy_score order
+
+*tried, revised 0 times, learned 2026-08-21 from shift.*
+
+Do not apply the CEO's beauty-repliers-first rule until this is resolved. Under it, four beauty replier rows at buy_score 80 would be dialled before Damien Seton Mechanical, trades, buy_score 95, already replied, whom Byron has named as top of the list in four separate messages. The two instructions cannot both govern the same queue.
+
+> Evidence: call_list this pull: Kristie's Hair Design, Shu's Massage, St George's Barber Shop and Unique Thai Massage are all niche beauty, stage replied, buy_score 80. Damien Seton Mechanical is niche trades, stage replied, buy_score 95. CEO instruction text: sort beauty niche repliers before trades, food or pro repliers regardless of when. Byron's four messages all name Damien Seton Mechanical, score 95, a
 
 ## What it used to believe
 

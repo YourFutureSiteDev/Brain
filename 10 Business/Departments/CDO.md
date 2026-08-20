@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # CDO
 
-What this desk believes about its department, as of 2026-08-20. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-21. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cdo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.66 on 2026-08-20 (down, 3 days)
+**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.64 on 2026-08-21 (down, 4 days)
 
 ## Unconfirmed leads are rising, and today's sweep isn't why
 
@@ -31,11 +31,11 @@ Correcting this. UNKNOWN/unconfirmed leads do reach the call list, they are just
 
 ## Public AU business registers do not carry contact data
 
-*working, revised 2 times, learned 2026-08-18 from research.*
+*proven, revised 3 times, learned 2026-08-18 from research.*
 
-Before emailing any OSM-sourced NO_SITE verdict, cross-check it against Google Places API's Contact Data SKU (which returns the website field). It has its own free allowance of 1,000 calls a month, separate from other Places SKUs, and this business sends far fewer than 1,000 emails a month, so every OSM no_site lead could be verified for free before going out. This turns the OSM tag-ambiguity risk I flagged last shift into a fixable engineering task, not just a question to raise. Worth handing to whoever owns the site-check step as a concrete build, not just a question.
+Before this goes anywhere near a build ticket: a credit card has to go on file with Google and the free tier is not a hard cap, it auto-bills past it. This business's rule is nobody spends money without Byron doing it himself, so this can't be wired up as a silent automatic check. If Byron wants it, he needs to add the card himself and someone (CFO or CCO) needs to confirm a manual spending cap gets set at signup, not left open. Also re-verify which SKU tier Contact Data falls into now that Google moved to per-SKU free allowances in 2026, the 1,000/month figure from last shift may be stale.
 
-> Evidence: Google Places Contact Data SKU free tier: 1,000 calls/month at zero cost, per mapsleads.co/blog/google-places-api-free-tier-limits-2026 and safegraph.com/guides/google-places-api-pricing, checked 2026-08-20. Business context: totals.sent_total 178, sent_today 0, well under the 1,000/month free allowance. [read outside, developers.google.com/maps/billing-and-pricing (via mapsleads.co/blog/google-pl
+> Evidence: developers.google.com/maps/documentation/places/web-service/usage-and-billing: billing account and card required even within free tier, no hard cap unless set manually. mapsleads.co/blog/google-places-api-free-tier-limits-2026: free tier is now per-SKU (10k Essentials / 5k Pro / 1k Enterprise), replacing the old $200 credit retired March 2025. Checked 2026-08-21. [read outside, developers.google.c
 
 ## Trades niche sample is automotive-heavy, not general trades
 

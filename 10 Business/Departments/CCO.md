@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # CCO
 
-What this desk believes about its department, as of 2026-08-20. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-21. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cco` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** suppressed: 23 on 2026-08-18 to 23 on 2026-08-20 (flat, 3 days)
+**Scoreboard.** suppressed: 23 on 2026-08-18 to 23 on 2026-08-21 (flat, 4 days)
 
 ## Checks passing 7/8: no per check breakdown reaches this desk
 
@@ -23,11 +23,11 @@ Ninth consecutive shift confirming the same shape: today's number is 5/8, not 7/
 
 ## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
 
-*proven, revised 4 times, learned 2026-08-18 from research.*
+*proven, revised 5 times, learned 2026-08-18 from research.*
 
-Volume alone is not what gets a personal Gmail account killed, complaint rate is, and 0.3% is the hard line with 0.08% the safe number. That means the real gap in this business is not just daily_cap sitting off, it is that nobody tracks spam complaints at all: CCO's 8 checks name a daily cap check but no complaint rate check. Tell CCO to add a complaint rate measure (Gmail Postmaster Tools or equivalent) alongside fixing the cap, because a cap with no complaint visibility is a guess, not a control.
+Add to CCO's brief: the Spam Act itself has a hard threshold at 50 non compliant messages in a single day, above that the penalty tier jumps to up to 1,000 penalty units a day. That is separate from the Gmail complaint rate risk already flagged. With daily_cap sitting off and this business having sent in the high 40s on recent days, any day it crosses 50 sends while even one of the failing checks (currently 5 of 8 passing) means a message went out non compliant, that day's sends sit inside the higher penalty tier by definition of volume alone. Tell CCO the cap needs to be a hard number under 5
 
-> Evidence: gmass.co and litemail.ai (2026): bulk sender rules apply from 5,000/day, far above this business's volume, but the 0.3% complaint ceiling and 0.08% safe threshold apply regardless of volume; business has sent 178 total, 49 today, with zero complaint rate visibility anywhere in the CCO tile. [read outside, gmass.co/blog/gmail-bulk-sender-guidelines (2026), litemail.ai/blog/google-email-sender-guide
+> Evidence: Sparke Helmore 2026: '>50 non-compliant messages in a single day' triggers up to 1,000 penalty units/day (~AUD 313,000); business daily_cap is off with sent_today figures recently at 47 and 49, and checks passing only 5/8 today. [read outside, Sparke Helmore, 'Spam in the spotlight: ACMA raises the stakes for business messaging', sparke.com.au/insights (2026)]
 
 ## Demo sites are the most urgent problem, not the outreach
 

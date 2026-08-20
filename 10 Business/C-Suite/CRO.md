@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T04:07:36
+updated: 2026-08-21T04:39:33
 role: "cro"
 ---
 
@@ -76,6 +76,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Checked the open instructions sitting with this desk against today's call_list rows: the CEO's new rule (sort beauty repliers before trades, food or pro repliers, regardless of order) directly conflicts with Byron's repeated instruction to work strictly top to bottom by buy_score with Damien Seton M
 - 2026-08-21 read outside the building: how many times should a lead be called before moving on, and when do call attempts stop paying off: Cognism's 2025 State of Cold Calling Report: on average it takes 3 attempts to connect with a lead, 93 percent of all connects happen by the third call, and 98 percent happen by the fifth. Calls beyon
 - 2026-08-20 worked a shift: Cross-checked queue_total against the last three shift readings and pipeline.called: the flat trickle broke today, queue_total jumped from 1769 to 1814 (+45, no_site bucket 1297 to 1342), driven by new hotfrog:pest control directory-sweep leads landing this afternoon (Macca's Pumps, Matty's Window T
 - 2026-08-20 worked a shift: Rechecked the 50-item call queue against buy_score order and against call activity for a third straight shift: the interleaved-score break past position 1 is byte-identical to the last two readings, and all 50 rows still show calls_made 0 and last_call null while pipeline.called stays at 8.
@@ -87,8 +88,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Rechecked the top 50 call_list entries against Byron's repeated instruction to work strictly top to bottom by buy_score, and checked queue growth (1646 to 1760, called still 8, all 50 calls_made 0, last_call null).
 - 2026-08-19 worked a shift: Re-checked the 50-name call queue against buy_score ordering and queue_total: ordering still holds (Damien Seton Mechanical 95 on top, the rest 81 down to 77 in order), but queue_total has quadrupled since the last two readings (365 then 398, now 1646), while pipeline.called is still 8 and all 50 sh
 - 2026-08-19 worked a shift: Rechecked the call_list top 50 for buy_score ordering and cross-referenced queue_total against last shift's reading: ordering still holds (Damien Seton Mechanical at 95 sits above all 49 no_site leads at 74-78) and calls made is still stuck at pipeline.called=8, but queue_total on every record has m
-- 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T04:07:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T04:39:33. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

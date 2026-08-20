@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # CMO
 
-What this desk believes about its department, as of 2026-08-20. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-21. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cmo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 0.89 on 2026-08-20 (down, 3 days)
+**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 0.89 on 2026-08-21 (down, 4 days)
 
 ## Food niche has real inventory but is not counted as live
 
@@ -20,6 +20,14 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 Widen further: this is now confirmed across five straight shifts. Food and pro leads show up in ready_by_niche and ready_live_by_niche every single time, in varying amounts, but never once appear in the actual 50-row call_list. Meanwhile the niches-live tile itself is not just wrong, it flip-flops shift to shift (beauty only, then trades+food, now all four) with no consistent direction. Tell Byron plainly: the bot is working trades and beauty only, full stop, regardless of what any tile says this hour.
 
 > Evidence: This shift: call_list is 29 trades, 21 beauty, 0 food, 0 pro (5th shift running with this exact 0/0 pattern for food/pro). Tiles say ready_by_niche food 72, pro 22, ready_live_by_niche food 16, pro 9. Niches-live tile claims 4 niches live including food and pro.
+
+## Cold email is the one channel currently breaking Australian law
+
+*working, revised 1 time, learned 2026-08-18 from brief.*
+
+This is not just an email problem. The Spam Act covers SMS the same way, and the bot is already texting mobiles at higher volume than it emails, 360 messaged against 218 emailed in the current pipeline. The CCO's compliance checklist only lists 'Opt-out in every email' as a check, there is no equivalent check for a working 'Reply STOP' on the text channel. Tell CCO to confirm the SMS side has the same three things the email side needs: sender identified, functional opt-out, and suppression honoured within days of a STOP reply, before texting keeps running at this volume.
+
+> Evidence: Spam Act 2003 defines commercial electronic message to include SMS/MMS, requiring identification and a working unsubscribe in every message, same as email. Business's own messaged count (360) already exceeds emailed count (218), and CCO's 'Checks passing 5/8' tile names an email opt-out check but no SMS one. [Sprintlaw, 'Spam Act 2003: Electronic Marketing Law'; Monster SMS, 'SMS Compliance in Aus
 
 ## A reply rate this low points at deliverability, not the message
 
@@ -52,14 +60,6 @@ This is not scattered noise, it clusters by batch. All 7 leads slugged griffith-
 Put setup time into the Google Business Profile first (video verify, service area, hours, categories) before any content or ranking work. It is nearly free, delivers leads in 4 to 8 weeks, and sits on the local pack surface AI Overviews barely touch.
 
 > Evidence: Section 1 and 2: Whitespark's 540 query study shows local intent triggers local pack 93% of the time versus AI Overview 15%. Section 6 channel table ranks GBP highest confidence, fastest result.
-
-## Cold email is the one channel currently breaking Australian law
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-Flag to the CCO and COO immediately that the bot needs a working unsubscribe, correct sender ID, and a scraper skip rule for sites refusing marketing before it sends again. This is not a marketing nice to have, it is a legal exposure that can end the business.
-
-> Evidence: Section 5: Spam Act 2003 has no volume threshold and no B2B exemption on identification or unsubscribe, per ACMA.
 
 ## Niche pages cap at 8 to 12, suburb pages cap at 3
 
