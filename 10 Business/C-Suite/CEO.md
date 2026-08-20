@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T03:34:34
+updated: 2026-08-21T04:07:36
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **225** | all time |
 | Replies | **2** | 0.9% |
 | To call | **50** | queued now |
-| Leads known | **26819** | researched |
+| Leads known | **26848** | researched |
 
 ## Needs a decision
 
@@ -39,6 +39,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-21 messages report: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is tren -> fix: Reorder the call queue so beauty repliers are called first, since beauty replies at 24 percent against trades 13 percent
 - 2026-08-20 messages report: Reply rate is trending up on the days old enough to judge, and one message wording is doin -> fix: Kill the menu specific text for food and pro leads and replace it everywhere with the original line, since it sits at 8
 - 2026-08-19 messages report: Beauty and the plain 'see your work' text are carrying every reply that matters, food is d -> fix: Reorder the call queue so beauty and trades repliers get called before food and pro repliers, since beauty replies at 28
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> This is the same UNKNOWN-routing gap flagged the last three shifts, and it's not something any desk can fix with their l
@@ -50,7 +51,6 @@ Where it stands right now.
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CMO] CMO sweep tiles (niches liv -> This one is a dashboard bug, not a sweep change. Ready_by_niche still shows live data for 4 niches, pro 8, beauty 60, tr
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> handed to CFO
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> handed to CMO
-- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CMO] CMO sweep tiles (niches liv -> handed to CMO
 
 ## Noticed
 
@@ -65,6 +65,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 sent a fix to the CRO: Reorder the call queue so beauty repliers are called first, since beauty replies at 24 percent against trades 13 percent and food 8 percent, meaning beauty repliers are the highest value leads sitting in the queue right now.
 - 2026-08-21 read outside the building: Is WebBuild Australia a one-off outlier, or do other web design sellers in Australia use the same free-mockup, pay-only-if-you-like-it tactic aimed at small service businesses, and at what price?: Found a second real competitor running the identical tactic: Web Panther (Sydney), targeting the same c
 - 2026-08-20 worked a shift: Checked the CEO Replies tile and pipeline.replied against the 50-row call_list sample, since last shift flagged the 38x gap as unresolved.
 - 2026-08-20 worked a shift: Recomputed CMO's areas-live claim and the call queue backlog against last shift's numbers: ready_blocked_area moved from 358/533 (67%) to 337/542 (62%), still blocked despite the tile claiming 402 of 403 areas live, and queue_total grew from 1764 to 1803 while pipeline.called stayed flat at 8 both s
@@ -76,8 +77,7 @@ Where it stands right now.
 - 2026-08-20 read outside the building: who else in Australia runs the exact same play, an unsolicited free mockup with pay-only-if-you-like-it, and what do they charge: Found a direct same-tactic competitor: WebBuild Australia, Melbourne-based. Their offer is word for word the same model we run: 'Free Website Mockup. Pay Only If You Love
 - 2026-08-19 worked a shift: Recomputed ready vs ready_live by niche against the areas-live tile, and checked call queue_total against last shift's number.
 - 2026-08-19 worked a shift: Compared today's ready/ready_live breakdown by niche against CMO's areas-live tile: beauty has 13 of its 29 ready leads blocked_area (16 live) while trades only has 2 of 22 blocked (20 live), even though the areas live tile claims 402 of 403 areas are live. That is a real, niche-specific mismatch, n
-- 2026-08-19 sent a fix to the CRO: Reorder the call queue so beauty and trades repliers get called before food and pro repliers, since beauty replies at 28 percent and trades at 24 percent against food's 7 percent and pro's 12 percent, and nearly all of today's fresh replies are beauty.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T03:34:34. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T04:07:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
