@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T22:58:49
+updated: 2026-08-20T23:32:56
 role: "cfo"
 ---
 
@@ -49,6 +49,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against live numbers: still $0 banked, 0 jobs won (won flat at 0 for 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at 1 job unchanged. Checked all four tried be
 - 2026-08-20 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against the live numbers: still $0 banked, 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two things sold, monthly costs $162 and break-even at 1 job unchanged. Nothing has mov
 - 2026-08-20 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against live numbers: still $0 banked, 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two things sold, monthly costs $162 and break-even at 1 job unchanged. Nothing has moved s
 - 2026-08-20 worked a shift: Rechecked banked revenue, jobs won and prices against the live numbers: still $0 banked, 0 jobs won (won flat at 0 for the fortnight, 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two products, break-even still 1 job at $162 monthly costs. Nothing has moved since la
@@ -60,8 +61,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Reread the live numbers (still $0 banked, 0 jobs won, 143 emailed, replies flat at 2) then checked my own CFO tile's alert copy against the live $22,393 remake price instead of taking it at face value.
 - 2026-08-19 answered you: the remake price is already $22,393
 - 2026-08-19 answered you: remake price $1,500 -> $22,393. Every email and payment link built from here uses the new number.
-- 2026-08-19 answered you: remake price $3 -> $1,500. Every email and payment link built from here uses the new number.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T22:58:49. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T23:32:56. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
