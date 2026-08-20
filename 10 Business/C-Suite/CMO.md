@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T16:48:42
+updated: 2026-08-20T17:27:09
 role: "cmo"
 ---
 
@@ -62,6 +62,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-20 reply rate across everything is 0.9% over 225 emails
 - 2026-08-20 reply rate across everything is 0.9% over 227 emails
 - 2026-08-20 Read outside on Do food/hospitality businesses reply to cold email at a different rate than trades or beauty, per outside industry data, to check whether the food niche's 7% reply rate in-house is a known pattern or : No trustworthy figure exists. A search summary claimed Food & Beverage cold email gets 3.47% reply, '8x the average,' citing puzzleinbox.com. I fetched both puzzleinbox pages the claim traced to directly and neither contains any Food & Beverage row at all, the industries listed are SaaS, agencies, recruiting, financial services, real estate, manufacturing, healthcare IT, legal, consulting and IT services/MSP, all B2B seller-to-business outreach. The number was not on the page it was attributed to. (source: puzzleinbox.com/blog/cold-email-reply-rate-benchmarks (published 25 Mar 2026) and puzzleinbox.com/blog/cold-email-response-rate-by-industry (published 5 Apr 2026), fetche
 - 2026-08-19 reply rate across everything is 1.1% over 178 emails
@@ -69,7 +70,6 @@ Where it stands right now.
 - 2026-08-19 reply rate across everything is 1.4% over 144 emails
 - 2026-08-19 Read outside on What reply rate and open rate benchmark should this business compare itself against, using the closest matching industry (local/real estate services) in a dated 2026 cold email benchmark study: Cleverly.co's industry benchmark report (dated 16 Apr 2026, updated 28 Jul 2026) has no figures for trades, beauty or food specifically, but its closest analog, real estate and local services, sits at 35 to 40% open rate (48%+ is called good) and 5 to 7% reply rate. That is a concrete open-rate target this business has no way to check itself against right now, because nothing in the current tracking captures opens at all, only sent, replied and link clicks. (source: cleverly.co, 'Cold Email Benchmarks by Industry', published 16 Apr 2026, modified 28 Jul 2026)
 - 2026-08-18 Read outside on How does our 1.4% cold email reply rate compare to 2026 benchmarks, and could the machine's sending setup itself be the cause rather than the message?: 2026 benchmarks put a well-run B2B cold email campaign at 3 to 5% replies, with the platform-wide average at 3.43%. Even the weakest performing industry sector, financial services, floors out at 1.5 to 3.5%. Our 2 replies from 143 sent (1.4%) sits below every published benchmark including that floor. Separately, the deliverability guides say the safe volume is around 100 cold emails a day per inbox, and only once that inbox is warmed up and sending from an authenticated custom domain on Google Workspace, not a free Gmail account. Warmup should start at 10 to 20 a day. Sending near cap without that groundwork is the classic way to land in spam regardless of what the email says. (source: Apollo.io, 'What's a Good Cold Email
-- 2026-08-18 reply rate across everything is 1.4% over 143 emails
 
 ## Recently did
 
@@ -88,4 +88,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T16:48:42. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T17:27:09. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

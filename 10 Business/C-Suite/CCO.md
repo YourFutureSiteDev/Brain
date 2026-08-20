@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T16:48:42
+updated: 2026-08-20T17:27:09
 role: "cco"
 ---
 
@@ -19,7 +19,7 @@ Where it stands right now.
 | | | |
 |---|---|---|
 | Suppressed | **23** | will never be mailed |
-| Sent today | **49** | cap off |
+| Sent today | **47** | cap off |
 | Checks passing | **5/8** | Opt-out in every email; Daily cap; No address harvesting |
 
 ## Needs a decision
@@ -66,6 +66,8 @@ Where it stands right now.
 ## Recently did
 
 - 2026-08-20 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
+- 2026-08-20 worked a shift: Rechecked the live CCO tile against Byron's standing cap-breach question and the checks-passing question: sent_today is 49 against my own max_daily=50, so no breach today (the 51-vs-15 breach in the open instruction is not what the tile shows now), and checks passing is 5/8 for an eighth straight sh
+- 2026-08-20 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-20 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-20 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-20 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
@@ -75,9 +77,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Rechecked today's live CCO tile against Byron's cap-breach and failing-check questions: sent_today is 49 against my own max_daily=50 setting, which is not a breach, but daily_cap itself still reads off rather than the 1 Byron asked about, and checks passing is 5/8 with only the same three passing ch
 - 2026-08-20 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-20 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
-- 2026-08-20 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
-- 2026-08-20 worked a shift: Checked today's live CCO tile against the daily cap contradiction and the suppression count: sent_today=23 against my own max_daily=50 setting is not a breach, but daily_cap itself still reads "off" while the checks-passing list still names "Daily cap" as one of the 5/8 checks currently passing, and
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T16:48:42. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T17:27:09. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
