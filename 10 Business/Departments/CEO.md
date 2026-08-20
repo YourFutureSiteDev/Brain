@@ -37,6 +37,14 @@ This is not just a general market comparison anymore. There is a real competitor
 
 > Evidence: WebBuild Australia homepage, fetched 20 Aug 2026: 'Free Website Mockup. Pay Only If You Love It', Starter package $248 (was $600, first 10 customers only), delivery 24 to 48 hours. [read outside, webbuildaustralia.com, fetched 20 Aug 2026]
 
+## CMO areas live tile is the real bug, niches live tile checks out
+
+*working, revised 1 time, learned 2026-08-20 from shift.*
+
+Niches live bug is resolved: ready_blocked_niche is now 0 and the tile correctly shows 4 of 4 niches live, matching ready_by_niche/ready_live_by_niche reconciling cleanly across trades, beauty, pro and food. That leaves areas live as the one real problem: 358 of 533 ready leads (67%) are still blocked_area while the tile claims 402 of 403 areas are live. This is no longer just a beauty-as-control case, it holds across every niche now that niche gating is fixed. Tell CMO the areas-live count itself is wrong or the gating logic behind it does not match what it reports, and to trace one blocked l
+
+> Evidence: totals.ready_by_niche trades 145 + beauty 294 + pro 22 + food 72 = 533; ready_live_by_niche trades 78 + beauty 72 + pro 9 + food 16 = 175; ready_blocked_area 358; ready_blocked_niche 0; cmo tile areas live 402 of 403, niches live 4 (trades, food, beauty, pro).
+
 ## The market is advice and execution, not the website itself
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -68,14 +76,6 @@ Check weekly that every send has correct sender identification and a working uns
 Reject any commitment from a specialist that implies same day response or a hard uptime guarantee. Hold the line at one business day turnaround.
 
 > Evidence: Section 5, the rule 'never sell anything whose failure mode is the one person had exams.'
-
-## CMO areas live tile is the real bug, niches live tile checks out
-
-*tried, revised 0 times, learned 2026-08-20 from shift.*
-
-Stop treating this as two broken tiles. Niches live is internally consistent: blocked_niche 331 equals trades 237 + pro 22 + food 72 exactly, so niches live=1 (beauty) is telling the truth. The actual bug is areas-live only. Proof: beauty is the one niche already gated live, so its ready leads face no niche confound, yet 234 of its 318 ready leads (73.6%) are still blocked by area while the tile claims 402 of 403 areas are live. Tell CMO to fix what 'live' means against where beauty's own ready leads sit, that is the cleanest test case.
-
-> Evidence: totals.ready_by_niche beauty 318 vs ready_live_by_niche beauty 84 (234 blocked); ready_blocked_niche 331 = trades 237 + pro 22 + food 72; cmo tile areas live 402 of 403, niches live 1 (beauty).
 
 ## pipeline.replied and totals.replies disagree by 38x, replied stage looks untrustworthy
 
