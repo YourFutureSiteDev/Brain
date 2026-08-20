@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T12:31:55
+updated: 2026-08-20T13:03:18
 role: "cmo"
 ---
 
@@ -87,4 +87,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T12:31:55. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T13:03:18. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

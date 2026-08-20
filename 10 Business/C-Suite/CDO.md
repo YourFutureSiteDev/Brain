@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T12:31:55
+updated: 2026-08-20T13:03:18
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **25530** | known |
+| Leads | **25532** | known |
 | With email | **1089** | 4% |
-| With phone | **8005** | 31% |
+| With phone | **8007** | 31% |
 | With rating | **0** | 0% |
 | Unconfirmed | **594** | never mailed |
 
@@ -69,6 +69,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Closed out the trades-automotive check that's been resampled every shift for the last four: this shift's 50-row call_list sample gives 29 trades rows, 14 automotive, matching last shift's 29/14 exactly and the shift before's near-50% share, so I'm marking it settled instead of re-running it again. A
 - 2026-08-20 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-20 worked a shift: Rechecked today's CDO tile against the last reading (leads 25518, unconfirmed 594) and reran the trades-niche automotive count on this shift's fresh 50-row call list sample (29 of 50 rows trades, 14 of those 29 automotive-related, in line with last shift's near-50% finding).
 - 2026-08-20 worked a shift: Rechecked the fortnight usable-verdict rate with today's numbers (leads 25506, unconfirmed 594) against yesterday's (25471, 593), and re-ran the trades-niche subcategory count on today's fresh 50-row call list sample.
@@ -80,8 +81,7 @@ Where it stands right now.
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-19 worked a shift: Checked Byron's standing instruction that UNKNOWN leads still reach the call list or get emailed. Found a concrete example in this shift's lead sample: Hawkesbury & Nepean Plumbing (Penrith NSW), status UNKNOWN, stage still 'found', no call, no email. Call list sample again has zero UNKNOWN-bucket r
 - 2026-08-19 read outside the building: Does OpenStreetMap's absence of a website tag actually mean a business has no website, or just that nobody entered it?: A benchmark comparison of OSM POI data against a verified retail dataset found only a 39.8% attribute fill rate overall, and found OSM entries with blank fields carry no explanatio
-- 2026-08-18 worked a shift: Re-checked whether UNKNOWN status leads with phone numbers reach the call queue, since Byron flagged this again. Second shift in a row the evidence points the same way: this call list sample (50 of 365 queued) has bucket values of only clicked or no_site, zero unknown, and the single UNKNOWN lead vi
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T12:31:55. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T13:03:18. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
