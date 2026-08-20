@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T13:03:17
+updated: 2026-08-20T13:35:03
 role: "cfo"
 ---
 
@@ -64,4 +64,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T13:03:17. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T13:35:03. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
