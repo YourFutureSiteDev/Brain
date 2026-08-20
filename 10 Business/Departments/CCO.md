@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 ## Checks passing 7/8: no per check breakdown reaches this desk
 
-*proven, revised 6 times, learned 2026-08-18 from shift.*
+*proven, revised 7 times, learned 2026-08-18 from shift.*
 
-Now confirmed on a seventh consecutive shift, and the number keeps moving (8/8, 7/8, 5/8) while the same contradiction sits underneath every reading: the passing list names Daily cap as a check currently passing while live daily_cap reads off. Keep telling Byron the failing-check identity cannot be answered from this console. It needs someone to open the check code or config directly, not another tile read.
+Eighth consecutive shift confirming the same shape: today's number is 5/8, not 7/8, so Byron's open question naming 7/8 is reading a stale figure. The tile names Opt-out, Daily cap and No address harvesting as passing while live daily_cap reads off, which is a contradiction the tile itself cannot resolve. Keep telling Byron the failing-check identity needs someone to open the check code or config directly, and flag that the 7/8 and 51-vs-15 figures in his open board items are both stale versus today's actual 5/8 and 49-vs-50.
 
-> Evidence: today: 5/8 passing (Opt-out in every email; Daily cap; No address harvesting), daily_cap=off, sent_today=49, max_daily=50 unchanged. Same three passing checks named for seven shifts running while the cap value has flapped off/1/off beneath them.
+> Evidence: today: checks passing 5/8 (Opt-out in every email; Daily cap; No address harvesting), daily_cap=off, sent_today=49, max_daily=50. No breach today: 49 is under 50, not over it, and not the 51-vs-15 figure on the board.
 
 ## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
 
