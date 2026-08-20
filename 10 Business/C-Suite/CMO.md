@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T20:14:27
+updated: 2026-08-20T20:49:35
 role: "cmo"
 ---
 
@@ -73,6 +73,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Hand counted this shift's 50 row call_list again (29 trades, 21 beauty, 0 food, 0 pro, the 5th straight shift with that exact split), checked it against niches-live (still claims 4: trades, food, beauty, pro) and against areas-live, which this shift reads 402 of 403, not stuck at 4 like it was on 19
 - 2026-08-20 worked a shift: Checked geographic spread of today's 50-lead call_list by slug (not the unreliable area field) per CEO's instruction, and found leads spanning NSW, QLD, VIC, WA, SA, TAS and NT, not just Sydney, but also found a sharper version of the area-mismatch bug: 7 leads in one sweep batch (search_term sweep:
 - 2026-08-20 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-20 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
@@ -84,8 +85,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Hand counted this shift's 50 row call_list (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile which now reads 1 niche live (beauty) and against ready_live_by_niche which shows beauty 80 and nothing for trades, food or pro; also checked call_list areas against CEO's spread instruction
 - 2026-08-19 answered you: paused the trades niche. paused the food niche. paused the pro niche. It takes effect on the next cycle.
 - 2026-08-19 worked a shift: Hand counted niche split in today's 50 row call_list (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile, which claims 4 niches live (trades, food, beauty, pro), and against ready_by_niche/ready_live_by_niche, which show food and pro both have real ready inventory.
-- 2026-08-19 answered you: already set that way, so nothing changed: trades, beauty
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T20:14:27. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T20:49:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

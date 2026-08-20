@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cmo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 0.88 on 2026-08-20 (down, 3 days)
+**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 0.89 on 2026-08-20 (down, 3 days)
 
 ## Food niche has real inventory but is not counted as live
 
@@ -28,6 +28,14 @@ Widen further: this is now confirmed across five straight shifts. Food and pro l
 Add open-rate tracking (a tracking pixel, which most sending tools already support) before the CRO touches copy again. Reply rate alone cannot tell you if mail is landing in spam or landing and being ignored. Once opens are visible, compare against 35 to 40% as the local-services benchmark; if opens are far below that, it is spam placement and stays with COO and CCO to fix the sending setup; if opens are near benchmark but replies stay near zero, it is a message problem and belongs with CRO.
 
 > Evidence: Cleverly.co, 16 Apr 2026 (mod. 28 Jul 2026): real estate/local services cold email averages 35-40% open, 48%+ is good, 5-7% reply. This business currently tracks sent, replied and clicks only, no opens, so there is no way to tell the two failure modes apart. [read outside, cleverly.co, 'Cold Email Benchmarks by Industry', published 16 Apr 2026, modified 28 Jul 2026]
+
+## CMO areas live and niches live tiles are unreliable same shape of bug
+
+*working, revised 1 time, learned 2026-08-19 from shift.*
+
+Split this claim, the two tiles are not failing the same way anymore. Areas live now reads a sane 402 of 403, matching what a healthy tile should look like, so whatever caused the two silent narrowings to 4 is not visibly active this shift. Niches live is still broken on its own: it claims 4 niches live including food and pro while the actual call_list has carried 0 food and 0 pro leads for 5 consecutive shifts. Keep hand counting call_list every shift regardless, but stop treating areas-live and niches-live as one bug, they need separate fixes and areas-live may already be fine.
+
+> Evidence: This shift's tiles: areas live 402/403 (previously cut to 4 on 19 Aug, twice). niches live 4, listing food and pro, against call_list hand count of 29 trades, 21 beauty, 0 food, 0 pro, same 0/0 pattern as the last 4 shifts running.
 
 ## CMO lead area field mismatches the lead's own location, not just the tile totals
 
@@ -92,14 +100,6 @@ Keep an eye on whether any Discord or forum activity for the business drifts fro
 Shift daily texting volume from food toward beauty and trades until food's reply rate closes the gap, and retire the menu specific wording outright.
 
 > Evidence: food 59 sent 4 replied 7% versus beauty 134 sent 37 replied 28%, and the menu wording is 8 sent 0 replied
-
-## CMO areas live and niches live tiles are unreliable same shape of bug
-
-*tried, revised 0 times, learned 2026-08-19 from shift.*
-
-Keep hand counting the call_list every shift, do not read niches-live or ready_live_by_niche either way. Today the tile undercounts in the opposite direction from before: it claims only beauty is live and ready_live_by_niche shows 0 for trades, but trades is 29 of 50 rows in the actual working queue, more than half. The tile has now been wrong both by overclaiming niches (food, pro) that never appear in queue, and by underclaiming a niche (trades) that is clearly the majority of queue volume. It is not a food or pro specific bug, the tile and ready_live_by_niche are simply disconnected from th
-
-> Evidence: This shift's 50 row call_list hand count: 29 trades, 21 beauty, 0 food, 0 pro. Tile reads niches live 1 (beauty). ready_live_by_niche reads beauty 80 only, no entry for trades despite trades being the largest slice of the actual queue.
 
 ## Replies landing on Byron's phone are invisible to the board
 
