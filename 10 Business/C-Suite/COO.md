@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T01:49:36
+updated: 2026-08-21T02:22:28
 role: "coo"
 ---
 
@@ -18,15 +18,15 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 345 cycles |
-| Last cycle | **01:17** | 2026-08-21 |
-| Leads | **26707** | 26707 checked |
-| Call list | **4807** | no email found |
+| Bot | **running** | 346 cycles |
+| Last cycle | **01:49** | 2026-08-21 |
+| Leads | **26725** | 26725 checked |
+| Call list | **4816** | no email found |
 | Daily cap | **off** | 0 sent today |
 
 ## Needs a decision
 
-- **4807 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **4816 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
@@ -55,6 +55,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-21 Read outside on what is a realistic billable utilization rate for a full time solo freelancer, in hours per week: Across a sample of 10,000+ freelancers, average billable hours were 22.4 hours a week. The recommended sustainable target is 20 to 30 billable hours a week (25 as the ideal), which works out to a 50 to 65 percent utilization rate, not 60 to 70. A separate freelancer survey put average full time utilization at 59 percent (26 of 44 total working hours), with high earners reaching 80 percent. (source: solohourly.com, 'How Many Billable Hours is Realistic? (20-30 Hour Rule)', updated April 2026; corroborated by Clockify/industry survey data via web search, 2026)
 - 2026-08-20 Read outside on How much time does a solo operator actually lose per context switch between build work and other tasks (calls, checking the bot, replying to prospects)?: The commonly cited UC Irvine research (Gloria Mark) puts the refocus cost at 23 minutes 15 seconds after an interruption before full concentration on the original task returns. Freelancer-specific write-ups extrapolate that a person juggling several distinct task types in one day hits 4 to 6 major transitions, costing 1 to 2 hours a day just in refocus time, separate from the interruption itself. (source: cannelevate.com.au, 'How Context Switching Reduces Workplace Productivity' (2026, citing UC Irvine / Gloria Mark research), retrieved 2026-08-20)
 - 2026-08-19 Read outside on What share of a solo freelancer's working hours are actually billable/buildable, versus admin, sales and coordination time that never shows up as build minutes: Multiple 2026 sources converge on 60 to 70 percent billable utilization for established solo freelancers. The Jobbers.io 2026 Freelance Benchmark Report puts full time freelancers at about 44 hours worked per week with roughly 26 billable (59 percent). Clockify's freelancer time study and the Freelancers Union both cite 60 to 75 percent billable, with the rest going to proposals, invoicing, admin and business development, roughly 6 hours a week on admin alone even after the freelancer already has clients. (source: Jobbers.io 'The Freelance Benchmark Report 2026' (retrieved 2026-08-19); Clockify 'How Freelancers Spend Time' (2025/2026); Freelancers Union utilization figures cited in the same search)
 - 2026-08-18 Read outside on Is a Gmail account sending 49-51 cold emails a day safe, or does that volume/pattern risk suspension for a new sender running from a personal Gmail address?: Free/personal Gmail is described across deliverability guides as unsuited to cold outreach at any volume because it lacks the domain reputation a paid Workspace account builds, and gets flagged quickly regardless of staying under caps. Separately, the recommended path to a safe daily volume is a 2 to 4 week ramp starting at 5 to 10 emails a day, rising by 5 to 10 a day, before settling around 50 to 100. Our own numbers show sent_total is 143 all time but sent_today is 49, meaning roughly a third of everything ever sent from this account went out in one day. That is a jump, not a ramp. (source: Saleshandy 'Warmup Email Account' guide and Mailreach 'Gmail Warmup Guide 2026' (both retrieved 2026-08-18), cross checked ag
@@ -62,6 +63,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 read outside the building: what is a realistic billable utilization rate for a full time solo freelancer, in hours per week: Across a sample of 10,000+ freelancers, average billable hours were 22.4 hours a week. The recommended sustainable target is 20 to 30 billable hours a week (25 as the ideal), which works out to a 50 to
 - 2026-08-20 worked a shift: Rechecked machine health against last shift's own trigger condition: sent_today held flat at 47 while total cycles climbed 331 to 340 over the last cycle window (17:27 to 22:26 today), bot_running, sending_on both still true and daily cap still off.
 - 2026-08-20 worked a shift: Rechecked machine health: total cycles rose 324 to 331 (bot_running and sending_on both true, daily cap still off, last cycle 17:27 today), but sent_today dropped from 49 to 47 on the same day 2026-08-20, which is the exact same-day-drop-with-cycles-still-rising pattern my last check said would actu
 - 2026-08-20 worked a shift: Rechecked machine health this shift: total cycles up from 320 to 324 (a gain of only 4), sent_today at 49 with daily cap still off, bot_running and sending_on both true, last cycle 13:35 today, no jam. Also re-summed this shift's queue_buckets (1 clicked + 1300 no_site + 313 no_email + 3 quiet + 155
@@ -73,8 +75,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Rechecked machine health this shift: cycles up from 290 to 296, sent_today up from 44 to 49, daily cap still off, bot_running and sending_on both true. Did not resample the call list again since three straight shifts already confirmed that pattern and it now sits with Byron as a task, not more COO c
 - 2026-08-19 settled leads with no website: 991 marked NO_SITE
 - 2026-08-19 worked a shift: Checked machine health this shift: daily cap has moved from 1 (last shift) to off entirely, with sent_today now 44 and total cycles up from 279 to 290, bot_running true, sending_on true. Did not re-run the call list sample again since the last three shifts already nailed that pattern and it was alre
-- 2026-08-19 worked a shift: Rechecked machine health (286 cycles, last cycle 09:33, cap still stuck at 1 with 0 sent today) and reconfirmed the call list jam using this shift's own call_list sample: all 50 rows status NO_SITE, zero UNKNOWN, queue_total 398 against the COO tile's 3036 leads with phone and no email.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T01:49:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T02:22:28. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
