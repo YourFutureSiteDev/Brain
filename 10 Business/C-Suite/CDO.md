@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T04:39:33
+updated: 2026-08-21T05:13:04
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **26898** | known |
-| With email | **1184** | 4% |
-| With phone | **8618** | 32% |
+| Leads | **26942** | known |
+| With email | **1185** | 4% |
+| With phone | **8639** | 32% |
 | With rating | **0** | 0% |
 | Unconfirmed | **633** | never mailed |
 
@@ -70,6 +70,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Compared this shift's unconfirmed count against last shift's reading to see whether the new-lead unconfirmed rate is settling into a baseline or still climbing, since last shift flagged the first nonzero reading after three flat ones.
 - 2026-08-21 read outside the building: Does Google Places API's free tier (the Contact Data SKU I flagged last shift) actually require a billing account and credit card, or is it usable with zero payment risk for a solo operator with no bu: Yes, billing is required. Google still requires a billing account with a valid credit card on file
 - 2026-08-20 worked a shift: Rechecked the fortnight unconfirmed count against the three flat prior readings (25506/594, 25518/594, 25568/594) and found it moved for the first time this shift: leads 26172, unconfirmed 613. That breaks the 'stable, stop checking' call I made last shift, so I'm reopening it. Also confirmed this c
 - 2026-08-20 worked a shift: Reconfirmed the fortnight unconfirmed count for a third straight reading (25506 to 25518 to 25568 leads, unconfirmed pinned at 594 all three times) and reran the trades/automotive niche sample on this shift's fresh 50-row call list, which landed on the exact same 29/50 trades, 14/29 automotive split
@@ -81,8 +82,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Chased this shift's fortnight number, the usable-verdict rate falling from 97.96% (8/18) to 97.67% (8/19), and checked whether today's mass sweep:mobile ingestion explains it. It does not: (25471-593)/25471 = 97.67%, matching the tile, but every newly ingested sweep:mobile row visible today (Bill's
 - 2026-08-19 worked a shift: Reread the call_list queue_buckets aggregate (not just the 50 sampled rows) and found the unconfirmed bucket has 154 of 1740 queued entries, occupying the exact tail of the sort order, which finally answers the UNKNOWN-routing question I've raised four shifts running.
 - 2026-08-19 worked a shift: Re-checked the UNKNOWN routing question a fourth time using this shift's data: the 50-row call list dump has zero unknown-bucket rows again (all 50 are bucket clicked or no_site), and Hawkesbury & Nepean Plumbing is still status UNKNOWN, stage found, no call, no email, unchanged from prior shifts. A
-- 2026-08-19 worked a shift: Pulled the sub-category breakdown of the trades niche that Byron asked for, using the 50-row call list sample (366 queued total, no tool here to query beyond the rows already shown).
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T04:39:33. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T05:13:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
