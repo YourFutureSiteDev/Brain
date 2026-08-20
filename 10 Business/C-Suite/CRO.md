@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T00:13:37
+updated: 2026-08-21T00:45:36
 role: "cro"
 ---
 
@@ -67,6 +67,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-21 Read outside on how many times should a lead be called before moving on, and when do call attempts stop paying off: Cognism's 2025 State of Cold Calling Report: on average it takes 3 attempts to connect with a lead, 93 percent of all connects happen by the third call, and 98 percent happen by the fifth. Calls beyond the fifth attempt are effectively wasted. (source: Cognism 'B2B Cold Calling Statistics' (cognism.com), citing its 2025 State of Cold Calling Report, cross-referenced with RAIN Group Top Performance in Sales Prospecting Benchmark Report)
 - 2026-08-20 Read outside on when a small business owner cold called about a website says no, what is the actual objection and is there a solid rebuttal that fits a one person, no-ad-spend business: The most common no is not price, it is 'I already get enough work from word of mouth or my Facebook page, I don't need a website.' The specific counter that holds up: Facebook pages do not show up when someone searches Google for the trade plus suburb, and the business does not own that page, Meta controls who sees it and organic reach on it has been falling for years. A website is not a replacement for word of mouth or Facebook, it is what confirms the business is legitimate once someone has heard the name and gone looking. (source: Buildify NZ 'Do Tradies Need a Website in 2026' (buildifysites.co.nz) and Groundwork Digital 'Do Tradies Need a Website' (groundworkdigital.co.nz), both 2026)
 - 2026-08-19 Read outside on When a cold call to an Australian small business owner's mobile goes unanswered, do they actually check the voicemail, or is leaving one a wasted 20 seconds: 81 percent of calls from unknown numbers go to voicemail rather than being answered, but 67 percent of people still check a voicemail left by an unknown number. Voicemail-to-conversation conversion sits at 4 to 11 percent for Australian small business calls, and industry missed-call rate for Aussie small business runs 22 to 47 percent. So most of the 47 cold-open calls in today's queue will not be answered live, but a real majority of those will still be heard. (source: Aussie AI Agency, 'Missed Call Statistics Australia 2026' (aussieaiagency.com.au), cross-checked against CloudTalk 'Cold Calling Statistics 2026' and Scrap.io 'Cold Calling Success Rate in 2026: 200K+ Calls Analyzed')
 - 2026-08-18 Read outside on What time of day gets the highest answer rate when cold calling small business owners like tradies, beauty and food operators: US sales-call data across several 2026 studies converge on the same window: best connect rates are 9 to 10am and 3 to 4pm, Tuesday through Thursday. Calls made 12 to 2pm see about a 35 percent drop in answers because owner-operators are on lunch or with a client. Calls before 8am or after 6pm mostly miss. Monday connect rates run about 21 percent below midweek. (source: Close.com 'Best Days & Times to Cold Call (Data-Backed) in 2026'; PhoneBurner data cited via Revenue.io 'Best Time to Cold Call Prospects in 2026')
@@ -75,6 +76,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 read outside the building: how many times should a lead be called before moving on, and when do call attempts stop paying off: Cognism's 2025 State of Cold Calling Report: on average it takes 3 attempts to connect with a lead, 93 percent of all connects happen by the third call, and 98 percent happen by the fifth. Calls beyon
 - 2026-08-20 worked a shift: Cross-checked queue_total against the last three shift readings and pipeline.called: the flat trickle broke today, queue_total jumped from 1769 to 1814 (+45, no_site bucket 1297 to 1342), driven by new hotfrog:pest control directory-sweep leads landing this afternoon (Macca's Pumps, Matty's Window T
 - 2026-08-20 worked a shift: Rechecked the 50-item call queue against buy_score order and against call activity for a third straight shift: the interleaved-score break past position 1 is byte-identical to the last two readings, and all 50 rows still show calls_made 0 and last_call null while pipeline.called stays at 8.
 - 2026-08-20 worked a shift: Re-checked the top 50 call_list against buy_score ordering and re-verified queue_total growth: order is still broken past position 1 in the identical pattern as the last two shifts (95, then 81,81,80,81,81,80,81,81,80,80,78... repeating), and cross-referenced queue_total against the last three readi
@@ -86,8 +88,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Re-checked the 50-name call queue against buy_score ordering and queue_total: ordering still holds (Damien Seton Mechanical 95 on top, the rest 81 down to 77 in order), but queue_total has quadrupled since the last two readings (365 then 398, now 1646), while pipeline.called is still 8 and all 50 sh
 - 2026-08-19 worked a shift: Rechecked the call_list top 50 for buy_score ordering and cross-referenced queue_total against last shift's reading: ordering still holds (Damien Seton Mechanical at 95 sits above all 49 no_site leads at 74-78) and calls made is still stuck at pipeline.called=8, but queue_total on every record has m
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
-- 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T00:13:37. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T00:45:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
