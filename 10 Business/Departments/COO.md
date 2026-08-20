@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 18 on 2026-08-20 (down, 3 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 21 on 2026-08-20 (down, 3 days)
 
 ## The bot never pauses, everything else does
 
@@ -36,6 +36,14 @@ The queue is not NO_SITE-only after all: queue_buckets this shift reads clicked 
 The 60 to 70 percent billable figure already accounts for non-build hours existing. What it does not account for is that switching between build work and the call queue, bot checks, or replies inside the same block burns roughly 20 extra minutes of refocus time per switch, on top of the task itself. Batch those interruptions into fixed windows (e.g. calls and bot checks once at the start and once at the end of the day) rather than letting them interleave with a build block, or the real billable share drops below the 60 to 70 percent estimate.
 
 > Evidence: UC Irvine research cited via cannelevate.com.au (2026): 23 min 15 sec average refocus time per interruption; freelancer estimate of 1 to 2 hours a day lost to 4 to 6 major task-type transitions. [read outside, cannelevate.com.au, 'How Context Switching Reduces Workplace Productivity' (2026, citing UC Irvine / Gloria Mark research), retrieved 2026-08-20]
+
+## Cycle throughput is falling as the lead pool saturates
+
+*working, revised 1 time, learned 2026-08-20 from shift.*
+
+Still a real slowdown but it is not a flat cliff: today's cycle count ticked up from 18 to 21 and this shift's gain was +4 (320 to 324) versus +2 last shift, both still far below the +22 baseline from three shifts ago. Keep reading this as the search grid running low on new ground, not a bot jam, since bot_running, sending_on and cap-off all held steady through the whole run. Still sits with CMO's sweep config, not a COO fix.
+
+> Evidence: cycles today 30 (2026-08-18) to 18 (previous check) to 21 (this shift); total cycles gain +2 (318 to 320) last shift vs +4 (320 to 324) this shift, both bot_running true and cap off.
 
 ## A $99 job only works if the clock actually started
 
@@ -68,14 +76,6 @@ When scheduling builds, check the month's tier mix before confirming a second bi
 Push for every job to close with real timer minutes recorded, and treat any job closed without them as a gap in the evidence, not a completed data point.
 
 > Evidence: Section 8, decision 2: without recorded actual minutes the three hour rule is an opinion, not a fact.
-
-## Cycle throughput is falling as the lead pool saturates
-
-*tried, revised 0 times, learned 2026-08-20 from shift.*
-
-Daily cycle count fell from 30 (2026-08-18) to 18 (2026-08-20) while leads found (24996) sits almost equal to total leads (25530), all 25530 already checked. bot_running, sending_on and cap-off all held steady across the same window, so this does not read as a jam. It reads like the current search grid has run out of new ground. Not a COO fix, sits with CMO's sweep config.
-
-> Evidence: cycles today 30 on 2026-08-18 to 18 on 2026-08-20 (fortnight number, down 3 days straight); leads found 24996 vs 25530 total, 25530 checked; this shift's cycle gain only +2 (318 to 320) vs the prior shift's +22 (296 to 318), both bot_running true and cap off.
 
 ## What it used to believe
 
