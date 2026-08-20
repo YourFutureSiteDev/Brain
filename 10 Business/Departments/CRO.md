@@ -29,6 +29,14 @@ This is now a three day flatline, not two. Keep flagging it as a tool gap, not s
 
 > Evidence: Department number line: calls waiting 50 on 2026-08-18, 50 on 2026-08-19, 50 on 2026-08-20, flat for 3 days. pipeline.called is still 8, unchanged across all three readings. All 50 call_list entries in this pull still show calls_made 0 and last_call null. Meanwhile queue_total behind the top 50 grew from 1646 to 1765 in the same window, so the backlog is moving even though the worked list looks fr
 
+## Call queue order breaks below the top score
+
+*working, revised 2 times, learned 2026-08-19 from shift.*
+
+Third consecutive shift, identical broken sequence: 95, 81,81,80,81,81,80,81,81,80,80,78,80,80,78,80,80,78,80,80,78,80,80,78,80,77(repeated). This is now proven stable, not noise or a timing fluke. It cannot be fixed by re-reading or by any desk here, it needs the sort query itself fixed. Stop re-verifying it every shift, it has been confirmed enough; the only thing left to do is get it in front of someone who can edit the query.
+
+> Evidence: call_list buy_score sequence this pull: 95,81,81,80,81,81,80,81,81,80,80,78,80,80,78,80,80,78,80,80,78,80,80,78,80,77x25, matching the last two shifts word for word, plus a third day flat at calls waiting 50 and pipeline.called unchanged at 8.
+
 ## Fifth of the enabled areas are in the wrong time zone for the call plan
 
 *working, revised 1 time, learned 2026-08-18 from brief.*
@@ -52,14 +60,6 @@ Add a specific line for the 'I've got Facebook, I don't need a website' objectio
 Add to the cold-open script for the 47 no-email leads: write a 20 to 25 second voicemail line for every one of them, because most calls to a small business mobile will not be answered but two thirds of unknown-number voicemails still get checked. Name, business name, the one fault found (no website), and a callback number, no price stated. Do not skip the voicemail just because the call did not connect, that is not a failed call, it is a delivered one.
 
 > Evidence: Aussie AI Agency 2026: 81% of unknown-number calls go to voicemail, 67% of those voicemails get checked, voicemail-to-conversation conversion 4-11% for Australian small business [read outside, Aussie AI Agency, 'Missed Call Statistics Australia 2026' (aussieaiagency.com.au), cross-checked against CloudTalk 'Cold Calling Statistics 2026' and Scrap.io 'Cold Calling Success Rate in 2026: 200K+ Calls 
-
-## Call queue order breaks below the top score
-
-*working, revised 1 time, learned 2026-08-19 from shift.*
-
-Second consecutive shift with the exact same broken sequence. Position 1 (Damien Seton Mechanical, 95) is correct, but from position 2 on the order is not sorted: 81, 81, 80, 81, 81, 80, 81, 81, 80, 80, 78, 80, 80, 78, 80, 80, 78, 80, 80, 78, 80, 80, 78, 80, then 77 repeated 25 times, with lower scores followed by higher ones seven times in the first 26 rows. This is stable, not noise, so it is a query bug, not a data timing issue. Byron's standing instruction to work strictly top to bottom by buy_score cannot be honoured past row 1 until the query is fixed.
-
-> Evidence: call_list buy_score sequence read this shift: 95,81,81,80,81,81,80,81,81,80,80,78,80,80,78,80,80,78,80,80,78,80,80,78,80,77x25 - matches the identical sequence recorded last shift word for word.
 
 ## The pipeline is not a lead count, it is a dial count
 
