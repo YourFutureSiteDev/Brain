@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T15:13:57
+updated: 2026-08-20T15:45:18
 role: "cmo"
 ---
 
@@ -73,6 +73,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Checked geographic spread of today's 50-lead call_list by slug (not the unreliable area field) per CEO's instruction, and found leads spanning NSW, QLD, VIC, WA, SA, TAS and NT, not just Sydney, but also found a sharper version of the area-mismatch bug: 7 leads in one sweep batch (search_term sweep:
 - 2026-08-20 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-20 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-20 worked a shift: Hand counted this shift's 50 row call_list again (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile, which now claims all 4 niches live (trades, food, beauty, pro), and against ready_by_niche (food 72, pro 22 ready) and ready_live_by_niche (food 16, pro 9 ready_live); also rechecked
@@ -84,8 +85,7 @@ Where it stands right now.
 - 2026-08-19 answered you: paused the trades niche. paused the food niche. paused the pro niche. It takes effect on the next cycle.
 - 2026-08-19 worked a shift: Hand counted niche split in today's 50 row call_list (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile, which claims 4 niches live (trades, food, beauty, pro), and against ready_by_niche/ready_live_by_niche, which show food and pro both have real ready inventory.
 - 2026-08-19 answered you: already set that way, so nothing changed: trades, beauty
-- 2026-08-19 reported to the CEO: Beauty and the plain 'see your work' text are carrying every reply that matters, food is dead weight at 7% and should stop getting sent volume.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T15:13:57. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T15:45:18. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

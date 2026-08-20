@@ -29,6 +29,14 @@ Add open-rate tracking (a tracking pixel, which most sending tools already suppo
 
 > Evidence: Cleverly.co, 16 Apr 2026 (mod. 28 Jul 2026): real estate/local services cold email averages 35-40% open, 48%+ is good, 5-7% reply. This business currently tracks sent, replied and clicks only, no opens, so there is no way to tell the two failure modes apart. [read outside, cleverly.co, 'Cold Email Benchmarks by Industry', published 16 Apr 2026, modified 28 Jul 2026]
 
+## CMO lead area field mismatches the lead's own location, not just the tile totals
+
+*working, revised 1 time, learned 2026-08-20 from shift.*
+
+This is not scattered noise, it clusters by batch. All 7 leads slugged griffith-nsw from the sweep:mobile batch (first_seen 2026-08-19) are tagged with different Victorian suburbs (Melbourne, Pakenham, Yarra Glen, Mornington), none of them Griffith NSW. If area targeting reads this field it is working off a batch-level bug, not lead-level typos. Whoever owns the scraper (CDO or COO) should check what area value gets attached during a sweep:mobile run, this looks fixable at the source rather than something to patch lead by lead.
+
+> Evidence: 7 of the 50 call_list rows share slug root griffith-nsw: bills-hi-tech (area Melbourne VIC), rays-euro-tech (Pakenham VIC), adeles-relaxing-therapy (Pakenham VIC), tonys-barbershop (Yarra Glen VIC), aap-scaffolding (Mornington VIC), abaco-car-care (Melbourne VIC), b-masters-plumbing (Mornington VIC). None read Griffith NSW or anywhere near it.
+
 ## GBP beats organic SEO for this business, act accordingly
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -100,13 +108,5 @@ Keep hand counting the call_list every shift, do not read niches-live or ready_l
 Treat the reply-text field as incomplete, not zero. When judging which wording or niche is really working, confirm with Byron directly on any batch where the sync looks thin, don't take a low written-reply count as proof a message failed.
 
 > Evidence: Of the 12 most recent replies noticed, 0 have the actual reply text on this box, the rest were texted back on Byron's phone and never reached the database.
-
-## CMO lead area field mismatches the lead's own location, not just the tile totals
-
-*tried, revised 0 times, learned 2026-08-20 from shift.*
-
-This is a separate bug from the niches-live tile. The per-lead area field itself is wrong for roughly half of today's queue, and it is not just neighbouring suburbs, several cross state lines entirely: Acme Composite Supplies (slug says donnybrook-wa, area field says Brisbane QLD), St George's Barber Shop (slug walkerston-qld, area field Perth WA), Mano's Barbershop (slug burnett-heads-qld, area field Sydney NSW). If area targeting or the areas-live count reads this field, it is working off wrong locations. Don't trust the area field on any lead without checking the slug or address first.
-
-> Evidence: Of 50 rows in this shift's call_list, at least 24 have an area field that does not match the suburb in the lead's own slug, including at least 3 that cross state borders entirely.
 
 Back to [[Memory]].
