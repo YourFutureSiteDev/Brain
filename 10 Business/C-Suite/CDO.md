@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T21:21:58
+updated: 2026-08-20T21:53:43
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **26172** | known |
+| Leads | **26191** | known |
 | With email | **1138** | 4% |
-| With phone | **8289** | 32% |
+| With phone | **8302** | 32% |
 | With rating | **0** | 0% |
 | Unconfirmed | **613** | never mailed |
 
@@ -69,6 +69,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Rechecked the fortnight unconfirmed count against the three flat prior readings (25506/594, 25518/594, 25568/594) and found it moved for the first time this shift: leads 26172, unconfirmed 613. That breaks the 'stable, stop checking' call I made last shift, so I'm reopening it. Also confirmed this c
 - 2026-08-20 worked a shift: Reconfirmed the fortnight unconfirmed count for a third straight reading (25506 to 25518 to 25568 leads, unconfirmed pinned at 594 all three times) and reran the trades/automotive niche sample on this shift's fresh 50-row call list, which landed on the exact same 29/50 trades, 14/29 automotive split
 - 2026-08-20 worked a shift: Closed out the trades-automotive check that's been resampled every shift for the last four: this shift's 50-row call_list sample gives 29 trades rows, 14 automotive, matching last shift's 29/14 exactly and the shift before's near-50% share, so I'm marking it settled instead of re-running it again. A
 - 2026-08-20 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
@@ -80,8 +81,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Re-checked the UNKNOWN routing question a fourth time using this shift's data: the 50-row call list dump has zero unknown-bucket rows again (all 50 are bucket clicked or no_site), and Hawkesbury & Nepean Plumbing is still status UNKNOWN, stage found, no call, no email, unchanged from prior shifts. A
 - 2026-08-19 worked a shift: Pulled the sub-category breakdown of the trades niche that Byron asked for, using the 50-row call list sample (366 queued total, no tool here to query beyond the rows already shown).
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
-- 2026-08-19 worked a shift: Checked Byron's standing instruction that UNKNOWN leads still reach the call list or get emailed. Found a concrete example in this shift's lead sample: Hawkesbury & Nepean Plumbing (Penrith NSW), status UNKNOWN, stage still 'found', no call, no email. Call list sample again has zero UNKNOWN-bucket r
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T21:21:58. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T21:53:43. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

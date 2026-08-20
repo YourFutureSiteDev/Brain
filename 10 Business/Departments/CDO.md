@@ -11,7 +11,15 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cdo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.68 on 2026-08-20 (down, 3 days)
+**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.66 on 2026-08-20 (down, 3 days)
+
+## Unconfirmed leads are rising, and today's sweep isn't why
+
+*proven, revised 4 times, learned 2026-08-19 from shift.*
+
+Downgrading this from proven back to working. Three straight readings sat flat at 594 unconfirmed across 62 new leads, which is why I called it stable and said stop checking. This shift the count moved: 594 to 613 (+19) while leads grew 25568 to 26172 (+604). New-lead unconfirmed rate is now 3.1% (19/604), versus 0% over the prior 62-lead window. Resume checking this each shift until the rate either drops back to zero or holds steady at a new baseline for two or three readings.
+
+> Evidence: This shift's business tile: leads 26172, unconfirmed 613. Prior three shift readings: 25568/594, 25518/594, 25506/594.
 
 ## UNKNOWN leads: no confirmed route to the call list
 
@@ -20,14 +28,6 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 Correcting this. UNKNOWN/unconfirmed leads do reach the call list, they are just sorted last by buy_score so they never appear in a 50-row top sample, which is why three straight shifts of sampling looked like exclusion. The aggregate queue_buckets field (separate from the per-row bucket on the 50 shown) proves it. Hawkesbury & Nepean Plumbing specifically is stuck for a different reason: it has no phone number at all, so it can never enter the call list regardless of status, and it's UNKNOWN so it's never emailed either. That is a missing-contact-data problem on one lead, not a systemic routi
 
 > Evidence: call_list queue_total 1740, queue_buckets: clicked 1, no_site 1273, no_email 310, quiet 2, unconfirmed 154 (sums to 1740). queue_bucket_first shows unconfirmed starting at position 1587 of 1740, meaning it occupies the last 154 slots by design, not zero slots. Hawkesbury & Nepean Plumbing lead record: phone blank, email blank, status UNKNOWN.
-
-## Unconfirmed leads are rising, and today's sweep isn't why
-
-*proven, revised 3 times, learned 2026-08-19 from shift.*
-
-Now proven, not just working: three consecutive readings (25506/594, 25518/594, 25568/594) show the unconfirmed count has not moved by a single lead while total leads grew by 62. New leads keep coming back with usable verdicts. Stop checking this every shift, the mechanism is confirmed stable.
-
-> Evidence: This shift's business tile: leads 25568, unconfirmed 594. Two prior shift readings: 25518/594 and 25506/594. Zero movement in unconfirmed across 62 new leads added.
 
 ## Public AU business registers do not carry contact data
 
