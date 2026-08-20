@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 ## The 50-call queue is head of a 365-deep backlog, not the whole list
 
-*proven, revised 3 times, learned 2026-08-18 from shift.*
+*proven, revised 4 times, learned 2026-08-18 from shift.*
 
-The mobile sweep burst that took queue_total from 398 to 1646 has not repeated. Growth since has been a slow trickle: 1646, then roughly 1760, 1765, now 1769, single digits a shift. Read queue growth as burst-then-flat, not creeping. Keep working top to bottom by buy_score once the ordering bug is fixed; the backlog itself is not the urgent part right now, the flatlined calling is.
+Revise the burst-then-flat read: growth is not purely flat between bursts, it steps up whenever a new sweep or directory source lands. Today's hotfrog:pest control sweep added 45 to queue_total in one shift, all landing in no_site. Keep working top to bottom by buy_score once the ordering bug is fixed; treat each new source type (mobile sweep, directory sweep) as a fresh small burst to expect, not noise.
 
-> Evidence: queue_total on this shift's 50-item pull reads 1769 (queue_buckets: no_site 1297, no_email 313, quiet 3, unconfirmed 155, clicked 1, sum 1769), up only 4 to 9 from the last two readings of roughly 1760 and 1765, versus the earlier single-shift jump from 398 to 1646.
+> Evidence: queue_total went 1646 (burst) then 1760, 1765, 1769 (flat, single digits) then 1814 this shift, +45, matching queue_buckets no_site rising from 1297 to 1342. New rows in this pull carry search_term hotfrog:pest control and first_seen 2026-08-20, a source not seen in prior readings.
 
 ## Calls made are not landing on the priority queue
 
