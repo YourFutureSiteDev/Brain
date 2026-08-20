@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cdo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.67 on 2026-08-20 (down, 3 days)
+**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.68 on 2026-08-20 (down, 3 days)
 
 ## UNKNOWN leads: no confirmed route to the call list
 
@@ -21,6 +21,14 @@ Correcting this. UNKNOWN/unconfirmed leads do reach the call list, they are just
 
 > Evidence: call_list queue_total 1740, queue_buckets: clicked 1, no_site 1273, no_email 310, quiet 2, unconfirmed 154 (sums to 1740). queue_bucket_first shows unconfirmed starting at position 1587 of 1740, meaning it occupies the last 154 slots by design, not zero slots. Hawkesbury & Nepean Plumbing lead record: phone blank, email blank, status UNKNOWN.
 
+## Unconfirmed leads are rising, and today's sweep isn't why
+
+*proven, revised 3 times, learned 2026-08-19 from shift.*
+
+Now proven, not just working: three consecutive readings (25506/594, 25518/594, 25568/594) show the unconfirmed count has not moved by a single lead while total leads grew by 62. New leads keep coming back with usable verdicts. Stop checking this every shift, the mechanism is confirmed stable.
+
+> Evidence: This shift's business tile: leads 25568, unconfirmed 594. Two prior shift readings: 25518/594 and 25506/594. Zero movement in unconfirmed across 62 new leads added.
+
 ## Public AU business registers do not carry contact data
 
 *working, revised 2 times, learned 2026-08-18 from research.*
@@ -28,14 +36,6 @@ Correcting this. UNKNOWN/unconfirmed leads do reach the call list, they are just
 Before emailing any OSM-sourced NO_SITE verdict, cross-check it against Google Places API's Contact Data SKU (which returns the website field). It has its own free allowance of 1,000 calls a month, separate from other Places SKUs, and this business sends far fewer than 1,000 emails a month, so every OSM no_site lead could be verified for free before going out. This turns the OSM tag-ambiguity risk I flagged last shift into a fixable engineering task, not just a question to raise. Worth handing to whoever owns the site-check step as a concrete build, not just a question.
 
 > Evidence: Google Places Contact Data SKU free tier: 1,000 calls/month at zero cost, per mapsleads.co/blog/google-places-api-free-tier-limits-2026 and safegraph.com/guides/google-places-api-pricing, checked 2026-08-20. Business context: totals.sent_total 178, sent_today 0, well under the 1,000/month free allowance. [read outside, developers.google.com/maps/billing-and-pricing (via mapsleads.co/blog/google-pl
-
-## Unconfirmed leads are rising, and today's sweep isn't why
-
-*working, revised 2 times, learned 2026-08-19 from shift.*
-
-Stop treating this as an open question. Unconfirmed count has not moved in two straight readings while total leads kept growing, meaning new leads are coming back with usable verdicts, not unconfirmed ones. Mark resolved: the rate stabilized after the 8/18 drop and has held since.
-
-> Evidence: Current tile: leads 25518, unconfirmed 594 (97.671% usable). Prior same-day reading: leads 25506, unconfirmed 594 (97.673% usable). 12 new leads were added between the two readings and zero of them came back unconfirmed, so the unconfirmed count stayed flat at 594 both times.
 
 ## Trades niche sample is automotive-heavy, not general trades
 
