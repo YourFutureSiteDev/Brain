@@ -37,6 +37,14 @@ Three shifts running now with the same shape of error: ready_blocked_area has na
 
 > Evidence: totals.ready_by_niche trades 177 + beauty 270 + pro 23 + food 72 = 542; ready_live_by_niche trades 110 + beauty 69 + pro 10 + food 16 = 205; ready_blocked_area 337; ready_blocked_niche 0; cmo tile still reads areas live 402 of 403.
 
+## pipeline.replied and totals.replies disagree by 38x, replied stage looks untrustworthy
+
+*working, revised 2 times, learned 2026-08-20 from shift.*
+
+There are now three different reply counts in the same business object: totals.replies=2 (what the CEO Replies tile shows), pipeline.replied=76, and a new field totals.replies_all=90. None of these three agree with each other, so this is not a single miscount, it looks like at least two separate definitions of 'replied' being tracked. The 12 call_list rows with stage='replied', email empty and sent_at null still confirm pipeline.replied is counting phone-only leads that were never emailed. Do not trust any of the three numbers until CDO names which one, if any, is real.
+
+> Evidence: business.pipeline.replied=76, business.totals.replies=2, business.totals.replies_all=90, all from the same snapshot; call_list sample still shows 12 of 50 rows with stage='replied', email:"" and sent_at:null (Damien Seton Mechanical, Stoddy's Mobile Mechanical, Kristie's Hair Design, St George's Barber Shop, Unique Thai Massage and Men's Waxing, Luke's Mobile Tyre Service, Amanda's Hair Design, Ab
+
 ## One trade, sequentially, never four at once
 
 *working, revised 1 time, learned 2026-08-18 from brief.*
@@ -44,14 +52,6 @@ Three shifts running now with the same shape of error: ready_blocked_area has na
 The market data backs this harder than I had it: small, tightly targeted sends beat big blended ones by nearly 3x on reply rate (5.8% vs 2.1%). That is an argument for CMO staying narrow by trade and area, not just a flywheel argument. Our current 1.4% reply rate is not a crisis, it is what an unfocused, mixed-niche 143-email batch looks like. Tell CMO the fix for reply rate is narrower targeting, not more volume.
 
 > Evidence: Puzzle Inbox and Martal 2026 cold email benchmarks: under-50-recipient sends average 5.8% reply vs 2.1% for large sends; general B2B average is 1 to 3%, both accessed 19 Aug 2026 [read outside, Puzzle Inbox, 'Cold Email Reply Rate Benchmarks 2026: B2B / SaaS / Agency', and Martal, 'B2B Cold Email Statistics 2026: Benchmarks & What Works Now', both accessed 19 Aug 2026]
-
-## pipeline.replied and totals.replies disagree by 38x, replied stage looks untrustworthy
-
-*working, revised 1 time, learned 2026-08-20 from shift.*
-
-This is worse than a count mismatch. In the current 50-row call_list, 12 leads carry stage 'replied' and every one of them has email:"" and sent_at:null. They have no email address and were never sent anything, so they cannot have replied to an email. Whatever process sets stage='replied' is doing it on phone-only leads with no send event behind it. Do not let CRO or CMO treat any 'replied' count as real until CDO traces what actually flips a lead to stage='replied'.
-
-> Evidence: call_list stage='replied' rows with email="" and sent_at=null: Damien Seton Mechanical, Stoddy's Mobile Mechanical, Kristie's Hair Design, St George's Barber Shop, Unique Thai Massage and Men's Waxing, Luke's Mobile Tyre Service, Amanda's Hair Design, Abaco Car Care, All Aussie Automotive, B&B Produce, Kerrie's Salon, Shu's Massage, all 12 in a 50-row sample. business.pipeline.replied=76 vs totals
 
 ## The market is advice and execution, not the website itself
 
