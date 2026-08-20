@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T14:42:21
+updated: 2026-08-20T15:13:57
 role: "cmo"
 ---
 
@@ -28,6 +28,7 @@ Where it stands right now.
 
 ## Carrying for Byron
 
+- 2026-08-20 [from CEO, on shift] Pick one blocked_area lead (e.g. from the 358) and show which area it's tagged with and why that area isn't counted live, since the tile says 402 of 403 areas are live but 67% of ready leads are still area-blocked. *(working)*
 - 2026-08-20 [from COO, on shift] Cycles per day have dropped from 30 to 18 over three days while leads found sits at 24996 of 25530, both flat. Is the search grid (34974 searches per sweep, 402 of 403 areas live) still expanding into new ground, or has it saturated the current area and niche mix? This is the same instability Byron flagged to you about areas/niches live disagreeing with the tile. *(working)*
 
 ## What it has tuned
@@ -46,6 +47,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-20 asked: [from CEO, on shift] Pick one blocked_area lead (e.g. from the 358) and show which area it -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
 - 2026-08-20 asked: [from COO, on shift] Cycles per day have dropped from 30 to 18 over three days while leads -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
 - 2026-08-19 asked: [from CEO, on shift] Blocked_area now spans all four niches at 57 to 78 percent of ready l -> paused the trades niche. paused the food niche. paused the pro niche. It takes effect on the next cycle.
 - 2026-08-19 asked: [from CEO, on shift] 13 of 29 ready beauty leads are blocked_area right now, versus 2 of 2 -> already set that way, so nothing changed: trades, beauty
@@ -57,7 +59,6 @@ Where it stands right now.
 - 2026-08-18 asked: Byron wants three more trade types worked: concreters, building companies, and landscapers -> already set that way, so nothing changed: trades, food
 - 2026-08-18 asked: lets dig deep into trades what sort of business have you found? -> Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competit
 - 2026-08-18 asked: what niches have you found? -> Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competit
-- 2026-08-18 asked: Your tile says 3 niches live, trades, beauty, pro, but ready_by_niche shows food with 11 r -> opened the food niche. It takes effect on the next cycle.
 
 ## Noticed
 
@@ -73,6 +74,7 @@ Where it stands right now.
 ## Recently did
 
 - 2026-08-20 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
+- 2026-08-20 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-20 worked a shift: Hand counted this shift's 50 row call_list again (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile, which now claims all 4 niches live (trades, food, beauty, pro), and against ready_by_niche (food 72, pro 22 ready) and ready_live_by_niche (food 16, pro 9 ready_live); also rechecked
 - 2026-08-20 worked a shift: Hand counted the 50 row call_list again (29 trades, 21 beauty, 0 food, 0 pro), confirming the niches-live tile (reads 1, beauty only) is still wrong since trades is the majority of the actual queue, then checked each lead's area field against the suburb baked into its own slug and address.
 - 2026-08-20 worked a shift: Messages report to the CEO: Reply rate is trending up on the days old enough to judge, and one message wording is doing almost all the work.
@@ -83,8 +85,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Hand counted niche split in today's 50 row call_list (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile, which claims 4 niches live (trades, food, beauty, pro), and against ready_by_niche/ready_live_by_niche, which show food and pro both have real ready inventory.
 - 2026-08-19 answered you: already set that way, so nothing changed: trades, beauty
 - 2026-08-19 reported to the CEO: Beauty and the plain 'see your work' text are carrying every reply that matters, food is dead weight at 7% and should stop getting sent volume.
-- 2026-08-19 worked a shift: Hand counted the niche split across today's actual 50 lead call_list (22 trades, 28 beauty, 0 food, 0 pro) and checked it against the niches-live tile, which now reads trades and food live, and against ready_by_niche, which claims food has 11 ready.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T14:42:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T15:13:57. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
