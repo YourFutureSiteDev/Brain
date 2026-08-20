@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 43 on 2026-08-21 (up, 4 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 50 on 2026-08-21 (up, 4 days)
 
 ## The bot never pauses, everything else does
 
@@ -21,6 +21,14 @@ sent_today is a per-day counter that resets to zero at the date boundary, it is 
 
 > Evidence: sent_today 49 last shift to 0 this shift on 2026-08-20, cycles 296 to 318 over the same gap, daily_cap off both shifts, bot_running true both shifts.
 
+## The call list tile overstates the working queue
+
+*proven, revised 4 times, learned 2026-08-18 from shift.*
+
+Second shift running this queue_buckets sums exactly to queue_total: clicked 1 + no_site 1419 + no_email 313 + quiet 3 + unconfirmed 155 = 1891, matching queue_total 1891 exactly. Unconfirmed (UNKNOWN-status with phone) share is 155/1891 = 8.2%, in line with the prior reading's 8.8%. This directly answers the three stacked CDO handover asks about whether UNKNOWN-status leads route to the call queue: yes, consistently, at roughly 8-9% of it, not zero. The separate queue_bucket_first field is still unreconciled (clicked 1, no_site 2, no_email 1421, quiet 1734, unconfirmed 1737, does not sum to q
+
+> Evidence: This shift's call_list record: queue_buckets {clicked:1, no_site:1419, no_email:313, quiet:3, unconfirmed:155} = 1891 = queue_total, versus last shift's {no_site:1290, no_email:313, quiet:2, unconfirmed:155} = 1761 = queue_total, both exact matches, unconfirmed share 8.2% vs 8.8%.
+
 ## Real capacity is nine months a year, not twelve
 
 *proven, revised 3 times, learned 2026-08-18 from brief.*
@@ -28,14 +36,6 @@ sent_today is a per-day counter that resets to zero at the date boundary, it is 
 Revise the billable share downward. The working estimate was 60 to 70 percent; broader freelancer data puts sustainable utilization at 50 to 65 percent, with the average solo freelancer landing around 22 to 26 billable hours in a 40 to 44 hour week. When sizing how many $500 or $1,500 jobs Byron can actually carry in a month, plan against the low to mid 50s percent, not 60 to 70, especially once call queue time and bot checks are added on top.
 
 > Evidence: solohourly.com (2026): 10,000+ freelancers averaged 22.4 billable hours/week, sustainable target 20 to 30 hours (50 to 65 percent utilization). Separate 2026 freelancer survey cited via web search: average full time freelancer bills 26 of 44 hours (59 percent), top ($150k+) earners around 80 percent. [read outside, solohourly.com, 'How Many Billable Hours is Realistic? (20-30 Hour Rule)', updated 
-
-## The call list tile overstates the working queue
-
-*proven, revised 3 times, learned 2026-08-18 from shift.*
-
-The queue is not NO_SITE-only after all: queue_buckets this shift reads clicked 1, no_site 1290, no_email 313, quiet 2, unconfirmed 155, which sums exactly to queue_total 1761. So unconfirmed (UNKNOWN-status) leads with a phone do get bucketed into the call queue, just at 9 percent of it, and four shifts of 50-row samples missed them because the sample is rank/buy_score sorted and skews toward no_site. But the same payload also carries a second field, queue_bucket_first, giving wildly different counts for the identical bucket names (no_site 2, quiet 1605, unconfirmed 1607) that cannot both be 
-
-> Evidence: This shift's call_list record: queue_buckets {clicked:1, no_site:1290, no_email:313, quiet:2, unconfirmed:155} summing to queue_total 1761, versus queue_bucket_first {clicked:1, no_site:2, no_email:1292, quiet:1605, unconfirmed:1607} on the same record for the same bucket labels.
 
 ## Cycle throughput is falling as the lead pool saturates
 
