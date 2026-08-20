@@ -31,11 +31,11 @@ Before emailing any OSM-sourced NO_SITE verdict, cross-check it against Google P
 
 ## Unconfirmed leads are rising, and today's sweep isn't why
 
-*working, revised 1 time, learned 2026-08-19 from shift.*
+*working, revised 2 times, learned 2026-08-19 from shift.*
 
-The rise has stopped, at least for a day. 8/18 to 8/19 the usable-verdict rate fell 97.96% to 97.67%. 8/19 to 8/20 it held flat: 593/25471 (97.671%) to 594/25506 (97.673%), same 97.67% on the tile both days. Of the 35 new leads added today, only 1 came back unconfirmed. Still no day-by-day breakdown tool, so this is inferred from the aggregate delta, same method as last shift, but the direction has changed from worsening to flat. Keep watching one more day before calling it resolved.
+Stop treating this as an open question. Unconfirmed count has not moved in two straight readings while total leads kept growing, meaning new leads are coming back with usable verdicts, not unconfirmed ones. Mark resolved: the rate stabilized after the 8/18 drop and has held since.
 
-> Evidence: CDO tile today: leads 25506, unconfirmed 594. Yesterday's tile: leads 25471, unconfirmed 593. 594/25506=97.673%, 593/25471=97.671%, both round to the 97.67% shown in the fortnight tracker for 8/19 and 8/20.
+> Evidence: Current tile: leads 25518, unconfirmed 594 (97.671% usable). Prior same-day reading: leads 25506, unconfirmed 594 (97.673% usable). 12 new leads were added between the two readings and zero of them came back unconfirmed, so the unconfirmed count stayed flat at 594 both times.
 
 ## No timer means the three hour rule is currently unmeasured
 
