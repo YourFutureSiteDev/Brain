@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 ## Checks passing 7/8: no per check breakdown reaches this desk
 
-*proven, revised 8 times, learned 2026-08-18 from shift.*
+*proven, revised 9 times, learned 2026-08-18 from shift.*
 
-Ninth consecutive shift confirming the same shape: today's number is 5/8, not 7/8, so Byron's open question naming 7/8 is reading a stale figure. Keep telling Byron the failing-check identity needs someone to open the check code or config directly since neither this console nor any other desk console has file read tools. Flag that the 7/8 and 51-vs-15 figures in his open board items are both stale versus today's actual 5/8 and 47-vs-50.
+Tenth consecutive shift confirming the same shape: today's number is 5/8, not 7/8, and sent_today is 0 (cap off), so there is no breach to report today either. The three passing checks named are identical to every prior shift; the three failing ones are never surfaced by any tool here. Keep telling Byron the failing-check identity needs someone to open the check code or config directly, and that the 7/8 and 51-vs-15 figures in his open board items are both stale against today's actual 5/8 and sent_today=0.
 
-> Evidence: today: checks passing 5/8 (Opt-out in every email; Daily cap; No address harvesting), daily_cap=off, sent_today=47, max_daily=50. No breach today: 47 is under 50, not over it, and not the 51-vs-15 figure on the board.
+> Evidence: today: checks passing 5/8 (Opt-out in every email; Daily cap; No address harvesting), daily_cap=off, sent_today=0, max_daily=50. No breach: sent_today is 0, not 51, and daily_cap is off, not 15.
 
 ## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
 
