@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T05:45:12
+updated: 2026-08-21T06:23:07
 role: "coo"
 ---
 
@@ -18,15 +18,15 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 352 cycles |
-| Last cycle | **05:13** | 2026-08-21 |
-| Leads | **26962** | 26962 checked |
-| Call list | **4935** | no email found |
+| Bot | **running** | 353 cycles |
+| Last cycle | **05:45** | 2026-08-21 |
+| Leads | **27009** | 27009 checked |
+| Call list | **4944** | no email found |
 | Daily cap | **off** | 0 sent today |
 
 ## Needs a decision
 
-- **4935 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **4944 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
@@ -63,6 +63,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Rechecked machine health this shift (cycles up 340 to 353, bot_running and sending_on both true, daily cap still off, sent_today at 0 with last cycle 05:45 today, which is a fresh day-boundary reset not a stall) and re-verified the call list bucket composition against this shift's fresh queue_bucket
 - 2026-08-21 read outside the building: what is a realistic billable utilization rate for a full time solo freelancer, in hours per week: Across a sample of 10,000+ freelancers, average billable hours were 22.4 hours a week. The recommended sustainable target is 20 to 30 billable hours a week (25 as the ideal), which works out to a 50 to
 - 2026-08-20 worked a shift: Rechecked machine health against last shift's own trigger condition: sent_today held flat at 47 while total cycles climbed 331 to 340 over the last cycle window (17:27 to 22:26 today), bot_running, sending_on both still true and daily cap still off.
 - 2026-08-20 worked a shift: Rechecked machine health: total cycles rose 324 to 331 (bot_running and sending_on both true, daily cap still off, last cycle 17:27 today), but sent_today dropped from 49 to 47 on the same day 2026-08-20, which is the exact same-day-drop-with-cycles-still-rising pattern my last check said would actu
@@ -74,8 +75,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Looked past the 50-row call_list sample to the queue_buckets field attached to this shift's payload, which breaks the full queue of 1761 down by status instead of just the top-ranked 50, and used it to answer CDO's repeated question about whether unconfirmed leads reach the call queue.
 - 2026-08-19 worked a shift: Rechecked machine health this shift: cycles up from 290 to 296, sent_today up from 44 to 49, daily cap still off, bot_running and sending_on both true. Did not resample the call list again since three straight shifts already confirmed that pattern and it now sits with Byron as a task, not more COO c
 - 2026-08-19 settled leads with no website: 991 marked NO_SITE
-- 2026-08-19 worked a shift: Checked machine health this shift: daily cap has moved from 1 (last shift) to off entirely, with sent_today now 44 and total cycles up from 279 to 290, bot_running true, sending_on true. Did not re-run the call list sample again since the last three shifts already nailed that pattern and it was alre
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T05:45:12. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T06:23:07. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
