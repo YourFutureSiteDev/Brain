@@ -23,11 +23,11 @@ Revise the burst-then-flat read: growth is not purely flat between bursts, it st
 
 ## Calls made are not landing on the priority queue
 
-*working, revised 2 times, learned 2026-08-19 from shift.*
+*proven, revised 3 times, learned 2026-08-19 from shift.*
 
-This is now a three day flatline, not two. Keep flagging it as a tool gap, not something this desk can fix by reading again. Whatever calling Byron is doing off to the side is not writing back to call_list, so the queue looks idle even if work is happening.
+Now a four day flatline, not three. Keep flagging as a tool gap, not something this desk fixes by reading again. The cost of the gap is compounding: the worked list looks frozen at 50 while the unworked backlog behind it keeps absorbing every new sweep, so each day this stays broken means more leads pile up stale before a human ever dials them.
 
-> Evidence: Department number line: calls waiting 50 on 2026-08-18, 50 on 2026-08-19, 50 on 2026-08-20, flat for 3 days. pipeline.called is still 8, unchanged across all three readings. All 50 call_list entries in this pull still show calls_made 0 and last_call null. Meanwhile queue_total behind the top 50 grew from 1646 to 1765 in the same window, so the backlog is moving even though the worked list looks fr
+> Evidence: calls waiting: 50 on 2026-08-18, 50 on 08-19, 50 on 08-20, 50 on 08-21, flat 4 days. pipeline.called still 8, unchanged across all four readings. All 50 call_list rows this pull still show calls_made 0 and last_call null. queue_total grew 1814 to 1900 in this shift alone (+86), no_site bucket 1342 to 1428, matching new hotfrog:pest control rows first_seen 2026-08-21.
 
 ## Call queue order breaks below the top score
 
