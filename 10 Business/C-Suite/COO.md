@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T17:27:09
+updated: 2026-08-20T18:04:28
 role: "coo"
 ---
 
@@ -18,15 +18,15 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 330 cycles |
-| Last cycle | **16:48** | 2026-08-20 |
-| Leads | **25802** | 25802 checked |
-| Call list | **4514** | no email found |
+| Bot | **running** | 331 cycles |
+| Last cycle | **17:27** | 2026-08-20 |
+| Leads | **25842** | 25842 checked |
+| Call list | **4523** | no email found |
 | Daily cap | **off** | 47 sent today |
 
 ## Needs a decision
 
-- **4514 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **4523 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
@@ -62,6 +62,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Rechecked machine health: total cycles rose 324 to 331 (bot_running and sending_on both true, daily cap still off, last cycle 17:27 today), but sent_today dropped from 49 to 47 on the same day 2026-08-20, which is the exact same-day-drop-with-cycles-still-rising pattern my last check said would actu
 - 2026-08-20 worked a shift: Rechecked machine health this shift: total cycles up from 320 to 324 (a gain of only 4), sent_today at 49 with daily cap still off, bot_running and sending_on both true, last cycle 13:35 today, no jam. Also re-summed this shift's queue_buckets (1 clicked + 1300 no_site + 313 no_email + 3 quiet + 155
 - 2026-08-20 answered you: Bot running, Last cycle 07:32, Leads 25530, Call list 4439. 4439 leads have a phone but no email: The bot cannot reach these. They are the call list, and they a
 - 2026-08-20 worked a shift: Rechecked machine health: bot_running and sending_on both true, daily cap still off, sent_today climbed from 0 (day-boundary reset) to 30, but total cycles only rose 318 to 320 in about an hour, a much slower rate than the prior 296 to 318 jump, and the fortnight number shows cycles-per-day falling
@@ -73,8 +74,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Checked machine health this shift: daily cap has moved from 1 (last shift) to off entirely, with sent_today now 44 and total cycles up from 279 to 290, bot_running true, sending_on true. Did not re-run the call list sample again since the last three shifts already nailed that pattern and it was alre
 - 2026-08-19 worked a shift: Rechecked machine health (286 cycles, last cycle 09:33, cap still stuck at 1 with 0 sent today) and reconfirmed the call list jam using this shift's own call_list sample: all 50 rows status NO_SITE, zero UNKNOWN, queue_total 398 against the COO tile's 3036 leads with phone and no email.
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
-- 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T17:27:09. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T18:04:28. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
