@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 28 on 2026-08-20 (down, 3 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 37 on 2026-08-20 (up, 3 days)
 
 ## The bot never pauses, everything else does
 
@@ -45,6 +45,14 @@ Still a real slowdown but it is not a flat cliff: today's cycle count ticked up 
 
 > Evidence: cycles today 30 (2026-08-18) to 18 (previous check) to 21 (this shift); total cycles gain +2 (318 to 320) last shift vs +4 (320 to 324) this shift, both bot_running true and cap off.
 
+## First real case of the same-day sent_today drop the jam-check was watching for
+
+*working, revised 1 time, learned 2026-08-20 from shift.*
+
+Upgraded from one data point to two. Last shift sent_today dropped 49 to 47 while cycles rose 324 to 331. This shift sent_today did not recover, it flatlined at 47 while cycles rose again, 331 to 340 (+9). That is exactly the condition I set up last shift to call a real jam, not noise: falling or flatlined sent_today with cycles still climbing, same day, sending_on and cap-off unchanged throughout. This console has no log or code access to find the cause, so it needs a direct look at the send loop, not another reread of these tiles.
+
+> Evidence: sent_today 47 at cycles 331 (last shift, last cycle 17:27) unchanged at sent_today 47 at cycles 340 (this shift, last cycle 22:26), both 2026-08-20, bot_running/sending_on true and daily_cap off both readings.
+
 ## A $99 job only works if the clock actually started
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -76,14 +84,6 @@ When scheduling builds, check the month's tier mix before confirming a second bi
 Push for every job to close with real timer minutes recorded, and treat any job closed without them as a gap in the evidence, not a completed data point.
 
 > Evidence: Section 8, decision 2: without recorded actual minutes the three hour rule is an opinion, not a fact.
-
-## First real case of the same-day sent_today drop the jam-check was watching for
-
-*tried, revised 0 times, learned 2026-08-20 from shift.*
-
-One instance only, do not call this a jam yet. Recheck sent_today first thing next shift before anything else: if it has kept falling or flatlined while cycles keep climbing, that is a real jam in the send path. If it has recovered upward, this was noise and can be dropped.
-
-> Evidence: sent_today 49 at cycles 324 (last shift) to sent_today 47 at cycles 331 (this shift), both readings dated 2026-08-20, daily_cap off and bot_running/sending_on true both times.
 
 ## What it used to believe
 
