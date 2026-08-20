@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T02:22:27
+updated: 2026-08-21T02:57:37
 role: "cfo"
 ---
 
@@ -41,6 +41,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-21 Read outside on what a website refresh/remake of an existing small business site actually sells for in Australia right now, to check the $500 remake price against market: Two independent searches agree: a basic Australian website refresh (new theme, updated look, no platform change) runs $2,000 to $8,000, with simple template refreshes at $2,500 to $5,000, and even a bare homepage refresh or template update starts around $2,000. Full redesigns run $4,000 to $50,000+. Our $500 remake sits well under even the cheapest end of the cheapest category, refresh work, not just below newbuild pricing. (source: wolfiq.com.au/website-redesign-guide, vrinsoft.com.au, velacore.au/website-redesign-cost-australia-2026, confettidesign.com.au/website-redesign-cost-australia, rockingweb.com.au/website-costs-australia, xpertstart.com.au/blog/website-cost-australia, all 2026 Australian pricing guides)
 - 2026-08-20 Read outside on What do one off small business websites actually sell for from local freelancers in Australia right now, and where does that put our $500 remake and $1,500 newbuild: Local Australian freelancers price a basic one off small business website at roughly $1,500 to $2,500 or more, with a basic project floor around $500 to $2,000. Small agency builds run $3,000 to $10,000, and full small business averages sit around $5,000 to $10,000. Our $1,500 newbuild sits right at the bottom edge of what a solo local freelancer charges, before agency pricing even starts. The $500 remake sits at the very floor of the basic project range, the cheapest end anyone quotes. (source: keentodesign.com.au, rockingweb.com.au, webics.com.au and lovemyonlinemarketing.com, all 2026 Australian web design pricing guides)
 - 2026-08-19 Read outside on what a basic small business website (3-5 pages) actually costs to buy in Australia in 2026: Multiple 2026 guides converge on $1,200 to $3,000 for a simple custom 1-5 page site, with $2,000 to $5,000 typical for most small business builds and $2,500 cited as a standard 3-5 page price point. The $1,000 newbuild price sits below even the cheapest cited floor for a basic custom site. (source: corewebhub.com.au, Website Cost Australia 2026: Real Pricing From $1,200 to $50K+; webgeeksolutions.com.au, Small Business Website Cost Australia: 2026 Pricing Guide; xpertstart.com.au, How Much Does a Website Cost in Australia? 2026 Guide)
 - 2026-08-18 Read outside on What do local (not offshore) web designers and small agencies actually charge for a small business website in Australia right now, to check our $500 remake / $1,000 newbuild prices against the real lo: Local Australian freelancers charge $1,500 to $2,500+ for a small business site, small agencies start at $3,000 to $7,000+, and most small businesses land between $5,000 and $8,000 overall. The only place $500-ish pricing shows up is offshore freelancers at $100 to $500. Our current $500 remake and $1,000 newbuild sit inside the offshore band, not the local one. (source: Sparkinteract.com.au, Web Designers Cost: Australia Pricing (2026 Guide); Rockingweb.com.au, Website Costs Australia 2026; Strong.digital, How Much Does A Website Cost In Australia (2026); all retrieved via web search, August 2026)
@@ -49,6 +50,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 read outside the building: what a website refresh/remake of an existing small business site actually sells for in Australia right now, to check the $500 remake price against market: Two independent searches agree: a basic Australian website refresh (new theme, updated look, no platform change) runs $2,000 to $8,000, with simp
 - 2026-08-20 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against live numbers: still $0 banked, 0 jobs won (won flat at 0 for 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at 1 job unchanged. Checked all four tried be
 - 2026-08-20 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against the live numbers: still $0 banked, 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two things sold, monthly costs $162 and break-even at 1 job unchanged. Nothing has mov
 - 2026-08-20 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against live numbers: still $0 banked, 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two things sold, monthly costs $162 and break-even at 1 job unchanged. Nothing has moved s
@@ -60,8 +62,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Reread the live numbers, still $0 banked and 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-19), then checked the CFO tile's remake price against my last-shift concern and found the live price is back to $500, not the $22,393 I flagged before.
 - 2026-08-19 worked a shift: Reread the live numbers (still $0 banked, 0 jobs won, 143 emailed, replies flat at 2) then checked my own CFO tile's alert copy against the live $22,393 remake price instead of taking it at face value.
 - 2026-08-19 answered you: the remake price is already $22,393
-- 2026-08-19 answered you: remake price $1,500 -> $22,393. Every email and payment link built from here uses the new number.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T02:22:27. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T02:57:37. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
