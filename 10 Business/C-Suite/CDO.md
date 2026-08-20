@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T00:45:36
+updated: 2026-08-21T01:17:36
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **26646** | known |
+| Leads | **26683** | known |
 | With email | **1166** | 4% |
-| With phone | **8472** | 32% |
+| With phone | **8489** | 32% |
 | With rating | **0** | 0% |
 | Unconfirmed | **628** | never mailed |
 
@@ -61,6 +61,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-21 Read outside on Does Google Places API's free tier (the Contact Data SKU I flagged last shift) actually require a billing account and credit card, or is it usable with zero payment risk for a solo operator with no bu: Yes, billing is required. Google still requires a billing account with a valid credit card on file to use any Places API SKU, even to stay inside the free monthly allowance. Usage beyond the free allowance bills automatically per SKU with no hard spending cap unless one is set manually. Separately, the free tier structure itself changed in 2026: it's now per-SKU (10,000 free events/month for Essentials, 5,000 for Pro, 1,000 for Enterprise tier), replacing the old universal $200/month credit Google retired in March 2025, so the Contact Data SKU's exact free allowance needs re-checking against which tier it now sits in rather than assumed at 1,000. (source: developers.google.
 - 2026-08-20 Read outside on Is there a free way to cross-check whether an OSM-sourced NO_SITE lead actually has no website, so a blank OSM tag isn't the only signal before we email 'we could not find a website for you'?: Yes, there's a concrete free-tier path. Google Places API's Contact Data SKU includes the website field (along with phone and hours). It carries its own free monthly allowance of 1,000 calls before any charge applies. Since we send nowhere near 1,000 emails a month right now (178 sent all time, 0 today), this is enough headroom to live-check every OSM-sourced NO_SITE lead before it gets emailed, at zero cost, for the volumes this business currently runs. (source: developers.google.com/maps/billing-and-pricing (via mapsleads.co/blog/google-places-api-free-tier-limits-2026 and safegraph.com/guides/google-places-api-pricing, both checked 2026-08-20))
 - 2026-08-19 Read outside on Does OpenStreetMap's absence of a website tag actually mean a business has no website, or just that nobody entered it?: A benchmark comparison of OSM POI data against a verified retail dataset found only a 39.8% attribute fill rate overall, and found OSM entries with blank fields carry no explanation for why the field is blank. Direct quote: OSM's crowd-sourced structure doesn't provide any documentation explaining why a field is blank, so there's no way to distinguish 'this business doesn't have a website' from 'no one has entered this yet.' Most of our own call_list and lead rows with status NO_SITE have source osm and status_detail 'no website listed', which is the exact failure mode this describes. (source: SafeGraph, 'SafeGraph vs OpenStreetMap: The Hidden Cost of Free POI Data' (benchmark study referenced from July 2022, page current as of 2026), safegraph.com/blog/
 - 2026-08-18 Read outside on Does the free ABN Lookup / Australian Business Register web service return phone, email or website fields we could use to fill the contact gaps in our leads?: No. The ABR web service (free, GUID auth, updated hourly from the ABR) returns entity name, ABN status, ACN, entity type, GST registration, business locations at state and postcode level, business names and effective dates. It does not carry phone, email or website fields at all. Separately, a side search on how many Australian small businesses lack a website returned wildly inconsistent figures across sources, from 22% to 65% depending on year and methodology, so that number is not solid enough to use for anything. (source: abr.business.gov.au/Documentation/WebServiceResponse and abr.business.gov.au/Tools/WebServices, checked 2026-08-18)
@@ -69,6 +70,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 read outside the building: Does Google Places API's free tier (the Contact Data SKU I flagged last shift) actually require a billing account and credit card, or is it usable with zero payment risk for a solo operator with no bu: Yes, billing is required. Google still requires a billing account with a valid credit card on file
 - 2026-08-20 worked a shift: Rechecked the fortnight unconfirmed count against the three flat prior readings (25506/594, 25518/594, 25568/594) and found it moved for the first time this shift: leads 26172, unconfirmed 613. That breaks the 'stable, stop checking' call I made last shift, so I'm reopening it. Also confirmed this c
 - 2026-08-20 worked a shift: Reconfirmed the fortnight unconfirmed count for a third straight reading (25506 to 25518 to 25568 leads, unconfirmed pinned at 594 all three times) and reran the trades/automotive niche sample on this shift's fresh 50-row call list, which landed on the exact same 29/50 trades, 14/29 automotive split
 - 2026-08-20 worked a shift: Closed out the trades-automotive check that's been resampled every shift for the last four: this shift's 50-row call_list sample gives 29 trades rows, 14 automotive, matching last shift's 29/14 exactly and the shift before's near-50% share, so I'm marking it settled instead of re-running it again. A
@@ -80,8 +82,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Reread the call_list queue_buckets aggregate (not just the 50 sampled rows) and found the unconfirmed bucket has 154 of 1740 queued entries, occupying the exact tail of the sort order, which finally answers the UNKNOWN-routing question I've raised four shifts running.
 - 2026-08-19 worked a shift: Re-checked the UNKNOWN routing question a fourth time using this shift's data: the 50-row call list dump has zero unknown-bucket rows again (all 50 are bucket clicked or no_site), and Hawkesbury & Nepean Plumbing is still status UNKNOWN, stage found, no call, no email, unchanged from prior shifts. A
 - 2026-08-19 worked a shift: Pulled the sub-category breakdown of the trades niche that Byron asked for, using the 50-row call list sample (366 queued total, no tool here to query beyond the rows already shown).
-- 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T00:45:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T01:17:36. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
