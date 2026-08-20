@@ -37,6 +37,14 @@ Stop treating this as an open question. Unconfirmed count has not moved in two s
 
 > Evidence: Current tile: leads 25518, unconfirmed 594 (97.671% usable). Prior same-day reading: leads 25506, unconfirmed 594 (97.673% usable). 12 new leads were added between the two readings and zero of them came back unconfirmed, so the unconfirmed count stayed flat at 594 both times.
 
+## Trades niche sample is automotive-heavy, not general trades
+
+*working, revised 1 time, learned 2026-08-19 from shift.*
+
+Stop resampling this every shift, it's held at roughly the same ~48-50% automotive share across three separate 50-row pulls now (22/50 trades with 11 automotive, then 29/50 with 14 automotive, now 29/50 with 14 automotive again). Treat it as settled: if CMO wants trades split into real subcategories for targeting, that's a CMO build decision now, not something more sampling here will sharpen further.
+
+> Evidence: This shift's call_list: 29 of 50 rows niche trades, 14 of those 29 automotive by name (Damien Seton Mechanical, Bill's HI-TECH Smash Repairs, Ray's Euro Tech, Springall's Mechanical, Stoddy's Mobile Mechanical, Bushy's Georgetown Tyre & Mechanical, GP Mechanical Repairs & Maintenance, Luke's Mobile Tyre Service, Abaco Car Care, All Aussie Automotive, Anthony Rickard Mechanical Repairs, BH Tyres, B
+
 ## No timer means the three hour rule is currently unmeasured
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -60,14 +68,6 @@ Keep lead and job data in the pipeline app only. If a spreadsheet, note, or seco
 Treat this as the standing top risk to the data itself. Any report on backups, git pushes, or database dumps for the pipeline app is worth surfacing immediately, since a lost machine means a lost database.
 
 > Evidence: Section 8: the business runs on one Jamf managed MacBook owned by a school, which can be locked or wiped, losing the lead database and the bot with it.
-
-## Trades niche sample is automotive-heavy, not general trades
-
-*tried, revised 0 times, learned 2026-08-19 from shift.*
-
-In the 50-row call list sample, 22 rows are trades niche. Of those, 11 (half) are automotive: 9 mechanical repair (Damien Seton Mechanical, GP Mechanical Repairs & Maintenance, Bartlett Mechanical, Darren Parker Mechanical, Gippsland Vehicle Diagnostic Services, Mackintosh Mechanical, Pridham Mechanical, Headline Engine Reconditioning, Lees 4x4), 1 auto electrical (Seebers Auto Electrical), 1 auto body (Raglan Repair and Paint). Only 1 is plumbing, 1 carpentry, 2 building/contracting, plus one each of HVAC, cabinetry, appliance repair, welding, pools, firewood. This is a sample of 50 of 366 qu
-
-> Evidence: call_list sample: 22 of 50 rows niche trades, 11 of those 22 automotive-related by business name and stated why field. queue_total 366, queue_shown 50.
 
 ## What it used to believe
 
