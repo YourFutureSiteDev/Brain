@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 ## Unconfirmed leads are rising, and today's sweep isn't why
 
-*proven, revised 5 times, learned 2026-08-19 from shift.*
+*proven, revised 6 times, learned 2026-08-19 from shift.*
 
-Second consecutive shift with a nonzero new-lead unconfirmed rate, and it's in the same range as the first: 19/604 (3.1%) last shift, now 20/726 (2.75%) this shift. That's two readings clustered near 3%, both well above the 0% baseline held for the prior three shifts. Leaning toward this being a new baseline rather than a one-off spike, but keep checking one more shift before calling it settled.
+Drop the 'settling near 3%' theory. The new-lead unconfirmed rate just fell hard: this shift added only 2 unconfirmed out of 172 new leads (1.16%), versus 2.75% and 3.1% the two shifts before. Three readings, no cluster, it's bouncing not settling. Separately, the cumulative share across all leads is still creeping up (usable-verdict 97.96% on 18 Aug to 97.65% on 21 Aug), so the total unconfirmed pile is growing even while the marginal per-shift rate swings around. Watch one more shift before calling this anything.
 
-> Evidence: This shift: leads 26898, unconfirmed 633. Last shift: leads 26172, unconfirmed 613. Delta = 726 new leads, 20 new unconfirmed = 2.75%. Prior shift's own delta was 604 new leads, 19 new unconfirmed = 3.1%.
+> Evidence: This shift: leads 27070, unconfirmed 635. Last shift: leads 26898, unconfirmed 633. Delta = 172 new leads, 2 new unconfirmed = 1.16%, down from the prior delta of 726/20=2.75% and the one before that at 604/19=3.1%. Fortnight tracker: 97.96% (18 Aug) to 97.65% (21 Aug).
 
 ## UNKNOWN leads: no confirmed route to the call list
 

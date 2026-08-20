@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 ## Checks passing 7/8: no per check breakdown reaches this desk
 
-*proven, revised 9 times, learned 2026-08-18 from shift.*
+*proven, revised 10 times, learned 2026-08-18 from shift.*
 
-Tenth consecutive shift confirming the same shape: today's number is 5/8, not 7/8, and sent_today is 0 (cap off), so there is no breach to report today either. The three passing checks named are identical to every prior shift; the three failing ones are never surfaced by any tool here. Keep telling Byron the failing-check identity needs someone to open the check code or config directly, and that the 7/8 and 51-vs-15 figures in his open board items are both stale against today's actual 5/8 and sent_today=0.
+Eleventh consecutive shift confirming the same shape: today's number is 5/8, not 7/8, and sent_today is 11 against a cap that reads off, so there is still no breach to report. New this shift: suppressed has been exactly 23 for four days running while sent_today varied 0/47/49/11, worth watching next shift in case the suppression counter has stopped updating rather than opt-outs simply not arriving. Keep telling Byron the failing-check identity needs someone to open the check code or config directly, and that his 7/8 and 51-vs-15 board items are stale against today's actual 5/8 and sent_today=1
 
-> Evidence: today: checks passing 5/8 (Opt-out in every email; Daily cap; No address harvesting), daily_cap=off, sent_today=0, max_daily=50. No breach: sent_today is 0, not 51, and daily_cap is off, not 15.
+> Evidence: today: checks passing 5/8 (Opt-out in every email; Daily cap; No address harvesting), daily_cap=off, sent_today=11, max_daily=50. suppressed=23 on both 2026-08-18 and 2026-08-21 per the fortnight number.
 
 ## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
 
