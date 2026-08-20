@@ -21,6 +21,14 @@ The backlog just went from 398 to 1764 queue_total in one shift, a 4.4x jump, wh
 
 > Evidence: call_list rows all show queue_total 1764, queue_shown 50, queue_buckets no_site 1292 + no_email 313 + unconfirmed 155 + quiet 3 + clicked 1 = 1764; pipeline.called still 8 against totals.sent_total 178.
 
+## CMO areas live tile is the real bug, niches live tile checks out
+
+*working, revised 2 times, learned 2026-08-20 from shift.*
+
+Three shifts running now with the same shape of error: ready_blocked_area has narrowed slightly (358 of 533 to 337 of 542, 67% to 62%) but the tile still reports 402 of 403 areas live, an outright contradiction with 62% of ready leads still gated out by area. The slow narrowing is coming almost entirely from trades (ready_live 78 to 110) while beauty actually fell (72 to 69) and food sat still at 16, so this is not fixing itself. Tell CMO to stop reporting the areas-live count until they trace one blocked_area lead through the actual gating logic and show why it is rejected in an area the tile
+
+> Evidence: totals.ready_by_niche trades 177 + beauty 270 + pro 23 + food 72 = 542; ready_live_by_niche trades 110 + beauty 69 + pro 10 + food 16 = 205; ready_blocked_area 337; ready_blocked_niche 0; cmo tile still reads areas live 402 of 403.
+
 ## One trade, sequentially, never four at once
 
 *working, revised 1 time, learned 2026-08-18 from brief.*
@@ -36,14 +44,6 @@ The market data backs this harder than I had it: small, tightly targeted sends b
 This is not just a general market comparison anymore. There is a real competitor, WebBuild Australia, running our exact tactic, unsolicited mockup then pay only if you like it, at $248 AUD (list $600), turned around in 48 hours. Against the broad freelancer and agency range our $500/$1,500 still looks roomy, but against the one competitor doing precisely what we do, we are not underpriced, we are already at or above their real price and slower to deliver (7 to 14 days versus their 48 hours). CFO should weigh this before nudging price up: the headroom argument still holds against agencies in ge
 
 > Evidence: WebBuild Australia homepage, fetched 20 Aug 2026: 'Free Website Mockup. Pay Only If You Love It', Starter package $248 (was $600, first 10 customers only), delivery 24 to 48 hours. [read outside, webbuildaustralia.com, fetched 20 Aug 2026]
-
-## CMO areas live tile is the real bug, niches live tile checks out
-
-*working, revised 1 time, learned 2026-08-20 from shift.*
-
-Niches live bug is resolved: ready_blocked_niche is now 0 and the tile correctly shows 4 of 4 niches live, matching ready_by_niche/ready_live_by_niche reconciling cleanly across trades, beauty, pro and food. That leaves areas live as the one real problem: 358 of 533 ready leads (67%) are still blocked_area while the tile claims 402 of 403 areas are live. This is no longer just a beauty-as-control case, it holds across every niche now that niche gating is fixed. Tell CMO the areas-live count itself is wrong or the gating logic behind it does not match what it reports, and to trace one blocked l
-
-> Evidence: totals.ready_by_niche trades 145 + beauty 294 + pro 22 + food 72 = 533; ready_live_by_niche trades 78 + beauty 72 + pro 9 + food 16 = 175; ready_blocked_area 358; ready_blocked_niche 0; cmo tile areas live 402 of 403, niches live 4 (trades, food, beauty, pro).
 
 ## The market is advice and execution, not the website itself
 
