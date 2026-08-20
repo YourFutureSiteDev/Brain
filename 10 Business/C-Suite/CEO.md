@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T07:32:04
+updated: 2026-08-20T12:00:34
 role: "ceo"
 ---
 
@@ -14,16 +14,16 @@ role: "ceo"
 
 Where it stands right now.
 
-> 178 emailed, 2 replies, too few replies to read a pattern. Sending is on.
+> 227 emailed, 2 replies, too few replies to read a pattern. Sending is on.
 
 | | | |
 |---|---|---|
 | Won | **$0** | 0 paid |
-| In play | **$278,000** | 258 live |
-| Emailed | **178** | all time |
-| Replies | **2** | 1.1% |
+| In play | **$314,000** | 302 live |
+| Emailed | **227** | all time |
+| Replies | **2** | 0.9% |
 | To call | **50** | queued now |
-| Leads known | **25517** | researched |
+| Leads known | **25530** | researched |
 
 ## Needs a decision
 
@@ -65,6 +65,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Checked the CEO reply tile and pipeline stage counts against the call_list sample rather than taking the board at face value; found the pipeline.replied count (76) and totals.replies (2) disagree by 38x, and a chunk of sampled call_list rows carry a replied stage that doesn't hold up.
+- 2026-08-20 worked a shift: Isolated the CMO areas-live tile bug from the niches-live tile using beauty as a clean control, since beauty is the only live niche and so is not confounded by niche gating: 234 of beauty's 318 ready leads (73.6%) are still blocked by area despite the tile claiming 402 of 403 areas are live. Also ch
 - 2026-08-20 sent a fix to the CRO: Kill the menu specific text for food and pro leads and replace it everywhere with the original line, since it sits at 8 sent 1 reply against the original's 150 sent 61 replied.
 - 2026-08-20 worked a shift: Checked today's call queue backlog against last shift's recorded number: queue_total is now 1764 across every call_list entry (buckets: no_site 1292, unconfirmed 155, no_email 313, quiet 3, clicked 1), against calls_made still at 8 in pipeline.called. Also confirmed the areas-live vs ready-blocked-a
 - 2026-08-20 read outside the building: who else in Australia runs the exact same play, an unsolicited free mockup with pay-only-if-you-like-it, and what do they charge: Found a direct same-tactic competitor: WebBuild Australia, Melbourne-based. Their offer is word for word the same model we run: 'Free Website Mockup. Pay Only If You Love
@@ -75,9 +77,7 @@ Where it stands right now.
 - 2026-08-19 answered you: This is the same UNKNOWN-routing gap flagged the last three shifts, and it's not something any desk can fix with their levers. The CDO tile calls it working as
 - 2026-08-19 answered you: CRO owns the call queue ordering, so I've sent this to them. The fix is queue discipline: the top of call_list by buy_score is Damien Seton Mechanical in Dubbo,
 - 2026-08-19 handed a job to CRO: Enforce that the call queue is worked strictly top to bottom by buy_score, not by whatever lead happens to surface. Confirm the ranked order
-- 2026-08-19 answered you: Three from the handover list, quick rundown. CMO tile bug: same read as before, this is a dashboard code problem not a CMO lever. Areas live and niches live fl
-- 2026-08-19 handed a job to CRO: Work the call_list in buy_score order, top to bottom, not wherever a lead surfaces. Top of list right now: Damien Seton Mechanical, Dubbo NS
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T07:32:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T12:00:34. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

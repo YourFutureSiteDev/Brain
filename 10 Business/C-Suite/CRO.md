@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T07:32:04
+updated: 2026-08-20T12:00:35
 role: "cro"
 ---
 
@@ -18,8 +18,8 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Emailed | **178** | businesses |
-| Replied | **2** | 1.1% |
+| Emailed | **227** | businesses |
+| Replied | **2** | 0.9% |
 | Called | **8** | at least once |
 | Won | **0** | paid |
 
@@ -29,7 +29,7 @@ Where it stands right now.
 
 ## Carrying for Byron
 
-- 2026-08-20 [morning meeting, from CFO] Push some of the 50 queued follow-up calls to an actual close so pricing can be checked against a real paid job instead of pipeline value. *(new)*
+- 2026-08-20 [morning meeting, from CFO] Push some of the 50 queued follow-up calls to an actual close so pricing can be checked against a real paid job instead of pipeline value. *(working)*
 - 2026-08-19 Enforce that the call queue is worked strictly top to bottom by buy_score, not by whatever lead happens to surface. Confirm the ranked order Damien Seton Mechanical (95) then GP Mechanical Nambour (78) then Whitten's Plumbing Warragul (78) is what gets presented next, and flag if anything in the call flow lets a lead outside the top 50 jump the queue. *(working)*
 - 2026-08-19 Work the call_list in buy_score order, top to bottom, not wherever a lead surfaces. Top of list right now: Damien Seton Mechanical, Dubbo NSW, score 95, already opened the demo. Then GP Mechanical Repairs (Nambour QLD, 78) and Whitten's Plumbing (Warragul VIC, 78). Flag it if the queue view isn't sorted by buy_score by default, that would explain why the last 8 calls went to Windsor and Tamworth instead of the top of the list. *(working)*
 - 2026-08-19 Reorder how the call queue is worked: pull from call_list top to bottom by buy_score, not ad hoc. Damien Seton Mechanical (Dubbo, score 95, already opened the demo) goes first, then the 77 to 78 scored trades and beauty leads below it. The two calls already made outside this order (Windsor NSW, Tamworth chainsaw shop) stay logged as made, just don't keep pulling from outside the ranked 50. *(working)*
@@ -52,6 +52,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-20 asked: [morning meeting, from CFO] Push some of the 50 queued follow-up calls to an actual close -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-19 asked: Enforce that the call queue is worked strictly top to bottom by buy_score, not by whatever -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-19 asked: Work the call_list in buy_score order, top to bottom, not wherever a lead surfaces. Top of -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-19 asked: Reorder how the call queue is worked: pull from call_list top to bottom by buy_score, not -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
@@ -74,6 +75,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
+- 2026-08-20 worked a shift: Rechecked today's 50-item call queue against Byron's top-to-bottom buy_score instruction and against the last three shift readings: the interleaved-score break below position 1 is identical to last shift's reading, and calls_made is still 0 with last_call null on all 50 rows.
 - 2026-08-20 worked a shift: Cross checked the 50 queued call_list entries against the buy_score order Byron wants enforced, and checked whether call activity moved since the last two readings.
 - 2026-08-20 read outside the building: when a small business owner cold called about a website says no, what is the actual objection and is there a solid rebuttal that fits a one person, no-ad-spend business: The most common no is not price, it is 'I already get enough work from word of mouth or my Facebook page, I don't need a website.'
 - 2026-08-19 worked a shift: Rechecked the top 50 call_list entries against Byron's repeated instruction to work strictly top to bottom by buy_score, and checked queue growth (1646 to 1760, called still 8, all 50 calls_made 0, last_call null).
@@ -84,9 +87,7 @@ Where it stands right now.
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-19 worked a shift: Checked whether the follow-up queue moved since the last reading: it has not. Pipeline.called is still 8 and every one of the 50 queued leads still shows calls_made 0 and last_call null, so I converted that into a task since it needs an actual tool built, not another read of the same numbers.
 - 2026-08-19 worked a shift: Cross checked the top 50 call_list against actual call activity: every one of the 50 shows calls_made 0 and last_call null, then traced the pipeline's called=8 total into the leads array to see which businesses those calls actually hit.
-- 2026-08-19 read outside the building: When a cold call to an Australian small business owner's mobile goes unanswered, do they actually check the voicemail, or is leaving one a wasted 20 seconds: 81 percent of calls from unknown numbers go to voicemail rather than being answered, but 67 percent of people still check a voicemail left by
-- 2026-08-18 worked a shift: Checked the 50-name call queue against the no-website-first ordering rule and against the CEO's ask about unconfirmed sites: ordering is fine (49 of 50 are no_site rank-3 leads, correctly outranked only by one clicked lead with a 95 buy_score), but every record also carries queue_total 365, so the v
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T07:32:04. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T12:00:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

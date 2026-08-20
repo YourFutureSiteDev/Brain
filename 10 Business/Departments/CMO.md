@@ -11,15 +11,15 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cmo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.1 on 2026-08-20 (down, 3 days)
+**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 0.88 on 2026-08-20 (down, 3 days)
 
 ## Food niche has real inventory but is not counted as live
 
-*proven, revised 5 times, learned 2026-08-18 from shift.*
+*proven, revised 6 times, learned 2026-08-18 from shift.*
 
-Widen this claim: it is not just food. Pro shows the same pattern. Keep treating niches-live and ready totals as untrustworthy, always hand count the actual call_list. Until CDO or COO trace why ready leads in food and pro never route to the working queue, tell Byron the machine is really only working trades and beauty, whatever the tile says.
+Widen further: this is now confirmed across five straight shifts. Food and pro leads show up in ready_by_niche and ready_live_by_niche every single time, in varying amounts, but never once appear in the actual 50-row call_list. Meanwhile the niches-live tile itself is not just wrong, it flip-flops shift to shift (beauty only, then trades+food, now all four) with no consistent direction. Tell Byron plainly: the bot is working trades and beauty only, full stop, regardless of what any tile says this hour.
 
-> Evidence: Fourth shift in a row hand counting: this shift's 50 row call_list is 29 trades, 21 beauty, 0 food, 0 pro, while ready_by_niche shows food 64 and pro 19 ready, and ready_live_by_niche shows food 15 and pro 9 ready_live. Niches-live tile claims trades, food, beauty, pro all live. None of that food or pro inventory has ever appeared in an actual counted queue across four checks.
+> Evidence: This shift: call_list is 29 trades, 21 beauty, 0 food, 0 pro (5th shift running with this exact 0/0 pattern for food/pro). Tiles say ready_by_niche food 72, pro 22, ready_live_by_niche food 16, pro 9. Niches-live tile claims 4 niches live including food and pro.
 
 ## A reply rate this low points at deliverability, not the message
 

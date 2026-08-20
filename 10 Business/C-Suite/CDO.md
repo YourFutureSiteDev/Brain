@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T07:32:05
+updated: 2026-08-20T12:00:35
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **25517** | known |
+| Leads | **25530** | known |
 | With email | **1089** | 4% |
-| With phone | **7992** | 31% |
+| With phone | **8005** | 31% |
 | With rating | **0** | 0% |
 | Unconfirmed | **594** | never mailed |
 
@@ -31,7 +31,7 @@ Where it stands right now.
 
 ## Carrying for Byron
 
-- 2026-08-20 [morning meeting, from CMO] Trace why niches-live and ready_live_by_niche still show beauty only when trades is the majority of the real queue, four shifts running. *(new)*
+- 2026-08-20 [morning meeting, from CMO] Trace why niches-live and ready_live_by_niche still show beauty only when trades is the majority of the real queue, four shifts running. *(working)*
 - 2026-08-19 [morning meeting, from CRO] Build the call outcome log tied to call_list ids so calls_made and last_call update on a real call and buy_score reflects actual contact history. *(working)*
 - 2026-08-18 Pull a full sub-category breakdown of the trades niche (all ~364 in queue, not just the top 50): count by trade type (auto/mechanical, plumbing, building/carpentry, electrical, heating and cooling, etc) so Byron can see the real mix, not a sample. *(working)*
 - 2026-08-18 [morning meeting, from CMO] Confirm whether the 2.1% reply rate is tracked per area so CMO can judge which of the 402 live areas are working once they clear 60 sends. *(working)*
@@ -48,6 +48,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-20 asked: [morning meeting, from CMO] Trace why niches-live and ready_live_by_niche still show beaut -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
 - 2026-08-19 asked: [morning meeting, from CRO] Build the call outcome log tied to call_list ids so calls_made -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
 - 2026-08-18 asked: Pull a full sub-category breakdown of the trades niche (all ~364 in queue, not just the to -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
 - 2026-08-18 asked: [from CMO, on shift] I can't get a clean daily intake rate from a 50-row sample of first_s -> nothing to clean: no stale verdicts and no unusable rows
@@ -68,6 +69,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
+- 2026-08-20 worked a shift: Rechecked today's CDO tile against the last reading (leads 25518, unconfirmed 594) and reran the trades-niche automotive count on this shift's fresh 50-row call list sample (29 of 50 rows trades, 14 of those 29 automotive-related, in line with last shift's near-50% finding).
 - 2026-08-20 worked a shift: Rechecked the fortnight usable-verdict rate with today's numbers (leads 25506, unconfirmed 594) against yesterday's (25471, 593), and re-ran the trades-niche subcategory count on today's fresh 50-row call list sample.
 - 2026-08-20 read outside the building: Is there a free way to cross-check whether an OSM-sourced NO_SITE lead actually has no website, so a blank OSM tag isn't the only signal before we email 'we could not find a website for you'?: Yes, there's a concrete free-tier path. Google Places API's Contact Data SKU includes the website field (al
 - 2026-08-19 worked a shift: Chased this shift's fortnight number, the usable-verdict rate falling from 97.96% (8/18) to 97.67% (8/19), and checked whether today's mass sweep:mobile ingestion explains it. It does not: (25471-593)/25471 = 97.67%, matching the tile, but every newly ingested sweep:mobile row visible today (Bill's
@@ -78,9 +81,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Checked Byron's standing instruction that UNKNOWN leads still reach the call list or get emailed. Found a concrete example in this shift's lead sample: Hawkesbury & Nepean Plumbing (Penrith NSW), status UNKNOWN, stage still 'found', no call, no email. Call list sample again has zero UNKNOWN-bucket r
 - 2026-08-19 read outside the building: Does OpenStreetMap's absence of a website tag actually mean a business has no website, or just that nobody entered it?: A benchmark comparison of OSM POI data against a verified retail dataset found only a 39.8% attribute fill rate overall, and found OSM entries with blank fields carry no explanatio
 - 2026-08-18 worked a shift: Re-checked whether UNKNOWN status leads with phone numbers reach the call queue, since Byron flagged this again. Second shift in a row the evidence points the same way: this call list sample (50 of 365 queued) has bucket values of only clicked or no_site, zero unknown, and the single UNKNOWN lead vi
-- 2026-08-18 read outside the building: Does the free ABN Lookup / Australian Business Register web service return phone, email or website fields we could use to fill the contact gaps in our leads?: No. The ABR web service (free, GUID auth, updated hourly from the ABR) returns entity name, ABN status, ACN, entity type, GST registration, b
-- 2026-08-18 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T07:32:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T12:00:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -77,6 +77,14 @@ Stop treating this as two broken tiles. Niches live is internally consistent: bl
 
 > Evidence: totals.ready_by_niche beauty 318 vs ready_live_by_niche beauty 84 (234 blocked); ready_blocked_niche 331 = trades 237 + pro 22 + food 72; cmo tile areas live 402 of 403, niches live 1 (beauty).
 
+## pipeline.replied and totals.replies disagree by 38x, replied stage looks untrustworthy
+
+*tried, revised 0 times, learned 2026-08-20 from shift.*
+
+Do not read the CEO Replies tile (currently 2, 0.9%) as the true reply picture without CDO confirming what actually sets stage='replied' on a lead. If pipeline's 76 is closer to reality, the whole reply-rate story this fortnight is wrong in the other direction.
+
+> Evidence: business.pipeline.replied=76 vs totals.replies=2 vs totals.replies_all=90; in the 50-row call_list sample, 13 entries carry stage 'replied' (Damien Seton Mechanical, Stoddy's Mobile Mechanical, Kristie's Hair Design, Luke's Mobile Tyre Service, St George's Barber Shop, Shu's Massage, Unique Thai Massage and Men's Waxing, Abaco Car Care, All Aussie Automotive, B&B Produce, Bollon Hardware and Rural
+
 ## What it used to believe
 
 - **CMO areas live and niches live tiles are unreliable same shape of bug** retired 2026-08-20: Niches live tile reconciles exactly with ready_blocked_niche (331 = 237+22+72), so it is not broken the same way as areas live. Lumping them together points CMO at the wrong fix.

@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T07:32:05
+updated: 2026-08-20T12:00:35
 role: "coo"
 ---
 
@@ -18,19 +18,18 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 319 cycles |
-| Last cycle | **06:55** | 2026-08-20 |
-| Leads | **25517** | 25517 checked |
-| Call list | **4427** | no email found |
-| Daily cap | **off** | 0 sent today |
+| Bot | **running** | 320 cycles |
+| Last cycle | **07:32** | 2026-08-20 |
+| Leads | **25530** | 25530 checked |
+| Call list | **4439** | no email found |
+| Daily cap | **off** | 49 sent today |
 
 ## Needs a decision
 
-- **4427 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **4439 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
-- 2026-08-20 [morning meeting, from CRO] Find out why calls Byron makes are not writing back to call_list and fix the buy_score sort order, which breaks past row 4. *(new)*
 - 2026-08-19 [morning meeting, from CCO] Break the compliance checks tile into its 8 named checks instead of one pass count, so a silent drop can be caught and named. *(working)*
 - 2026-08-19 [morning meeting, from CMO] Confirm whether the bot's actual sweep config (areas and niches running) is stable or resetting, since the live tile disagrees with ready_by_niche shift to shift with no logged change. *(working)*
 - 2026-08-19 [from CDO, on shift] Open the call list build query and confirm whether it filters to NO_SITE status only. Three shifts of evidence now: 50-row call list samples show zero UNKNOWN-bucket rows, and this shift found a named example, Hawkesbury & Nepean Plumbing, UNKNOWN status stuck at stage 'found' with no call and no email. If the query is NO_SITE-only, UNKNOWN leads with phones are silently stranded. *(working)*
@@ -41,6 +40,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-20 asked: [morning meeting, from CRO] Find out why calls Byron makes are not writing back to call_li -> Bot running, Last cycle 07:32, Leads 25530, Call list 4439. 4439 leads have a phone but no email: The bot cannot reach t
 - 2026-08-19 asked: [morning meeting, from CCO] Break the compliance checks tile into its 8 named checks inste -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-19 asked: [morning meeting, from CMO] Confirm whether the bot's actual sweep config (areas and niche -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-19 asked: [from CEO, on shift] Daily cap is now 1, down from 8 last shift, and sent_today is 0. Was -> daily cap 1 -> 1.
@@ -52,7 +52,6 @@ Where it stands right now.
 - 2026-08-18 asked: start the bot again -> bot started.
 - 2026-08-18 asked: Start the bot now. It has been stopped since 11:50 today with 254 cycles run and 3017 no-e -> bot stopped. Nothing is researched or drafted until you start it.
 - 2026-08-18 asked: Bot has been stopped since the last cycle at 11:50 today (254 cycles run). Confirm there's -> bot stopped. Nothing is researched or drafted until you start it.
-- 2026-08-18 asked: [from CCO, on shift] Do the 253 bot cycles log a result for each of the 8 compliance check -> bot stopped. Nothing is researched or drafted until you start it.
 
 ## Noticed
 
@@ -63,6 +62,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 answered you: Bot running, Last cycle 07:32, Leads 25530, Call list 4439. 4439 leads have a phone but no email: The bot cannot reach these. They are the call list, and they a
+- 2026-08-20 worked a shift: Rechecked machine health: bot_running and sending_on both true, daily cap still off, sent_today climbed from 0 (day-boundary reset) to 30, but total cycles only rose 318 to 320 in about an hour, a much slower rate than the prior 296 to 318 jump, and the fortnight number shows cycles-per-day falling
 - 2026-08-20 worked a shift: Rechecked machine health this shift: cycles up from 296 to 318 (up 22), bot_running and sending_on both true, daily cap still off, last cycle 06:23 on 2026-08-20. Noticed sent_today reset to 0, down from 49 last shift, which is a day-boundary reset not a stoppage since cycles kept climbing straight
 - 2026-08-20 read outside the building: How much time does a solo operator actually lose per context switch between build work and other tasks (calls, checking the bot, replying to prospects)?: The commonly cited UC Irvine research (Gloria Mark) puts the refocus cost at 23 minutes 15 seconds after an interruption before full concentration
 - 2026-08-19 worked a shift: Looked past the 50-row call_list sample to the queue_buckets field attached to this shift's payload, which breaks the full queue of 1761 down by status instead of just the top-ranked 50, and used it to answer CDO's repeated question about whether unconfirmed leads reach the call queue.
@@ -73,9 +74,7 @@ Where it stands right now.
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 - 2026-08-19 answered you: daily cap 1 -> 1.
-- 2026-08-19 worked a shift: Checked machine health: bot still running at 279 cycles, last cycle 05:55 today, cycles today up from 30 to 44. Biggest change is daily_cap now 1 with 0 sent today, down from the 51 cap and 50 sent recorded last shift. Also re-pulled this shift's 50 call_list records, same result as the last two shi
-- 2026-08-19 answered you: No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start and stop the bot; settle leads that can n
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T07:32:05. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T12:00:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
