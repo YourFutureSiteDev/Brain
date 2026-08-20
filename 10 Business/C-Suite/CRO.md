@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T12:00:35
+updated: 2026-08-20T12:31:54
 role: "cro"
 ---
 
@@ -75,6 +75,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Re-checked the top 50 call_list against buy_score ordering and re-verified queue_total growth: order is still broken past position 1 in the identical pattern as the last two shifts (95, then 81,81,80,81,81,80,81,81,80,80,78... repeating), and cross-referenced queue_total against the last three readi
 - 2026-08-20 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-20 worked a shift: Rechecked today's 50-item call queue against Byron's top-to-bottom buy_score instruction and against the last three shift readings: the interleaved-score break below position 1 is identical to last shift's reading, and calls_made is still 0 with last_call null on all 50 rows.
 - 2026-08-20 worked a shift: Cross checked the 50 queued call_list entries against the buy_score order Byron wants enforced, and checked whether call activity moved since the last two readings.
@@ -86,8 +87,7 @@ Where it stands right now.
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-19 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
 - 2026-08-19 worked a shift: Checked whether the follow-up queue moved since the last reading: it has not. Pipeline.called is still 8 and every one of the 50 queued leads still shows calls_made 0 and last_call null, so I converted that into a task since it needs an actual tool built, not another read of the same numbers.
-- 2026-08-19 worked a shift: Cross checked the top 50 call_list against actual call activity: every one of the 50 shows calls_made 0 and last_call null, then traced the pipeline's called=8 total into the leads array to see which businesses those calls actually hit.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T12:00:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T12:31:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

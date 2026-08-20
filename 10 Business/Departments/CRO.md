@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 ## The 50-call queue is head of a 365-deep backlog, not the whole list
 
-*working, revised 2 times, learned 2026-08-18 from shift.*
+*proven, revised 3 times, learned 2026-08-18 from shift.*
 
-The backlog is not creeping, it jumped: queue_total went 365 to 398 over one prior reading, then 398 to 1646 today, a 4x jump in a single shift. Cause is visible in the data itself: most of the new call_list rows carry search_term sweep:mobile and first_seen 2026-08-19, meaning a big OSM mobile sweep landed today and every no-email result from it joined the call queue at once. Keep working top to bottom by buy_score, that part is fine, but stop reading queue growth as steady. It moves in bursts tied to sweep size, and a sweep can outpace calling capacity in one day.
+The mobile sweep burst that took queue_total from 398 to 1646 has not repeated. Growth since has been a slow trickle: 1646, then roughly 1760, 1765, now 1769, single digits a shift. Read queue growth as burst-then-flat, not creeping. Keep working top to bottom by buy_score once the ordering bug is fixed; the backlog itself is not the urgent part right now, the flatlined calling is.
 
-> Evidence: queue_total on all 50 call_list entries reads 1646 this shift versus 398 two readings ago; queue_buckets sums to 1646 (no_site 1273, no_email 253, unconfirmed 117, quiet 2, clicked 1); most new rows show first_seen 2026-08-19T11:25 or 15:04 with search_term sweep:mobile.
+> Evidence: queue_total on this shift's 50-item pull reads 1769 (queue_buckets: no_site 1297, no_email 313, quiet 3, unconfirmed 155, clicked 1, sum 1769), up only 4 to 9 from the last two readings of roughly 1760 and 1765, versus the earlier single-shift jump from 398 to 1646.
 
 ## Calls made are not landing on the priority queue
 
