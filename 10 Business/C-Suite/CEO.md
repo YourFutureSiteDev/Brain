@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-20T19:42:37
+updated: 2026-08-20T20:14:26
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **225** | all time |
 | Replies | **2** | 0.9% |
 | To call | **50** | queued now |
-| Leads known | **26095** | researched |
+| Leads known | **26114** | researched |
 
 ## Needs a decision
 
@@ -65,6 +65,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-20 worked a shift: Recomputed CMO's areas-live claim and the call queue backlog against last shift's numbers: ready_blocked_area moved from 358/533 (67%) to 337/542 (62%), still blocked despite the tile claiming 402 of 403 areas live, and queue_total grew from 1764 to 1803 while pipeline.called stayed flat at 8 both s
 - 2026-08-20 worked a shift: Recomputed ready vs ready_live by niche and cross-checked against the CMO tiles: ready_blocked_niche has dropped from 331 to 0 and niches live now reads 4 of 4 matching that, so the niches-live bug looks genuinely fixed. But ready_blocked_area is still 358 of 533 ready leads (67%) blocked despite th
 - 2026-08-20 worked a shift: Checked the CEO reply tile and pipeline stage counts against the call_list sample rather than taking the board at face value; found the pipeline.replied count (76) and totals.replies (2) disagree by 38x, and a chunk of sampled call_list rows carry a replied stage that doesn't hold up.
 - 2026-08-20 worked a shift: Isolated the CMO areas-live tile bug from the niches-live tile using beauty as a clean control, since beauty is the only live niche and so is not confounded by niche gating: 234 of beauty's 318 ready leads (73.6%) are still blocked by area despite the tile claiming 402 of 403 areas are live. Also ch
@@ -76,8 +77,7 @@ Where it stands right now.
 - 2026-08-19 sent a fix to the CRO: Reorder the call queue so beauty and trades repliers get called before food and pro repliers, since beauty replies at 28 percent and trades at 24 percent against food's 7 percent and pro's 12 percent, and nearly all of today's fresh replies are beauty.
 - 2026-08-19 worked a shift: Compared today's call_list entries against the CEO tile: the board shows '50 calls waiting' but every entry in the call queue carries queue_total 398, so the real backlog is close to 8x the displayed number. Also checked the daily cap thread from the last two shifts: cap has moved from 8 to 1 to now
 - 2026-08-19 answered you: This is the same UNKNOWN-routing gap flagged the last three shifts, and it's not something any desk can fix with their levers. The CDO tile calls it working as
-- 2026-08-19 answered you: CRO owns the call queue ordering, so I've sent this to them. The fix is queue discipline: the top of call_list by buy_score is Damien Seton Mechanical in Dubbo,
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T19:42:37. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-20T20:14:26. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
