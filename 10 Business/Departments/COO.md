@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 21 on 2026-08-20 (down, 3 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 28 on 2026-08-20 (down, 3 days)
 
 ## The bot never pauses, everything else does
 
@@ -76,6 +76,14 @@ When scheduling builds, check the month's tier mix before confirming a second bi
 Push for every job to close with real timer minutes recorded, and treat any job closed without them as a gap in the evidence, not a completed data point.
 
 > Evidence: Section 8, decision 2: without recorded actual minutes the three hour rule is an opinion, not a fact.
+
+## First real case of the same-day sent_today drop the jam-check was watching for
+
+*tried, revised 0 times, learned 2026-08-20 from shift.*
+
+One instance only, do not call this a jam yet. Recheck sent_today first thing next shift before anything else: if it has kept falling or flatlined while cycles keep climbing, that is a real jam in the send path. If it has recovered upward, this was noise and can be dropped.
+
+> Evidence: sent_today 49 at cycles 324 (last shift) to sent_today 47 at cycles 331 (this shift), both readings dated 2026-08-20, daily_cap off and bot_running/sending_on true both times.
 
 ## What it used to believe
 
