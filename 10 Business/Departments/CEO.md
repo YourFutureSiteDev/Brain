@@ -45,6 +45,14 @@ This is not just a general market comparison anymore. There is a real competitor
 
 > Evidence: WebBuild Australia homepage, fetched 20 Aug 2026: 'Free Website Mockup. Pay Only If You Love It', Starter package $248 (was $600, first 10 customers only), delivery 24 to 48 hours. [read outside, webbuildaustralia.com, fetched 20 Aug 2026]
 
+## pipeline.replied and totals.replies disagree by 38x, replied stage looks untrustworthy
+
+*working, revised 1 time, learned 2026-08-20 from shift.*
+
+This is worse than a count mismatch. In the current 50-row call_list, 12 leads carry stage 'replied' and every one of them has email:"" and sent_at:null. They have no email address and were never sent anything, so they cannot have replied to an email. Whatever process sets stage='replied' is doing it on phone-only leads with no send event behind it. Do not let CRO or CMO treat any 'replied' count as real until CDO traces what actually flips a lead to stage='replied'.
+
+> Evidence: call_list stage='replied' rows with email="" and sent_at=null: Damien Seton Mechanical, Stoddy's Mobile Mechanical, Kristie's Hair Design, St George's Barber Shop, Unique Thai Massage and Men's Waxing, Luke's Mobile Tyre Service, Amanda's Hair Design, Abaco Car Care, All Aussie Automotive, B&B Produce, Kerrie's Salon, Shu's Massage, all 12 in a 50-row sample. business.pipeline.replied=76 vs totals
+
 ## The market is advice and execution, not the website itself
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -76,14 +84,6 @@ Check weekly that every send has correct sender identification and a working uns
 Reject any commitment from a specialist that implies same day response or a hard uptime guarantee. Hold the line at one business day turnaround.
 
 > Evidence: Section 5, the rule 'never sell anything whose failure mode is the one person had exams.'
-
-## pipeline.replied and totals.replies disagree by 38x, replied stage looks untrustworthy
-
-*tried, revised 0 times, learned 2026-08-20 from shift.*
-
-Do not read the CEO Replies tile (currently 2, 0.9%) as the true reply picture without CDO confirming what actually sets stage='replied' on a lead. If pipeline's 76 is closer to reality, the whole reply-rate story this fortnight is wrong in the other direction.
-
-> Evidence: business.pipeline.replied=76 vs totals.replies=2 vs totals.replies_all=90; in the 50-row call_list sample, 13 entries carry stage 'replied' (Damien Seton Mechanical, Stoddy's Mobile Mechanical, Kristie's Hair Design, Luke's Mobile Tyre Service, St George's Barber Shop, Shu's Massage, Unique Thai Massage and Men's Waxing, Abaco Car Care, All Aussie Automotive, B&B Produce, Bollon Hardware and Rural
 
 ## What it used to believe
 
