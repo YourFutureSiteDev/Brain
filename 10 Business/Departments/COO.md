@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-20. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 54 on 2026-08-20 (up, 3 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 18 on 2026-08-20 (down, 3 days)
 
 ## The bot never pauses, everything else does
 
@@ -68,6 +68,14 @@ When scheduling builds, check the month's tier mix before confirming a second bi
 Push for every job to close with real timer minutes recorded, and treat any job closed without them as a gap in the evidence, not a completed data point.
 
 > Evidence: Section 8, decision 2: without recorded actual minutes the three hour rule is an opinion, not a fact.
+
+## Cycle throughput is falling as the lead pool saturates
+
+*tried, revised 0 times, learned 2026-08-20 from shift.*
+
+Daily cycle count fell from 30 (2026-08-18) to 18 (2026-08-20) while leads found (24996) sits almost equal to total leads (25530), all 25530 already checked. bot_running, sending_on and cap-off all held steady across the same window, so this does not read as a jam. It reads like the current search grid has run out of new ground. Not a COO fix, sits with CMO's sweep config.
+
+> Evidence: cycles today 30 on 2026-08-18 to 18 on 2026-08-20 (fortnight number, down 3 days straight); leads found 24996 vs 25530 total, 25530 checked; this shift's cycle gain only +2 (318 to 320) vs the prior shift's +22 (296 to 318), both bot_running true and cap off.
 
 ## What it used to believe
 
