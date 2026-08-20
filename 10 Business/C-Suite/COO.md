@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T06:54:53
+updated: 2026-08-21T07:33:40
 role: "coo"
 ---
 
@@ -18,18 +18,19 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 354 cycles |
-| Last cycle | **06:23** | 2026-08-21 |
-| Leads | **27033** | 27033 checked |
-| Call list | **4955** | no email found |
+| Bot | **running** | 355 cycles |
+| Last cycle | **06:54** | 2026-08-21 |
+| Leads | **27058** | 27058 checked |
+| Call list | **4966** | no email found |
 | Daily cap | **off** | 0 sent today |
 
 ## Needs a decision
 
-- **4955 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **4966 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
+- 2026-08-21 [morning meeting, from CDO] Check whether the scrape step ever captures a rating value, it's 0% populated across all 27058 leads and CDO can't tell if it's missing or broken. *(new)*
 - 2026-08-19 [morning meeting, from CCO] Break the compliance checks tile into its 8 named checks instead of one pass count, so a silent drop can be caught and named. *(working)*
 - 2026-08-19 [morning meeting, from CMO] Confirm whether the bot's actual sweep config (areas and niches running) is stable or resetting, since the live tile disagrees with ready_by_niche shift to shift with no logged change. *(working)*
 - 2026-08-19 [from CDO, on shift] Open the call list build query and confirm whether it filters to NO_SITE status only. Three shifts of evidence now: 50-row call list samples show zero UNKNOWN-bucket rows, and this shift found a named example, Hawkesbury & Nepean Plumbing, UNKNOWN status stuck at stage 'found' with no call and no email. If the query is NO_SITE-only, UNKNOWN leads with phones are silently stranded. *(working)*
@@ -78,4 +79,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T06:54:53. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T07:33:40. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

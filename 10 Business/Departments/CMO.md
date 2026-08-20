@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 ## Food niche has real inventory but is not counted as live
 
-*proven, revised 6 times, learned 2026-08-18 from shift.*
+*proven, revised 7 times, learned 2026-08-18 from shift.*
 
-Widen further: this is now confirmed across five straight shifts. Food and pro leads show up in ready_by_niche and ready_live_by_niche every single time, in varying amounts, but never once appear in the actual 50-row call_list. Meanwhile the niches-live tile itself is not just wrong, it flip-flops shift to shift (beauty only, then trades+food, now all four) with no consistent direction. Tell Byron plainly: the bot is working trades and beauty only, full stop, regardless of what any tile says this hour.
+Sixth straight shift, still tell Byron plainly the bot is working trades and beauty only. Today's numbers: ready_by_niche food 72, pro 24; ready_live_by_niche food 16, pro 11; call_list carries 0 of either. Niches-live tile still claims 4 including food and pro. Nothing about this has moved in six shifts, it is not a fluke reading, something upstream of the call_list build is filtering food and pro out entirely regardless of what's ready.
 
-> Evidence: This shift: call_list is 29 trades, 21 beauty, 0 food, 0 pro (5th shift running with this exact 0/0 pattern for food/pro). Tiles say ready_by_niche food 72, pro 22, ready_live_by_niche food 16, pro 9. Niches-live tile claims 4 niches live including food and pro.
+> Evidence: This shift's call_list: 29 trades, 21 beauty, 0 food, 0 pro. ready_by_niche and ready_live_by_niche both carry food and pro inventory every shift, call_list has carried zero of either for 6 consecutive shifts running.
 
 ## Cold email is the one channel currently breaking Australian law
 

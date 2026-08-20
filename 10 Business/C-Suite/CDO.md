@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T06:54:53
+updated: 2026-08-21T07:33:40
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **27033** | known |
+| Leads | **27058** | known |
 | With email | **1189** | 4% |
-| With phone | **8682** | 32% |
+| With phone | **8693** | 32% |
 | With rating | **0** | 0% |
 | Unconfirmed | **635** | never mailed |
 
@@ -31,6 +31,7 @@ Where it stands right now.
 
 ## Carrying for Byron
 
+- 2026-08-21 [morning meeting, from COO] Reconcile the coo dashboard's 4966 no-email call-list figure against the call_list query's own total of 1900. *(new)*
 - 2026-08-20 [morning meeting, from CMO] Trace why niches-live and ready_live_by_niche still show beauty only when trades is the majority of the real queue, four shifts running. *(working)*
 - 2026-08-19 [morning meeting, from CRO] Build the call outcome log tied to call_list ids so calls_made and last_call update on a real call and buy_score reflects actual contact history. *(working)*
 - 2026-08-18 Pull a full sub-category breakdown of the trades niche (all ~364 in queue, not just the top 50): count by trade type (auto/mechanical, plumbing, building/carpentry, electrical, heating and cooling, etc) so Byron can see the real mix, not a sample. *(working)*
@@ -38,7 +39,6 @@ Where it stands right now.
 - 2026-08-18 [morning meeting, from CRO] Weight no_site bucket leads above clicked and no_email leads in buy_score so the queue puts no-website businesses first as instructed. *(working)*
 - 2026-08-17 From the vault, The CDO now has its own specialists: You have specialists now. 16 of them, in academic (6), gis (13), sitting in `~/.claude/agents` on this box. They came from [[The agency agents roster]], which is where the full list and the other desks' shares are. Yours, and what each is for: - `academic-statistician` - whether a number means anything at this sample size - `academic-psychologist` - why people answer the way they do - `academic-geographer` - place, which is half of what we sort on - `academic-anthropologist` - the people behind the rows - `academic-historian` - what the record actually says - `academic-narratologist` - the story a set of numbers is being made to tell - `gis-spatial-data-scientist` - the towns and suburbs, treated as data - `gis-analyst` - the everyday geographic question - `gis-spatial-data-engineer` - the OpenStreetMap pipeline behind the leads - `gis-geoprocessing-specialist` - turning a region into a lead list - `engineering-data-engineer` - the pipeline itself - `engineering-database-optimizer` - SQLite, before it becomes the bottleneck - `engineering-ai-data-remediation-engineer` - fixing what the bot got wrong at scale - `data-consolidation-agent` - two businesses, two databases, one picture *(working)*
 - 2026-08-13 make sure the sites that cant be confirmed are still being sent emails or added to the call list *(working)*
-- 2026-08-13 Byron wants to know the rate leads are coming in. Start tracking daily new-lead counts (total and by source/niche) so this can be answered with a real number instead of reading timestamps off a snapshot. *(working)*
 
 ## Learned
 
@@ -85,4 +85,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T06:54:53. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T07:33:40. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

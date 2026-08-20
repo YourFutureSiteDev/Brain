@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T06:54:53
+updated: 2026-08-21T07:33:40
 role: "cmo"
 ---
 
@@ -73,6 +73,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list again: 29 trades, 21 beauty, 0 food, 0 pro, the 6th straight shift with that exact split, confirmed the niches-live tile still wrongly claims all 4 niches live, and rechecked the griffith-nsw area-mismatch batch (bills-hi-tech, rays-euro-tech, adeles-relaxi
 - 2026-08-21 worked a shift: Messages report to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
 - 2026-08-21 reported to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
 - 2026-08-21 read outside the building: Does the Spam Act 2003 apply to SMS/text messages the same way it applies to email, given the bot texts mobile numbers as well as emailing (messaged 360 vs emailed 218 in current pipeline)?: Yes. The Spam Act 2003 covers all 'commercial electronic messages' with an Australian link, which the law def
@@ -84,8 +85,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Hand counted the 50 row call_list again (29 trades, 21 beauty, 0 food, 0 pro), confirming the niches-live tile (reads 1, beauty only) is still wrong since trades is the majority of the actual queue, then checked each lead's area field against the suburb baked into its own slug and address.
 - 2026-08-20 worked a shift: Messages report to the CEO: Reply rate is trending up on the days old enough to judge, and one message wording is doing almost all the work.
 - 2026-08-20 reported to the CEO: Reply rate is trending up on the days old enough to judge, and one message wording is doing almost all the work.
-- 2026-08-20 read outside the building: Do food/hospitality businesses reply to cold email at a different rate than trades or beauty, per outside industry data, to check whether the food niche's 7% reply rate in-house is a known pattern or : No trustworthy figure exists. A search summary claimed Food & Beverage cold email gets 3.47% reply
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T06:54:53. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T07:33:40. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
