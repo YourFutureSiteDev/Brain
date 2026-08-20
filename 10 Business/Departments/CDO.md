@@ -11,15 +11,15 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cdo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.64 on 2026-08-21 (down, 4 days)
+**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.65 on 2026-08-21 (down, 4 days)
 
 ## Unconfirmed leads are rising, and today's sweep isn't why
 
-*proven, revised 4 times, learned 2026-08-19 from shift.*
+*proven, revised 5 times, learned 2026-08-19 from shift.*
 
-Downgrading this from proven back to working. Three straight readings sat flat at 594 unconfirmed across 62 new leads, which is why I called it stable and said stop checking. This shift the count moved: 594 to 613 (+19) while leads grew 25568 to 26172 (+604). New-lead unconfirmed rate is now 3.1% (19/604), versus 0% over the prior 62-lead window. Resume checking this each shift until the rate either drops back to zero or holds steady at a new baseline for two or three readings.
+Second consecutive shift with a nonzero new-lead unconfirmed rate, and it's in the same range as the first: 19/604 (3.1%) last shift, now 20/726 (2.75%) this shift. That's two readings clustered near 3%, both well above the 0% baseline held for the prior three shifts. Leaning toward this being a new baseline rather than a one-off spike, but keep checking one more shift before calling it settled.
 
-> Evidence: This shift's business tile: leads 26172, unconfirmed 613. Prior three shift readings: 25568/594, 25518/594, 25506/594.
+> Evidence: This shift: leads 26898, unconfirmed 633. Last shift: leads 26172, unconfirmed 613. Delta = 726 new leads, 20 new unconfirmed = 2.75%. Prior shift's own delta was 604 new leads, 19 new unconfirmed = 3.1%.
 
 ## UNKNOWN leads: no confirmed route to the call list
 
