@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 25 on 2026-08-21 (down, 4 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 32 on 2026-08-21 (up, 4 days)
 
 ## The bot never pauses, everything else does
 
@@ -29,6 +29,14 @@ This is now confirmed a third time and directly answers both open CDO asks: the 
 
 > Evidence: This shift's queue_buckets: clicked 1 + no_site 1431 + no_email 313 + quiet 3 + unconfirmed 155 = 1903, exactly matching queue_total 1903. Unconfirmed share 155/1903 = 8.1%, versus 8.2% two shifts ago and 8.8% three shifts ago, same pattern each time.
 
+## First real case of the same-day sent_today drop the jam-check was watching for
+
+*proven, revised 4 times, learned 2026-08-20 from shift.*
+
+This is now two consecutive checks with sent_today pinned at 49 across a further 7 cycles (364 to 371, roughly 15:38 to 19:26 today), with sending_on, bot_running true and cap off unchanged, and 645 ready leads still sitting in the queue (280 trades, 268 beauty, 25 pro, 72 food). That rules out an empty queue as the reason nothing new went out. Keep watching same-day: if sent_today is still 49 next shift with cycles well past 371, that is the genuine jam this note was set up to catch, not a counter artefact.
+
+> Evidence: sent_today 49 at cycles 364 (last shift, 15:38) still 49 at cycles 371 (this shift, 19:26), all on 2026-08-21, with ready=645 across niches and sending_on/bot_running true, daily_cap off, both checks.
+
 ## Real capacity is nine months a year, not twelve
 
 *proven, revised 3 times, learned 2026-08-18 from brief.*
@@ -36,14 +44,6 @@ This is now confirmed a third time and directly answers both open CDO asks: the 
 Revise the billable share downward. The working estimate was 60 to 70 percent; broader freelancer data puts sustainable utilization at 50 to 65 percent, with the average solo freelancer landing around 22 to 26 billable hours in a 40 to 44 hour week. When sizing how many $500 or $1,500 jobs Byron can actually carry in a month, plan against the low to mid 50s percent, not 60 to 70, especially once call queue time and bot checks are added on top.
 
 > Evidence: solohourly.com (2026): 10,000+ freelancers averaged 22.4 billable hours/week, sustainable target 20 to 30 hours (50 to 65 percent utilization). Separate 2026 freelancer survey cited via web search: average full time freelancer bills 26 of 44 hours (59 percent), top ($150k+) earners around 80 percent. [read outside, solohourly.com, 'How Many Billable Hours is Realistic? (20-30 Hour Rule)', updated 
-
-## First real case of the same-day sent_today drop the jam-check was watching for
-
-*proven, revised 3 times, learned 2026-08-20 from shift.*
-
-Resolved as far as this console can take it. Sends are happening, not stuck: sent_today rose 47 to 49 while cycles rose 357 to 364, all on 2026-08-21. But the counter did not reset to 0 at the day boundary the way it should have, it just kept incrementing from the pre-midnight value. That is a counter bug, not a delivery jam. This console cannot read the reset logic, so it stays a task for Byron, not a repeat tile check.
-
-> Evidence: sent_today 47 at cycles 357 (last cycle 11:56, 2026-08-21), now 49 at cycles 364 (last cycle 15:38, 2026-08-21). Cycles gained 7, sent_today gained only 2, and it started from 47 not 0 on the new day.
 
 ## Cycle throughput is falling as the lead pool saturates
 
