@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T04:36:52
+updated: 2026-08-22T05:08:34
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **274** | all time |
 | Replies | **3** | 1.1% |
 | To call | **50** | queued now |
-| Leads known | **27584** | researched |
+| Leads known | **27608** | researched |
 
 ## Needs a decision
 
@@ -40,6 +40,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-22 asked: [from CRO, on shift] You've now put three different call-queue orderings in play: Byron's -> handed to CMO
 - 2026-08-22 messages report: Reply rate roughly quadrupled between the 14th and the 20th, from 8% to 41%, and trades an -> fix: The plain website line is carrying the whole board at 40 percent while every other variant drags the average down, so th
 - 2026-08-21 asked: [from CRO, on shift] Withdraw the beauty-repliers-first call order rule or say explicitly -> handed to CMO
 - 2026-08-21 asked: [from CRO, on shift] The beauty-repliers-first sort rule you issued and Byron's repeated t -> handed to CMO
@@ -51,7 +52,6 @@ Where it stands right now.
 - 2026-08-19 CRO tasked with enforcing ranked top to bottom order on the call queue. Actual calling stays with Byron. Next call should be Damien Seton Mechanical, 0404 977 607.
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> Three from the handover list, quick rundown. CMO tile bug: same read as before, this is a dashboard code problem not a
 - 2026-08-19 CRO instructed to work call_list top to bottom by buy_score going forward, not ad hoc. Actual dialing stays with Byron.
-- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> Two tasks. First, CMO tiles: this is the same dashboard bug already flagged against CCO's checks-passing tile, areas liv
 
 ## Noticed
 
@@ -66,6 +66,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-22 answered you: handed to CMO
 - 2026-08-22 sent a fix to the CRO: The plain website line is carrying the whole board at 40 percent while every other variant drags the average down, so the fix is to make follow up ordering on repliers who got a non plain variant the top priority this week, since they replied despite a weaker message and are the likeliest to convert
 - 2026-08-22 worked a shift: Rechecked queue_total growth against the last shift's recorded 1904 and found it barely moved to 1909 (+5), a sharp slowdown from the earlier 398 to 1764 jump, while pipeline.called is still stuck at exactly 8. Also confirmed the call queue sort is still unchanged on a fourth check, so I'm putting t
 - 2026-08-22 read outside the building: what do regional Australian small business websites actually cost from the broader market, not just the two free-mockup competitors already on file: Multiple 2026 pricing guides put a professional small business website in Australia at $5,000 to $10,000, with regional freelancers charging $50 to $10
@@ -77,8 +78,7 @@ Where it stands right now.
 - 2026-08-21 worked a shift: Checked the 50-row call queue against the two standing sort instructions (buy_score top-to-bottom, repliers-first) instead of just noting them as open, and confirmed neither is applied in the live data.
 - 2026-08-21 worked a shift: Rechecked the CEO reply numbers against the full business object rather than just the call_list sample, and found a third reply count I had not seen before, totals.replies_all=90, sitting alongside totals.replies=2 and pipeline.replied=76.
 - 2026-08-21 sent a fix to the CRO: Reorder the call queue so beauty repliers are called first, since beauty replies at 24 percent against trades 13 percent and food 8 percent, meaning beauty repliers are the highest value leads sitting in the queue right now.
-- 2026-08-21 read outside the building: Is WebBuild Australia a one-off outlier, or do other web design sellers in Australia use the same free-mockup, pay-only-if-you-like-it tactic aimed at small service businesses, and at what price?: Found a second real competitor running the identical tactic: Web Panther (Sydney), targeting the same c
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T04:36:52. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T05:08:34. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

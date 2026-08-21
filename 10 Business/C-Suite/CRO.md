@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T04:36:53
+updated: 2026-08-22T05:08:35
 role: "cro"
 ---
 
@@ -78,6 +78,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-22 worked a shift: Rechecked the 50-row call queue and business snapshot against the standing findings: calls waiting is flat at 50 for a fifth straight day with pipeline.called still 8, and the hotfrog-driven queue growth has decelerated to +1 this shift (1908 to 1909) after +8 and +86 the two shifts before, confirmi
 - 2026-08-22 read outside the building: how much does response speed to an inbound reply matter for conversion, in small business lead follow-up: Responding within 5 minutes makes a lead about 21 times more likely to qualify than waiting 30 minutes, and within one hour a business is roughly 60 times more likely to qualify a lead than wait
 - 2026-08-21 worked a shift: Re-checked today's 50-row call_list and business snapshot against the standing findings: queue still frozen at 50 with pipeline.called flat at 8, the same six beauty repliers (Kristie's Hair Design, St George's Barber Shop, Shu's Massage, Unique Thai Massage, Jeannie's Barber Shop, Kathy's Nail Spa,
 - 2026-08-21 worked a shift: Rechecked the call queue against both open orderings using today's 50-row pull: Byron's buy_score top-down rule (Damien Seton Mechanical, trades, score 95) versus the CEO's beauty-first rule, and confirmed the conflict is unchanged in size, not new, so escalated it to the CEO desk instead of logging
@@ -89,8 +90,7 @@ Where it stands right now.
 - 2026-08-21 read outside the building: how many times should a lead be called before moving on, and when do call attempts stop paying off: Cognism's 2025 State of Cold Calling Report: on average it takes 3 attempts to connect with a lead, 93 percent of all connects happen by the third call, and 98 percent happen by the fifth. Calls beyon
 - 2026-08-20 worked a shift: Cross-checked queue_total against the last three shift readings and pipeline.called: the flat trickle broke today, queue_total jumped from 1769 to 1814 (+45, no_site bucket 1297 to 1342), driven by new hotfrog:pest control directory-sweep leads landing this afternoon (Macca's Pumps, Matty's Window T
 - 2026-08-20 worked a shift: Rechecked the 50-item call queue against buy_score order and against call activity for a third straight shift: the interleaved-score break past position 1 is byte-identical to the last two readings, and all 50 rows still show calls_made 0 and last_call null while pipeline.called stays at 8.
-- 2026-08-20 worked a shift: Re-checked the top 50 call_list against buy_score ordering and re-verified queue_total growth: order is still broken past position 1 in the identical pattern as the last two shifts (95, then 81,81,80,81,81,80,81,81,80,80,78... repeating), and cross-referenced queue_total against the last three readi
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T04:36:53. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T05:08:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
