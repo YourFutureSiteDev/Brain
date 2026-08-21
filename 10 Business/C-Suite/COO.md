@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T15:38:33
+updated: 2026-08-21T16:10:58
 role: "coo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 363 cycles |
-| Last cycle | **15:05** | 2026-08-21 |
-| Leads | **27226** | 27226 checked |
+| Bot | **running** | 364 cycles |
+| Last cycle | **15:38** | 2026-08-21 |
+| Leads | **27238** | 27238 checked |
 | Call list | **5014** | no email found |
 | Daily cap | **off** | 49 sent today |
 
@@ -67,6 +67,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Rechecked machine health this shift: sent_today moved from 47 to 49 while cycles rose 357 to 364, all within 2026-08-21, confirming the bot is not jammed. But sent_today never reset to 0 at the actual midnight boundary, it just kept counting up from the stale 47 baseline, which is a counter bug not
 - 2026-08-21 worked a shift: Rechecked machine health against the date boundary: cycles rose 340 to 357 overnight (cycles-today already shows 18 fresh cycles for 2026-08-21), bot_running and sending_on both still true, daily cap still off, but sent_today is still exactly 47, the same number it flatlined at before midnight. It d
 - 2026-08-21 answered you: Bot running, Last cycle 07:33, Leads 27159, Call list 5003. 5003 leads have a phone but no email: The bot cannot reach these. They are the call list, and they a
 - 2026-08-21 worked a shift: Rechecked machine health this shift (cycles 353 to 356, sent_today reset 0 to 13 while cycles rise too, bot_running and sending_on both true, daily cap off, last cycle 07:33) with no jam, and re-summed this shift's queue_buckets against queue_total to close the CDO question sitting open about whethe
@@ -78,8 +79,7 @@ Where it stands right now.
 - 2026-08-20 answered you: Bot running, Last cycle 07:32, Leads 25530, Call list 4439. 4439 leads have a phone but no email: The bot cannot reach these. They are the call list, and they a
 - 2026-08-20 worked a shift: Rechecked machine health: bot_running and sending_on both true, daily cap still off, sent_today climbed from 0 (day-boundary reset) to 30, but total cycles only rose 318 to 320 in about an hour, a much slower rate than the prior 296 to 318 jump, and the fortnight number shows cycles-per-day falling
 - 2026-08-20 worked a shift: Rechecked machine health this shift: cycles up from 296 to 318 (up 22), bot_running and sending_on both true, daily cap still off, last cycle 06:23 on 2026-08-20. Noticed sent_today reset to 0, down from 49 last shift, which is a day-boundary reset not a stoppage since cycles kept climbing straight
-- 2026-08-20 read outside the building: How much time does a solo operator actually lose per context switch between build work and other tasks (calls, checking the bot, replying to prospects)?: The commonly cited UC Irvine research (Gloria Mark) puts the refocus cost at 23 minutes 15 seconds after an interruption before full concentration
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T15:38:33. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T16:10:58. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 18 on 2026-08-21 (down, 4 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 25 on 2026-08-21 (down, 4 days)
 
 ## The bot never pauses, everything else does
 
@@ -39,11 +39,11 @@ Revise the billable share downward. The working estimate was 60 to 70 percent; b
 
 ## First real case of the same-day sent_today drop the jam-check was watching for
 
-*working, revised 2 times, learned 2026-08-20 from shift.*
+*proven, revised 3 times, learned 2026-08-20 from shift.*
 
-Upgraded to a third and now strongest data point. Last shift sent_today sat flat at 47 while cycles rose 331 to 340 within 2026-08-20. This shift the calendar date has flipped to 2026-08-21, cycles-today already shows 18 new cycles run, and total cycles rose to 357, yet sent_today is still 47, unchanged. This is no longer a within-day flatline, the per-day reset itself did not fire when it should have per the established pattern. This console cannot read logs or code, so the cause needs a direct look at the send loop, not another tile check.
+Resolved as far as this console can take it. Sends are happening, not stuck: sent_today rose 47 to 49 while cycles rose 357 to 364, all on 2026-08-21. But the counter did not reset to 0 at the day boundary the way it should have, it just kept incrementing from the pre-midnight value. That is a counter bug, not a delivery jam. This console cannot read the reset logic, so it stays a task for Byron, not a repeat tile check.
 
-> Evidence: sent_today 47 at cycles 340 (last cycle 22:26, 2026-08-20) still 47 at cycles 357 (last cycle 11:56, 2026-08-21); cycles-today for 2026-08-21 already at 18; bot_running true, sending_on true, daily_cap off throughout.
+> Evidence: sent_today 47 at cycles 357 (last cycle 11:56, 2026-08-21), now 49 at cycles 364 (last cycle 15:38, 2026-08-21). Cycles gained 7, sent_today gained only 2, and it started from 47 not 0 on the new day.
 
 ## Cycle throughput is falling as the lead pool saturates
 
