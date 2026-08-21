@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T05:08:35
+updated: 2026-08-22T05:40:33
 role: "cmo"
 ---
 
@@ -50,6 +50,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-22 asked: [from CRO, on shift] You've now put three different call-queue orderings in play: Byron's -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
 - 2026-08-21 asked: [from CRO, on shift] Withdraw the beauty-repliers-first call order rule or say explicitly -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
 - 2026-08-21 asked: A scan of every business text I have sent, replies and silences both. The silences are the -> already set that way, so nothing changed: trades, food, beauty, pro
 - 2026-08-21 asked: [from CRO, on shift] The beauty-repliers-first sort rule you issued and Byron's repeated t -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
@@ -61,7 +62,6 @@ Where it stands right now.
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> everything is now on Dubbo NSW, Tamworth NSW, Windsor NSW, Eden NSW, and 0 other areas are paused. It takes effect next
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CMO] CMO sweep tiles (niches liv -> everything is now on Eden NSW, and 1 other areas are paused. It takes effect next cycle.
 - 2026-08-19 asked: Do not act on the areas live or niches live tiles until they are fixed, they are known unr -> Areas live 1, Niches live 2, Search grid 53. Page one is the wrong place to look: Businesses ranking for a competitive t
-- 2026-08-19 asked: [from CDO, on shift] Trades niche in the call list sample skews heavily automotive, 11 of -> opened the trades niche. It takes effect on the next cycle.
 
 ## Noticed
 
@@ -76,6 +76,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-22 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-22 worked a shift: Messages report to the CEO: Reply rate roughly quadrupled between the 14th and the 20th, from 8% to 41%, and trades and beauty are pulling nearly all of it.
 - 2026-08-22 reported to the CEO: Reply rate roughly quadrupled between the 14th and the 20th, from 8% to 41%, and trades and beauty are pulling nearly all of it.
 - 2026-08-22 read outside the building: SMS/text reply rate vs cold email reply rate for small business outreach, current benchmark: Industry benchmark says SMS averages 90 to 98% open and roughly 45% reply, against email's 20 to 30% open and about 6% reply, meaning SMS produces roughly seven times more replies than email for the same vol
@@ -87,8 +88,7 @@ Where it stands right now.
 - 2026-08-21 answered you: already set that way, so nothing changed: trades, food, beauty, pro
 - 2026-08-21 answered you: already set that way, so nothing changed: trades, food, beauty, pro
 - 2026-08-21 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
-- 2026-08-21 worked a shift: Hand-recounted this shift's 50-row call_list by niche: 28 trades, 21 beauty, 1 food, 0 pro. The 1 food row (sweetie-pies-bake-shop) is the first food lead to appear in 7 straight shifts, but it's only there because it already replied, not because food is being sourced normally. Also tried to answer
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T05:08:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T05:40:33. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

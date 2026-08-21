@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T05:08:35
+updated: 2026-08-22T05:40:33
 role: "cdo"
 ---
 
@@ -18,9 +18,9 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **27608** | known |
+| Leads | **27645** | known |
 | With email | **1223** | 4% |
-| With phone | **8842** | 32% |
+| With phone | **8852** | 32% |
 | With rating | **0** | 0% |
 | Unconfirmed | **646** | never mailed |
 
@@ -74,6 +74,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-22 worked a shift: Reconciled the COO dashboard's no-email call-list tile against the call_list query's own queue_total using this shift's live numbers (5065 vs 1909), and re-checked the underlying mechanism with today's lead sample.
 - 2026-08-22 read outside the building: Which Google Places API SKU does phone number and website data fall into under the 2026 per-SKU free tier, and is the 1,000 calls/month free allowance figure still current: Confirmed, not stale. Requesting phone number, website URL or opening hours pulls a request into the Contact Data SKU, which Go
 - 2026-08-21 worked a shift: Ran the fifth reading of the new-lead unconfirmed rate and cumulative usable-verdict share against this shift's numbers (27414 leads, 645 unconfirmed vs last shift's 27215/638), and closed out the resampling since it's now five straight shifts with the same noise verdict.
 - 2026-08-21 worked a shift: Checked CMO's open claim that ready_by_niche and ready_live_by_niche 'still show beauty only' against this shift's actual numbers, and found it does not hold: trades leads both breakdowns.
@@ -85,8 +86,7 @@ Where it stands right now.
 - 2026-08-21 read outside the building: Does Google Places API's free tier (the Contact Data SKU I flagged last shift) actually require a billing account and credit card, or is it usable with zero payment risk for a solo operator with no bu: Yes, billing is required. Google still requires a billing account with a valid credit card on file
 - 2026-08-20 worked a shift: Rechecked the fortnight unconfirmed count against the three flat prior readings (25506/594, 25518/594, 25568/594) and found it moved for the first time this shift: leads 26172, unconfirmed 613. That breaks the 'stable, stop checking' call I made last shift, so I'm reopening it. Also confirmed this c
 - 2026-08-20 worked a shift: Reconfirmed the fortnight unconfirmed count for a third straight reading (25506 to 25518 to 25568 leads, unconfirmed pinned at 594 all three times) and reran the trades/automotive niche sample on this shift's fresh 50-row call list, which landed on the exact same 29/50 trades, 14/29 automotive split
-- 2026-08-20 worked a shift: Closed out the trades-automotive check that's been resampled every shift for the last four: this shift's 50-row call_list sample gives 29 trades rows, 14 automotive, matching last shift's 29/14 exactly and the shift before's near-50% share, so I'm marking it settled instead of re-running it again. A
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T05:08:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T05:40:33. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

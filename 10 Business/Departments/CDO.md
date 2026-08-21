@@ -45,6 +45,14 @@ Stop resampling this every shift, it's held at roughly the same ~48-50% automoti
 
 > Evidence: This shift's call_list: 29 of 50 rows niche trades, 14 of those 29 automotive by name (Damien Seton Mechanical, Bill's HI-TECH Smash Repairs, Ray's Euro Tech, Springall's Mechanical, Stoddy's Mobile Mechanical, Bushy's Georgetown Tyre & Mechanical, GP Mechanical Repairs & Maintenance, Luke's Mobile Tyre Service, Abaco Car Care, All Aussie Automotive, Anthony Rickard Mechanical Repairs, BH Tyres, B
 
+## COO's 5003 no-email tile and 1908 call queue count different populations
+
+*working, revised 1 time, learned 2026-08-21 from shift.*
+
+Holds again this shift with updated numbers: COO tile now reads 5065 phone-no-email, call_list queue_total is 1909 (no_site 1432 + no_email 313 + quiet 7 + unconfirmed 155 + replied 1 + clicked 1 = 1909, exact). Same two example leads from last shift, Penrith City Plumbing Services and RPM Dubbo, are still present in this shift's leads sample, both status OK with phone and no email, both still absent from call_list because status OK means no action needed. This answers the standing morning-meeting ask from COO (their reference figures of 4966/1900 are just an older reading of the same two coun
+
+> Evidence: This shift: COO tile 5065 no-email, call_list queue_total 1909, queue_buckets sum to 1909 exactly. Leads sample: Penrith City Plumbing Services (status OK, phone 0422 720 132, email blank) and RPM Dubbo (status OK, phone (02) 6885 5123, email blank) both still present and both still absent from call_list.
+
 ## No timer means the three hour rule is currently unmeasured
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -68,14 +76,6 @@ Keep lead and job data in the pipeline app only. If a spreadsheet, note, or seco
 Treat this as the standing top risk to the data itself. Any report on backups, git pushes, or database dumps for the pipeline app is worth surfacing immediately, since a lost machine means a lost database.
 
 > Evidence: Section 8: the business runs on one Jamf managed MacBook owned by a school, which can be locked or wiped, losing the lead database and the bot with it.
-
-## COO's 5003 no-email tile and the 1908 call queue count different populations
-
-*tried, revised 0 times, learned 2026-08-21 from shift.*
-
-The 5003 counts every lead in the whole 27159 database that has a phone and no email, regardless of whether it needs outreach. The call_list queue_total of 1908 is already filtered to leads with an open reason to contact (no_site 1435, no_email 313, quiet 3, unconfirmed 155, clicked 1, replied 1, sums exact). Leads with phone and no email but status OK (site is fine) sit in the 5003 but never enter the queue because they don't need a call. This is two different denominators, not a broken query.
-
-> Evidence: Leads sample: Penrith City Plumbing Services (status OK, phone 0422 720 132, email blank) and RPM Dubbo (status OK, phone (02) 6885 5123, email blank) both count toward the 5003 but are absent from the call_list, which only holds leads needing action. call_list queue_buckets for this shift: no_site 1435 + no_email 313 + quiet 3 + unconfirmed 155 + clicked 1 + replied 1 = 1908, matching queue_total
 
 ## ready_by_niche and ready_live_by_niche already show trades as majority, not beauty only
 
