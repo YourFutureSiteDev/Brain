@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # CRO
 
-What this desk believes about its department, as of 2026-08-21. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-22. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cro` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** calls waiting: 50 on 2026-08-18 to 50 on 2026-08-21 (flat, 4 days)
+**Scoreboard.** calls waiting: 50 on 2026-08-18 to 50 on 2026-08-22 (flat, 5 days)
 
 ## The 50-call queue is head of a 365-deep backlog, not the whole list
 
@@ -100,6 +100,14 @@ Do not use the GoDaddy or Yellow stat on a call. Pull the real count of faults f
 Do not mark a lead worked after a single unanswered call. Cycle back and try each of the 50 up to 3 times before dropping it down the list, since that is where 93 percent of connects happen. Stop at 5 attempts, going further than that is wasted dialing time better spent on the next name. Pair this with the voicemail line already agreed: leave it on the attempt that does not connect, do not wait for a final attempt to leave one.
 
 > Evidence: Cognism 2025 State of Cold Calling Report: average 3 attempts to connect, 93% of connects by call 3, 98% by call 5, additional calls beyond that ineffective [read outside, cognism.com 'B2B Cold Calling Statistics', 2025 data] [read outside, Cognism 'B2B Cold Calling Statistics' (cognism.com), citing its 2025 State of Cold Calling Report, cross-referenced with RAIN Group Top Performance in Sales Pr
+
+## A reply sitting in the queue is losing value by the hour, not just by rank
+
+*tried, revised 0 times, learned 2026-08-22 from research.*
+
+Byron should call a lead that replied the same day it replied, ahead of everything else, regardless of where the ranking bug puts it. Sweetie Pies Bake Shop replied 2026-08-21 09:31 and still shows calls_made 0 as of this reading, over 24 hours later. On the numbers above that lead has gone from a live conversation to something close to a cold redial. This is a reason to call it now, separate from the CEO beauty-order fight and separate from the scoring bug, both of which are about rank among unreplied leads. A reply should jump the queue by clock, not just by bucket.
+
+> Evidence: aimdoc.ai and outsales.ai 2026: 5 min vs 30 min response is 21x on qualify rate, 1 hour vs 24+ hours is roughly 60x. Sweetie Pies Bake Shop replied_at 2026-08-21T09:31:03, calls_made 0, last_call null as of this pull (2026-08-22). [read outside, aimdoc.ai 'Speed to Lead: Statistics and Why 5 Minutes Matters (2026)' and outsales.ai '45+ Lead Response Time Statistics You Should Know in 2026', both c
 
 ## What it used to believe
 

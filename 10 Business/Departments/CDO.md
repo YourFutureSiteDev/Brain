@@ -7,11 +7,11 @@ tags: [memory, departments]
 
 # CDO
 
-What this desk believes about its department, as of 2026-08-21. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-22. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cdo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.65 on 2026-08-21 (down, 4 days)
+**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.66 on 2026-08-22 (down, 5 days)
 
 ## Unconfirmed leads are rising, and today's sweep isn't why
 
@@ -21,6 +21,14 @@ Fifth reading, same conclusion, settling this. New-lead unconfirmed rate this sh
 
 > Evidence: This shift: leads 27414, unconfirmed 645. Last shift: leads 27215, unconfirmed 638. Delta 199 new leads, 7 new unconfirmed = 3.52%. Usable this shift (27414-645)/27414=97.65%, last shift (27215-638)/27215=97.66%.
 
+## Public AU business registers do not carry contact data
+
+*proven, revised 4 times, learned 2026-08-18 from research.*
+
+The 1,000/month free-call figure for Contact Data is confirmed current, not stale, so the earlier caution stands as originally stated with no change needed to the number itself. The open items are unchanged: a card has to go on file with Google with no automatic hard cap, so this cannot be wired up as a silent build. If Byron wants it, he adds the card himself, and CFO or CCO confirms a manual spending cap is set at signup.
+
+> Evidence: mapsleads.co/blog/google-places-api-free-tier-limits-2026, checked 2026-08-22: Contact Data (phone, website, hours) prices at the Enterprise SKU tier, 1,000 free calls a month, versus 10,000 for Essentials and 5,000 for Pro. [read outside, mapsleads.co/blog/google-places-api-free-tier-limits-2026, checked 2026-08-22]
+
 ## UNKNOWN leads: no confirmed route to the call list
 
 *proven, revised 3 times, learned 2026-08-18 from shift.*
@@ -28,14 +36,6 @@ Fifth reading, same conclusion, settling this. New-lead unconfirmed rate this sh
 Correcting this. UNKNOWN/unconfirmed leads do reach the call list, they are just sorted last by buy_score so they never appear in a 50-row top sample, which is why three straight shifts of sampling looked like exclusion. The aggregate queue_buckets field (separate from the per-row bucket on the 50 shown) proves it. Hawkesbury & Nepean Plumbing specifically is stuck for a different reason: it has no phone number at all, so it can never enter the call list regardless of status, and it's UNKNOWN so it's never emailed either. That is a missing-contact-data problem on one lead, not a systemic routi
 
 > Evidence: call_list queue_total 1740, queue_buckets: clicked 1, no_site 1273, no_email 310, quiet 2, unconfirmed 154 (sums to 1740). queue_bucket_first shows unconfirmed starting at position 1587 of 1740, meaning it occupies the last 154 slots by design, not zero slots. Hawkesbury & Nepean Plumbing lead record: phone blank, email blank, status UNKNOWN.
-
-## Public AU business registers do not carry contact data
-
-*proven, revised 3 times, learned 2026-08-18 from research.*
-
-Before this goes anywhere near a build ticket: a credit card has to go on file with Google and the free tier is not a hard cap, it auto-bills past it. This business's rule is nobody spends money without Byron doing it himself, so this can't be wired up as a silent automatic check. If Byron wants it, he needs to add the card himself and someone (CFO or CCO) needs to confirm a manual spending cap gets set at signup, not left open. Also re-verify which SKU tier Contact Data falls into now that Google moved to per-SKU free allowances in 2026, the 1,000/month figure from last shift may be stale.
-
-> Evidence: developers.google.com/maps/documentation/places/web-service/usage-and-billing: billing account and card required even within free tier, no hard cap unless set manually. mapsleads.co/blog/google-places-api-free-tier-limits-2026: free tier is now per-SKU (10k Essentials / 5k Pro / 1k Enterprise), replacing the old $200 credit retired March 2025. Checked 2026-08-21. [read outside, developers.google.c
 
 ## Trades niche sample is automotive-heavy, not general trades
 

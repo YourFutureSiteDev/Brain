@@ -7,19 +7,27 @@ tags: [memory, departments]
 
 # CEO
 
-What this desk believes about its department, as of 2026-08-21. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-22. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: ceo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** replies: 2 on 2026-08-18 to 3 on 2026-08-21 (up, 4 days)
+**Scoreboard.** replies: 2 on 2026-08-18 to 3 on 2026-08-22 (up, 5 days)
 
 ## Reply-to-call speed is the real constraint, not send volume
 
-*proven, revised 3 times, learned 2026-08-18 from brief.*
+*proven, revised 4 times, learned 2026-08-18 from brief.*
 
-The backlog just went from 398 to 1764 queue_total in one shift, a 4.4x jump, while calls_made is still 8 total and the CEO tile still shows the same '50 queued'. The gap between what's queued and what's actually called is widening fast, not holding steady. Keep using queue_total from call_list data, not the CEO tile's rounded count, and tell CRO to make sure the highest buy_score, buy_ready leads sit at the front of the 50 shown, since Byron can only work through a handful a day and the tile hides how much further behind that puts him.
+Queue growth has stalled, not accelerated: queue_total moved 1904 to 1909 this shift, a +5 crawl versus the earlier 4.4x jump. calls_made is still 8, unchanged across every check this fortnight. The constraint is not a growing backlog anymore, it is that nobody is working the 50 shown at all. Keep reading queue_total from call_list, not the CEO tile's rounded 50. The sort-order half of this (buy_ready leads first) has failed three console checks in a row and now sits with Byron as a task, not another CRO instruction.
 
-> Evidence: call_list rows all show queue_total 1764, queue_shown 50, queue_buckets no_site 1292 + no_email 313 + unconfirmed 155 + quiet 3 + clicked 1 = 1764; pipeline.called still 8 against totals.sent_total 178.
+> Evidence: call_list rows today all show queue_total 1909, queue_buckets no_site 1432 + no_email 313 + unconfirmed 155 + quiet 7 + clicked 1 + replied 1 = 1909, up from 1904 last check; business.pipeline.called=8, unchanged; replied-stage positions in the 50-row queue (1,2,10,15,19,21,23,26,27,28,32,38,40,41,43,49) are byte-identical to the prior three checks.
+
+## Our price sits under the market floor, not just under agency price
+
+*proven, revised 3 times, learned 2026-08-18 from research.*
+
+This is the third and biggest data point yet. Beyond the two mockup-tactic operators, the general regional Australian market prices a small business website at $5,000 to $10,000, with even budget regional freelancers at $50 to $100 an hour. Our $1,500 newbuild is not a slightly aggressive entry price, it is a fifth to a tenth of what the market actually charges once you look past the two lead-gen specialists. CFO should treat this as room to move price up, not just a note to file. This does not change what CMO or COO do, and nobody should raise price before a single job is banked and hours per
+
+> Evidence: sparkinteract.com.au, keentodesign.com.au, rockingweb.com.au, paramark.com.au, 2026 guides, fetched 22 Aug 2026: small business sites average $5,000-$10,000, regional freelancer rates $50-$100/hr, 20-40% below metro agency pricing [read outside, Aggregated from sparkinteract.com.au, keentodesign.com.au, rockingweb.com.au and paramark.com.au 2026 web design cost guides, search run 22 Aug 2026]
 
 ## CMO areas live tile is the real bug, niches live tile checks out
 
@@ -36,14 +44,6 @@ The narrowing is real and accelerating, not stalled like I said last shift. read
 Gap has widened, not narrowed. Today's snapshot: totals.replies=3 (CEO tile), pipeline.replied=138, totals.replies_all=155, all read from the same business object. That is a 46x spread now versus 38x last check, and pipeline.replied more than doubled (76 to 138) while the CEO tile moved by exactly 1 (2 to 3). Whatever pipeline.replied is counting is inflating fast and does not track what Byron sees on his own tile. Still do not act on pipeline.replied or replies_all until CDO names which count is real.
 
 > Evidence: business.totals.replies=3, business.pipeline.replied=138, business.totals.replies_all=155, all from the 2026-08-21 snapshot; last checked shift had 2, 76, 90 respectively.
-
-## Our price sits under the market floor, not just under agency price
-
-*working, revised 2 times, learned 2026-08-18 from research.*
-
-This is now two real competitors running our exact free-mockup tactic on the same customer, not one outlier. WebBuild prices the paid product at $248 (anchored down from $600). Web Panther anchors the free mockup itself at $1,200 before any paid conversation even starts. Both confirm the tactic works and that mockup value is being sold high in this market. CFO should read this alongside the WebBuild figure: we are not underpriced against agencies, we may be underpriced against how this specific tactic gets anchored by the two operators actually running it.
-
-> Evidence: thewebpanther.com.au, fetched 21 Aug 2026: 'Claim your FREE custom website mockup and get a no-obligation preview of your high-performance website (Worth $1,200)', targets 'service-based business owners', no obligation to move forward, inbound landing page not cold outreach. [read outside, thewebpanther.com.au, fetched 21 Aug 2026]
 
 ## One trade, sequentially, never four at once
 

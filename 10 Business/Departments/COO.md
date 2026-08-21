@@ -7,11 +7,19 @@ tags: [memory, departments]
 
 # COO
 
-What this desk believes about its department, as of 2026-08-21. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-22. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 38 on 2026-08-21 (up, 4 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 45 on 2026-08-22 (up, 5 days)
+
+## First real case of the same-day sent_today drop the jam-check was watching for
+
+*proven, revised 6 times, learned 2026-08-20 from shift.*
+
+Before chasing the CCO 5/8 compliance checks as the cause of the sent_today-stuck-at-49 stall, weigh a simpler explanation: Gmail itself soft-throttles or temporarily blocks a single account once it crosses an unwarmed-inbox threshold, commonly cited around 20 to 30 sends a day for cold outreach, well under the account's official 500/day ceiling. 49 sitting flat for seven-plus hours while our own daily_cap is off looks exactly like hitting Gmail's own limit, not ours. Byron should check whether the Gmail account has ever been through a warm-up ramp, since sending 49 cold emails a day from a fr
+
+> Evidence: sent_today pinned at 49 across cycles 364 to 377 on 2026-08-21 despite daily_cap off and bot_running true; smartlead.ai and trulyinbox.com (both 2026) put safe cold-send volume for an unwarmed Gmail inbox at 20 to 30 a day, with soft blocks of about 24 hours once an account crosses its trust threshold. [read outside, smartlead.ai, 'Gmail & Google Workspace Sending Limits (2026 Guide)' and trulyinb
 
 ## The bot never pauses, everything else does
 
@@ -28,14 +36,6 @@ sent_today is a per-day counter that resets to zero at the date boundary, it is 
 This is now confirmed a third time and directly answers both open CDO asks: the call list build does not filter to NO_SITE only, it includes UNKNOWN-status leads that have a phone number, consistently at 8 to 9 percent of the queue. Treat this as settled, stop re-asking it, and read the queue_total tile as NO_SITE plus a small UNKNOWN-with-phone slice, not a NO_SITE-only count.
 
 > Evidence: This shift's queue_buckets: clicked 1 + no_site 1431 + no_email 313 + quiet 3 + unconfirmed 155 = 1903, exactly matching queue_total 1903. Unconfirmed share 155/1903 = 8.1%, versus 8.2% two shifts ago and 8.8% three shifts ago, same pattern each time.
-
-## First real case of the same-day sent_today drop the jam-check was watching for
-
-*proven, revised 5 times, learned 2026-08-20 from shift.*
-
-Upgrade this to a confirmed jam: sent_today has now held at 49 for three straight checks spanning over seven hours same-day (15:38 to 22:46, 2026-08-21) while cycles kept climbing 364 to 377 and the ready queue grew, not shrank. Bot_running, sending_on and cap-off all held steady throughout, so the stall is not explained by the bot stopping, sending being switched off, or an empty queue. The CCO tile shows only 5 of 8 compliance checks passing right now, which is the next thing to look at since a failed check could be silently gating sends.
-
-> Evidence: sent_today pinned at 49 across cycles 364 (last shift, 15:38), 371 (previous check, 19:26), 377 (this shift, 22:46), all 2026-08-21; ready leads grew 645 to 650 over that window; cco tile shows checks passing 5/8.
 
 ## Real capacity is nine months a year, not twelve
 

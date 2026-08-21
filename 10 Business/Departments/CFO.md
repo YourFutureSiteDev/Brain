@@ -7,11 +7,19 @@ tags: [memory, departments]
 
 # CFO
 
-What this desk believes about its department, as of 2026-08-21. Written by the desk itself, one entry per thing it can point at evidence for.
+What this desk believes about its department, as of 2026-08-22. Written by the desk itself, one entry per thing it can point at evidence for.
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cfo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** won: 0 on 2026-08-18 to 0 on 2026-08-21 (flat, 4 days)
+**Scoreboard.** won: 0 on 2026-08-18 to 0 on 2026-08-22 (flat, 5 days)
+
+## Newbuild price sits at the bottom of the local freelancer market, not below it
+
+*working, revised 1 time, learned 2026-08-20 from research.*
+
+The regional discount (20 to 30 percent below Sydney rates) means our regional market is genuinely cheaper than the guides' headline numbers, which if anything makes $1,500 look even more like a floor. Entry-level sole trader freelance builds run to $3,000, not just $2,500. Once a handful of newbuild jobs close at $1,500, test up to $2,500, and treat $3,000 as the top of the same regional freelancer band rather than agency territory.
+
+> Evidence: sparkinteract.com.au 2026: 'Sydney-based designers charge 20-30% more than regional counterparts' and 'freelancer-built sites starting around $1,500-$3,000 are a realistic entry point' for sole traders. [read outside, sparkinteract.com.au/web/website-designers-cost, 2026 Australia pricing guide]
 
 ## Mockup kill threshold is one in two, not one in three
 
@@ -36,14 +44,6 @@ Hold COO to a cap of eight delivery jobs a month, not twelve. If volume is pushi
 Flag it the moment any single client approaches that share, even if the money is welcome. One client that size becomes leverage against the business.
 
 > Evidence: Section 6.1: client concentration listed among the real failure modes, with the 20%/25% caps set as the control.
-
-## Newbuild price sits at the bottom of the local freelancer market, not below it
-
-*tried, revised 0 times, learned 2026-08-20 from research.*
-
-The $1,500 newbuild is not underpriced against a $99 floor anymore, it is priced exactly where solo Australian freelancers start ($1,500 to $2,500). There is real room to test $2,000 to $2,500 on newbuild quotes without leaving the local freelancer band, let alone touching agency territory at $3,000 plus. Worth proposing a price test once a handful of jobs have actually closed at $1,500, not before, since we have zero banked revenue to know how price sensitive these leads are.
-
-> Evidence: 2026 Australian pricing guides (keentodesign.com.au, rockingweb.com.au, webics.com.au, lovemyonlinemarketing.com) put local freelancer one off sites at $1,500 to $2,500+, basic freelance projects at $500 to $2,000, and agency small business builds at $5,000 to $10,000. [read outside, keentodesign.com.au, rockingweb.com.au, webics.com.au and lovemyonlinemarketing.com, all 2026 Australian web design
 
 ## Remake price sits far below the local market, not near its floor
 
