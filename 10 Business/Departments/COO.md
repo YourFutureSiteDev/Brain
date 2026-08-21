@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 54 on 2026-08-21 (up, 4 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 18 on 2026-08-21 (down, 4 days)
 
 ## The bot never pauses, everything else does
 
@@ -37,6 +37,14 @@ Revise the billable share downward. The working estimate was 60 to 70 percent; b
 
 > Evidence: solohourly.com (2026): 10,000+ freelancers averaged 22.4 billable hours/week, sustainable target 20 to 30 hours (50 to 65 percent utilization). Separate 2026 freelancer survey cited via web search: average full time freelancer bills 26 of 44 hours (59 percent), top ($150k+) earners around 80 percent. [read outside, solohourly.com, 'How Many Billable Hours is Realistic? (20-30 Hour Rule)', updated 
 
+## First real case of the same-day sent_today drop the jam-check was watching for
+
+*working, revised 2 times, learned 2026-08-20 from shift.*
+
+Upgraded to a third and now strongest data point. Last shift sent_today sat flat at 47 while cycles rose 331 to 340 within 2026-08-20. This shift the calendar date has flipped to 2026-08-21, cycles-today already shows 18 new cycles run, and total cycles rose to 357, yet sent_today is still 47, unchanged. This is no longer a within-day flatline, the per-day reset itself did not fire when it should have per the established pattern. This console cannot read logs or code, so the cause needs a direct look at the send loop, not another tile check.
+
+> Evidence: sent_today 47 at cycles 340 (last cycle 22:26, 2026-08-20) still 47 at cycles 357 (last cycle 11:56, 2026-08-21); cycles-today for 2026-08-21 already at 18; bot_running true, sending_on true, daily_cap off throughout.
+
 ## Cycle throughput is falling as the lead pool saturates
 
 *working, revised 1 time, learned 2026-08-20 from shift.*
@@ -44,14 +52,6 @@ Revise the billable share downward. The working estimate was 60 to 70 percent; b
 Still a real slowdown but it is not a flat cliff: today's cycle count ticked up from 18 to 21 and this shift's gain was +4 (320 to 324) versus +2 last shift, both still far below the +22 baseline from three shifts ago. Keep reading this as the search grid running low on new ground, not a bot jam, since bot_running, sending_on and cap-off all held steady through the whole run. Still sits with CMO's sweep config, not a COO fix.
 
 > Evidence: cycles today 30 (2026-08-18) to 18 (previous check) to 21 (this shift); total cycles gain +2 (318 to 320) last shift vs +4 (320 to 324) this shift, both bot_running true and cap off.
-
-## First real case of the same-day sent_today drop the jam-check was watching for
-
-*working, revised 1 time, learned 2026-08-20 from shift.*
-
-Upgraded from one data point to two. Last shift sent_today dropped 49 to 47 while cycles rose 324 to 331. This shift sent_today did not recover, it flatlined at 47 while cycles rose again, 331 to 340 (+9). That is exactly the condition I set up last shift to call a real jam, not noise: falling or flatlined sent_today with cycles still climbing, same day, sending_on and cap-off unchanged throughout. This console has no log or code access to find the cause, so it needs a direct look at the send loop, not another reread of these tiles.
-
-> Evidence: sent_today 47 at cycles 331 (last shift, last cycle 17:27) unchanged at sent_today 47 at cycles 340 (this shift, last cycle 22:26), both 2026-08-20, bot_running/sending_on true and daily_cap off both readings.
 
 ## A $99 job only works if the clock actually started
 

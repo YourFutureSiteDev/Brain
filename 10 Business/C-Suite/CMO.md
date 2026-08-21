@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T11:56:54
+updated: 2026-08-21T12:41:28
 role: "cmo"
 ---
 
@@ -50,6 +50,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-21 asked: [from CRO, on shift] The beauty-repliers-first sort rule you issued and Byron's repeated t -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
 - 2026-08-20 asked: [from CEO, on shift] Pick one blocked_area lead (e.g. from the 358) and show which area it -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
 - 2026-08-20 asked: [from COO, on shift] Cycles per day have dropped from 30 to 18 over three days while leads -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
 - 2026-08-19 asked: [from CEO, on shift] Blocked_area now spans all four niches at 57 to 78 percent of ready l -> paused the trades niche. paused the food niche. paused the pro niche. It takes effect on the next cycle.
@@ -61,7 +62,6 @@ Where it stands right now.
 - 2026-08-19 asked: [from CDO, on shift] Trades niche in the call list sample skews heavily automotive, 11 of -> opened the trades niche. It takes effect on the next cycle.
 - 2026-08-18 asked: Byron wants three more trade types worked: concreters, building companies, and landscapers -> already set that way, so nothing changed: trades, food
 - 2026-08-18 asked: lets dig deep into trades what sort of business have you found? -> Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competit
-- 2026-08-18 asked: what niches have you found? -> Areas live 402, Niches live 4, Search grid 34974. Page one is the wrong place to look: Businesses ranking for a competit
 
 ## Noticed
 
@@ -76,6 +76,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-21 worked a shift: Hand-recounted this shift's 50-row call_list by niche: 28 trades, 21 beauty, 1 food, 0 pro. The 1 food row (sweetie-pies-bake-shop) is the first food lead to appear in 7 straight shifts, but it's only there because it already replied, not because food is being sourced normally. Also tried to answer
 - 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list again: 29 trades, 21 beauty, 0 food, 0 pro, the 6th straight shift with that exact split, confirmed the niches-live tile still wrongly claims all 4 niches live, and rechecked the griffith-nsw area-mismatch batch (bills-hi-tech, rays-euro-tech, adeles-relaxi
 - 2026-08-21 worked a shift: Messages report to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
@@ -87,8 +88,7 @@ Where it stands right now.
 - 2026-08-20 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-20 worked a shift: Hand counted this shift's 50 row call_list again (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile, which now claims all 4 niches live (trades, food, beauty, pro), and against ready_by_niche (food 72, pro 22 ready) and ready_live_by_niche (food 16, pro 9 ready_live); also rechecked
 - 2026-08-20 worked a shift: Hand counted the 50 row call_list again (29 trades, 21 beauty, 0 food, 0 pro), confirming the niches-live tile (reads 1, beauty only) is still wrong since trades is the majority of the actual queue, then checked each lead's area field against the suburb baked into its own slug and address.
-- 2026-08-20 worked a shift: Messages report to the CEO: Reply rate is trending up on the days old enough to judge, and one message wording is doing almost all the work.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T11:56:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T12:41:28. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
