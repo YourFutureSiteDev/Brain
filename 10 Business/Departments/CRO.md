@@ -23,11 +23,11 @@ Revise the burst-then-flat read: growth is not purely flat between bursts, it st
 
 ## Calls made are not landing on the priority queue
 
-*proven, revised 3 times, learned 2026-08-19 from shift.*
+*proven, revised 4 times, learned 2026-08-19 from shift.*
 
-Now a four day flatline, not three. Keep flagging as a tool gap, not something this desk fixes by reading again. The cost of the gap is compounding: the worked list looks frozen at 50 while the unworked backlog behind it keeps absorbing every new sweep, so each day this stays broken means more leads pile up stale before a human ever dials them.
+Still not a CRO fix, still a tool gap. Now five straight flat days on calls waiting (50), pipeline.called unmoved at 8. The one thing that changed: the backlog pileup itself has slowed, this shift's queue growth was +1 versus +8 last shift and +86 the shift before, so the hotfrog sweep's flood is settling. That eases how fast the problem compounds but does not touch the underlying bug, worked calls still are not reducing the queue count.
 
-> Evidence: calls waiting: 50 on 2026-08-18, 50 on 08-19, 50 on 08-20, 50 on 08-21, flat 4 days. pipeline.called still 8, unchanged across all four readings. All 50 call_list rows this pull still show calls_made 0 and last_call null. queue_total grew 1814 to 1900 in this shift alone (+86), no_site bucket 1342 to 1428, matching new hotfrog:pest control rows first_seen 2026-08-21.
+> Evidence: calls waiting 50 on every reading 2026-08-18 through 2026-08-22 (flat 5 days, per this shift's department number). pipeline.called still 8. queue_total 1908 (last shift's end value) to 1909 this shift, +1, vs +8 and +86 the two shifts prior.
 
 ## Call queue order breaks below the top score
 
