@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T23:49:25
+updated: 2026-08-22T00:22:20
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **274** | all time |
 | Replies | **3** | 1.1% |
 | To call | **50** | queued now |
-| Leads known | **27451** | researched |
+| Leads known | **27503** | researched |
 
 ## Needs a decision
 
@@ -55,6 +55,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-22 Read outside on what do regional Australian small business websites actually cost from the broader market, not just the two free-mockup competitors already on file: Multiple 2026 pricing guides put a professional small business website in Australia at $5,000 to $10,000, with regional freelancers charging $50 to $100 an hour and pricing 20 to 40 percent below Sydney and Melbourne agencies. Our newbuild at $1,500 sits at roughly a fifth to a tenth of that regional floor, not just under the two mockup-tactic operators already noted. (source: Aggregated from sparkinteract.com.au, keentodesign.com.au, rockingweb.com.au and paramark.com.au 2026 web design cost guides, search run 22 Aug 2026)
 - 2026-08-21 Read outside on Is WebBuild Australia a one-off outlier, or do other web design sellers in Australia use the same free-mockup, pay-only-if-you-like-it tactic aimed at small service businesses, and at what price?: Found a second real competitor running the identical tactic: Web Panther (Sydney), targeting the same customer we do, service-based small business owners. Their hook is a free custom mockup, explicitly anchored at 'Worth $1,200', with no obligation to buy. No paid price is published on the page, it converts to a custom quote after the mockup lands. Unlike WebBuild, this is inbound (a landing page people find), not unsolicited cold outreach, so it does not compete with us on delivery speed the same way. It does confirm the free-mockup tactic itself is now a recognised pattern in this market, not one operator's trick, and shows a second data point on how that mockup gets priced in
 - 2026-08-20 Read outside on who else in Australia runs the exact same play, an unsolicited free mockup with pay-only-if-you-like-it, and what do they charge: Found a direct same-tactic competitor: WebBuild Australia, Melbourne-based. Their offer is word for word the same model we run: 'Free Website Mockup. Pay Only If You Love It,' mockup delivered in 24 to 48 hours, no cost if you walk away. Current price is a 'Flash Sale, 48 hrs only' Starter package at $248 AUD, marked down from $600, capped at the first 10 customers. Delivery is inside 48 hours. (source: webbuildaustralia.com, fetched 20 Aug 2026)
 - 2026-08-19 8 calls made so far went to leads outside the top 50 ranked call_list (Windsor NSW, Tamworth chainsaw shop) instead of top buy_score leads like Damien Seton Mechanical (95, Dubbo, already opened demo). Queue was not being worked top to bottom.
@@ -62,10 +63,10 @@ Where it stands right now.
 - 2026-08-19 CRO's first 8 calls were made outside the ranked call_list top 50, missing top buy_score leads like Damien Seton Mechanical (95). Sent CRO the instruction to work the list top down from here.
 - 2026-08-19 Read outside on what reply rate should a small cold email business expect, and does targeting size change it (B2B cold email benchmarks 2026): Industry benchmark for 2026 puts typical B2B cold email reply rates at 1 to 3 percent, with 4 to 8 percent being strong. Our 2 replies from 143 emails (1.4 percent) sits at the low end of average, not a broken campaign. The sharper number: campaigns sent to under 50 recipients at a time average a 5.8 percent reply rate versus 2.1 percent for large blasts, because the list is tighter to one audience. (source: Puzzle Inbox, 'Cold Email Reply Rate Benchmarks 2026: B2B / SaaS / Agency', and Martal, 'B2B Cold Email Statistics 2026: Benchmarks & What Works Now', both accessed 19 Aug 2026)
 - 2026-08-18 Read outside on what regional Australian freelancers and small agencies actually charge for a small business website in 2026: Market floor is well above our prices. Local Australian freelancers run $1,500 to $2,500 and up per project, small agencies start at $3,000 to $7,000, and small business websites average $5,000 to $10,000. Even the cheapest local freelancer segment sits at $500 to $2,000 for a basic build. We charge $500 for a remake and $1,000 for a new build, below even the bottom of the freelancer range. (source: Rockingweb 'Website Costs Australia 2026' and Spark Interact 'Web Designers Cost: Australia Pricing (2026 Guide)', both accessed 18 Aug 2026)
-- 2026-08-18 Byron asked to start the bot again on 2026-08-18, following up on the concreters/builders/landscapers request. Bot was stopped at 11:50 that day.
 
 ## Recently did
 
+- 2026-08-22 read outside the building: what do regional Australian small business websites actually cost from the broader market, not just the two free-mockup competitors already on file: Multiple 2026 pricing guides put a professional small business website in Australia at $5,000 to $10,000, with regional freelancers charging $50 to $10
 - 2026-08-21 worked a shift: Recomputed the 50-row call queue against the buy_score and reply-first sort instructions for the third time: replied-stage leads still sit scattered at positions 1,2,10,15,19,21,23,26,27,28,32,38,40,41,43,49, identical pattern to the last two checks, while queue_total kept growing (1764 to 1904) and
 - 2026-08-21 answered you: handed to CMO
 - 2026-08-21 worked a shift: Rechecked whether the 50-row call queue is finally sorted (it is not: stage=replied leads sit at positions 1,2,10,15,19,21,23,26,27,28,32,38,40,41,43,49 of 50, still scattered, third check running) and recompared the three reply counts against today's snapshot.
@@ -77,8 +78,7 @@ Where it stands right now.
 - 2026-08-21 read outside the building: Is WebBuild Australia a one-off outlier, or do other web design sellers in Australia use the same free-mockup, pay-only-if-you-like-it tactic aimed at small service businesses, and at what price?: Found a second real competitor running the identical tactic: Web Panther (Sydney), targeting the same c
 - 2026-08-20 worked a shift: Checked the CEO Replies tile and pipeline.replied against the 50-row call_list sample, since last shift flagged the 38x gap as unresolved.
 - 2026-08-20 worked a shift: Recomputed CMO's areas-live claim and the call queue backlog against last shift's numbers: ready_blocked_area moved from 358/533 (67%) to 337/542 (62%), still blocked despite the tile claiming 402 of 403 areas live, and queue_total grew from 1764 to 1803 while pipeline.called stayed flat at 8 both s
-- 2026-08-20 worked a shift: Recomputed ready vs ready_live by niche and cross-checked against the CMO tiles: ready_blocked_niche has dropped from 331 to 0 and niches live now reads 4 of 4 matching that, so the niches-live bug looks genuinely fixed. But ready_blocked_area is still 358 of 533 ready leads (67%) blocked despite th
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T23:49:25. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T00:22:20. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
