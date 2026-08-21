@@ -21,6 +21,14 @@ The backlog just went from 398 to 1764 queue_total in one shift, a 4.4x jump, wh
 
 > Evidence: call_list rows all show queue_total 1764, queue_shown 50, queue_buckets no_site 1292 + no_email 313 + unconfirmed 155 + quiet 3 + clicked 1 = 1764; pipeline.called still 8 against totals.sent_total 178.
 
+## CMO areas live tile is the real bug, niches live tile checks out
+
+*proven, revised 3 times, learned 2026-08-20 from shift.*
+
+The narrowing is real and accelerating, not stalled like I said last shift. ready_blocked_area has gone 358/533 (67%) to 337/542 (62%) to now 331/643 (51.5%): the blocked count actually fell slightly while ready grew by 101, mostly from trades (ready 177 to 278, ready_live 110 to 216, blocked ratio 38% to 22%). Beauty and food are flat (beauty blocked 74% both times, food blocked 78% both times). The areas-live tile is still frozen at 402 of 403 across four straight shifts while the real gating number moves every day, so the tile is confirmed disconnected from ready_blocked_area, not just slow
+
+> Evidence: totals.ready_by_niche trades 278 + beauty 268 + pro 25 + food 72 = 643; ready_live_by_niche trades 216 + beauty 68 + pro 12 + food 16 = 312; ready_blocked_area 331; cmo tile still reads areas live 402 of 403, unchanged from two shifts ago.
+
 ## Our price sits under the market floor, not just under agency price
 
 *working, revised 2 times, learned 2026-08-18 from research.*
@@ -28,14 +36,6 @@ The backlog just went from 398 to 1764 queue_total in one shift, a 4.4x jump, wh
 This is now two real competitors running our exact free-mockup tactic on the same customer, not one outlier. WebBuild prices the paid product at $248 (anchored down from $600). Web Panther anchors the free mockup itself at $1,200 before any paid conversation even starts. Both confirm the tactic works and that mockup value is being sold high in this market. CFO should read this alongside the WebBuild figure: we are not underpriced against agencies, we may be underpriced against how this specific tactic gets anchored by the two operators actually running it.
 
 > Evidence: thewebpanther.com.au, fetched 21 Aug 2026: 'Claim your FREE custom website mockup and get a no-obligation preview of your high-performance website (Worth $1,200)', targets 'service-based business owners', no obligation to move forward, inbound landing page not cold outreach. [read outside, thewebpanther.com.au, fetched 21 Aug 2026]
-
-## CMO areas live tile is the real bug, niches live tile checks out
-
-*working, revised 2 times, learned 2026-08-20 from shift.*
-
-Three shifts running now with the same shape of error: ready_blocked_area has narrowed slightly (358 of 533 to 337 of 542, 67% to 62%) but the tile still reports 402 of 403 areas live, an outright contradiction with 62% of ready leads still gated out by area. The slow narrowing is coming almost entirely from trades (ready_live 78 to 110) while beauty actually fell (72 to 69) and food sat still at 16, so this is not fixing itself. Tell CMO to stop reporting the areas-live count until they trace one blocked_area lead through the actual gating logic and show why it is rejected in an area the tile
-
-> Evidence: totals.ready_by_niche trades 177 + beauty 270 + pro 23 + food 72 = 542; ready_live_by_niche trades 110 + beauty 69 + pro 10 + food 16 = 205; ready_blocked_area 337; ready_blocked_niche 0; cmo tile still reads areas live 402 of 403.
 
 ## pipeline.replied and totals.replies disagree by 38x, replied stage looks untrustworthy
 
