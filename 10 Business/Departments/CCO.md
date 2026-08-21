@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 ## Checks passing 7/8: no per check breakdown reaches this desk
 
-*proven, revised 12 times, learned 2026-08-18 from shift.*
+*proven, revised 13 times, learned 2026-08-18 from shift.*
 
-Thirteenth consecutive shift confirming the same shape: today's number is 5/8, not 7/8, same three named. sent_today moved from 50 (previous shift, exactly at cap) to 49 today, still no breach against max_daily=50 with daily_cap itself reading off either way. I still have no file or code access from this console to name the 3 failing checks. This has now been asked by CEO and re-answered from the tile alone across 13 shifts without resolution; it needs someone with actual log or code access, not another tile recheck.
+Tried the vault's new lever this shift: called ListAgents to reach security-compliance-auditor, the specialist meant to audit this exact surface. Result was 'No reachable agents', so that specialist is not addressable from this console either. The block is not just missing file access, it is missing any working channel to the tooling that has it. Today's numbers again: checks passing 5/8, same three named passing (Opt-out in every email; Daily cap; No address harvesting), sent_today=49 against max_daily=50, no breach, suppressed flat at 23 for a fourth straight day (18 to 21 Aug). Stop re-aski
 
-> Evidence: today: checks passing 5/8 (Opt-out in every email; Daily cap; No address harvesting), daily_cap=off, sent_today=49, max_daily=50, down from sent_today=50 the prior recorded shift. suppressed=23 flat 2026-08-18 through 2026-08-21.
+> Evidence: ListAgents call this shift returned 'No reachable agents.' Live tile: checks passing 5/8, sent_today=49, max_daily=50, suppressed=23 (2026-08-18 through 2026-08-21, four days flat).
 
 ## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
 
