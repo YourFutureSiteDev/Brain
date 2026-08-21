@@ -61,6 +61,14 @@ Add to the cold-open script for the 47 no-email leads: write a 20 to 25 second v
 
 > Evidence: Aussie AI Agency 2026: 81% of unknown-number calls go to voicemail, 67% of those voicemails get checked, voicemail-to-conversation conversion 4-11% for Australian small business [read outside, Aussie AI Agency, 'Missed Call Statistics Australia 2026' (aussieaiagency.com.au), cross-checked against CloudTalk 'Cold Calling Statistics 2026' and Scrap.io 'Cold Calling Success Rate in 2026: 200K+ Calls 
 
+## CEO's beauty-first call order contradicts Byron's buy_score order
+
+*working, revised 1 time, learned 2026-08-21 from shift.*
+
+Do not apply the CEO's beauty-repliers-first rule. The conflict has widened, not resolved: two more beauty repliers appeared since the last count (Jeannie's Barber Shop and Kathy's Nail Spa, both buy_score 77), taking the CEO's-rule group to six beauty repliers (Kristie's Hair Design, Shu's Massage, St George's Barber Shop, Unique Thai Massage, Jeannie's Barber Shop, Kathy's Nail Spa, scores 77 to 80) that would all be dialled ahead of Damien Seton Mechanical, trades, buy_score 95, stage replied, under the CEO's rule. Byron has named Damien top of the list four separate times. Keep working str
+
+> Evidence: Today's call_list: 6 rows with niche beauty, stage replied, buy_score 77-80 (Kristie's Hair Design 80, Shu's Massage 80, St George's Barber Shop 80, Unique Thai Massage 80, Jeannie's Barber Shop 77, Kathy's Nail Spa 77), all rank 3, versus Damien Seton Mechanical niche trades stage replied buy_score 95 rank 2. Prior reading only had 4 such beauty rows; count grew by 2 this pull.
+
 ## The pipeline is not a lead count, it is a dial count
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -92,14 +100,6 @@ Do not use the GoDaddy or Yellow stat on a call. Pull the real count of faults f
 Do not mark a lead worked after a single unanswered call. Cycle back and try each of the 50 up to 3 times before dropping it down the list, since that is where 93 percent of connects happen. Stop at 5 attempts, going further than that is wasted dialing time better spent on the next name. Pair this with the voicemail line already agreed: leave it on the attempt that does not connect, do not wait for a final attempt to leave one.
 
 > Evidence: Cognism 2025 State of Cold Calling Report: average 3 attempts to connect, 93% of connects by call 3, 98% by call 5, additional calls beyond that ineffective [read outside, cognism.com 'B2B Cold Calling Statistics', 2025 data] [read outside, Cognism 'B2B Cold Calling Statistics' (cognism.com), citing its 2025 State of Cold Calling Report, cross-referenced with RAIN Group Top Performance in Sales Pr
-
-## CEO's beauty-first call order contradicts Byron's buy_score order
-
-*tried, revised 0 times, learned 2026-08-21 from shift.*
-
-Do not apply the CEO's beauty-repliers-first rule until this is resolved. Under it, four beauty replier rows at buy_score 80 would be dialled before Damien Seton Mechanical, trades, buy_score 95, already replied, whom Byron has named as top of the list in four separate messages. The two instructions cannot both govern the same queue.
-
-> Evidence: call_list this pull: Kristie's Hair Design, Shu's Massage, St George's Barber Shop and Unique Thai Massage are all niche beauty, stage replied, buy_score 80. Damien Seton Mechanical is niche trades, stage replied, buy_score 95. CEO instruction text: sort beauty niche repliers before trades, food or pro repliers regardless of when. Byron's four messages all name Damien Seton Mechanical, score 95, a
 
 ## What it used to believe
 

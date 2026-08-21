@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cmo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.17 on 2026-08-21 (down, 4 days)
+**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.09 on 2026-08-21 (down, 4 days)
 
 ## Food niche has real inventory but is not counted as live
 
