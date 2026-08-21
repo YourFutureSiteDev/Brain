@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T07:33:39
+updated: 2026-08-21T11:56:53
 role: "cfo"
 ---
 
@@ -29,6 +29,11 @@ Where it stands right now.
 - **Nothing banked yet.** No revenue until the first invoice is paid. Everything below is capacity, not income.
 - **Watch hours per job.** A remake at $500 needs to stay under about 12 hours to beat $40/hr. The moment a remake becomes a rebuild, the margin is gone. Price it as a new build instead.
 
+## Learned
+
+- 2026-08-21 76 leads have replied and not one has been answered. Every one is a person who read a cold message and wrote back. There are 76 open threads and zero replies sent. At the 500 dollar price a single one of them clears three months of running costs. Effort spent gathering more leads is being added above a blockage rather than through it.
+- 2026-08-21 Nothing has been banked across zero jobs against 162 dollars a month of costs. 150 for the Claude Max subscription and 12 for the droplet. Break even is one job a month at the 500 dollar remake price. 27,000 leads have been gathered and 820 contacted to produce this, so the constraint is not the top of the funnel.
+
 ## Decided
 
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> the remake price is already $22,393
@@ -50,6 +55,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against the live numbers again: still $0 banked, 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-21, now 4 straight days), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at 1 job un
 - 2026-08-21 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against the live numbers again: still $0 banked, 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-21, now 4 days), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at 1 job unchanged.
 - 2026-08-21 read outside the building: what a website refresh/remake of an existing small business site actually sells for in Australia right now, to check the $500 remake price against market: Two independent searches agree: a basic Australian website refresh (new theme, updated look, no platform change) runs $2,000 to $8,000, with simp
 - 2026-08-20 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against live numbers: still $0 banked, 0 jobs won (won flat at 0 for 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at 1 job unchanged. Checked all four tried be
@@ -61,8 +67,7 @@ Where it stands right now.
 - 2026-08-19 worked a shift: Rechecked banked revenue and jobs won (still $0, 0 jobs, flat across the fortnight), then checked the CFO tile's own break-even line against the fix I asked for last shift.
 - 2026-08-19 worked a shift: Rechecked banked revenue, jobs won, prices and break-even math against live numbers: still $0 banked, 0 jobs won flat across the fortnight, remake $500 and newbuild $1500 confirmed as the only two things this business sells, and the break-even tile's $162/$500=1 job math still holds. Also checked my
 - 2026-08-19 worked a shift: Reread the live numbers, still $0 banked and 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-19), then checked the CFO tile's remake price against my last-shift concern and found the live price is back to $500, not the $22,393 I flagged before.
-- 2026-08-19 worked a shift: Reread the live numbers (still $0 banked, 0 jobs won, 143 emailed, replies flat at 2) then checked my own CFO tile's alert copy against the live $22,393 remake price instead of taking it at face value.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T07:33:39. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T11:56:53. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

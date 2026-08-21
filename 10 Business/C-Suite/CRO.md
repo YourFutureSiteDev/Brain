@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T07:33:40
+updated: 2026-08-21T11:56:54
 role: "cro"
 ---
 
@@ -18,8 +18,8 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Emailed | **225** | businesses |
-| Replied | **2** | 0.9% |
+| Emailed | **274** | businesses |
+| Replied | **3** | 1.1% |
 | Called | **8** | at least once |
 | Won | **0** | paid |
 
@@ -29,7 +29,7 @@ Where it stands right now.
 
 ## Carrying for Byron
 
-- 2026-08-21 [morning meeting, from CFO] Work the 50 queued follow-up calls, a closed job is the only way CFO can test the $500 remake price against reality instead of guessing. *(new)*
+- 2026-08-21 [morning meeting, from CFO] Work the 50 queued follow-up calls, a closed job is the only way CFO can test the $500 remake price against reality instead of guessing. *(working)*
 - 2026-08-20 [morning meeting, from CFO] Push some of the 50 queued follow-up calls to an actual close so pricing can be checked against a real paid job instead of pipeline value. *(working)*
 - 2026-08-19 Enforce that the call queue is worked strictly top to bottom by buy_score, not by whatever lead happens to surface. Confirm the ranked order Damien Seton Mechanical (95) then GP Mechanical Nambour (78) then Whitten's Plumbing Warragul (78) is what gets presented next, and flag if anything in the call flow lets a lead outside the top 50 jump the queue. *(working)*
 - 2026-08-19 Work the call_list in buy_score order, top to bottom, not wherever a lead surfaces. Top of list right now: Damien Seton Mechanical, Dubbo NSW, score 95, already opened the demo. Then GP Mechanical Repairs (Nambour QLD, 78) and Whitten's Plumbing (Warragul VIC, 78). Flag it if the queue view isn't sorted by buy_score by default, that would explain why the last 8 calls went to Windsor and Tamworth instead of the top of the list. *(working)*
@@ -53,6 +53,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-21 asked: [morning meeting, from CFO] Work the 50 queued follow-up calls, a closed job is the only w -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-20 asked: [morning meeting, from CFO] Push some of the 50 queued follow-up calls to an actual close -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-19 asked: Enforce that the call queue is worked strictly top to bottom by buy_score, not by whatever -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-19 asked: Work the call_list in buy_score order, top to bottom, not wherever a lead surfaces. Top of -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
@@ -64,7 +65,6 @@ Where it stands right now.
 - 2026-08-13 asked: Set up a fast way for Byron to log call outcome (answered, no answer, not interested, call -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
 - 2026-08-13 asked: Once Byron starts working the 50 queued calls, track call outcomes against niche and area -> chasing sooner: 14 silent days down to 11. nothing is stalled past that yet.
 - 2026-08-13 asked: Keep the call queue ordered with no-website (rank 3, no_site bucket) leads first. They're -> No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; pus
-- 2026-08-12 asked: We need more leads in the pipeline -> Noted and standing. I cannot do this directly - what I control is: change how many silent days before a lead is flagged
 
 ## Noticed
 
@@ -77,6 +77,9 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 answered you: No lever of mine moves this one. What I control is: change how many silent days before a lead is flagged for a call; push stalled leads into the call queue on t
+- 2026-08-21 worked a shift: Checked the 50 call queue against buy_score order and pipeline.called again, and found something new sitting at rank 1: Sweetie Pies Bake Shop replied today at 09:31, only 71 minutes after its mockup email went out, and it has no buy_score at all, so it jumped ahead of Damien Seton Mechanical (score
+- 2026-08-21 worked a shift: Re-checked the 50 call queue against pipeline.called and this shift's business numbers: the queue is still frozen at 50 for a fourth straight day while the backlog behind it keeps growing, queue_total up from 1814 to 1900 (+86) since last shift, driven by a fresh hotfrog:pest control sweep landing t
 - 2026-08-21 worked a shift: Checked the open instructions sitting with this desk against today's call_list rows: the CEO's new rule (sort beauty repliers before trades, food or pro repliers, regardless of order) directly conflicts with Byron's repeated instruction to work strictly top to bottom by buy_score with Damien Seton M
 - 2026-08-21 read outside the building: how many times should a lead be called before moving on, and when do call attempts stop paying off: Cognism's 2025 State of Cold Calling Report: on average it takes 3 attempts to connect with a lead, 93 percent of all connects happen by the third call, and 98 percent happen by the fifth. Calls beyon
 - 2026-08-20 worked a shift: Cross-checked queue_total against the last three shift readings and pipeline.called: the flat trickle broke today, queue_total jumped from 1769 to 1814 (+45, no_site bucket 1297 to 1342), driven by new hotfrog:pest control directory-sweep leads landing this afternoon (Macca's Pumps, Matty's Window T
@@ -86,10 +89,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Rechecked today's 50-item call queue against Byron's top-to-bottom buy_score instruction and against the last three shift readings: the interleaved-score break below position 1 is identical to last shift's reading, and calls_made is still 0 with last_call null on all 50 rows.
 - 2026-08-20 worked a shift: Cross checked the 50 queued call_list entries against the buy_score order Byron wants enforced, and checked whether call activity moved since the last two readings.
 - 2026-08-20 read outside the building: when a small business owner cold called about a website says no, what is the actual objection and is there a solid rebuttal that fits a one person, no-ad-spend business: The most common no is not price, it is 'I already get enough work from word of mouth or my Facebook page, I don't need a website.'
-- 2026-08-19 worked a shift: Rechecked the top 50 call_list entries against Byron's repeated instruction to work strictly top to bottom by buy_score, and checked queue growth (1646 to 1760, called still 8, all 50 calls_made 0, last_call null).
-- 2026-08-19 worked a shift: Re-checked the 50-name call queue against buy_score ordering and queue_total: ordering still holds (Damien Seton Mechanical 95 on top, the rest 81 down to 77 in order), but queue_total has quadrupled since the last two readings (365 then 398, now 1646), while pipeline.called is still 8 and all 50 sh
-- 2026-08-19 worked a shift: Rechecked the call_list top 50 for buy_score ordering and cross-referenced queue_total against last shift's reading: ordering still holds (Damien Seton Mechanical at 95 sits above all 49 no_site leads at 74-78) and calls made is still stuck at pipeline.called=8, but queue_total on every record has m
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T07:33:40. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T11:56:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T07:33:40
+updated: 2026-08-21T11:56:54
 role: "coo"
 ---
 
@@ -18,19 +18,18 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 355 cycles |
-| Last cycle | **06:54** | 2026-08-21 |
-| Leads | **27058** | 27058 checked |
-| Call list | **4966** | no email found |
-| Daily cap | **off** | 0 sent today |
+| Bot | **running** | 356 cycles |
+| Last cycle | **07:33** | 2026-08-21 |
+| Leads | **27159** | 27159 checked |
+| Call list | **5003** | no email found |
+| Daily cap | **off** | 49 sent today |
 
 ## Needs a decision
 
-- **4966 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **5003 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
-- 2026-08-21 [morning meeting, from CDO] Check whether the scrape step ever captures a rating value, it's 0% populated across all 27058 leads and CDO can't tell if it's missing or broken. *(new)*
 - 2026-08-19 [morning meeting, from CCO] Break the compliance checks tile into its 8 named checks instead of one pass count, so a silent drop can be caught and named. *(working)*
 - 2026-08-19 [morning meeting, from CMO] Confirm whether the bot's actual sweep config (areas and niches running) is stable or resetting, since the live tile disagrees with ready_by_niche shift to shift with no logged change. *(working)*
 - 2026-08-19 [from CDO, on shift] Open the call list build query and confirm whether it filters to NO_SITE status only. Three shifts of evidence now: 50-row call list samples show zero UNKNOWN-bucket rows, and this shift found a named example, Hawkesbury & Nepean Plumbing, UNKNOWN status stuck at stage 'found' with no call and no email. If the query is NO_SITE-only, UNKNOWN leads with phones are silently stranded. *(working)*
@@ -39,8 +38,13 @@ Where it stands right now.
 - 2026-08-18 [morning meeting, from CDO] Confirm whether the 451 UNKNOWN-status leads with a phone number are actually landing on the call list or falling through uncalled. *(working)*
 - 2026-08-17 From the vault, The COO now has its own specialists: You have specialists now. 16 of them, in engineering (58), project-management (7), testing (9), support (4), sitting in `~/.claude/agents` on this box. They came from [[The agency agents roster]], which is where the full list and the other desks' shares are. Yours, and what each is for: - `engineering-sre` - the box staying up - `engineering-incident-response-commander` - when it does not - `engineering-devops-automator` - the services and the deploys - `engineering-code-reviewer` - before a change goes on the droplet - `engineering-minimal-change-engineer` - the smallest edit that does the job - `engineering-email-intelligence-engineer` - parsing what comes back into the inbox - `engineering-rag-pipeline-engineer` - if the vault ever needs retrieval - `engineering-multi-agent-systems-architect` - how these 255 should be wired together - `engineering-prompt-engineer` - the wording the desks run on - `testing-reality-checker` - does the thing actually do what it says - `testing-evidence-collector` - proof, rather than a claim that it worked - `testing-workflow-optimizer` - where the cycle wastes its half hour - `project-management-project-shepherd` - keeping a job moving to done - ` *(working)*
 
+## Learned
+
+- 2026-08-21 The vault push script would have deleted all 89 desk memory notes. It rsyncs Byron's Obsidian vault to the droplet with delete enabled, and its header stated that nothing on the droplet could remove a note. That stopped being true on 13 Aug when the vault became a symlink to the brain repo, which the desks commit to every thirty minutes. A dry run on 21 Aug showed 103 files, 90 of them notes, 66 under Memory. Fixed by excluding the business folder. The general form: a one way sync is safe only while one side is the sole author.
+
 ## Decided
 
+- 2026-08-21 asked: [morning meeting, from CDO] Check whether the scrape step ever captures a rating value, it -> Bot running, Last cycle 07:33, Leads 27159, Call list 5003. 5003 leads have a phone but no email: The bot cannot reach t
 - 2026-08-20 asked: [morning meeting, from CRO] Find out why calls Byron makes are not writing back to call_li -> Bot running, Last cycle 07:32, Leads 25530, Call list 4439. 4439 leads have a phone but no email: The bot cannot reach t
 - 2026-08-19 asked: [morning meeting, from CCO] Break the compliance checks tile into its 8 named checks inste -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-19 asked: [morning meeting, from CMO] Confirm whether the bot's actual sweep config (areas and niche -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
@@ -52,7 +56,6 @@ Where it stands right now.
 - 2026-08-18 asked: [from CDO, on shift] Check the call list build query or script: does it include status=UNK -> No lever of mine moves this one. What I control is: move the daily send cap up or down, or take it off entirely; start a
 - 2026-08-18 asked: start the bot again -> bot started.
 - 2026-08-18 asked: Start the bot now. It has been stopped since 11:50 today with 254 cycles run and 3017 no-e -> bot stopped. Nothing is researched or drafted until you start it.
-- 2026-08-18 asked: Bot has been stopped since the last cycle at 11:50 today (254 cycles run). Confirm there's -> bot stopped. Nothing is researched or drafted until you start it.
 
 ## Noticed
 
@@ -64,6 +67,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 answered you: Bot running, Last cycle 07:33, Leads 27159, Call list 5003. 5003 leads have a phone but no email: The bot cannot reach these. They are the call list, and they a
+- 2026-08-21 worked a shift: Rechecked machine health this shift (cycles 353 to 356, sent_today reset 0 to 13 while cycles rise too, bot_running and sending_on both true, daily cap off, last cycle 07:33) with no jam, and re-summed this shift's queue_buckets against queue_total to close the CDO question sitting open about whethe
 - 2026-08-21 worked a shift: Rechecked machine health this shift (cycles up 340 to 353, bot_running and sending_on both true, daily cap still off, sent_today at 0 with last cycle 05:45 today, which is a fresh day-boundary reset not a stall) and re-verified the call list bucket composition against this shift's fresh queue_bucket
 - 2026-08-21 read outside the building: what is a realistic billable utilization rate for a full time solo freelancer, in hours per week: Across a sample of 10,000+ freelancers, average billable hours were 22.4 hours a week. The recommended sustainable target is 20 to 30 billable hours a week (25 as the ideal), which works out to a 50 to
 - 2026-08-20 worked a shift: Rechecked machine health against last shift's own trigger condition: sent_today held flat at 47 while total cycles climbed 331 to 340 over the last cycle window (17:27 to 22:26 today), bot_running, sending_on both still true and daily cap still off.
@@ -74,9 +79,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Rechecked machine health this shift: cycles up from 296 to 318 (up 22), bot_running and sending_on both true, daily cap still off, last cycle 06:23 on 2026-08-20. Noticed sent_today reset to 0, down from 49 last shift, which is a day-boundary reset not a stoppage since cycles kept climbing straight
 - 2026-08-20 read outside the building: How much time does a solo operator actually lose per context switch between build work and other tasks (calls, checking the bot, replying to prospects)?: The commonly cited UC Irvine research (Gloria Mark) puts the refocus cost at 23 minutes 15 seconds after an interruption before full concentration
 - 2026-08-19 worked a shift: Looked past the 50-row call_list sample to the queue_buckets field attached to this shift's payload, which breaks the full queue of 1761 down by status instead of just the top-ranked 50, and used it to answer CDO's repeated question about whether unconfirmed leads reach the call queue.
-- 2026-08-19 worked a shift: Rechecked machine health this shift: cycles up from 290 to 296, sent_today up from 44 to 49, daily cap still off, bot_running and sending_on both true. Did not resample the call list again since three straight shifts already confirmed that pattern and it now sits with Byron as a task, not more COO c
-- 2026-08-19 settled leads with no website: 991 marked NO_SITE
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T07:33:40. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T11:56:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

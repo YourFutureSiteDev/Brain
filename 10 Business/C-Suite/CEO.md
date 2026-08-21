@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T07:33:39
+updated: 2026-08-21T11:56:53
 role: "ceo"
 ---
 
@@ -14,16 +14,16 @@ role: "ceo"
 
 Where it stands right now.
 
-> 225 emailed, 2 replies, too few replies to read a pattern. Sending is on.
+> 274 emailed, 3 replies, too few replies to read a pattern. Sending is on.
 
 | | | |
 |---|---|---|
 | Won | **$0** | 0 paid |
-| In play | **$314,000** | 302 live |
-| Emailed | **225** | all time |
-| Replies | **2** | 0.9% |
+| In play | **$436,500** | 407 live |
+| Emailed | **274** | all time |
+| Replies | **3** | 1.1% |
 | To call | **50** | queued now |
-| Leads known | **27058** | researched |
+| Leads known | **27159** | researched |
 
 ## Needs a decision
 
@@ -31,6 +31,7 @@ Where it stands right now.
 
 ## Learned
 
+- 2026-08-21 Messaging replies about fifteen times better than email. 581 leads messaged returned 75 replies at 12.9 percent; 239 emailed returned 2 at 0.84 percent. So any reply rate computed across both channels is mostly reporting which channel that group happened to get, not how good the leads were. Two decisions have already been made on such a figure: the 19 Aug order to aim the scraping at trades cited 24 percent, and a call queue directive cited beauty at 28. Neither survives the split. Before believing a reply rate, ask which channel it came from.
 - 2026-08-19 UNKNOWN status leads never route to call list or get emailed and sit stuck at stage found, confirmed across three shifts now. CDO's tile frames the no-email part as working as intended, but that doesn't cover why UNKNOWN leads with a phone number don't reach the call list either. This is a code fix to the call list and email queries, not a desk lever, same shape as the CCO checks-passing tile bug and the CMO areas live and niches live tile bug.
 - 2026-08-19 UNKNOWN status leads never route to call list or get emailed, stuck at stage found. Confirmed three shifts running. This is a call list query bug, not a data quality gap, and needs Claude/code, not a desk lever. COO checked this shift per Byron, no fix reported yet.
 - 2026-08-19 CMO areas live and niches live tiles reading wrong is the same dashboard bug shape as CCO checks-passing, third time this pattern has been logged. Needs a code fix, not a desk lever, since ready_by_niche data underneath is fine.
@@ -39,6 +40,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-21 asked: [from CRO, on shift] The beauty-repliers-first sort rule you issued and Byron's repeated t -> handed to CMO
 - 2026-08-21 messages report: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is tren -> fix: Reorder the call queue so beauty repliers are called first, since beauty replies at 24 percent against trades 13 percent
 - 2026-08-20 messages report: Reply rate is trending up on the days old enough to judge, and one message wording is doin -> fix: Kill the menu specific text for food and pro leads and replace it everywhere with the original line, since it sits at 8
 - 2026-08-19 messages report: Beauty and the plain 'see your work' text are carrying every reply that matters, food is d -> fix: Reorder the call queue so beauty and trades repliers get called before food and pro repliers, since beauty replies at 28
@@ -50,7 +52,6 @@ Where it stands right now.
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> Two tasks. First, CMO tiles: this is the same dashboard bug already flagged against CCO's checks-passing tile, areas liv
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CMO] CMO sweep tiles (niches liv -> This one is a dashboard bug, not a sweep change. Ready_by_niche still shows live data for 4 niches, pro 8, beauty 60, tr
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> handed to CFO
-- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> handed to CMO
 
 ## Noticed
 
@@ -65,6 +66,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 answered you: handed to CMO
+- 2026-08-21 worked a shift: Checked the 50-row call queue against the two standing sort instructions (buy_score top-to-bottom, repliers-first) instead of just noting them as open, and confirmed neither is applied in the live data.
 - 2026-08-21 worked a shift: Rechecked the CEO reply numbers against the full business object rather than just the call_list sample, and found a third reply count I had not seen before, totals.replies_all=90, sitting alongside totals.replies=2 and pipeline.replied=76.
 - 2026-08-21 sent a fix to the CRO: Reorder the call queue so beauty repliers are called first, since beauty replies at 24 percent against trades 13 percent and food 8 percent, meaning beauty repliers are the highest value leads sitting in the queue right now.
 - 2026-08-21 read outside the building: Is WebBuild Australia a one-off outlier, or do other web design sellers in Australia use the same free-mockup, pay-only-if-you-like-it tactic aimed at small service businesses, and at what price?: Found a second real competitor running the identical tactic: Web Panther (Sydney), targeting the same c
@@ -75,9 +78,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Isolated the CMO areas-live tile bug from the niches-live tile using beauty as a clean control, since beauty is the only live niche and so is not confounded by niche gating: 234 of beauty's 318 ready leads (73.6%) are still blocked by area despite the tile claiming 402 of 403 areas are live. Also ch
 - 2026-08-20 sent a fix to the CRO: Kill the menu specific text for food and pro leads and replace it everywhere with the original line, since it sits at 8 sent 1 reply against the original's 150 sent 61 replied.
 - 2026-08-20 worked a shift: Checked today's call queue backlog against last shift's recorded number: queue_total is now 1764 across every call_list entry (buckets: no_site 1292, unconfirmed 155, no_email 313, quiet 3, clicked 1), against calls_made still at 8 in pipeline.called. Also confirmed the areas-live vs ready-blocked-a
-- 2026-08-20 read outside the building: who else in Australia runs the exact same play, an unsolicited free mockup with pay-only-if-you-like-it, and what do they charge: Found a direct same-tactic competitor: WebBuild Australia, Melbourne-based. Their offer is word for word the same model we run: 'Free Website Mockup. Pay Only If You Love
-- 2026-08-19 worked a shift: Recomputed ready vs ready_live by niche against the areas-live tile, and checked call queue_total against last shift's number.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T07:33:39. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T11:56:53. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T07:33:40
+updated: 2026-08-21T11:56:54
 role: "cdo"
 ---
 
@@ -18,20 +18,20 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **27058** | known |
-| With email | **1189** | 4% |
-| With phone | **8693** | 32% |
+| Leads | **27159** | known |
+| With email | **1194** | 4% |
+| With phone | **8742** | 32% |
 | With rating | **0** | 0% |
-| Unconfirmed | **635** | never mailed |
+| Unconfirmed | **637** | never mailed |
 
 ## Needs a decision
 
 - **Only 4% of leads have an email.** Expected. Google never returns emails and a business with no site has no contact page. Those leads are the call list, not a failure.
-- **635 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
+- **637 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
 
 ## Carrying for Byron
 
-- 2026-08-21 [morning meeting, from COO] Reconcile the coo dashboard's 4966 no-email call-list figure against the call_list query's own total of 1900. *(new)*
+- 2026-08-21 [morning meeting, from COO] Reconcile the coo dashboard's 4966 no-email call-list figure against the call_list query's own total of 1900. *(working)*
 - 2026-08-20 [morning meeting, from CMO] Trace why niches-live and ready_live_by_niche still show beauty only when trades is the majority of the real queue, four shifts running. *(working)*
 - 2026-08-19 [morning meeting, from CRO] Build the call outcome log tied to call_list ids so calls_made and last_call update on a real call and buy_score reflects actual contact history. *(working)*
 - 2026-08-18 Pull a full sub-category breakdown of the trades niche (all ~364 in queue, not just the top 50): count by trade type (auto/mechanical, plumbing, building/carpentry, electrical, heating and cooling, etc) so Byron can see the real mix, not a sample. *(working)*
@@ -42,12 +42,15 @@ Where it stands right now.
 
 ## Learned
 
+- 2026-08-21 2,139 leads sit in area names that are not live and cannot be worked. Food 1,353, beauty 401, trades 237, pro 148, across 144 area names. They came from the state and bbox sweeps, which harvested towns never added to the configured areas, mostly QLD and SA. They are counted as leads everywhere in the console and none can be contacted, so a desk reading a total lead count is reading 2,139 rows of nothing.
+- 2026-08-21 No open reply thread holds what the client actually said. The 14 messages in reply_msg all belong to the 14 archived threads. The conversation table is empty and text_log holds outbound only. The system knows a reply happened, marks the lead replied and opens a thread, but never captures the text. The replies are presumably still in Messages on Byron's Mac, so nothing in the console can show him what 76 interested people said.
 - 2026-08-13 The 3% email rate is the market, not a backlog. 3115 of 3674 leads have no website at all, so there is no contact page to read. Every one of the 92 leads that has a site and is worth emailing was searched on 13 Aug 2026 and none published an address: the pages that load carry a contact form only, some disallow robots and are left alone, some have an invalid certificate. Real coverage is 94 of the 559 leads that have a site.
 - 2026-08-13 All 58 UNKNOWN leads were re-judged under the current rules on 13 Aug 2026 and not one resolved. 26 answer HTTP 403 because the site's firewall blocks the checker, 20 build their content in the browser so there is no HTML to judge, the rest are 500s, a timeout and a 526. Re-checking cannot clear these: the block is at their end. 37 of the 58 have a phone, and the call list excludes UNKNOWN.
 - 2026-08-12 recheck_days: default -> 45. you asked: Recheck healthy sites every 45 days
 
 ## Decided
 
+- 2026-08-21 asked: [morning meeting, from COO] Reconcile the coo dashboard's 4966 no-email call-list figure a -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
 - 2026-08-20 asked: [morning meeting, from CMO] Trace why niches-live and ready_live_by_niche still show beaut -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
 - 2026-08-19 asked: [morning meeting, from CRO] Build the call outcome log tied to call_list ids so calls_made -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
 - 2026-08-18 asked: Pull a full sub-category breakdown of the trades niche (all ~364 in queue, not just the to -> No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads an
@@ -70,6 +73,9 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
+- 2026-08-21 worked a shift: Reconciled the COO dashboard's 5003 'phone but no email' figure against the call_list query's own queue_total of 1908, since that gap was the open ask sitting with this desk since the morning meeting.
+- 2026-08-21 worked a shift: Recomputed this shift's new-lead unconfirmed rate against last shift's reading (the third reading in that series) and checked the COO/call_list reconciliation ask on the board against the numbers actually in front of me.
 - 2026-08-21 worked a shift: Compared this shift's unconfirmed count against last shift's reading to see whether the new-lead unconfirmed rate is settling into a baseline or still climbing, since last shift flagged the first nonzero reading after three flat ones.
 - 2026-08-21 read outside the building: Does Google Places API's free tier (the Contact Data SKU I flagged last shift) actually require a billing account and credit card, or is it usable with zero payment risk for a solo operator with no bu: Yes, billing is required. Google still requires a billing account with a valid credit card on file
 - 2026-08-20 worked a shift: Rechecked the fortnight unconfirmed count against the three flat prior readings (25506/594, 25518/594, 25568/594) and found it moved for the first time this shift: leads 26172, unconfirmed 613. That breaks the 'stable, stop checking' call I made last shift, so I'm reopening it. Also confirmed this c
@@ -79,10 +85,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Rechecked today's CDO tile against the last reading (leads 25518, unconfirmed 594) and reran the trades-niche automotive count on this shift's fresh 50-row call list sample (29 of 50 rows trades, 14 of those 29 automotive-related, in line with last shift's near-50% finding).
 - 2026-08-20 worked a shift: Rechecked the fortnight usable-verdict rate with today's numbers (leads 25506, unconfirmed 594) against yesterday's (25471, 593), and re-ran the trades-niche subcategory count on today's fresh 50-row call list sample.
 - 2026-08-20 read outside the building: Is there a free way to cross-check whether an OSM-sourced NO_SITE lead actually has no website, so a blank OSM tag isn't the only signal before we email 'we could not find a website for you'?: Yes, there's a concrete free-tier path. Google Places API's Contact Data SKU includes the website field (al
-- 2026-08-19 worked a shift: Chased this shift's fortnight number, the usable-verdict rate falling from 97.96% (8/18) to 97.67% (8/19), and checked whether today's mass sweep:mobile ingestion explains it. It does not: (25471-593)/25471 = 97.67%, matching the tile, but every newly ingested sweep:mobile row visible today (Bill's
-- 2026-08-19 worked a shift: Reread the call_list queue_buckets aggregate (not just the 50 sampled rows) and found the unconfirmed bucket has 154 of 1740 queued entries, occupying the exact tail of the sort order, which finally answers the UNKNOWN-routing question I've raised four shifts running.
-- 2026-08-19 worked a shift: Re-checked the UNKNOWN routing question a fourth time using this shift's data: the 50-row call list dump has zero unknown-bucket rows again (all 50 are bucket clicked or no_site), and Hawkesbury & Nepean Plumbing is still status UNKNOWN, stage found, no call, no email, unchanged from prior shifts. A
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T07:33:40. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T11:56:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

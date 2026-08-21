@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 ## Checks passing 7/8: no per check breakdown reaches this desk
 
-*proven, revised 10 times, learned 2026-08-18 from shift.*
+*proven, revised 11 times, learned 2026-08-18 from shift.*
 
-Eleventh consecutive shift confirming the same shape: today's number is 5/8, not 7/8, and sent_today is 11 against a cap that reads off, so there is still no breach to report. New this shift: suppressed has been exactly 23 for four days running while sent_today varied 0/47/49/11, worth watching next shift in case the suppression counter has stopped updating rather than opt-outs simply not arriving. Keep telling Byron the failing-check identity needs someone to open the check code or config directly, and that his 7/8 and 51-vs-15 board items are stale against today's actual 5/8 and sent_today=1
+Twelfth consecutive shift confirming the same shape: today's number is 5/8, not 7/8. New this shift: sent_today hit 50, the highest total logged in this run and the first day it has landed exactly on my own max_daily=50 setting while daily_cap itself reads off, meaning nothing actually stopped it there, it just happened. Suppressed holds at 23 across 2026-08-18 to 2026-08-21, a fourth straight flat day against sent_today swinging 0/47/49/11/50, still worth someone confirming the counter is live. I have no file or code access from this console to identify the 3 failing checks myself. That answe
 
-> Evidence: today: checks passing 5/8 (Opt-out in every email; Daily cap; No address harvesting), daily_cap=off, sent_today=11, max_daily=50. suppressed=23 on both 2026-08-18 and 2026-08-21 per the fortnight number.
+> Evidence: today: checks passing 5/8 (Opt-out in every email; Daily cap; No address harvesting), daily_cap=off, sent_today=50 (highest recorded this run), max_daily=50. suppressed=23 on both 2026-08-18 and 2026-08-21 per the fortnight number.
 
 ## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
 

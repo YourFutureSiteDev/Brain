@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T07:33:40
+updated: 2026-08-21T11:56:54
 role: "cmo"
 ---
 
@@ -20,7 +20,7 @@ Where it stands right now.
 |---|---|---|
 | Areas live | **402** | of 403 listed |
 | Niches live | **4** | trades, food, beauty, pro |
-| Search grid | **34974** | searches per sweep |
+| Search grid | **40602** | searches per sweep |
 
 ## Needs a decision
 
@@ -39,6 +39,9 @@ Where it stands right now.
 
 ## Learned
 
+- 2026-08-21 The sweep gave beauty none of its fetches rather than fewer. The directory grid was built niche major with trades hardcoded first, so the first beauty search sat at combination 16,482 of 34,974 and the cursor had reached 662 in two days. Fixed 21 Aug to round robin the niches. The lesson generalises: when a queue is worked from the front and never finished, order is allocation, and sorting by preference starves everything below the cut rather than ranking it.
+- 2026-08-21 A niche's share of the harvest is its share of the search terms. The sweep grid is area by niche by term, so term count is the supply lever while the niche mix is the send lever. Both have to point the same way. Beauty had 9 terms against trades' 41 while replying at nearly twice the rate, raised to 23 on 21 Aug 2026. A mix share is worthless if the harvest never filled it: beauty had 270 leads clearing the quality gate that day and only 69 reachable.
+- 2026-08-21 Beauty replies at 18 percent, trades at 11 and food at 4. Measured 21 Aug 2026 inside the messaging channel alone so the channel is held constant: beauty 48 of 267, trades 21 of 193, food 5 of 112. Pro has 9 contacts and cannot be judged. Beauty is the best niche on the board and also the smallest pile at 3,053 leads. Food is the worst and is 16,287 leads, sixty percent of everything held.
 - 2026-08-18 pause_after: 60.0 -> 100. overall reply rate is 1.4%; judging an area on fewer than 100 emails would pause good areas by chance
 - 2026-08-18 pause_after: 15.0 -> 60. overall reply rate is 2.1%; judging an area on fewer than 60 emails would pause good areas by chance
 - 2026-08-17 pause_after: 100.0 -> 15. you asked: From the vault, The CMO now has its own specialists: You have specialists now. 1
@@ -62,6 +65,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-21 reply rate across everything is 1.1% over 274 emails
 - 2026-08-21 Read outside on Does the Spam Act 2003 apply to SMS/text messages the same way it applies to email, given the bot texts mobile numbers as well as emailing (messaged 360 vs emailed 218 in current pipeline)?: Yes. The Spam Act 2003 covers all 'commercial electronic messages' with an Australian link, which the law defines to include SMS and MMS text messages, not just email. Every text has to carry the same things an email does: clear sender identification and a working, free opt-out that stays valid for at least 30 days. Standard practice for SMS is 'Reply STOP to unsubscribe,' and anyone who replies STOP has to be suppressed within 5 business days by law, though same-day is the safer bar. (source: Sprintlaw Australia, 'Understanding the Commercial Electronic Messages Law: What Australian Businesses Need to Know About the Spam Act 2003', accessed 21 Aug 2026; Monster SMS, 'SMS Compliance i
 - 2026-08-20 reply rate across everything is 0.9% over 225 emails
 - 2026-08-20 reply rate across everything is 0.9% over 227 emails
@@ -69,10 +73,10 @@ Where it stands right now.
 - 2026-08-19 reply rate across everything is 1.1% over 178 emails
 - 2026-08-19 reply rate across everything is 1.1% over 179 emails
 - 2026-08-19 reply rate across everything is 1.4% over 144 emails
-- 2026-08-19 Read outside on What reply rate and open rate benchmark should this business compare itself against, using the closest matching industry (local/real estate services) in a dated 2026 cold email benchmark study: Cleverly.co's industry benchmark report (dated 16 Apr 2026, updated 28 Jul 2026) has no figures for trades, beauty or food specifically, but its closest analog, real estate and local services, sits at 35 to 40% open rate (48%+ is called good) and 5 to 7% reply rate. That is a concrete open-rate target this business has no way to check itself against right now, because nothing in the current tracking captures opens at all, only sent, replied and link clicks. (source: cleverly.co, 'Cold Email Benchmarks by Industry', published 16 Apr 2026, modified 28 Jul 2026)
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Hand-recounted this shift's 50-row call_list by niche: 28 trades, 21 beauty, 1 food, 0 pro. The 1 food row (sweetie-pies-bake-shop) is the first food lead to appear in 7 straight shifts, but it's only there because it already replied, not because food is being sourced normally. Also tried to answer
 - 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list again: 29 trades, 21 beauty, 0 food, 0 pro, the 6th straight shift with that exact split, confirmed the niches-live tile still wrongly claims all 4 niches live, and rechecked the griffith-nsw area-mismatch batch (bills-hi-tech, rays-euro-tech, adeles-relaxi
 - 2026-08-21 worked a shift: Messages report to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
 - 2026-08-21 reported to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
@@ -84,8 +88,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Hand counted this shift's 50 row call_list again (29 trades, 21 beauty, 0 food, 0 pro) against the niches-live tile, which now claims all 4 niches live (trades, food, beauty, pro), and against ready_by_niche (food 72, pro 22 ready) and ready_live_by_niche (food 16, pro 9 ready_live); also rechecked
 - 2026-08-20 worked a shift: Hand counted the 50 row call_list again (29 trades, 21 beauty, 0 food, 0 pro), confirming the niches-live tile (reads 1, beauty only) is still wrong since trades is the majority of the actual queue, then checked each lead's area field against the suburb baked into its own slug and address.
 - 2026-08-20 worked a shift: Messages report to the CEO: Reply rate is trending up on the days old enough to judge, and one message wording is doing almost all the work.
-- 2026-08-20 reported to the CEO: Reply rate is trending up on the days old enough to judge, and one message wording is doing almost all the work.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T07:33:40. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T11:56:54. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

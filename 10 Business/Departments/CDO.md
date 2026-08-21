@@ -69,6 +69,14 @@ Treat this as the standing top risk to the data itself. Any report on backups, g
 
 > Evidence: Section 8: the business runs on one Jamf managed MacBook owned by a school, which can be locked or wiped, losing the lead database and the bot with it.
 
+## COO's 5003 no-email tile and the 1908 call queue count different populations
+
+*tried, revised 0 times, learned 2026-08-21 from shift.*
+
+The 5003 counts every lead in the whole 27159 database that has a phone and no email, regardless of whether it needs outreach. The call_list queue_total of 1908 is already filtered to leads with an open reason to contact (no_site 1435, no_email 313, quiet 3, unconfirmed 155, clicked 1, replied 1, sums exact). Leads with phone and no email but status OK (site is fine) sit in the 5003 but never enter the queue because they don't need a call. This is two different denominators, not a broken query.
+
+> Evidence: Leads sample: Penrith City Plumbing Services (status OK, phone 0422 720 132, email blank) and RPM Dubbo (status OK, phone (02) 6885 5123, email blank) both count toward the 5003 but are absent from the call_list, which only holds leads needing action. call_list queue_buckets for this shift: no_site 1435 + no_email 313 + quiet 3 + unconfirmed 155 + clicked 1 + replied 1 = 1908, matching queue_total
+
 ## What it used to believe
 
 - **UNKNOWN status leads never route to call list or get emailed stuck at** retired 2026-08-19: Duplicate of itself in the standing list, two identical entries. Merging into one proven entry via the learn field above, not two near-identical working notes.
