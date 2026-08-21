@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T14:33:35
+updated: 2026-08-21T15:05:22
 role: "cdo"
 ---
 
@@ -18,16 +18,16 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **27215** | known |
+| Leads | **27220** | known |
 | With email | **1195** | 4% |
-| With phone | **8753** | 32% |
+| With phone | **8754** | 32% |
 | With rating | **0** | 0% |
-| Unconfirmed | **638** | never mailed |
+| Unconfirmed | **639** | never mailed |
 
 ## Needs a decision
 
 - **Only 4% of leads have an email.** Expected. Google never returns emails and a business with no site has no contact page. Those leads are the call list, not a failure.
-- **638 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
+- **639 leads came back UNKNOWN.** Their site could not be confirmed either way, so they are never emailed. That is the rule working, not a gap to fill.
 
 ## Carrying for Byron
 
@@ -73,6 +73,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Checked this shift's unconfirmed count (638/27215) against last shift's (635/27070) for a fourth reading of the new-lead unconfirmed rate, and recomputed the cumulative usable-verdict share to see if the four-day decline is still moving.
 - 2026-08-21 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-21 worked a shift: Reconciled the COO dashboard's 5003 'phone but no email' figure against the call_list query's own queue_total of 1908, since that gap was the open ask sitting with this desk since the morning meeting.
 - 2026-08-21 worked a shift: Recomputed this shift's new-lead unconfirmed rate against last shift's reading (the third reading in that series) and checked the COO/call_list reconciliation ask on the board against the numbers actually in front of me.
@@ -84,8 +85,7 @@ Where it stands right now.
 - 2026-08-20 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
 - 2026-08-20 worked a shift: Rechecked today's CDO tile against the last reading (leads 25518, unconfirmed 594) and reran the trades-niche automotive count on this shift's fresh 50-row call list sample (29 of 50 rows trades, 14 of those 29 automotive-related, in line with last shift's near-50% finding).
 - 2026-08-20 worked a shift: Rechecked the fortnight usable-verdict rate with today's numbers (leads 25506, unconfirmed 594) against yesterday's (25471, 593), and re-ran the trades-niche subcategory count on today's fresh 50-row call list sample.
-- 2026-08-20 read outside the building: Is there a free way to cross-check whether an OSM-sourced NO_SITE lead actually has no website, so a blank OSM tag isn't the only signal before we email 'we could not find a website for you'?: Yes, there's a concrete free-tier path. Google Places API's Contact Data SKU includes the website field (al
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T14:33:35. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T15:05:22. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
