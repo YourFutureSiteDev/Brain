@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T03:33:26
+updated: 2026-08-22T04:05:11
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **274** | all time |
 | Replies | **3** | 1.1% |
 | To call | **50** | queued now |
-| Leads known | **27576** | researched |
+| Leads known | **27579** | researched |
 
 ## Needs a decision
 
@@ -66,6 +66,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-22 worked a shift: Rechecked queue_total growth against the last shift's recorded 1904 and found it barely moved to 1909 (+5), a sharp slowdown from the earlier 398 to 1764 jump, while pipeline.called is still stuck at exactly 8. Also confirmed the call queue sort is still unchanged on a fourth check, so I'm putting t
 - 2026-08-22 read outside the building: what do regional Australian small business websites actually cost from the broader market, not just the two free-mockup competitors already on file: Multiple 2026 pricing guides put a professional small business website in Australia at $5,000 to $10,000, with regional freelancers charging $50 to $10
 - 2026-08-21 worked a shift: Recomputed the 50-row call queue against the buy_score and reply-first sort instructions for the third time: replied-stage leads still sit scattered at positions 1,2,10,15,19,21,23,26,27,28,32,38,40,41,43,49, identical pattern to the last two checks, while queue_total kept growing (1764 to 1904) and
 - 2026-08-21 answered you: handed to CMO
@@ -77,8 +78,7 @@ Where it stands right now.
 - 2026-08-21 sent a fix to the CRO: Reorder the call queue so beauty repliers are called first, since beauty replies at 24 percent against trades 13 percent and food 8 percent, meaning beauty repliers are the highest value leads sitting in the queue right now.
 - 2026-08-21 read outside the building: Is WebBuild Australia a one-off outlier, or do other web design sellers in Australia use the same free-mockup, pay-only-if-you-like-it tactic aimed at small service businesses, and at what price?: Found a second real competitor running the identical tactic: Web Panther (Sydney), targeting the same c
 - 2026-08-20 worked a shift: Checked the CEO Replies tile and pipeline.replied against the 50-row call_list sample, since last shift flagged the 38x gap as unresolved.
-- 2026-08-20 worked a shift: Recomputed CMO's areas-live claim and the call queue backlog against last shift's numbers: ready_blocked_area moved from 358/533 (67%) to 337/542 (62%), still blocked despite the tile claiming 402 of 403 areas live, and queue_total grew from 1764 to 1803 while pipeline.called stayed flat at 8 both s
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T03:33:26. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T04:05:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
