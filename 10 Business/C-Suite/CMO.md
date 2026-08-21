@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T00:22:21
+updated: 2026-08-22T00:53:52
 role: "cmo"
 ---
 
@@ -65,6 +65,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-22 Read outside on SMS/text reply rate vs cold email reply rate for small business outreach, current benchmark: Industry benchmark says SMS averages 90 to 98% open and roughly 45% reply, against email's 20 to 30% open and about 6% reply, meaning SMS produces roughly seven times more replies than email for the same volume. Small business SMS specifically nets 98% open and three times faster response than email. (source: messageiq.io, 'SMS vs Email Response Rates B2B: 45% vs 6% Data', 2026; and messageiq.io, 'SMS Marketing for Small Businesses in 2026: 98% Open Rates, Zero Cold Calls', 2026)
 - 2026-08-21 Reading every business text you have sent 450 people messaged 312 still waiting on an answer Counting who answered 138 replied, 30.7% of everyone texted the silences are counted here too, which is the half that was never measured Splitting it by niche trades 66 of 181 36.5% beauty 66 of 202 32.7% food 5 of 59 8.5% pro 1 of 8 12.5% too few to judge Reading what 117 of them actually said UNCLEAR 85 NOT_INTERESTED 16 QUESTION 9 INTERESTED 7 5 of them say outright that they have no website, which is the whole product and most read as UNCLEAR above 13 people are waiting on an answer from you Ann Nails Bar Hey Byron! 😊 Yes, you can check us out on Go Artemis hair and beauty Loved “Yeah perfect sounds good.” S&H Hub We don’t have a website, sorry. We do have a Smooth Hair and Beauty Hi! Yes we have a website, you can visit our Stoddy's Mobile Mechanical Yeah mate, we're on face book too, website s Volpe Curtains and Blinds Yes, we do, please google Stella Curtains & Abaco Car Care No no website but what kind of work did you Back2Bikes Hi Byron, what exactly are you after? Bikes Black Temple https://www.instagram.com/blacktempletattoot Gold Coast Canvas Hi Byron Have we spoken to you about some w LP Motor Trimming Where are you located? Luke's Mobile Tyre Service Who's Byron? what do you need to check out? Skin & Beauty Clinic Hello What work are you wanting to see ? If
 - 2026-08-21 reply rate across everything is 1.1% over 274 emails
 - 2026-08-21 Read outside on Does the Spam Act 2003 apply to SMS/text messages the same way it applies to email, given the bot texts mobile numbers as well as emailing (messaged 360 vs emailed 218 in current pipeline)?: Yes. The Spam Act 2003 covers all 'commercial electronic messages' with an Australian link, which the law defines to include SMS and MMS text messages, not just email. Every text has to carry the same things an email does: clear sender identification and a working, free opt-out that stays valid for at least 30 days. Standard practice for SMS is 'Reply STOP to unsubscribe,' and anyone who replies STOP has to be suppressed within 5 business days by law, though same-day is the safer bar. (source: Sprintlaw Australia, 'Understanding the Commercial Electronic Messages Law: What Australian Businesses Need to Know About the Spam Act 2003', accessed 21 Aug 2026; Monster SMS, 'SMS Compliance i
@@ -72,10 +73,10 @@ Where it stands right now.
 - 2026-08-20 reply rate across everything is 0.9% over 227 emails
 - 2026-08-20 Read outside on Do food/hospitality businesses reply to cold email at a different rate than trades or beauty, per outside industry data, to check whether the food niche's 7% reply rate in-house is a known pattern or : No trustworthy figure exists. A search summary claimed Food & Beverage cold email gets 3.47% reply, '8x the average,' citing puzzleinbox.com. I fetched both puzzleinbox pages the claim traced to directly and neither contains any Food & Beverage row at all, the industries listed are SaaS, agencies, recruiting, financial services, real estate, manufacturing, healthcare IT, legal, consulting and IT services/MSP, all B2B seller-to-business outreach. The number was not on the page it was attributed to. (source: puzzleinbox.com/blog/cold-email-reply-rate-benchmarks (published 25 Mar 2026) and puzzleinbox.com/blog/cold-email-response-rate-by-industry (published 5 Apr 2026), fetche
 - 2026-08-19 reply rate across everything is 1.1% over 178 emails
-- 2026-08-19 reply rate across everything is 1.1% over 179 emails
 
 ## Recently did
 
+- 2026-08-22 read outside the building: SMS/text reply rate vs cold email reply rate for small business outreach, current benchmark: Industry benchmark says SMS averages 90 to 98% open and roughly 45% reply, against email's 20 to 30% open and about 6% reply, meaning SMS produces roughly seven times more replies than email for the same vol
 - 2026-08-21 worked a shift: Hand-recounted this shift's 50-row call_list by niche: 28 trades, 21 beauty, 1 food (sweetie-pies, still only there because it replied), 0 pro. That is the exact same split as the last two shifts running, so niches-live is now wrong for 8 straight shifts, not 7. Also re-checked the griffith-nsw area
 - 2026-08-21 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list again (28 trades, 21 beauty, 1 food, 0 pro), confirmed the niches-live tile is still wrong for the 7th straight shift, and tried to answer Byron's open ask about a blocked_area lead example but the data given this shift has no ready_blocked_area breakdown t
@@ -87,8 +88,7 @@ Where it stands right now.
 - 2026-08-21 worked a shift: Hand-recounted this shift's 50-row call_list by niche: 28 trades, 21 beauty, 1 food, 0 pro. The 1 food row (sweetie-pies-bake-shop) is the first food lead to appear in 7 straight shifts, but it's only there because it already replied, not because food is being sourced normally. Also tried to answer
 - 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list again: 29 trades, 21 beauty, 0 food, 0 pro, the 6th straight shift with that exact split, confirmed the niches-live tile still wrongly claims all 4 niches live, and rechecked the griffith-nsw area-mismatch batch (bills-hi-tech, rays-euro-tech, adeles-relaxi
 - 2026-08-21 worked a shift: Messages report to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
-- 2026-08-21 reported to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T00:22:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T00:53:52. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
