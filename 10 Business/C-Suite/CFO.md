@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T12:41:27
+updated: 2026-08-21T12:57:15
 role: "cfo"
 ---
 
@@ -55,6 +55,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Rechecked banked revenue, prices, monthly costs and break-even against the live numbers again: still $0 banked, 0 jobs won, won flat at 0 for a fourth straight day (2026-08-18 to 2026-08-21), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at 1 jo
 - 2026-08-21 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against the live numbers again: still $0 banked, 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-21, now 4 straight days), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at 1 job un
 - 2026-08-21 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against the live numbers again: still $0 banked, 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-21, now 4 days), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at 1 job unchanged.
 - 2026-08-21 read outside the building: what a website refresh/remake of an existing small business site actually sells for in Australia right now, to check the $500 remake price against market: Two independent searches agree: a basic Australian website refresh (new theme, updated look, no platform change) runs $2,000 to $8,000, with simp
@@ -66,8 +67,7 @@ Where it stands right now.
 - 2026-08-20 read outside the building: What do one off small business websites actually sell for from local freelancers in Australia right now, and where does that put our $500 remake and $1,500 newbuild: Local Australian freelancers price a basic one off small business website at roughly $1,500 to $2,500 or more, with a basic project fl
 - 2026-08-19 worked a shift: Rechecked banked revenue and jobs won (still $0, 0 jobs, flat across the fortnight), then checked the CFO tile's own break-even line against the fix I asked for last shift.
 - 2026-08-19 worked a shift: Rechecked banked revenue, jobs won, prices and break-even math against live numbers: still $0 banked, 0 jobs won flat across the fortnight, remake $500 and newbuild $1500 confirmed as the only two things this business sells, and the break-even tile's $162/$500=1 job math still holds. Also checked my
-- 2026-08-19 worked a shift: Reread the live numbers, still $0 banked and 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-19), then checked the CFO tile's remake price against my last-shift concern and found the live price is back to $500, not the $22,393 I flagged before.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T12:41:27. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T12:57:15. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
