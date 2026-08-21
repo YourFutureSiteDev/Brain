@@ -29,6 +29,14 @@ The narrowing is real and accelerating, not stalled like I said last shift. read
 
 > Evidence: totals.ready_by_niche trades 278 + beauty 268 + pro 25 + food 72 = 643; ready_live_by_niche trades 216 + beauty 68 + pro 12 + food 16 = 312; ready_blocked_area 331; cmo tile still reads areas live 402 of 403, unchanged from two shifts ago.
 
+## pipeline.replied and totals.replies disagree by 38x, replied stage looks untrustworthy
+
+*proven, revised 3 times, learned 2026-08-20 from shift.*
+
+Gap has widened, not narrowed. Today's snapshot: totals.replies=3 (CEO tile), pipeline.replied=138, totals.replies_all=155, all read from the same business object. That is a 46x spread now versus 38x last check, and pipeline.replied more than doubled (76 to 138) while the CEO tile moved by exactly 1 (2 to 3). Whatever pipeline.replied is counting is inflating fast and does not track what Byron sees on his own tile. Still do not act on pipeline.replied or replies_all until CDO names which count is real.
+
+> Evidence: business.totals.replies=3, business.pipeline.replied=138, business.totals.replies_all=155, all from the 2026-08-21 snapshot; last checked shift had 2, 76, 90 respectively.
+
 ## Our price sits under the market floor, not just under agency price
 
 *working, revised 2 times, learned 2026-08-18 from research.*
@@ -36,14 +44,6 @@ The narrowing is real and accelerating, not stalled like I said last shift. read
 This is now two real competitors running our exact free-mockup tactic on the same customer, not one outlier. WebBuild prices the paid product at $248 (anchored down from $600). Web Panther anchors the free mockup itself at $1,200 before any paid conversation even starts. Both confirm the tactic works and that mockup value is being sold high in this market. CFO should read this alongside the WebBuild figure: we are not underpriced against agencies, we may be underpriced against how this specific tactic gets anchored by the two operators actually running it.
 
 > Evidence: thewebpanther.com.au, fetched 21 Aug 2026: 'Claim your FREE custom website mockup and get a no-obligation preview of your high-performance website (Worth $1,200)', targets 'service-based business owners', no obligation to move forward, inbound landing page not cold outreach. [read outside, thewebpanther.com.au, fetched 21 Aug 2026]
-
-## pipeline.replied and totals.replies disagree by 38x, replied stage looks untrustworthy
-
-*working, revised 2 times, learned 2026-08-20 from shift.*
-
-There are now three different reply counts in the same business object: totals.replies=2 (what the CEO Replies tile shows), pipeline.replied=76, and a new field totals.replies_all=90. None of these three agree with each other, so this is not a single miscount, it looks like at least two separate definitions of 'replied' being tracked. The 12 call_list rows with stage='replied', email empty and sent_at null still confirm pipeline.replied is counting phone-only leads that were never emailed. Do not trust any of the three numbers until CDO names which one, if any, is real.
-
-> Evidence: business.pipeline.replied=76, business.totals.replies=2, business.totals.replies_all=90, all from the same snapshot; call_list sample still shows 12 of 50 rows with stage='replied', email:"" and sent_at:null (Damien Seton Mechanical, Stoddy's Mobile Mechanical, Kristie's Hair Design, St George's Barber Shop, Unique Thai Massage and Men's Waxing, Luke's Mobile Tyre Service, Amanda's Hair Design, Ab
 
 ## One trade, sequentially, never four at once
 

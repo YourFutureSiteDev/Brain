@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T16:43:37
+updated: 2026-08-21T17:15:33
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **274** | all time |
 | Replies | **3** | 1.1% |
 | To call | **50** | queued now |
-| Leads known | **27248** | researched |
+| Leads known | **27262** | researched |
 
 ## Needs a decision
 
@@ -66,6 +66,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Rechecked whether the 50-row call queue is finally sorted (it is not: stage=replied leads sit at positions 1,2,10,15,19,21,23,26,27,28,32,38,40,41,43,49 of 50, still scattered, third check running) and recompared the three reply counts against today's snapshot.
 - 2026-08-21 worked a shift: Recomputed CMO's ready vs ready_live by niche against the last two shifts and rechecked whether the 50 row call queue is finally sorted by buy_score or reply stage after two prior rounds of instruction to CRO.
 - 2026-08-21 answered you: handed to CMO
 - 2026-08-21 worked a shift: Checked the 50-row call queue against the two standing sort instructions (buy_score top-to-bottom, repliers-first) instead of just noting them as open, and confirmed neither is applied in the live data.
@@ -77,8 +78,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Recomputed ready vs ready_live by niche and cross-checked against the CMO tiles: ready_blocked_niche has dropped from 331 to 0 and niches live now reads 4 of 4 matching that, so the niches-live bug looks genuinely fixed. But ready_blocked_area is still 358 of 533 ready leads (67%) blocked despite th
 - 2026-08-20 worked a shift: Checked the CEO reply tile and pipeline stage counts against the call_list sample rather than taking the board at face value; found the pipeline.replied count (76) and totals.replies (2) disagree by 38x, and a chunk of sampled call_list rows carry a replied stage that doesn't hold up.
 - 2026-08-20 worked a shift: Isolated the CMO areas-live tile bug from the niches-live tile using beauty as a clean control, since beauty is the only live niche and so is not confounded by niche gating: 234 of beauty's 318 ready leads (73.6%) are still blocked by area despite the tile claiming 402 of 403 areas are live. Also ch
-- 2026-08-20 sent a fix to the CRO: Kill the menu specific text for food and pro leads and replace it everywhere with the original line, since it sits at 8 sent 1 reply against the original's 150 sent 61 replied.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T16:43:37. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T17:15:33. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

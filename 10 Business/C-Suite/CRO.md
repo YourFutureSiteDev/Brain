@@ -3,7 +3,7 @@ title: "CRO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T16:43:38
+updated: 2026-08-21T17:15:34
 role: "cro"
 ---
 
@@ -92,4 +92,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T16:43:38. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T17:15:34. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
