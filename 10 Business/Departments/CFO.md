@@ -21,14 +21,6 @@ The regional discount (20 to 30 percent below Sydney rates) means our regional m
 
 > Evidence: sparkinteract.com.au 2026: 'Sydney-based designers charge 20-30% more than regional counterparts' and 'freelancer-built sites starting around $1,500-$3,000 are a realistic entry point' for sole traders. [read outside, sparkinteract.com.au/web/website-designers-cost, 2026 Australia pricing guide]
 
-## Mockup kill threshold is one in two, not one in three
-
-*tried, revised 0 times, learned 2026-08-18 from brief.*
-
-Check win rate on hand-made mockups monthly against 50%, not 33%. If it is below that, tell CDO or CRO to stop that channel before it eats more margin.
-
-> Evidence: Section 4.2: at the plan's stated 1 in 3 floor, the hand mockup already consumes 91% of a $99 fee; 30.3% conversion is the point of total value destruction.
-
 ## Twelve makeovers a month does not fit in the hours available
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -55,6 +47,7 @@ The $500 remake is priced under even the cheapest refresh work in the local mark
 
 ## What it used to believe
 
+- **Mockup kill threshold is one in two, not one in three** retired 2026-08-22: This belief's evidence is Section 4.2's $99 fee and 1 in 3 floor math, the same nonexistent gaming hand-mockup product already retired elsewhere in this playbook. The live config sells only the $500 remake and $1500 newbuild, no separate priced mockup product, so there is no fee for a hand mockup to
 - **The $99 job with a hand mockup never hits $40 an hour** retired 2026-08-20: This belief is built on a $99 price point and gaming niche that do not exist in the live config. Prices are $500 remake and $1500 newbuild only, and live niches are trades, beauty, pro and food, no gaming. Reasoning about a $99 gaming hand-mockup job is reasoning about a product nobody sells, which 
 - **Break-even at 54 jobs a month only holds for the $3 remake, not the business** retired 2026-08-19: The live tile now reads 'Break-even 1 job a month, $162 of costs at the $500 price' exactly matching what this lesson demanded. The stale $3-price, 54-job math it was correcting no longer appears anywhere. Nothing left to argue for.
 - **Add-ons are the most profitable line and are underused** retired 2026-08-19: The live config.json (checked this shift) sells exactly two things: website remake $500 and new website $1500. There are no add-ons (store cleanup, custom store page, extra custom page) in the actual price list, so an hourly-rate comparison against products that do not exist is not a live belief, it
