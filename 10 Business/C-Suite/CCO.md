@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T01:58:25
+updated: 2026-08-22T02:30:09
 role: "cco"
 ---
 
@@ -57,6 +57,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-22 Read outside on Google's actual Gmail bulk sender rules: what spam complaint rate and volume threshold triggers enforcement in 2026: Google requires bulk senders to keep spam complaint rate below 0.10 percent and never let it reach 0.30 percent, but the bulk sender rulebook (SPF/DKIM/DMARC, one click unsubscribe, complaint rate enforcement) only formally applies once a sender crosses about 5,000 messages a day to gmail.com or googlemail.com addresses. At this business's volume, sent_today=49, that trigger is nowhere close. The number that matters instead is margin for complaints: at 50 sends a day, a single spam complaint is a 2 percent complaint rate, twenty times over the 0.10 percent line Google treats as safe for senders it is actually watching. (source: warmy.io 'Gmail Bulk Sender Requirements 2026' and gmass.co 'Gmail Bulk Sender Guidelines 2026', both accessed 2026-08-22)
 - 2026-08-21 Read outside on ACMA Spam Act 2003 penalty thresholds and enforcement in 2026, how much can a non compliant sender actually be fined: The penalty structure itself has a hard cliff at 50 messages a day. Send more than 50 non compliant commercial electronic messages on a single day and the exposure jumps to up to 1,000 penalty units per day, roughly AUD 313,000. Below that daily count, contravention is judged per message or per smaller-scale breach, not at that ceiling. ACMA's actual enforcement focus in 2026 is stated as two things: was there consent, and does the unsubscribe work. Recent penalties cited are large corporates (Sportsbet 2.5M in 2024, CBA 7.5M in 2023), nothing at solo operator scale found. (source: Sparke Helmore, 'Spam in the spotlight: ACMA raises the stakes for business messaging', sparke.com.au/insights (2026))
 - 2026-08-20 Read outside on What actually gets a Gmail account suspended for cold sending in 2026, spam complaint rate thresholds and bulk sender rules: Google's bulk sender rules (DMARC, one click unsubscribe, spam threshold) legally kick in at 5,000 messages a day to Gmail addresses, which this business is nowhere near. The real trigger across volume levels is spam complaint rate: Google enforces a hard ceiling of 0.3% complaints and treats 0.1% as the line bulk senders must stay under, with 0.08% as the safe working number. Other suspension triggers named: bounce rate above 5%, and sending without SPF/DKIM/DMARC on the domain. Since November 2025 Gmail has been scaling permanent 550 rejections for senders who fail these checks. (source: gmass.co/blog/gmail-bulk-sender-guidelines (2026), litemail.ai/blog/google-email-sender-guidelines-2026-changes, growthhacksuite.com/what-are-gmail-sending-limits
 - 2026-08-19 Read outside on What penalty does NSW Fair Trading actually impose for advertising building work under a false or fabricated builder licence number: Under the Home Building Act 1989, contracting or advertising residential building work without holding the correct licence carries maximum penalties up to $110,000 for an individual (up to $330,000 for a corporation), and NSW Fair Trading advertising rules separately require any building trade ad to carry a true, currently held licence number. A 2026 enforcement case saw an unlicensed builder hit with nine penalty notices totalling $22,000 for contract and insurance breaches alone, well before any court penalty. This is a live enforcement area, not a dormant one. (source: NSW Government, nsw.gov.au 'Building trade advertisements' and Contracts Specialist 'Role of NSW OFT in Regulating Builders', cross checked against the ABC News 28 Jul 2026
@@ -67,6 +68,8 @@ Where it stands right now.
 ## Recently did
 
 - 2026-08-22 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
+- 2026-08-22 read outside the building: Google's actual Gmail bulk sender rules: what spam complaint rate and volume threshold triggers enforcement in 2026: Google requires bulk senders to keep spam complaint rate below 0.10 percent and never let it reach 0.30 percent, but the bulk sender rulebook (SPF/DKIM/DMARC, one click unsubscribe, c
+- 2026-08-22 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-22 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-22 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-22 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
@@ -76,9 +79,7 @@ Where it stands right now.
 - 2026-08-21 worked a shift: Rechecked the live CCO tile against today's numbers and reconfirmed ListAgents still returns 'No reachable agents' for the security specialists, then noticed a contradiction I had not flagged before: the 'Daily cap' check is listed as one of the 3 passing checks even though business.daily_cap itself
 - 2026-08-21 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-21 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
-- 2026-08-21 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
-- 2026-08-21 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T01:58:25. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T02:30:09. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
