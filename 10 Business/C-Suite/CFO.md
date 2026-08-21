@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T23:17:39
+updated: 2026-08-21T23:49:25
 role: "cfo"
 ---
 
@@ -55,6 +55,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Rechecked banked revenue, jobs won, prices, monthly costs and break-even against the live numbers: still $0 banked, 0 jobs won, won flat at 0 for a fourth straight day (2026-08-18 to 2026-08-21), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at
 - 2026-08-21 worked a shift: Checked banked revenue, jobs won, prices, monthly costs and break-even against the live numbers again: still $0 banked, 0 jobs won, won flat at 0 for a fourth straight day. Remake $500, newbuild $1500, monthly costs $162 and break-even at 1 job are all unchanged since the last five shifts checked th
 - 2026-08-21 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against the live numbers again: still $0 banked, 0 jobs won, won flat at 0 for a fourth straight day (2026-08-18 to 2026-08-21), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at 1 job unc
 - 2026-08-21 worked a shift: Rechecked banked revenue, prices, monthly costs and break-even against the live numbers again: still $0 banked, 0 jobs won, won flat at 0 for a fourth straight day (2026-08-18 to 2026-08-21), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at 1 jo
@@ -66,8 +67,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against live numbers: still $0 banked, 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two things sold, monthly costs $162 and break-even at 1 job unchanged. Nothing has moved s
 - 2026-08-20 worked a shift: Rechecked banked revenue, jobs won and prices against the live numbers: still $0 banked, 0 jobs won (won flat at 0 for the fortnight, 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two products, break-even still 1 job at $162 monthly costs. Nothing has moved since la
 - 2026-08-20 worked a shift: Reread the live numbers (still $0 banked, 0 jobs won, won flat at 0 across 2026-08-18 to 2026-08-20, remake $500 and newbuild $1500 confirmed as the only two things sold, break-even still 1 job at $162 costs), then checked my own tried beliefs against the live product list and niches.
-- 2026-08-20 read outside the building: What do one off small business websites actually sell for from local freelancers in Australia right now, and where does that put our $500 remake and $1,500 newbuild: Local Australian freelancers price a basic one off small business website at roughly $1,500 to $2,500 or more, with a basic project fl
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T23:17:39. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T23:49:25. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
