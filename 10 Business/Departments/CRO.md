@@ -31,11 +31,11 @@ Now a four day flatline, not three. Keep flagging as a tool gap, not something t
 
 ## Call queue order breaks below the top score
 
-*working, revised 2 times, learned 2026-08-19 from shift.*
+*proven, revised 3 times, learned 2026-08-19 from shift.*
 
-Third consecutive shift, identical broken sequence: 95, 81,81,80,81,81,80,81,81,80,80,78,80,80,78,80,80,78,80,80,78,80,80,78,80,77(repeated). This is now proven stable, not noise or a timing fluke. It cannot be fixed by re-reading or by any desk here, it needs the sort query itself fixed. Stop re-verifying it every shift, it has been confirmed enough; the only thing left to do is get it in front of someone who can edit the query.
+New failure mode on top of the known one: a lead that replies gets slotted to rank 1 by bucket (replied beats clicked) with no buy_score computed at all, so it can outrank a scored 95 without any comparison happening. Still not fixable by re-reading, still needs the sort/score query fixed to score replied leads too. Worth noting once more only because the specific shape changed, not to re-verify the old finding.
 
-> Evidence: call_list buy_score sequence this pull: 95,81,81,80,81,81,80,81,81,80,80,78,80,80,78,80,80,78,80,80,78,80,80,78,80,77x25, matching the last two shifts word for word, plus a third day flat at calls waiting 50 and pipeline.called unchanged at 8.
+> Evidence: Sweetie Pies Bake Shop, Glen Innes NSW: sent_at 2026-08-21T08:20:44, replied_at 2026-08-21T09:31:03, bucket=replied, rank=1, no buy_score field present. Damien Seton Mechanical: bucket=clicked, buy_score=95, rank=2. queue_total moved 1900 to 1908 (+8) this shift versus +86 the prior shift, no_site bucket 1428 to 1435 (+7), confirming the hotfrog burst is flattening back out as the proven pattern p
 
 ## Fifth of the enabled areas are in the wrong time zone for the call plan
 

@@ -11,15 +11,15 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cmo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 0.89 on 2026-08-21 (down, 4 days)
+**Scoreboard.** reply rate %: 1.4 on 2026-08-18 to 1.17 on 2026-08-21 (down, 4 days)
 
 ## Food niche has real inventory but is not counted as live
 
-*proven, revised 7 times, learned 2026-08-18 from shift.*
+*proven, revised 8 times, learned 2026-08-18 from shift.*
 
-Sixth straight shift, still tell Byron plainly the bot is working trades and beauty only. Today's numbers: ready_by_niche food 72, pro 24; ready_live_by_niche food 16, pro 11; call_list carries 0 of either. Niches-live tile still claims 4 including food and pro. Nothing about this has moved in six shifts, it is not a fluke reading, something upstream of the call_list build is filtering food and pro out entirely regardless of what's ready.
+Keep telling Byron food and pro are excluded from active outreach, but sharpen it: the block sits on new leads entering the no_site/messaged queue, not on the whole pipeline. A food or pro lead that already replied still surfaces (rank 1, bucket replied) because reply status outranks the niche filter. Pro still has zero rows at any stage for 7 straight shifts, that part is unchanged.
 
-> Evidence: This shift's call_list: 29 trades, 21 beauty, 0 food, 0 pro. ready_by_niche and ready_live_by_niche both carry food and pro inventory every shift, call_list has carried zero of either for 6 consecutive shifts running.
+> Evidence: This shift's call_list: 28 trades, 21 beauty, 1 food (sweetie-pies-bake-shop, stage=replied), 0 pro. ready_by_niche still carries food 72 and pro 25, ready_live_by_niche food 16 and pro 12, none of which reach the queue except this one replied food lead.
 
 ## Cold email is the one channel currently breaking Australian law
 
