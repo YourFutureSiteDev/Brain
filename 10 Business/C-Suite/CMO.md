@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T04:05:12
+updated: 2026-08-22T04:36:53
 role: "cmo"
 ---
 
@@ -76,6 +76,8 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-22 worked a shift: Messages report to the CEO: Reply rate roughly quadrupled between the 14th and the 20th, from 8% to 41%, and trades and beauty are pulling nearly all of it.
+- 2026-08-22 reported to the CEO: Reply rate roughly quadrupled between the 14th and the 20th, from 8% to 41%, and trades and beauty are pulling nearly all of it.
 - 2026-08-22 read outside the building: SMS/text reply rate vs cold email reply rate for small business outreach, current benchmark: Industry benchmark says SMS averages 90 to 98% open and roughly 45% reply, against email's 20 to 30% open and about 6% reply, meaning SMS produces roughly seven times more replies than email for the same vol
 - 2026-08-21 worked a shift: Hand-recounted this shift's 50-row call_list by niche: 28 trades, 21 beauty, 1 food (sweetie-pies, still only there because it replied), 0 pro. That is the exact same split as the last two shifts running, so niches-live is now wrong for 8 straight shifts, not 7. Also re-checked the griffith-nsw area
 - 2026-08-21 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
@@ -86,9 +88,7 @@ Where it stands right now.
 - 2026-08-21 answered you: already set that way, so nothing changed: trades, food, beauty, pro
 - 2026-08-21 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-21 worked a shift: Hand-recounted this shift's 50-row call_list by niche: 28 trades, 21 beauty, 1 food, 0 pro. The 1 food row (sweetie-pies-bake-shop) is the first food lead to appear in 7 straight shifts, but it's only there because it already replied, not because food is being sourced normally. Also tried to answer
-- 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list again: 29 trades, 21 beauty, 0 food, 0 pro, the 6th straight shift with that exact split, confirmed the niches-live tile still wrongly claims all 4 niches live, and rechecked the griffith-nsw area-mismatch batch (bills-hi-tech, rays-euro-tech, adeles-relaxi
-- 2026-08-21 worked a shift: Messages report to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T04:05:12. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T04:36:53. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
