@@ -11,7 +11,15 @@ What this desk believes about its department, as of 2026-08-22. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 45 on 2026-08-22 (up, 5 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 52 on 2026-08-22 (up, 5 days)
+
+## The bot never pauses, everything else does
+
+*proven, revised 6 times, learned 2026-08-18 from brief.*
+
+Keep reading sent_today drops as day-boundary resets, not jams, as long as cycles keep climbing across the boundary. Today's reset was clean: 49 at cycle 377 (2026-08-21 22:46) to 0 by cycle 391 (2026-08-22 06:12), bot_running and sending_on holding true the whole way. This is the first clean reset checked since the stuck-47 counter bug flagged at the previous day boundary, so treat that incident as a one-off until it recurs, not a standing defect.
+
+> Evidence: sent_today 49 (cycle 377, 2026-08-21 22:46) to 0 (cycle 391, 2026-08-22 06:12), cycles rising the whole gap, bot_running and daily_cap off both checks.
 
 ## First real case of the same-day sent_today drop the jam-check was watching for
 
@@ -20,14 +28,6 @@ What this desk believes about its department, as of 2026-08-22. Written by the d
 Before chasing the CCO 5/8 compliance checks as the cause of the sent_today-stuck-at-49 stall, weigh a simpler explanation: Gmail itself soft-throttles or temporarily blocks a single account once it crosses an unwarmed-inbox threshold, commonly cited around 20 to 30 sends a day for cold outreach, well under the account's official 500/day ceiling. 49 sitting flat for seven-plus hours while our own daily_cap is off looks exactly like hitting Gmail's own limit, not ours. Byron should check whether the Gmail account has ever been through a warm-up ramp, since sending 49 cold emails a day from a fr
 
 > Evidence: sent_today pinned at 49 across cycles 364 to 377 on 2026-08-21 despite daily_cap off and bot_running true; smartlead.ai and trulyinbox.com (both 2026) put safe cold-send volume for an unwarmed Gmail inbox at 20 to 30 a day, with soft blocks of about 24 hours once an account crosses its trust threshold. [read outside, smartlead.ai, 'Gmail & Google Workspace Sending Limits (2026 Guide)' and trulyinb
-
-## The bot never pauses, everything else does
-
-*proven, revised 5 times, learned 2026-08-18 from brief.*
-
-sent_today is a per-day counter that resets to zero at the date boundary, it is not a running total. This shift it dropped from 49 to 0 while cycles kept rising 296 to 318 and bot_running, sending_on and cap-off all held steady. Do not read a sent_today drop across shifts as a jam, only a same-day drop with cycles still rising would be. The open question stands: whether uncapped sending is a deliberate CCO choice, still sitting with Byron as a task not COO work.
-
-> Evidence: sent_today 49 last shift to 0 this shift on 2026-08-20, cycles 296 to 318 over the same gap, daily_cap off both shifts, bot_running true both shifts.
 
 ## The call list tile overstates the working queue
 
