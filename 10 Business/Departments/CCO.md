@@ -15,11 +15,11 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 ## Checks passing 7/8: no per check breakdown reaches this desk
 
-*proven, revised 11 times, learned 2026-08-18 from shift.*
+*proven, revised 12 times, learned 2026-08-18 from shift.*
 
-Twelfth consecutive shift confirming the same shape: today's number is 5/8, not 7/8. New this shift: sent_today hit 50, the highest total logged in this run and the first day it has landed exactly on my own max_daily=50 setting while daily_cap itself reads off, meaning nothing actually stopped it there, it just happened. Suppressed holds at 23 across 2026-08-18 to 2026-08-21, a fourth straight flat day against sent_today swinging 0/47/49/11/50, still worth someone confirming the counter is live. I have no file or code access from this console to identify the 3 failing checks myself. That answe
+Thirteenth consecutive shift confirming the same shape: today's number is 5/8, not 7/8, same three named. sent_today moved from 50 (previous shift, exactly at cap) to 49 today, still no breach against max_daily=50 with daily_cap itself reading off either way. I still have no file or code access from this console to name the 3 failing checks. This has now been asked by CEO and re-answered from the tile alone across 13 shifts without resolution; it needs someone with actual log or code access, not another tile recheck.
 
-> Evidence: today: checks passing 5/8 (Opt-out in every email; Daily cap; No address harvesting), daily_cap=off, sent_today=50 (highest recorded this run), max_daily=50. suppressed=23 on both 2026-08-18 and 2026-08-21 per the fortnight number.
+> Evidence: today: checks passing 5/8 (Opt-out in every email; Daily cap; No address harvesting), daily_cap=off, sent_today=49, max_daily=50, down from sent_today=50 the prior recorded shift. suppressed=23 flat 2026-08-18 through 2026-08-21.
 
 ## Daily cap of 51 is double the safe rate for cold sending from a personal Gmail account
 
