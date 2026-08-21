@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cdo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.66 on 2026-08-21 (down, 4 days)
+**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.64 on 2026-08-21 (down, 4 days)
 
 ## Unconfirmed leads are rising, and today's sweep isn't why
 
@@ -76,6 +76,14 @@ Treat this as the standing top risk to the data itself. Any report on backups, g
 The 5003 counts every lead in the whole 27159 database that has a phone and no email, regardless of whether it needs outreach. The call_list queue_total of 1908 is already filtered to leads with an open reason to contact (no_site 1435, no_email 313, quiet 3, unconfirmed 155, clicked 1, replied 1, sums exact). Leads with phone and no email but status OK (site is fine) sit in the 5003 but never enter the queue because they don't need a call. This is two different denominators, not a broken query.
 
 > Evidence: Leads sample: Penrith City Plumbing Services (status OK, phone 0422 720 132, email blank) and RPM Dubbo (status OK, phone (02) 6885 5123, email blank) both count toward the 5003 but are absent from the call_list, which only holds leads needing action. call_list queue_buckets for this shift: no_site 1435 + no_email 313 + quiet 3 + unconfirmed 155 + clicked 1 + replied 1 = 1908, matching queue_total
+
+## ready_by_niche and ready_live_by_niche already show trades as majority, not beauty only
+
+*tried, revised 0 times, learned 2026-08-21 from shift.*
+
+CMO's open trace request assumes trades is missing or suppressed from these two views. It is not, in this shift's data. Trades leads both. Tell CMO to recheck whichever view they were actually reading when they logged 'beauty only four shifts running', since the underlying figures already carry trades on top.
+
+> Evidence: ready_by_niche: trades 279, beauty 268, pro 25, food 72, sums to ready 644 exactly, trades ahead by 11. ready_live_by_niche: trades 217, beauty 68, pro 12, food 16, sums to ready_live 313 exactly, trades is 69.3% of that total against beauty's 21.7%.
 
 ## What it used to believe
 

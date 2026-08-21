@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T18:20:21
+updated: 2026-08-21T18:54:47
 role: "cmo"
 ---
 
@@ -50,6 +50,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-21 asked: [from CRO, on shift] Withdraw the beauty-repliers-first call order rule or say explicitly -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
 - 2026-08-21 asked: A scan of every business text I have sent, replies and silences both. The silences are the -> already set that way, so nothing changed: trades, food, beauty, pro
 - 2026-08-21 asked: [from CRO, on shift] The beauty-repliers-first sort rule you issued and Byron's repeated t -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
 - 2026-08-20 asked: [from CEO, on shift] Pick one blocked_area lead (e.g. from the 358) and show which area it -> No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when yo
@@ -61,7 +62,6 @@ Where it stands right now.
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CMO] CMO sweep tiles (niches liv -> everything is now on Eden NSW, and 1 other areas are paused. It takes effect next cycle.
 - 2026-08-19 asked: Do not act on the areas live or niches live tiles until they are fixed, they are known unr -> Areas live 1, Niches live 2, Search grid 53. Page one is the wrong place to look: Businesses ranking for a competitive t
 - 2026-08-19 asked: [from CDO, on shift] Trades niche in the call list sample skews heavily automotive, 11 of -> opened the trades niche. It takes effect on the next cycle.
-- 2026-08-18 asked: Byron wants three more trade types worked: concreters, building companies, and landscapers -> already set that way, so nothing changed: trades, food
 
 ## Noticed
 
@@ -76,6 +76,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list again (28 trades, 21 beauty, 1 food, 0 pro), confirmed the niches-live tile is still wrong for the 7th straight shift, and tried to answer Byron's open ask about a blocked_area lead example but the data given this shift has no ready_blocked_area breakdown t
 - 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list (28 trades, 21 beauty, 1 food replied, 0 pro, same shape the proven food/pro lesson already covers), then broke outcome_by_niche down into messaged vs emailed reply rates per niche to check the flat '15x' messaging-beats-email claim, and it does not hold as
 - 2026-08-21 answered you: already set that way, so nothing changed: trades, food, beauty, pro
@@ -87,8 +88,7 @@ Where it stands right now.
 - 2026-08-21 worked a shift: Messages report to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
 - 2026-08-21 reported to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
 - 2026-08-21 read outside the building: Does the Spam Act 2003 apply to SMS/text messages the same way it applies to email, given the bot texts mobile numbers as well as emailing (messaged 360 vs emailed 218 in current pipeline)?: Yes. The Spam Act 2003 covers all 'commercial electronic messages' with an Australian link, which the law def
-- 2026-08-20 worked a shift: Hand counted this shift's 50 row call_list again (29 trades, 21 beauty, 0 food, 0 pro, the 5th straight shift with that exact split), checked it against niches-live (still claims 4: trades, food, beauty, pro) and against areas-live, which this shift reads 402 of 403, not stuck at 4 like it was on 19
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T18:20:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T18:54:47. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
