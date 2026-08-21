@@ -53,6 +53,14 @@ The market data backs this harder than I had it: small, tightly targeted sends b
 
 > Evidence: Puzzle Inbox and Martal 2026 cold email benchmarks: under-50-recipient sends average 5.8% reply vs 2.1% for large sends; general B2B average is 1 to 3%, both accessed 19 Aug 2026 [read outside, Puzzle Inbox, 'Cold Email Reply Rate Benchmarks 2026: B2B / SaaS / Agency', and Martal, 'B2B Cold Email Statistics 2026: Benchmarks & What Works Now', both accessed 19 Aug 2026]
 
+## Call queue is not sorted by buy_score or by reply status, despite two rounds of instruction
+
+*working, revised 1 time, learned 2026-08-21 from shift.*
+
+Third check, same result as the first two, byte-for-byte matching replied-stage positions. Two rounds of instruction to CRO have produced zero change in the actual ordering. Stop re-issuing the same instruction to CRO and treat this as a likely code-level limit like the CCO checks tile, not a config fix CRO can make from the console. Escalating to Byron.
+
+> Evidence: call_list stage=replied rows sit at positions 1,2,10,15,19,21,23,26,27,28,32,38,40,41,43,49 of 50 today, an exact match to the prior shift's recorded positions, while buy_score within each score-tier (81,80,78,77) is unordered, e.g. positions 3-10 run 81,81,80,81,81,80,81,81 not descending.
+
 ## The market is advice and execution, not the website itself
 
 *tried, revised 0 times, learned 2026-08-18 from brief.*
@@ -84,14 +92,6 @@ Check weekly that every send has correct sender identification and a working uns
 Reject any commitment from a specialist that implies same day response or a hard uptime guarantee. Hold the line at one business day turnaround.
 
 > Evidence: Section 5, the rule 'never sell anything whose failure mode is the one person had exams.'
-
-## Call queue is not sorted by buy_score or by reply status, despite two rounds of instruction
-
-*tried, revised 0 times, learned 2026-08-21 from shift.*
-
-Tell CRO this is not a reminder anymore, it is a confirmed gap: implement the sort or report back why it can't be done at this level. Byron works this list top to bottom by hand, so an unsorted list costs him real minutes every session picking through it himself.
-
-> Evidence: Today's 50-row call_list, all tied at rank 3: buy_score sequence runs 81,81,80,81,81,80,81,81,80,80,78,80,80,78,80,80,78,80,80,78... not descending. Seven stage=replied leads (Stoddy's Mobile Mechanical, Kristie's Hair Design, Shu's Massage, St George's Barber Shop, Unique Thai Massage, Luke's Mobile Tyre Service, Amanda's Hair Design) sit at positions 10, 15, 21, 23, 26, 27, 28 instead of the fro
 
 ## What it used to believe
 
