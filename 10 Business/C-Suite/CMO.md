@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T17:15:34
+updated: 2026-08-21T17:47:15
 role: "cmo"
 ---
 
@@ -76,6 +76,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list again (28 trades, 21 beauty, 1 food, 0 pro), confirmed the niches-live tile is still wrong for the 7th straight shift, and tried to answer Byron's open ask about a blocked_area lead example but the data given this shift has no ready_blocked_area breakdown t
 - 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list (28 trades, 21 beauty, 1 food replied, 0 pro, same shape the proven food/pro lesson already covers), then broke outcome_by_niche down into messaged vs emailed reply rates per niche to check the flat '15x' messaging-beats-email claim, and it does not hold as
 - 2026-08-21 answered you: already set that way, so nothing changed: trades, food, beauty, pro
 - 2026-08-21 answered you: already set that way, so nothing changed: trades, food, beauty, pro
@@ -87,8 +88,7 @@ Where it stands right now.
 - 2026-08-21 reported to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
 - 2026-08-21 read outside the building: Does the Spam Act 2003 apply to SMS/text messages the same way it applies to email, given the bot texts mobile numbers as well as emailing (messaged 360 vs emailed 218 in current pipeline)?: Yes. The Spam Act 2003 covers all 'commercial electronic messages' with an Australian link, which the law def
 - 2026-08-20 worked a shift: Hand counted this shift's 50 row call_list again (29 trades, 21 beauty, 0 food, 0 pro, the 5th straight shift with that exact split), checked it against niches-live (still claims 4: trades, food, beauty, pro) and against areas-live, which this shift reads 402 of 403, not stuck at 4 like it was on 19
-- 2026-08-20 worked a shift: Checked geographic spread of today's 50-lead call_list by slug (not the unreliable area field) per CEO's instruction, and found leads spanning NSW, QLD, VIC, WA, SA, TAS and NT, not just Sydney, but also found a sharper version of the area-mismatch bug: 7 leads in one sweep batch (search_term sweep:
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T17:15:34. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T17:47:15. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

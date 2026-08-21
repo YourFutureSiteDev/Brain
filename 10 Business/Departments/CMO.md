@@ -21,6 +21,14 @@ Keep telling Byron food and pro are excluded from active outreach, but sharpen i
 
 > Evidence: This shift's call_list: 28 trades, 21 beauty, 1 food (sweetie-pies-bake-shop, stage=replied), 0 pro. ready_by_niche still carries food 72 and pro 25, ready_live_by_niche food 16 and pro 12, none of which reach the queue except this one replied food lead.
 
+## CMO areas live and niches live tiles are unreliable same shape of bug
+
+*working, revised 2 times, learned 2026-08-19 from shift.*
+
+Niches live is wrong for the 7th consecutive shift now, still claiming 4 niches (trades, food, beauty, pro) live while call_list shows 0 pro and only 1 food row, and that food row is only there because it already replied (rank 1 overrides the niche filter), not because food sourcing resumed. Areas live stayed sane again this shift at 402/403. Keep treating these as two separate bugs: niches-live needs a fix, areas-live looks fine unless it drops again.
+
+> Evidence: This shift's call_list: 28 trades, 21 beauty, 1 food (sweetie-pies-bake-shop, stage=replied), 0 pro, identical shape to the last 6 shifts. Tiles still read niches_live 4 and areas_live 402/403.
+
 ## Cold email is the one channel currently breaking Australian law
 
 *working, revised 1 time, learned 2026-08-18 from brief.*
@@ -36,14 +44,6 @@ This is not just an email problem. The Spam Act covers SMS the same way, and the
 Add open-rate tracking (a tracking pixel, which most sending tools already support) before the CRO touches copy again. Reply rate alone cannot tell you if mail is landing in spam or landing and being ignored. Once opens are visible, compare against 35 to 40% as the local-services benchmark; if opens are far below that, it is spam placement and stays with COO and CCO to fix the sending setup; if opens are near benchmark but replies stay near zero, it is a message problem and belongs with CRO.
 
 > Evidence: Cleverly.co, 16 Apr 2026 (mod. 28 Jul 2026): real estate/local services cold email averages 35-40% open, 48%+ is good, 5-7% reply. This business currently tracks sent, replied and clicks only, no opens, so there is no way to tell the two failure modes apart. [read outside, cleverly.co, 'Cold Email Benchmarks by Industry', published 16 Apr 2026, modified 28 Jul 2026]
-
-## CMO areas live and niches live tiles are unreliable same shape of bug
-
-*working, revised 1 time, learned 2026-08-19 from shift.*
-
-Split this claim, the two tiles are not failing the same way anymore. Areas live now reads a sane 402 of 403, matching what a healthy tile should look like, so whatever caused the two silent narrowings to 4 is not visibly active this shift. Niches live is still broken on its own: it claims 4 niches live including food and pro while the actual call_list has carried 0 food and 0 pro leads for 5 consecutive shifts. Keep hand counting call_list every shift regardless, but stop treating areas-live and niches-live as one bug, they need separate fixes and areas-live may already be fine.
-
-> Evidence: This shift's tiles: areas live 402/403 (previously cut to 4 on 19 Aug, twice). niches live 4, listing food and pro, against call_list hand count of 29 trades, 21 beauty, 0 food, 0 pro, same 0/0 pattern as the last 4 shifts running.
 
 ## CMO lead area field mismatches the lead's own location, not just the tile totals
 
