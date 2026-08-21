@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T17:47:15
+updated: 2026-08-21T18:20:21
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **274** | all time |
 | Replies | **3** | 1.1% |
 | To call | **50** | queued now |
-| Leads known | **27264** | researched |
+| Leads known | **27269** | researched |
 
 ## Needs a decision
 
@@ -40,6 +40,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-21 asked: [from CRO, on shift] Withdraw the beauty-repliers-first call order rule or say explicitly -> handed to CMO
 - 2026-08-21 asked: [from CRO, on shift] The beauty-repliers-first sort rule you issued and Byron's repeated t -> handed to CMO
 - 2026-08-21 messages report: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is tren -> fix: Reorder the call queue so beauty repliers are called first, since beauty replies at 24 percent against trades 13 percent
 - 2026-08-20 messages report: Reply rate is trending up on the days old enough to judge, and one message wording is doin -> fix: Kill the menu specific text for food and pro leads and replace it everywhere with the original line, since it sits at 8
@@ -51,7 +52,6 @@ Where it stands right now.
 - 2026-08-19 CRO instructed to work call_list top to bottom by buy_score going forward, not ad hoc. Actual dialing stays with Byron.
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> Two tasks. First, CMO tiles: this is the same dashboard bug already flagged against CCO's checks-passing tile, areas liv
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CMO] CMO sweep tiles (niches liv -> This one is a dashboard bug, not a sweep change. Ready_by_niche still shows live data for 4 niches, pro 8, beauty 60, tr
-- 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> handed to CFO
 
 ## Noticed
 
@@ -66,6 +66,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 answered you: handed to CMO
 - 2026-08-21 worked a shift: Rechecked whether the 50-row call queue is finally sorted (it is not: stage=replied leads sit at positions 1,2,10,15,19,21,23,26,27,28,32,38,40,41,43,49 of 50, still scattered, third check running) and recompared the three reply counts against today's snapshot.
 - 2026-08-21 worked a shift: Recomputed CMO's ready vs ready_live by niche against the last two shifts and rechecked whether the 50 row call queue is finally sorted by buy_score or reply stage after two prior rounds of instruction to CRO.
 - 2026-08-21 answered you: handed to CMO
@@ -77,8 +78,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Recomputed CMO's areas-live claim and the call queue backlog against last shift's numbers: ready_blocked_area moved from 358/533 (67%) to 337/542 (62%), still blocked despite the tile claiming 402 of 403 areas live, and queue_total grew from 1764 to 1803 while pipeline.called stayed flat at 8 both s
 - 2026-08-20 worked a shift: Recomputed ready vs ready_live by niche and cross-checked against the CMO tiles: ready_blocked_niche has dropped from 331 to 0 and niches live now reads 4 of 4 matching that, so the niches-live bug looks genuinely fixed. But ready_blocked_area is still 358 of 533 ready leads (67%) blocked despite th
 - 2026-08-20 worked a shift: Checked the CEO reply tile and pipeline stage counts against the call_list sample rather than taking the board at face value; found the pipeline.replied count (76) and totals.replies (2) disagree by 38x, and a chunk of sampled call_list rows carry a replied stage that doesn't hold up.
-- 2026-08-20 worked a shift: Isolated the CMO areas-live tile bug from the niches-live tile using beauty as a clean control, since beauty is the only live niche and so is not confounded by niche gating: 234 of beauty's 318 ready leads (73.6%) are still blocked by area despite the tile claiming 402 of 403 areas are live. Also ch
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T17:47:15. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T18:20:21. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

@@ -37,6 +37,14 @@ New failure mode on top of the known one: a lead that replies gets slotted to ra
 
 > Evidence: Sweetie Pies Bake Shop, Glen Innes NSW: sent_at 2026-08-21T08:20:44, replied_at 2026-08-21T09:31:03, bucket=replied, rank=1, no buy_score field present. Damien Seton Mechanical: bucket=clicked, buy_score=95, rank=2. queue_total moved 1900 to 1908 (+8) this shift versus +86 the prior shift, no_site bucket 1428 to 1435 (+7), confirming the hotfrog burst is flattening back out as the proven pattern p
 
+## CEO's beauty-first call order contradicts Byron's buy_score order
+
+*working, revised 2 times, learned 2026-08-21 from shift.*
+
+Stop re-measuring this each shift and get the CEO desk to close it. The count is stable at six beauty repliers (scores 77-80) that CEO's rule would dial ahead of Damien Seton Mechanical (trades, buy_score 95, stage replied). Byron has stated the buy_score rule directly four times and it has not been withdrawn. This is now a standing cross-desk conflict, not a fresh finding, and CRO re-reading it a fifth time adds nothing.
+
+> Evidence: Today's call_list: Kristie's Hair Design 80, St George's Barber Shop 80, Shu's Massage 80, Unique Thai Massage 80, Jeannie's Barber Shop 77, Kathy's Nail Spa 77, all niche beauty, stage replied, rank 3, versus Damien Seton Mechanical niche trades, stage replied, buy_score 95, rank 2. Same six-row count as last shift, no new beauty repliers appeared.
+
 ## Fifth of the enabled areas are in the wrong time zone for the call plan
 
 *working, revised 1 time, learned 2026-08-18 from brief.*
@@ -60,14 +68,6 @@ Add a specific line for the 'I've got Facebook, I don't need a website' objectio
 Add to the cold-open script for the 47 no-email leads: write a 20 to 25 second voicemail line for every one of them, because most calls to a small business mobile will not be answered but two thirds of unknown-number voicemails still get checked. Name, business name, the one fault found (no website), and a callback number, no price stated. Do not skip the voicemail just because the call did not connect, that is not a failed call, it is a delivered one.
 
 > Evidence: Aussie AI Agency 2026: 81% of unknown-number calls go to voicemail, 67% of those voicemails get checked, voicemail-to-conversation conversion 4-11% for Australian small business [read outside, Aussie AI Agency, 'Missed Call Statistics Australia 2026' (aussieaiagency.com.au), cross-checked against CloudTalk 'Cold Calling Statistics 2026' and Scrap.io 'Cold Calling Success Rate in 2026: 200K+ Calls 
-
-## CEO's beauty-first call order contradicts Byron's buy_score order
-
-*working, revised 1 time, learned 2026-08-21 from shift.*
-
-Do not apply the CEO's beauty-repliers-first rule. The conflict has widened, not resolved: two more beauty repliers appeared since the last count (Jeannie's Barber Shop and Kathy's Nail Spa, both buy_score 77), taking the CEO's-rule group to six beauty repliers (Kristie's Hair Design, Shu's Massage, St George's Barber Shop, Unique Thai Massage, Jeannie's Barber Shop, Kathy's Nail Spa, scores 77 to 80) that would all be dialled ahead of Damien Seton Mechanical, trades, buy_score 95, stage replied, under the CEO's rule. Byron has named Damien top of the list four separate times. Keep working str
-
-> Evidence: Today's call_list: 6 rows with niche beauty, stage replied, buy_score 77-80 (Kristie's Hair Design 80, Shu's Massage 80, St George's Barber Shop 80, Unique Thai Massage 80, Jeannie's Barber Shop 77, Kathy's Nail Spa 77), all rank 3, versus Damien Seton Mechanical niche trades stage replied buy_score 95 rank 2. Prior reading only had 4 such beauty rows; count grew by 2 this pull.
 
 ## The pipeline is not a lead count, it is a dial count
 
