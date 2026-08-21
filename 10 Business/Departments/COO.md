@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 50 on 2026-08-21 (up, 4 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 54 on 2026-08-21 (up, 4 days)
 
 ## The bot never pauses, everything else does
 
@@ -23,11 +23,11 @@ sent_today is a per-day counter that resets to zero at the date boundary, it is 
 
 ## The call list tile overstates the working queue
 
-*proven, revised 4 times, learned 2026-08-18 from shift.*
+*proven, revised 5 times, learned 2026-08-18 from shift.*
 
-Second shift running this queue_buckets sums exactly to queue_total: clicked 1 + no_site 1419 + no_email 313 + quiet 3 + unconfirmed 155 = 1891, matching queue_total 1891 exactly. Unconfirmed (UNKNOWN-status with phone) share is 155/1891 = 8.2%, in line with the prior reading's 8.8%. This directly answers the three stacked CDO handover asks about whether UNKNOWN-status leads route to the call queue: yes, consistently, at roughly 8-9% of it, not zero. The separate queue_bucket_first field is still unreconciled (clicked 1, no_site 2, no_email 1421, quiet 1734, unconfirmed 1737, does not sum to q
+This is now confirmed a third time and directly answers both open CDO asks: the call list build does not filter to NO_SITE only, it includes UNKNOWN-status leads that have a phone number, consistently at 8 to 9 percent of the queue. Treat this as settled, stop re-asking it, and read the queue_total tile as NO_SITE plus a small UNKNOWN-with-phone slice, not a NO_SITE-only count.
 
-> Evidence: This shift's call_list record: queue_buckets {clicked:1, no_site:1419, no_email:313, quiet:3, unconfirmed:155} = 1891 = queue_total, versus last shift's {no_site:1290, no_email:313, quiet:2, unconfirmed:155} = 1761 = queue_total, both exact matches, unconfirmed share 8.2% vs 8.8%.
+> Evidence: This shift's queue_buckets: clicked 1 + no_site 1431 + no_email 313 + quiet 3 + unconfirmed 155 = 1903, exactly matching queue_total 1903. Unconfirmed share 155/1903 = 8.1%, versus 8.2% two shifts ago and 8.8% three shifts ago, same pattern each time.
 
 ## Real capacity is nine months a year, not twelve
 

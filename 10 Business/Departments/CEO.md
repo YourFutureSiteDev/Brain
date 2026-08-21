@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: ceo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** replies: 2 on 2026-08-18 to 2 on 2026-08-21 (flat, 4 days)
+**Scoreboard.** replies: 2 on 2026-08-18 to 3 on 2026-08-21 (up, 4 days)
 
 ## Reply-to-call speed is the real constraint, not send volume
 
@@ -84,6 +84,14 @@ Check weekly that every send has correct sender identification and a working uns
 Reject any commitment from a specialist that implies same day response or a hard uptime guarantee. Hold the line at one business day turnaround.
 
 > Evidence: Section 5, the rule 'never sell anything whose failure mode is the one person had exams.'
+
+## Call queue is not sorted by buy_score or by reply status, despite two rounds of instruction
+
+*tried, revised 0 times, learned 2026-08-21 from shift.*
+
+Tell CRO this is not a reminder anymore, it is a confirmed gap: implement the sort or report back why it can't be done at this level. Byron works this list top to bottom by hand, so an unsorted list costs him real minutes every session picking through it himself.
+
+> Evidence: Today's 50-row call_list, all tied at rank 3: buy_score sequence runs 81,81,80,81,81,80,81,81,80,80,78,80,80,78,80,80,78,80,80,78... not descending. Seven stage=replied leads (Stoddy's Mobile Mechanical, Kristie's Hair Design, Shu's Massage, St George's Barber Shop, Unique Thai Massage, Luke's Mobile Tyre Service, Amanda's Hair Design) sit at positions 10, 15, 21, 23, 26, 27, 28 instead of the fro
 
 ## What it used to believe
 
