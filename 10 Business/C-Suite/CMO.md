@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T21:10:33
+updated: 2026-08-21T21:42:29
 role: "cmo"
 ---
 
@@ -76,6 +76,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Hand-recounted this shift's 50-row call_list by niche: 28 trades, 21 beauty, 1 food (sweetie-pies, still only there because it replied), 0 pro. That is the exact same split as the last two shifts running, so niches-live is now wrong for 8 straight shifts, not 7. Also re-checked the griffith-nsw area
 - 2026-08-21 answered you: No lever of mine moves this one. What I control is: turn an area or a niche on or off; open closed areas in bulk when you need more leads; narrow everything ont
 - 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list again (28 trades, 21 beauty, 1 food, 0 pro), confirmed the niches-live tile is still wrong for the 7th straight shift, and tried to answer Byron's open ask about a blocked_area lead example but the data given this shift has no ready_blocked_area breakdown t
 - 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list (28 trades, 21 beauty, 1 food replied, 0 pro, same shape the proven food/pro lesson already covers), then broke outcome_by_niche down into messaged vs emailed reply rates per niche to check the flat '15x' messaging-beats-email claim, and it does not hold as
@@ -87,8 +88,7 @@ Where it stands right now.
 - 2026-08-21 worked a shift: Hand counted this shift's 50 row call_list again: 29 trades, 21 beauty, 0 food, 0 pro, the 6th straight shift with that exact split, confirmed the niches-live tile still wrongly claims all 4 niches live, and rechecked the griffith-nsw area-mismatch batch (bills-hi-tech, rays-euro-tech, adeles-relaxi
 - 2026-08-21 worked a shift: Messages report to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
 - 2026-08-21 reported to the CEO: Beauty is carrying the board at 24% replies while food drags at 8%, and reply rate is trending up on the days old enough to judge.
-- 2026-08-21 read outside the building: Does the Spam Act 2003 apply to SMS/text messages the same way it applies to email, given the bot texts mobile numbers as well as emailing (messaged 360 vs emailed 218 in current pipeline)?: Yes. The Spam Act 2003 covers all 'commercial electronic messages' with an Australian link, which the law def
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T21:10:33. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T21:42:29. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.

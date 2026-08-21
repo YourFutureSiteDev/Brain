@@ -23,11 +23,11 @@ Keep telling Byron food and pro are excluded from active outreach, but sharpen i
 
 ## CMO areas live and niches live tiles are unreliable same shape of bug
 
-*working, revised 2 times, learned 2026-08-19 from shift.*
+*proven, revised 3 times, learned 2026-08-19 from shift.*
 
-Niches live is wrong for the 7th consecutive shift now, still claiming 4 niches (trades, food, beauty, pro) live while call_list shows 0 pro and only 1 food row, and that food row is only there because it already replied (rank 1 overrides the niche filter), not because food sourcing resumed. Areas live stayed sane again this shift at 402/403. Keep treating these as two separate bugs: niches-live needs a fix, areas-live looks fine unless it drops again.
+This is now the 8th consecutive shift with the identical call_list shape (28 trades, 21 beauty, 1 food replied-only, 0 pro) while the tile still claims 4 niches live. Eight identical readings in a row means this is a static miscalculation, not noisy data, and it is not something I can fix from CMO levers since niche/area targeting settings aren't wrong, the tile query itself is. Route the actual fix to whoever owns the pipeline/tile query, most likely CDO or COO, and stop treating this as a CMO watch item until that query is checked.
 
-> Evidence: This shift's call_list: 28 trades, 21 beauty, 1 food (sweetie-pies-bake-shop, stage=replied), 0 pro, identical shape to the last 6 shifts. Tiles still read niches_live 4 and areas_live 402/403.
+> Evidence: This shift's call_list: 28 trades, 21 beauty, 1 food (sweetie-pies-bake-shop, stage replied), 0 pro, identical to the prior 2 shifts' exact counts. Tiles still read niches_live 4 (trades, food, beauty, pro) and ready_by_niche still carries pro 25 and food 72 that never reach the queue.
 
 ## Cold email is the one channel currently breaking Australian law
 
