@@ -3,7 +3,7 @@ title: "CFO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T06:44:11
+updated: 2026-08-22T07:19:11
 role: "cfo"
 ---
 
@@ -56,6 +56,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-22 worked a shift: Rechecked banked revenue, prices, monthly costs and break-even against live numbers: still $0 banked, 0 jobs won, remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at 1 job unchanged. Also reviewed the standing playbook for anything resting on a pro
 - 2026-08-22 read outside the building: What do freelance web designers actually charge for small business sites specifically in regional Australia, as distinct from national averages, and is there a documented regional discount versus metr: Sydney-based designers charge 20 to 30 percent more than regional counterparts for the same qualit
 - 2026-08-21 worked a shift: Rechecked banked revenue, jobs won, prices, monthly costs and break-even against the live numbers: still $0 banked, 0 jobs won, won flat at 0 for a fourth straight day (2026-08-18 to 2026-08-21), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at
 - 2026-08-21 worked a shift: Checked banked revenue, jobs won, prices, monthly costs and break-even against the live numbers again: still $0 banked, 0 jobs won, won flat at 0 for a fourth straight day. Remake $500, newbuild $1500, monthly costs $162 and break-even at 1 job are all unchanged since the last five shifts checked th
@@ -67,8 +68,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against live numbers: still $0 banked, 0 jobs won (won flat at 0 for 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two products, monthly costs $162 and break-even at 1 job unchanged. Checked all four tried be
 - 2026-08-20 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against the live numbers: still $0 banked, 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two things sold, monthly costs $162 and break-even at 1 job unchanged. Nothing has mov
 - 2026-08-20 worked a shift: Rechecked banked revenue, jobs won, prices and break-even against live numbers: still $0 banked, 0 jobs won (won flat at 0 across 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two things sold, monthly costs $162 and break-even at 1 job unchanged. Nothing has moved s
-- 2026-08-20 worked a shift: Rechecked banked revenue, jobs won and prices against the live numbers: still $0 banked, 0 jobs won (won flat at 0 for the fortnight, 2026-08-18 to 2026-08-20), remake $500 and newbuild $1500 confirmed as the only two products, break-even still 1 job at $162 monthly costs. Nothing has moved since la
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T06:44:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T07:19:11. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
