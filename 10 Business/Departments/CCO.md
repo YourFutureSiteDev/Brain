@@ -93,4 +93,12 @@ Do not let a parent become the contracting party while knowingly involved in the
 
 > Evidence: Part 3.4 clause 18: shield applies only to a person under 18, does not protect a parent, and evaporates for conduct after that birthday.
 
+## Daily cap check passes while the cap setting itself is off
+
+*tried, revised 0 times, learned 2026-08-21 from shift.*
+
+Flag to CCO owner: the check named 'Daily cap' shows as passing in the 5/8 count, but the live daily_cap setting is 'off', meaning nothing is actually enforcing a ceiling today. sent_today landed at 49 and 50 on different recent days purely by volume, not because a cap stopped it. The check is likely validating that cap logic exists in code, not that a cap is active. Byron should not read 'Daily cap: passing' as 'sending is capped today', because it is not.
+
+> Evidence: Live tile: checks passing 5/8 names 'Daily cap' as passing; business.daily_cap field reads 'off'; sent_today=49 today, sent_today=50 on a prior shift, both with daily_cap off.
+
 Back to [[Memory]].

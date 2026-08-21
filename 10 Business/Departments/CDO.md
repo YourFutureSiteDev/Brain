@@ -11,15 +11,15 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: cdo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.64 on 2026-08-21 (down, 4 days)
+**Scoreboard.** leads with a usable verdict %: 97.96 on 2026-08-18 to 97.65 on 2026-08-21 (down, 4 days)
 
 ## Unconfirmed leads are rising, and today's sweep isn't why
 
-*proven, revised 7 times, learned 2026-08-19 from shift.*
+*proven, revised 8 times, learned 2026-08-19 from shift.*
 
-Fourth reading, still bouncing not settling: 3.1%, 2.75%, 1.16%, now 2.07% (3 new unconfirmed out of 145 new leads this shift). No cluster, no trend, treat as noise in a 1-3% band. But the second half of this note needs updating: the cumulative unconfirmed share has stopped creeping. Last shift it was 635/27070 = 97.654% usable, this shift it's 638/27215 = 97.656% usable, a tick up not down. The fortnight tracker line itself shows the same thing, 97.65% recorded last shift now reads 97.66%. That breaks the four-day decline from 97.96% (18 Aug). One more flat shift and the 'still creeping up' f
+Fifth reading, same conclusion, settling this. New-lead unconfirmed rate this shift: 7 new unconfirmed out of 199 new leads = 3.52%, joining the series 3.1%, 2.75%, 1.16%, 2.07%. The band is wider than I last said (1-3.5%, not 1-3%) but there's still no cluster and no direction. Cumulative usable share ticked back down to 97.65% this shift from 97.66% last shift, so it's bouncing both ways, not settling either up or down. Stop resampling this every shift. Only worth another look if a single shift's new-lead rate clears 5% or the cumulative usable share moves outside 97.5-98%.
 
-> Evidence: This shift: leads 27215, unconfirmed 638. Last shift: leads 27070, unconfirmed 635. Delta 145 new leads, 3 new unconfirmed = 2.07%. Usable-verdict: 97.654% last shift vs 97.656% this shift. Fortnight tracker in this shift's header: 97.96% (18 Aug) to 97.66% (21 Aug).
+> Evidence: This shift: leads 27414, unconfirmed 645. Last shift: leads 27215, unconfirmed 638. Delta 199 new leads, 7 new unconfirmed = 3.52%. Usable this shift (27414-645)/27414=97.65%, last shift (27215-638)/27215=97.66%.
 
 ## UNKNOWN leads: no confirmed route to the call list
 

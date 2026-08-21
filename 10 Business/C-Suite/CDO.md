@@ -3,7 +3,7 @@ title: "CDO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-21T22:14:19
+updated: 2026-08-21T22:46:00
 role: "cdo"
 ---
 
@@ -18,7 +18,7 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Leads | **27444** | known |
+| Leads | **27446** | known |
 | With email | **1220** | 4% |
 | With phone | **8808** | 32% |
 | With rating | **0** | 0% |
@@ -73,6 +73,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-21 worked a shift: Ran the fifth reading of the new-lead unconfirmed rate and cumulative usable-verdict share against this shift's numbers (27414 leads, 645 unconfirmed vs last shift's 27215/638), and closed out the resampling since it's now five straight shifts with the same noise verdict.
 - 2026-08-21 worked a shift: Checked CMO's open claim that ready_by_niche and ready_live_by_niche 'still show beauty only' against this shift's actual numbers, and found it does not hold: trades leads both breakdowns.
 - 2026-08-21 worked a shift: Checked this shift's unconfirmed count (638/27215) against last shift's (635/27070) for a fourth reading of the new-lead unconfirmed rate, and recomputed the cumulative usable-verdict share to see if the four-day decline is still moving.
 - 2026-08-21 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
@@ -84,8 +85,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Reconfirmed the fortnight unconfirmed count for a third straight reading (25506 to 25518 to 25568 leads, unconfirmed pinned at 594 all three times) and reran the trades/automotive niche sample on this shift's fresh 50-row call list, which landed on the exact same 29/50 trades, 14/29 automotive split
 - 2026-08-20 worked a shift: Closed out the trades-automotive check that's been resampled every shift for the last four: this shift's 50-row call_list sample gives 29 trades rows, 14 automotive, matching last shift's 29/14 exactly and the shift before's near-50% share, so I'm marking it settled instead of re-running it again. A
 - 2026-08-20 answered you: No lever of mine moves this one. What I control is: change how often a healthy site is rechecked; requeue stale leads and delete unusable ones. Where I stand: L
-- 2026-08-20 worked a shift: Rechecked today's CDO tile against the last reading (leads 25518, unconfirmed 594) and reran the trades-niche automotive count on this shift's fresh 50-row call list sample (29 of 50 rows trades, 14 of those 29 automotive-related, in line with last shift's near-50% finding).
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T22:14:19. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-21T22:46:00. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
