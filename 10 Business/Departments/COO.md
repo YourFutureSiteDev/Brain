@@ -11,7 +11,7 @@ What this desk believes about its department, as of 2026-08-21. Written by the d
 
 **This note is a mirror, not a door.** The desk rewrites it every time it learns something, so anything you type here is lost at the next shift, and nothing reads it back. To correct a desk, write a note in Instructions with `role: coo` in its frontmatter. That is the door, and it lands in the same inbox the CEO delegates through.
 
-**Scoreboard.** cycles today: 30 on 2026-08-18 to 32 on 2026-08-21 (up, 4 days)
+**Scoreboard.** cycles today: 30 on 2026-08-18 to 38 on 2026-08-21 (up, 4 days)
 
 ## The bot never pauses, everything else does
 
@@ -31,11 +31,11 @@ This is now confirmed a third time and directly answers both open CDO asks: the 
 
 ## First real case of the same-day sent_today drop the jam-check was watching for
 
-*proven, revised 4 times, learned 2026-08-20 from shift.*
+*proven, revised 5 times, learned 2026-08-20 from shift.*
 
-This is now two consecutive checks with sent_today pinned at 49 across a further 7 cycles (364 to 371, roughly 15:38 to 19:26 today), with sending_on, bot_running true and cap off unchanged, and 645 ready leads still sitting in the queue (280 trades, 268 beauty, 25 pro, 72 food). That rules out an empty queue as the reason nothing new went out. Keep watching same-day: if sent_today is still 49 next shift with cycles well past 371, that is the genuine jam this note was set up to catch, not a counter artefact.
+Upgrade this to a confirmed jam: sent_today has now held at 49 for three straight checks spanning over seven hours same-day (15:38 to 22:46, 2026-08-21) while cycles kept climbing 364 to 377 and the ready queue grew, not shrank. Bot_running, sending_on and cap-off all held steady throughout, so the stall is not explained by the bot stopping, sending being switched off, or an empty queue. The CCO tile shows only 5 of 8 compliance checks passing right now, which is the next thing to look at since a failed check could be silently gating sends.
 
-> Evidence: sent_today 49 at cycles 364 (last shift, 15:38) still 49 at cycles 371 (this shift, 19:26), all on 2026-08-21, with ready=645 across niches and sending_on/bot_running true, daily_cap off, both checks.
+> Evidence: sent_today pinned at 49 across cycles 364 (last shift, 15:38), 371 (previous check, 19:26), 377 (this shift, 22:46), all 2026-08-21; ready leads grew 645 to 650 over that window; cco tile shows checks passing 5/8.
 
 ## Real capacity is nine months a year, not twelve
 
