@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T02:30:09
+updated: 2026-08-22T03:01:53
 role: "coo"
 ---
 
@@ -18,8 +18,8 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 383 cycles |
-| Last cycle | **01:58** | 2026-08-22 |
+| Bot | **running** | 384 cycles |
+| Last cycle | **02:30** | 2026-08-22 |
 | Leads | **27570** | 27570 checked |
 | Call list | **5059** | no email found |
 | Daily cap | **off** | 0 sent today |
@@ -59,6 +59,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-22 Read outside on What causes Gmail sending to silently stall around 50 emails a day even when no cap is set in our own tool, for cold outreach from a single Gmail account: Gmail itself enforces limits outside any app setting. Official ceiling is 500/day for a personal Gmail account, but for cold outreach the safe volume from an unwarmed inbox is far lower, commonly cited as 20 to 30 a day, with new or lightly warmed accounts getting soft-throttled or temporarily blocked for about 24 hours once they cross an invisible threshold well under the official cap. This throttle is applied by Gmail, not by any setting in our own bot. (source: smartlead.ai, 'Gmail & Google Workspace Sending Limits (2026 Guide)' and trulyinbox.com, 'Gmail Sending Limits for 2026', both accessed 2026-08-22)
 - 2026-08-21 Read outside on what is a realistic billable utilization rate for a full time solo freelancer, in hours per week: Across a sample of 10,000+ freelancers, average billable hours were 22.4 hours a week. The recommended sustainable target is 20 to 30 billable hours a week (25 as the ideal), which works out to a 50 to 65 percent utilization rate, not 60 to 70. A separate freelancer survey put average full time utilization at 59 percent (26 of 44 total working hours), with high earners reaching 80 percent. (source: solohourly.com, 'How Many Billable Hours is Realistic? (20-30 Hour Rule)', updated April 2026; corroborated by Clockify/industry survey data via web search, 2026)
 - 2026-08-20 Read outside on How much time does a solo operator actually lose per context switch between build work and other tasks (calls, checking the bot, replying to prospects)?: The commonly cited UC Irvine research (Gloria Mark) puts the refocus cost at 23 minutes 15 seconds after an interruption before full concentration on the original task returns. Freelancer-specific write-ups extrapolate that a person juggling several distinct task types in one day hits 4 to 6 major transitions, costing 1 to 2 hours a day just in refocus time, separate from the interruption itself. (source: cannelevate.com.au, 'How Context Switching Reduces Workplace Productivity' (2026, citing UC Irvine / Gloria Mark research), retrieved 2026-08-20)
 - 2026-08-19 Read outside on What share of a solo freelancer's working hours are actually billable/buildable, versus admin, sales and coordination time that never shows up as build minutes: Multiple 2026 sources converge on 60 to 70 percent billable utilization for established solo freelancers. The Jobbers.io 2026 Freelance Benchmark Report puts full time freelancers at about 44 hours worked per week with roughly 26 billable (59 percent). Clockify's freelancer time study and the Freelancers Union both cite 60 to 75 percent billable, with the rest going to proposals, invoicing, admin and business development, roughly 6 hours a week on admin alone even after the freelancer already has clients. (source: Jobbers.io 'The Freelance Benchmark Report 2026' (retrieved 2026-08-19); Clockify 'How Freelancers Spend Time' (2025/2026); Freelancers Union utilization figures cited in the same search)
@@ -67,6 +68,7 @@ Where it stands right now.
 
 ## Recently did
 
+- 2026-08-22 read outside the building: What causes Gmail sending to silently stall around 50 emails a day even when no cap is set in our own tool, for cold outreach from a single Gmail account: Gmail itself enforces limits outside any app setting. Official ceiling is 500/day for a personal Gmail account, but for cold outreach the safe vo
 - 2026-08-21 worked a shift: Rechecked machine health against the standing jam-watch: sent_today is now flat at 49 for a third consecutive check, across cycles 364 (15:38) to 371 (19:26) to 377 (22:46), all on 2026-08-21, with bot_running and sending_on both true and daily_cap off the whole time, and the ready queue growing (64
 - 2026-08-21 worked a shift: Rechecked machine health this shift: sent_today held flat at 49 while cycles rose 364 to 371, last cycle now 19:26 on 2026-08-21, so I looked past whether it was jammed and checked whether the queue behind it still had anything to send.
 - 2026-08-21 worked a shift: Rechecked machine health this shift: sent_today moved from 47 to 49 while cycles rose 357 to 364, all within 2026-08-21, confirming the bot is not jammed. But sent_today never reset to 0 at the actual midnight boundary, it just kept counting up from the stale 47 baseline, which is a counter bug not
@@ -78,8 +80,7 @@ Where it stands right now.
 - 2026-08-20 worked a shift: Rechecked machine health against last shift's own trigger condition: sent_today held flat at 47 while total cycles climbed 331 to 340 over the last cycle window (17:27 to 22:26 today), bot_running, sending_on both still true and daily cap still off.
 - 2026-08-20 worked a shift: Rechecked machine health: total cycles rose 324 to 331 (bot_running and sending_on both true, daily cap still off, last cycle 17:27 today), but sent_today dropped from 49 to 47 on the same day 2026-08-20, which is the exact same-day-drop-with-cycles-still-rising pattern my last check said would actu
 - 2026-08-20 worked a shift: Rechecked machine health this shift: total cycles up from 320 to 324 (a gain of only 4), sent_today at 49 with daily cap still off, bot_running and sending_on both true, last cycle 13:35 today, no jam. Also re-summed this shift's queue_buckets (1 clicked + 1300 no_site + 313 no_email + 3 quiet + 155
-- 2026-08-20 answered you: Bot running, Last cycle 07:32, Leads 25530, Call list 4439. 4439 leads have a phone but no email: The bot cannot reach these. They are the call list, and they a
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T02:30:09. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T03:01:53. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
