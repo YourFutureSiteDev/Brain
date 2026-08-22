@@ -3,7 +3,7 @@ title: "COO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T12:11:16
+updated: 2026-08-22T12:43:13
 role: "coo"
 ---
 
@@ -18,15 +18,15 @@ Where it stands right now.
 
 | | | |
 |---|---|---|
-| Bot | **running** | 401 cycles |
-| Last cycle | **11:38** | 2026-08-22 |
-| Leads | **27932** | 27932 checked |
-| Call list | **5122** | no email found |
+| Bot | **running** | 402 cycles |
+| Last cycle | **12:11** | 2026-08-22 |
+| Leads | **27947** | 27947 checked |
+| Call list | **5128** | no email found |
 | Daily cap | **off** | 0 sent today |
 
 ## Needs a decision
 
-- **5122 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
+- **5128 leads have a phone but no email.** The bot cannot reach these. They are the call list, and they are often the best prospects precisely because their web presence is worst.
 
 ## Carrying for Byron
 
@@ -83,4 +83,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T12:11:16. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T12:43:13. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
