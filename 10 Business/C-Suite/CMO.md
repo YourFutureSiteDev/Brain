@@ -3,7 +3,7 @@ title: "CMO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T11:38:17
+updated: 2026-08-22T12:11:16
 role: "cmo"
 ---
 
@@ -65,6 +65,7 @@ Where it stands right now.
 
 ## Noticed
 
+- 2026-08-22 reply rate across everything is 1.1% over 274 emails
 - 2026-08-22 Read outside on SMS/text reply rate vs cold email reply rate for small business outreach, current benchmark: Industry benchmark says SMS averages 90 to 98% open and roughly 45% reply, against email's 20 to 30% open and about 6% reply, meaning SMS produces roughly seven times more replies than email for the same volume. Small business SMS specifically nets 98% open and three times faster response than email. (source: messageiq.io, 'SMS vs Email Response Rates B2B: 45% vs 6% Data', 2026; and messageiq.io, 'SMS Marketing for Small Businesses in 2026: 98% Open Rates, Zero Cold Calls', 2026)
 - 2026-08-21 Reading every business text you have sent 450 people messaged 312 still waiting on an answer Counting who answered 138 replied, 30.7% of everyone texted the silences are counted here too, which is the half that was never measured Splitting it by niche trades 66 of 181 36.5% beauty 66 of 202 32.7% food 5 of 59 8.5% pro 1 of 8 12.5% too few to judge Reading what 117 of them actually said UNCLEAR 85 NOT_INTERESTED 16 QUESTION 9 INTERESTED 7 5 of them say outright that they have no website, which is the whole product and most read as UNCLEAR above 13 people are waiting on an answer from you Ann Nails Bar Hey Byron! 😊 Yes, you can check us out on Go Artemis hair and beauty Loved “Yeah perfect sounds good.” S&H Hub We don’t have a website, sorry. We do have a Smooth Hair and Beauty Hi! Yes we have a website, you can visit our Stoddy's Mobile Mechanical Yeah mate, we're on face book too, website s Volpe Curtains and Blinds Yes, we do, please google Stella Curtains & Abaco Car Care No no website but what kind of work did you Back2Bikes Hi Byron, what exactly are you after? Bikes Black Temple https://www.instagram.com/blacktempletattoot Gold Coast Canvas Hi Byron Have we spoken to you about some w LP Motor Trimming Where are you located? Luke's Mobile Tyre Service Who's Byron? what do you need to check out? Skin & Beauty Clinic Hello What work are you wanting to see ? If
 - 2026-08-21 reply rate across everything is 1.1% over 274 emails
@@ -72,7 +73,6 @@ Where it stands right now.
 - 2026-08-20 reply rate across everything is 0.9% over 225 emails
 - 2026-08-20 reply rate across everything is 0.9% over 227 emails
 - 2026-08-20 Read outside on Do food/hospitality businesses reply to cold email at a different rate than trades or beauty, per outside industry data, to check whether the food niche's 7% reply rate in-house is a known pattern or : No trustworthy figure exists. A search summary claimed Food & Beverage cold email gets 3.47% reply, '8x the average,' citing puzzleinbox.com. I fetched both puzzleinbox pages the claim traced to directly and neither contains any Food & Beverage row at all, the industries listed are SaaS, agencies, recruiting, financial services, real estate, manufacturing, healthcare IT, legal, consulting and IT services/MSP, all B2B seller-to-business outreach. The number was not on the page it was attributed to. (source: puzzleinbox.com/blog/cold-email-reply-rate-benchmarks (published 25 Mar 2026) and puzzleinbox.com/blog/cold-email-response-rate-by-industry (published 5 Apr 2026), fetche
-- 2026-08-19 reply rate across everything is 1.1% over 178 emails
 
 ## Recently did
 
@@ -91,4 +91,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T11:38:17. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T12:11:16. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
