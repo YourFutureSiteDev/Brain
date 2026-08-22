@@ -3,7 +3,7 @@ title: "CCO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T10:01:25
+updated: 2026-08-22T10:34:40
 role: "cco"
 ---
 
@@ -75,11 +75,11 @@ Where it stands right now.
 - 2026-08-22 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-22 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-22 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
-- 2026-08-22 worked a shift: Rechecked today's live CCO tile against the standing cap-breach and checks-passing questions: sent_today is 0 with daily_cap still off, so no breach against max_daily=50, and checks passing holds at 5/8 with the same three named (Opt-out in every email; Daily cap; No address harvesting). Suppressed
 - 2026-08-22 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
+- 2026-08-22 worked a shift: Rechecked today's live CCO tile against the standing cap-breach and checks-passing questions: sent_today is 0 with daily_cap still off, so no breach against max_daily=50, and checks passing holds at 5/8 with the same three named (Opt-out in every email; Daily cap; No address harvesting). Suppressed
 - 2026-08-22 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 - 2026-08-22 daily cap is off: nothing limits the day. Gmail cuts off around 500 and locks the account for 24 hours, which would take every reply thread with it. min_seconds_between is the only thing pacing sends
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T10:01:25. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T10:34:40. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
