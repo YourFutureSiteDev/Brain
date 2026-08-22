@@ -3,7 +3,7 @@ title: "CEO"
 source: yfs-console
 kind: role
 tags: [business, c-suite]
-updated: 2026-08-22T23:28:14
+updated: 2026-08-23T00:01:25
 role: "ceo"
 ---
 
@@ -23,7 +23,7 @@ Where it stands right now.
 | Emailed | **274** | all time |
 | Replies | **3** | 1.1% |
 | To call | **50** | queued now |
-| Leads known | **28540** | researched |
+| Leads known | **28553** | researched |
 
 ## Needs a decision
 
@@ -40,6 +40,7 @@ Where it stands right now.
 
 ## Decided
 
+- 2026-08-23 weekly pass: moved 0 of 8 numbers
 - 2026-08-22 asked: [from CRO, on shift] You've now put three different call-queue orderings in play: Byron's -> handed to CMO
 - 2026-08-22 messages report: Reply rate roughly quadrupled between the 14th and the 20th, from 8% to 41%, and trades an -> fix: The plain website line is carrying the whole board at 40 percent while every other variant drags the average down, so th
 - 2026-08-21 asked: [from CRO, on shift] Withdraw the beauty-repliers-first call order rule or say explicitly -> handed to CMO
@@ -51,7 +52,6 @@ Where it stands right now.
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [CRO] Call from the ranked queue, -> CRO owns the call queue ordering, so I've sent this to them. The fix is queue discipline: the top of call_list by buy_sc
 - 2026-08-19 CRO tasked with enforcing ranked top to bottom order on the call queue. Actual calling stays with Byron. Next call should be Damien Seton Mechanical, 0404 977 607.
 - 2026-08-19 asked: A task from the handover list. Do it if you can. Title: [Data lead] UNKNOWN leads may be -> Three from the handover list, quick rundown. CMO tile bug: same read as before, this is a dashboard code problem not a
-- 2026-08-19 CRO instructed to work call_list top to bottom by buy_score going forward, not ad hoc. Actual dialing stays with Byron.
 
 ## Noticed
 
@@ -81,4 +81,4 @@ Where it stands right now.
 
 ---
 
-Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-22T23:28:14. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
+Back to [[C-Suite]]. Written by the Your Future Site console on the VPS, 2026-08-23T00:01:25. Edit it here and the next cycle overwrites you, so put your own thinking in a note of your own and link it.
